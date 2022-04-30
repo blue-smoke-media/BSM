@@ -1,0 +1,123 @@
+html {
+  background: black;
+}
+
+.App {
+  position: relative;
+  text-align: center;
+  background: #d7dae6;
+  margin: auto;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #020723;
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
+  .App {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 1681px) {
+  .App {
+    font-size: 1.3em;
+  }
+}
+
+.App header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App .page-wrapper {
+  width: 95%;
+  margin: auto;
+}
+
+.App a {
+  text-decoration: none;
+  color: #1e92f6;
+  cursor: pointer;
+}
+
+.App a:hover {
+  color: #ee3e0e;
+}
+
+.App .hero-image {
+  height: 30em;
+  width: 95%;
+  display: block;
+  margin: auto;
+  margin: 2em auto 0;
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .App .hero-image {
+    height: 30em;
+  }
+}
+
+@media (max-width: 360px) {
+  .App .hero-image {
+    height: 20em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .App .hero-image {
+    height: 20em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .App .hero-image {
+    height: 20em;
+  }
+}
+
+.App .covid-banner {
+  color: #1e92f6;
+  background: #04227a;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.25em 0 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.9em;
+}
+
+.App .covid-banner img {
+  width: 1.2em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 0 0.25em 0 0.5em;
+}
+
+.App #scroll-top {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 1em;
+  left: 0.75em;
+  text-align: center;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  font-weight: 700;
+  color: #ee3e0e;
+  line-height: 0.8em;
+}
+
+.App .react-icon {
+  vertical-align: bottom;
+  padding-bottom: 1px;
+}
+/*# sourceMappingURL=App.css.map */

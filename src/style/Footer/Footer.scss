@@ -1,0 +1,214 @@
+@import '../Utils/Mixins/Mixins.scss';
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background: $royalBlue;
+  padding-top: 2em;
+  margin-top: 3em;
+  text-align: left;
+  @include breakpoint(xxs, xs, s, m) {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+  }
+
+  div {
+    width: 16%;
+    padding: 0 0.5em;
+    position: relative;
+    @include breakpoint(xxs, xs, s, m) {
+      width: -webkit-max-content;
+      width: -moz-max-content;
+      width: max-content;
+      text-align: center;
+    }
+  }
+
+  .show-drop {
+    display: block;
+    z-index: 1;
+    position: relative;
+    margin-top: 0;
+  }
+  h3 {
+    color: $orange;
+    text-shadow: 2px 2px $darkBlue;
+    text-transform: uppercase;
+    cursor: pointer;
+    @include breakpoint(xxs, xs, s, m) {
+      margin: 0;
+      padding: 0.25em 0;
+    }
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+    @include breakpoint(xxs, xs, s, m) {
+      position: absolute;
+      top: 0;
+      z-index: -1;
+      display: none;
+      width: 100%;
+      &:hover {
+        display: block;
+        position: relative;
+      }
+    }
+
+    li:hover {
+      padding-left: 5%;
+      img {
+        border: 2px solid $lightBlue;
+        border-radius: 50%;
+      }
+    }
+    li {
+      padding: 0.5em 0;
+      text-shadow: 1px 1px $darkBlue;
+      transition: 0.3s ease-in-out;
+      :hover {
+        color: goldenrod;
+      }
+      @include breakpoint(xxs, xs, s, m) {
+        // width: 100%;
+        // text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+
+      a {
+        text-decoration: none;
+        color: skyblue;
+        display: flex;
+        align-items: center;
+        svg {
+          width: 1em;
+          height: 1em;
+        }
+      }
+      img {
+        width: 2.5em;
+      }
+    }
+    p {
+      color: skyblue;
+    }
+  }
+  #drop-sm {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+    justify-content: space-between;
+    align-items: space-between;
+    width: 75%;
+    // border: 2px solid red;
+    @include breakpoint(xxs, xs, s, m) {
+      // flex-direction: column;
+      margin-right: 3em;
+    }
+
+    li {
+      margin-bottom: 1.5em;
+      margin-right: 0.5em;
+      padding: 0;
+      @include breakpoint(xxs, xs, s, m) {
+        margin-right: 0;
+      }
+      &:hover {
+        margin-left: 0;
+      }
+      img {
+        border: none;
+        &:hover {
+          outline: 2px solid $lightBlue;
+        }
+      }
+    }
+  }
+}
+.bottom {
+  display: flex;
+  color: $white;
+  background: $darkBlue;
+  justify-content: space-between;
+  @include breakpoint(xxs, xs, s) {
+    flex-direction: column;
+  }
+
+  // .payment {
+  //   display: flex;
+  //   justify-content: space-around;
+  //   align-items: center;
+  //   width: 35%;
+  //   color: $green;
+  //   padding: 0.75em 0;
+  //   @include breakpoint(m) {
+  //     width: 40%;
+  //   }
+  //   @include breakpoint(xxs, xs, s) {
+  //     width: 80%;
+  //     margin: auto;
+  //   }
+
+  //   .payment-icon {
+  //     width: 20%;
+  //   }
+  // }
+  .mail-address {
+    margin-left: 2em;
+    @include breakpoint(xxs, xs, s) {
+      margin-left: 0;
+    }
+    h5 {
+      // margin-bottom: 0;
+      margin: 1.25em auto 0;
+    }
+  }
+  .contact {
+    display: flex;
+    justify-content: flex-end;
+    width: 65%;
+    align-items: center;
+    text-transform: uppercase;
+    @include breakpoint(xxs, xs, s) {
+      display: none;
+      width: 60%;
+    }
+
+    p {
+      color: $orange;
+      text-align: right;
+      margin: 0;
+      margin-left: 0.8em;
+      font-size: 1.2em;
+      font-weight: 600;
+      @include breakpoint(s) {
+        font-size: 0.95em;
+        margin-left: 0.125em;
+      }
+    }
+    .numbers {
+      margin-right: 1em;
+      @include breakpoint(s) {
+        margin-right: 0.5em;
+        margin-left: 0;
+        padding-left: 0;
+      }
+
+      a {
+        color: $green;
+        font-weight: 500;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.copy {
+  font-size: 0.8em;
+  margin: 0;
+  // padding: 0.08em 0;
+  width: 100%;
+  background: $darkBlue;
+  color: $white;
+}
