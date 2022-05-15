@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, withRouter } from "react-router-dom";
+import { a, withRouter } from "react-router-dom";
 import { FiChevronDown } from "react-icons/fi";
 
 export default withRouter(function Navigation({ history }) {
@@ -14,21 +14,21 @@ export default withRouter(function Navigation({ history }) {
         </button>
         <div className="dropdown-content home-drop">
           <div className="nav-section">
-            <Nava href="/help" className="drop-item">
+            <a href="/help" className="drop-item">
               Need Help?
-            </NavLink>
-            <Nava href="/privacy" className="drop-item">
+            </a>
+            <a href="/privacy" className="drop-item">
               Privacy Policy
-            </NavLink>
+            </a>
             <a href="/sitemap.xml" className="drop-item">
               Sitemap
             </a>
           </div>
         </div>
       </div>
-      <Nava href="/team" className="nav-item">
+      <a href="/team" className="nav-item">
         Our Team
-      </NavLink>
+      </a>
       <div className="dropdown">
         <button className="drop-btn nav-item">
           Services
@@ -37,92 +37,86 @@ export default withRouter(function Navigation({ history }) {
         <div className="dropdown-content">
           <div className="nav-section">
             <h3>SEO</h3>
-            <Nava href="/seo/Friendly" className="drop-item">
+            <a href="/seo/Friendly" className="drop-item">
               SEO - Search Engine Optimization
-            </NavLink>
+            </a>
 
-            <Nava href="/seo/seoOrganic" className="drop-item">
+            <a href="/seo/seoOrganic" className="drop-item">
               Organic Search Engine Optimization
-            </NavLink>
+            </a>
 
-            <Nava href="/social-media" className="drop-item">
+            <a href="/social-media" className="drop-item">
               Social Media
-            </NavLink>
+            </a>
           </div>
           <div className="nav-section ">
             <h3>Website Design</h3>
             <div className="split">
               <div>
-                <NavLink
+                <a
                   to="/website-design/custom-website-design"
                   className="drop-item"
                 >
                   Custom Website Design
-                </NavLink>
-                <NavLink
+                </a>
+                <a
                   to="/website-design/eCommerce-website-development"
                   className="drop-item"
                 >
                   E-Commerce Website Development
-                </NavLink>
-                <Nava href="/website-design/coding" className="drop-item">
+                </a>
+                <a href="/website-design/coding" className="drop-item">
                   Coding and Programming
-                </NavLink>
+                </a>
               </div>
               <div>
-                <Nava href="/ad-CopyWriting" className="drop-item">
+                <a href="/ad-CopyWriting" className="drop-item">
                   Website Ad-Copy Writing
-                </NavLink>
+                </a>
 
-                <NavLink
+                <a
                   to="/website-design/website-maintenance"
                   className="drop-item"
                 >
                   Website Maintenance
-                </NavLink>
-                <NavLink
+                </a>
+                <a
                   to="/website-design/website-useability"
                   className="drop-item"
                 >
                   Creating Your Website-Useability
-                </NavLink>
+                </a>
               </div>
             </div>
-            <Nava href="/website-design/inquiry-form" className="drop-item">
+            <a href="/website-design/inquiry-form" className="drop-item">
               Inquiry/Survey Form
-            </NavLink>
+            </a>
           </div>
           <div className="nav-section">
             <h3>Graphic Design</h3>
-            <NavLink
-              to="/graphic-design/website-logo-design"
-              className="drop-item"
-            >
+            <a to="/graphic-design/website-logo-design" className="drop-item">
               Website Logo Design
-            </NavLink>
+            </a>
 
-            <NavLink
-              to="/graphic-design/printed-media-logos"
-              className="drop-item"
-            >
+            <a to="/graphic-design/printed-media-logos" className="drop-item">
               Print Logo Design
-            </NavLink>
+            </a>
 
-            <NavLink
+            <a
               to="/graphic-design/digital-and-print-graphic-design"
               className="drop-item"
             >
               Print & Graphic Design Services
-            </NavLink>
+            </a>
           </div>
         </div>
       </div>
-      <Nava href="/plans" className="nav-item">
+      <a href="/plans" className="nav-item">
         Pricing
-      </NavLink>
-      {/* <Nava href="/portfolio" className="nav-item">
+      </a>
+      {/* <a href="/portfolio" className="nav-item">
         Our Work
-      </NavLink> */}
+      </a> */}
       <a
         href="https://bluesmokemedianomads.com"
         target="_blank"
@@ -131,9 +125,9 @@ export default withRouter(function Navigation({ history }) {
       >
         Blog
       </a>
-      <Nava href="/contact" className="nav-item">
+      <a href="/contact" className="nav-item">
         Contact
-      </NavLink>
+      </a>
     </nav>
   );
 });

@@ -73,5 +73,14 @@ DO WE NEED BOOTSTRAP?
 Why do we need canonical links? We don't have duplicate pages...
 https://yoast.com/rel-canonical/
 \*also some links are wrong
+\* change link tags 
 
 404 page
+
+WHAT ABOUT GLOBAL STYLES??
+
+check for duplicate meta tags
+
+remove extra div tag and add class wrapper to body tag
+
+trim whitespace
