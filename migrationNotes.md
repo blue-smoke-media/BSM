@@ -1,4 +1,3 @@
-- replace ’ w/ ' GLOBALLY
 - className -> class
 
 TODO EACH COMPONENT
@@ -60,5 +59,6 @@ Write script for table to map out
 
 Privacy Page
 Scroll to Ref
+
 <!-- const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
   const ref1 = useRef(null); -->

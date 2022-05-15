@@ -41,7 +41,7 @@ export default function Help() {
               you to both establish credibility and reach a wider customer base
               through digital marketing techniques. If you keep your website
               updated with fresh, current content and are quick to address
-              technical issues, you’ll never have to worry about “not existing”
+              technical issues, you'll never have to worry about “not existing”
               to your current and future clients. Still have a couple lingering
               questions? Talk to our team, we will answer your questions and
               point you in the right direction.

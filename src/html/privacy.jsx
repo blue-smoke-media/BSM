@@ -96,7 +96,7 @@ export default function PrivacyPolicy() {
 
         Request feedback. We may use your information to request feedback and to contact you about your use of our Website.
 
-        To enable user-to-user communications. We may use your information in order to enable user-to-user communications with each user’s consent.
+        To enable user-to-user communications. We may use your information in order to enable user-to-user communications with each user's consent.
 
         To manage user accounts. We may use your information for the purposes of managing our account and keeping it in working order.
 
@@ -158,7 +158,7 @@ We have implemented appropriate technical and organizational security measures d
 `}
         <h4 ref={ref8}>8. DO WE COLLECT INFORMATION FROM MINORS?</h4>
         {ReactHtmlParser(`In Short:  We do not knowingly collect data from or market to children under 18 years of age.
-We do not knowingly solicit data from or market to children under 18 years of age. By using the Website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at <a href="mailto:services@bluesmokemedia.net">services@bluesmokemedia.net</a>.
+We do not knowingly solicit data from or market to children under 18 years of age. By using the Website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent's use of the Website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at <a href="mailto:services@bluesmokemedia.net">services@bluesmokemedia.net</a>.
 `)}
         <h4 ref={ref9}>9. WHAT ARE YOUR PRIVACY RIGHTS?</h4>
         {ReactHtmlParser(`In Short:  You may review, change, or terminate your account at any time.
@@ -227,7 +227,7 @@ J. Education InformationStudent records and directory information
 
 NO
 
-K. Inferences drawn from other personal informationInferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individual’s preferences and characteristics
+K. Inferences drawn from other personal informationInferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individual's preferences and characteristics
 
 NO
 
@@ -269,7 +269,7 @@ the categories of third parties to whom the personal information was sold or dis
 the business or commercial purpose for collecting or selling personal information.
 In accordance with applicable law, we are not obligated to provide or delete consumer information that is de-identified in response to a consumer request or to re-identify individual data to verify a consumer request.
 
-Right to Non-Discrimination for the Exercise of a Consumer’s Privacy Rights
+Right to Non-Discrimination for the Exercise of a Consumer's Privacy Rights
 
 We will not discriminate against you if you exercise your privacy rights.
 
