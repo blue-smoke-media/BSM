@@ -34,3 +34,8 @@ Team Page
 SOCIAL MEDIA
 
 - li tags need no bullet
+
+HEADER
+
+- why img's on aws and not local
+- how do header? On each page have header code? DRY
