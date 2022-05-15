@@ -1,12 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 //* Images
-import temporaryImg from '../images/slide-1.png';
-import aImg from '../images/slide-1.png';
-import bImg from '../images/slide-1.png';
-import cImg from '../images/slide-1.png';
+import temporaryImg from "../images/slide-1.png";
+import aImg from "../images/slide-1.png";
+import bImg from "../images/slide-1.png";
+import cImg from "../images/slide-1.png";
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
           produces a growing roster of local, regional and national clients
           ranging from one-person companies, small and medium sized business to
           non-profit organizations. Our websites are fast loading,
-          <Link to="/seo/seoOrganic">Organically Search Engine Optimized,</Link>
+          <a href="/seo/seoOrganic">Organically Search Engine Optimized,</a>
           visually appealing, and easy to navigate.
           <p>
             What do your customers see... <span>Are You Sure?</span>

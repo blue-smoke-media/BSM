@@ -64,7 +64,7 @@ export default function Contact() {
           the added expense of discovering the missing pieces and hiring
           multiple companies to collaborate. For quick answers, accurate quotes
           and 24/7 customer service, please call{" "}
-          <a href="tel:865-274-1371">865.274.1371</a> or complete the inquiry
+          <a href="tel:865-274-1371"> 865.274.1371</a> or complete the inquiry
           form below and we will contact you at a time and date that is
           convenient to you.
         </p>

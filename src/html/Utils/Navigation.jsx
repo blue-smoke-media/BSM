@@ -14,10 +14,10 @@ export default withRouter(function Navigation({ history }) {
         </button>
         <div className="dropdown-content home-drop">
           <div className="nav-section">
-            <NavLink to="/help" className="drop-item">
+            <Nava href="/help" className="drop-item">
               Need Help?
             </NavLink>
-            <NavLink to="/privacy" className="drop-item">
+            <Nava href="/privacy" className="drop-item">
               Privacy Policy
             </NavLink>
             <a href="/sitemap.xml" className="drop-item">
@@ -26,7 +26,7 @@ export default withRouter(function Navigation({ history }) {
           </div>
         </div>
       </div>
-      <NavLink to="/team" className="nav-item">
+      <Nava href="/team" className="nav-item">
         Our Team
       </NavLink>
       <div className="dropdown">
@@ -37,15 +37,15 @@ export default withRouter(function Navigation({ history }) {
         <div className="dropdown-content">
           <div className="nav-section">
             <h3>SEO</h3>
-            <NavLink to="/seo/Friendly" className="drop-item">
+            <Nava href="/seo/Friendly" className="drop-item">
               SEO - Search Engine Optimization
             </NavLink>
 
-            <NavLink to="/seo/seoOrganic" className="drop-item">
+            <Nava href="/seo/seoOrganic" className="drop-item">
               Organic Search Engine Optimization
             </NavLink>
 
-            <NavLink to="/social-media" className="drop-item">
+            <Nava href="/social-media" className="drop-item">
               Social Media
             </NavLink>
           </div>
@@ -65,12 +65,12 @@ export default withRouter(function Navigation({ history }) {
                 >
                   E-Commerce Website Development
                 </NavLink>
-                <NavLink to="/website-design/coding" className="drop-item">
+                <Nava href="/website-design/coding" className="drop-item">
                   Coding and Programming
                 </NavLink>
               </div>
               <div>
-                <NavLink to="/ad-CopyWriting" className="drop-item">
+                <Nava href="/ad-CopyWriting" className="drop-item">
                   Website Ad-Copy Writing
                 </NavLink>
 
@@ -88,7 +88,7 @@ export default withRouter(function Navigation({ history }) {
                 </NavLink>
               </div>
             </div>
-            <NavLink to="/website-design/inquiry-form" className="drop-item">
+            <Nava href="/website-design/inquiry-form" className="drop-item">
               Inquiry/Survey Form
             </NavLink>
           </div>
@@ -117,10 +117,10 @@ export default withRouter(function Navigation({ history }) {
           </div>
         </div>
       </div>
-      <NavLink to="/plans" className="nav-item">
+      <Nava href="/plans" className="nav-item">
         Pricing
       </NavLink>
-      {/* <NavLink to="/portfolio" className="nav-item">
+      {/* <Nava href="/portfolio" className="nav-item">
         Our Work
       </NavLink> */}
       <a
@@ -131,7 +131,7 @@ export default withRouter(function Navigation({ history }) {
       >
         Blog
       </a>
-      <NavLink to="/contact" className="nav-item">
+      <Nava href="/contact" className="nav-item">
         Contact
       </NavLink>
     </nav>

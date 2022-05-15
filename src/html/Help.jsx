@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Carousel from "../components/Carousel";
 import help1 from "../images/help-icon-1.png";
 import help2 from "../images/help-icon-2.png";
@@ -17,7 +16,7 @@ export default function Help() {
         </h1>
         <div className="help-card-container">
           <div className="help-card">
-            <img src={help1} alt="placeholder" />
+            <img src="../images/help-icon-1.png" alt="placeholder" />
             <h3>Have a Question?</h3>
             <p>
               No business is too small for a website, but creating and
@@ -33,7 +32,7 @@ export default function Help() {
             </p>
           </div>
           <div className="help-card">
-            <img src={help2} alt="placeholder" />
+            <img src="../images/help-icon-2.png" alt="placeholder" />
             <h3>Need Support?</h3>
             <p>
               Ready to get your site updated or build a new website? Starting a
@@ -48,7 +47,7 @@ export default function Help() {
             </p>
           </div>
           <div className="help-card">
-            <img src={help3} alt="placeholder" />
+            <img src="../images/help-icon-3.png" alt="placeholder" />
             <h3>
               Digital Reputation
               <br />
@@ -70,7 +69,7 @@ export default function Help() {
               <br />
               We interact with friends, family, and colleagues largely through
               text messages, email, and{" "}
-              <Link to="/social-media">social media</Link>, where perception and
+              <a href="/social-media"> social media</a>, where perception and
               reality are often confused. So both digital and in-person first
               impressions are critical!
             </p>

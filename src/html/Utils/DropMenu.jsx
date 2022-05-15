@@ -23,10 +23,10 @@ export default withRouter(function HamburgerMenu(props) {
       </h2>
       <ul id="menu">
         <li>
-          <Link to="/">Home</Link>
+          <a href="/">Home</a>
         </li>
         <li>
-          <Link to="/team">Our Team</Link>
+          <a href="/team">Our Team</a>
         </li>
         <li
           id="services"
@@ -37,7 +37,7 @@ export default withRouter(function HamburgerMenu(props) {
         </li>
         <ul id="services-content" className="drop-content">
           <li>
-            <Link to="/social-media">Social Media</Link>
+            <a href="/social-media">Social Media</a>
           </li>
           <li
             id="seo"
@@ -48,12 +48,10 @@ export default withRouter(function HamburgerMenu(props) {
           </li>
           <ul id="seo-content" className="drop-content sub-drop-content">
             <li>
-              <Link to="/seo/Friendly">SEO - Search Engine Optimization</Link>
+              <a href="/seo/Friendly">SEO - Search Engine Optimization</a>
             </li>
             <li>
-              <Link to="/seo/seoOrganic">
-                Organic Search Engine Optimization
-              </Link>
+              <a href="/seo/seoOrganic">Organic Search Engine Optimization</a>
             </li>
           </ul>
           <li
@@ -65,33 +63,33 @@ export default withRouter(function HamburgerMenu(props) {
           </li>
           <ul id="web-content" className="drop-content sub-drop-content">
             <li>
-              <Link to="/ad-CopyWriting">Website Ad-Copy Writing</Link>
+              <a href="/ad-CopyWriting">Website Ad-Copy Writing</a>
             </li>
             <li>
-              <Link to="/website-design/coding">Coding and Programming</Link>
+              <a href="/website-design/coding">Coding and Programming</a>
             </li>
             <li>
-              <Link to="/website-design/custom-website-design">
+              <a href="/website-design/custom-website-design">
                 Custom Website Design
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/website-design/website-useability">
+              <a href="/website-design/website-useability">
                 Creating Your Website-Useability
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/website-design/eCommerce-website-development">
+              <a href="/website-design/eCommerce-website-development">
                 E-Commerce Website Development
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/website-design/inquiry-form">Inquiry/Survey Form</Link>
+              <a href="/website-design/inquiry-form">Inquiry/Survey Form</a>
             </li>
             <li>
-              <Link to="/website-design/website-maintenance">
+              <a href="/website-design/website-maintenance">
                 Website Maintenance
-              </Link>
+              </a>
             </li>
           </ul>
 
@@ -104,24 +102,24 @@ export default withRouter(function HamburgerMenu(props) {
           </li>
           <ul id="graphic-content" className="drop-content sub-drop-content">
             <li>
-              <Link to="/graphic-design/website-logo-design">
+              <a href="/graphic-design/website-logo-design">
                 Website Logo Design
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/graphic-design/printed-media-logos">
+              <a href="/graphic-design/printed-media-logos">
                 Print Logo Design
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/graphic-design/digital-and-print-graphic-design">
+              <a href="/graphic-design/digital-and-print-graphic-design">
                 Print & Graphic Design Services
-              </Link>
+              </a>
             </li>
           </ul>
         </ul>
         <li>
-          <Link to="/plans">Pricing</Link>
+          <a href="/plans">Pricing</a>
         </li>
         <li>
           <a
@@ -133,7 +131,7 @@ export default withRouter(function HamburgerMenu(props) {
           </a>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
     </nav>

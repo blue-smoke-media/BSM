@@ -19,66 +19,64 @@ export default withRouter(function HamburgerMenu(props) {
         <span />
 
         <ul id="menu">
-          <Link to="/">
+          <a href="/">
             {" "}
             <li>Home</li>
-          </Link>
+          </a>
 
-          <Link to="/team">
+          <a href="/team">
             <li>Our Team</li>
-          </Link>
+          </a>
           <li className="sub-menu-btn">Services</li>
           <ul className="sub-drop-menu">
             <div className="dropdown-content">
               <h3>SEO</h3>
 
-              <Link to="/seo/Friendly">SEO - Search Engine Optimization</Link>
+              <a href="/seo/Friendly">SEO - Search Engine Optimization</a>
 
-              <Link to="/seo/seoOrganic">
-                Organic Search Engine Optimization
-              </Link>
-              <Link to="/social-media">Social Media</Link>
+              <a href="/seo/seoOrganic">Organic Search Engine Optimization</a>
+              <a href="/social-media">Social Media</a>
               <h3>Website Design</h3>
 
-              <Link to="/website-design/custom-website-design">
+              <a href="/website-design/custom-website-design">
                 Custom Website Design
-              </Link>
+              </a>
 
-              <Link to="/website-design/eCommerce-website-development">
+              <a href="/website-design/eCommerce-website-development">
                 E-Commerce Website Development
-              </Link>
+              </a>
 
-              <Link to="/website-design/website-useability">
+              <a href="/website-design/website-useability">
                 Creating Your Website-Useability
-              </Link>
+              </a>
 
-              <Link to="/ad-CopyWriting">Website Ad-Copy Writing</Link>
+              <a href="/ad-CopyWriting">Website Ad-Copy Writing</a>
 
-              <Link to="/website-design/website-maintenance">
+              <a href="/website-design/website-maintenance">
                 Website Maintenance
-              </Link>
+              </a>
 
-              <Link to="/website-design/coding">Coding and Programming</Link>
+              <a href="/website-design/coding">Coding and Programming</a>
 
-              <Link to="/website-design/inquiry-form">Inquiry/Survey Form</Link>
+              <a href="/website-design/inquiry-form">Inquiry/Survey Form</a>
               <h3>Graphic Design</h3>
 
-              <Link to="/graphic-design/website-logo-design">
+              <a href="/graphic-design/website-logo-design">
                 Website Logo Design
-              </Link>
+              </a>
 
-              <Link to="/graphic-design/printed-media-logos">
+              <a href="/graphic-design/printed-media-logos">
                 Print Logo Design
-              </Link>
+              </a>
 
-              <Link to="/graphic-design/digital-and-print-graphic-design">
+              <a href="/graphic-design/digital-and-print-graphic-design">
                 Print & Graphic Design Services
-              </Link>
+              </a>
             </div>
           </ul>
-          <Link to="/plans">
+          <a href="/plans">
             <li>Pricing</li>
-          </Link>
+          </a>
 
           <a
             href="https://bluesmokemedianomads.com"
@@ -88,9 +86,9 @@ export default withRouter(function HamburgerMenu(props) {
             <li>Blog</li>
           </a>
 
-          <Link to="/contact">
+          <a href="/contact">
             <li>Contact</li>
-          </Link>
+          </a>
         </ul>
       </div>
     </nav>
