@@ -2,6 +2,8 @@
 
 TODO EACH COMPONENT
 
+- add css file
+
 - Change file name from .jsx to .html
 - remove React imports
 - move image imports into href tags
@@ -62,3 +64,6 @@ Scroll to Ref
 
 <!-- const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
   const ref1 = useRef(null); -->
+
+HELP page
+import Carousel at top of body
