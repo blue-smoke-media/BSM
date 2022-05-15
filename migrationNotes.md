@@ -39,3 +39,26 @@ HEADER
 
 - why img's on aws and not local
 - how do header? On each page have header code? DRY
+
+SCRIPT FOR HEADER/FOOTER ON EACH PAGE DRY
+
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script>  
+$(function(){ 
+  $("#header").load("header.html");  
+  $("#footer").load("footer.html");  
+}); 
+</script>
+</head> 
+<body> 
+<div id="header"></div> 
+<!--Remaining section--> 
+<div id="footer"></div>
+
+Plans Page
+Write script for table to map out
+
+Privacy Page
+Scroll to Ref
+<!-- const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
+  const ref1 = useRef(null); -->
