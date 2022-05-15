@@ -11,8 +11,11 @@ TODO EACH COMPONENT
 - move Helmet metadata into <head>
 - <Link> -> <a>
 - remove `{*/ */}`
-
 - remove export function
+
+- change title tags
+  check all <head>
+  READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
 
 OTHER CHANGES
 Team Page
