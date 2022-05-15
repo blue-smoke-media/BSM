@@ -1,56 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
-//* Images
-import logoDesign from "../../images/Website-logo-design-services.png";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-export default function WebsiteLogoDesign() {
-  return (
-    <div className="website-logo-design page-wrapper">
-      <img
-        src={logoDesign}
-        alt="Professionally Designed Branded Logos"
-        className="hero-image"
-      />
-      <div className="content">
-        <h1>Website Logos</h1>
-        <p>
-          Websites without a logo look incomplete — and miss on an important
-          “branding” opportunity — while logos that do not look professional
-          simply convey a poor impression.
-        </p>
-        <p>
-          With your professionally-designed logo on every page, your customers
-          will know that they’ve arrived at your website, your website will look
-          uniform and consistent, and your logo will remind potential new
-          customers of your company — on every page.
-        </p>
-        <p>
-          If you already have a <Link to="/article/4">logo</Link>, we can
-          prepare it for usage on the Web, helping to bring your offline message
-          and branding to your online presence — and identify your website to
-          your customers.
-        </p>
-        <p>
-          We specialize in aesthetic, one-of-a-kind logos that say what you do.
-          We use <Link to="/team">state-of-the-art graphics programs</Link> to
-          translate your logo into Web formats, cutting down on “download” time
-          as much as possible while retaining the quality of the image.
-        </p>
-        <p>
-          If <span>Blue Smoke Digital and Printed Media</span> is designing your
-          website, we can design it around the look and feel of your logo,
-          arriving at a cohesive balance and color scheme that just “looks
-          right”.
-        </p>
-      </div>
-      <Helmet>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  {/* <!-- Mobile Meta --> */}
 
-        {/* <!-- Mobile Meta --> */}
-
-        <link
+  <a
           rel="canonical"
           href="https://www.bluesmokedigitalandprintedmedia.com/website-design/WebsiteLogoDesign"
         />
@@ -105,7 +63,45 @@ export default function WebsiteLogoDesign() {
           name="twitter:image"
           content="../../images/Website-logo-design-services.png"
         />
-      </Helmet>
-    </div>
-  );
-}
+</head>
+<body>
+   <div className="website-logo-design page-wrapper">
+      <img
+        src="../../images/Website-logo-design-services.png"
+        alt="Professionally Designed Branded Logos"
+        className="hero-image"
+      />
+      <div className="content">
+        <h1>Website Logos</h1>
+        <p>
+          Websites without a logo look incomplete — and miss on an important
+          “branding” opportunity — while logos that do not look professional
+          simply convey a poor impression.
+        </p>
+        <p>
+          With your professionally-designed logo on every page, your customers
+          will know that they’ve arrived at your website, your website will look
+          uniform and consistent, and your logo will remind potential new
+          customers of your company — on every page.
+        </p>
+        <p>
+          If you already have a <a href="/article/4">logo</a>, we can
+          prepare it for usage on the Web, helping to bring your offline message
+          and branding to your online presence — and identify your website to
+          your customers.
+        </p>
+        <p>
+          We specialize in aesthetic, one-of-a-kind logos that say what you do.
+          We use <a href="/team">state-of-the-art graphics programs</a> to
+          translate your logo into Web formats, cutting down on “download” time
+          as much as possible while retaining the quality of the image.
+        </p>
+        <p>
+          If <span>Blue Smoke Digital and Printed Media</span> is designing your
+          website, we can design it around the look and feel of your logo,
+          arriving at a cohesive balance and color scheme that just “looks
+          right”.
+        </p>
+      </div>
+</body>
+</html>
