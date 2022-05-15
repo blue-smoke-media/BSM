@@ -1,3 +1,20 @@
+- replace ’ w/ ' GLOBALLY
+- className -> class
+
+TODO EACH COMPONENT
+
+- Change file name from .jsx to .html
+- remove React imports
+- move image imports into href tags
+- create document <html> !
+- Move html into <body>
+- move Helmet metadata into <head>
+- <Link> -> <a>
+- remove `{*/ */}`
+
+- remove export function
+
+OTHER CHANGES
 Team Page
 
 - remove student or grad of lambda (all?)
@@ -14,12 +31,3 @@ Team Page
 SOCIAL MEDIA
 
 - li tags need no bullet
-
-TODO EACH COMPONENT
-
-- remove React imports
-- move image imports into href tags
-- create document <html>
-- Move html into <body>
-- move Helmet metadata into <head>
-- <Link> -> <a>
