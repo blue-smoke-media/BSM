@@ -67,3 +67,11 @@ Scroll to Ref
 
 HELP page
 import Carousel at top of body
+
+DO WE NEED BOOTSTRAP?
+
+Why do we need canonical links? We don't have duplicate pages...
+https://yoast.com/rel-canonical/
+\*also some links are wrong
+
+404 page
