@@ -91,3 +91,5 @@ trim whitespace
 fileName Capitalcase or CamelCase or ...
 
 DRY CSS (letter coloring)
+
+CHECK ALL LINKS
