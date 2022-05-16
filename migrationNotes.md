@@ -31,6 +31,7 @@ Team Page
   Shorter CoBe "She, She, She"
 
 - shorter title tags
+  Blue Smoke Media | page
 
 SOCIAL MEDIA
 
@@ -56,8 +57,11 @@ $(function(){
 <!--Remaining section--> 
 <div id="footer"></div>
 
-Plans Page
-Write script for table to map out
+## or do this: Inside the div use iframe as <iframe src="footer.html"></iframe>
+
+-
+- Plans Page
+  Write script for table to map out
 
 Privacy Page
 Scroll to Ref
@@ -73,7 +77,6 @@ DO WE NEED BOOTSTRAP?
 Why do we need canonical links? We don't have duplicate pages...
 https://yoast.com/rel-canonical/
 \*also some links are wrong
-\* change link tags 
 
 404 page
 
@@ -84,3 +87,7 @@ check for duplicate meta tags
 remove extra div tag and add class wrapper to body tag
 
 trim whitespace
+
+fileName Capitalcase or CamelCase or ...
+
+DRY CSS (letter coloring)

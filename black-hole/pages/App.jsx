@@ -1,43 +1,44 @@
-import React, { useEffect } from 'react';
-import { Switch, Route, useLocation, Redirect } from 'react-router-dom';
-import './style/core.css';
+//! <!--! NOT USING -->
+import React, { useEffect } from "react";
+import { Switch, Route, useLocation, Redirect } from "react-router-dom";
+import "./style/core.css";
 
 //* components
-import Home from './components/Home';
-import Team from './components/Team';
-import Header from './components/Utils/Header';
-import Navigation from './components/Utils/Navigation';
-import Footer from './components/Utils/Footer';
-import SocialMedia from './components/SocialMedia';
-import CTA from './components/Header-CTA';
-import DropMenu from './components/Utils/DropMenu';
-import circleX from './images/circle-X.png';
-import ReactGA from 'react-ga';
-import Plans from './components/Plans';
+import Home from "./components/Home";
+import Team from "./components/Team";
+import Header from "./components/Utils/Header";
+import Navigation from "./components/Utils/Navigation";
+import Footer from "./components/Utils/Footer";
+import SocialMedia from "./components/SocialMedia";
+import CTA from "./components/Header-CTA";
+import DropMenu from "./components/Utils/DropMenu";
+import circleX from "./images/circle-X.png";
+import ReactGA from "react-ga";
+import Plans from "./components/Plans";
 
 // * Web Design Services
-import AdCopyWriting from './components/Web Design Services/Ad-CopyWriting';
-import CustomWebsiteDesign from './components/Web Design Services/CustomWebsiteDesign';
-import ECommerceWebsiteDevelopment from './components/Web Design Services/E-CommerceWebsiteDevelopment';
-import InquirySurveyForm from './components/Web Design Services/InquirySurveyForm';
-import WebMaintenance from './components/Web Design Services/WebMaintenance';
-import WebsiteProgrammingCoding from './components/Web Design Services/WebsiteProgrammingCoding';
-import WebsiteUsability from './components/Web Design Services/WebsiteUsability';
+import AdCopyWriting from "./components/Web Design Services/Ad-CopyWriting";
+import CustomWebsiteDesign from "./components/Web Design Services/CustomWebsiteDesign";
+import ECommerceWebsiteDevelopment from "./components/Web Design Services/E-CommerceWebsiteDevelopment";
+import InquirySurveyForm from "./components/Web Design Services/InquirySurveyForm";
+import WebMaintenance from "./components/Web Design Services/WebMaintenance";
+import WebsiteProgrammingCoding from "./components/Web Design Services/WebsiteProgrammingCoding";
+import WebsiteUsability from "./components/Web Design Services/WebsiteUsability";
 // * SEO
-import OrganicSeo from './components/SEO/OrganicSeo';
-import SeoFriendly from './components/SEO/SeoFriendly';
+import OrganicSeo from "./components/SEO/OrganicSeo";
+import SeoFriendly from "./components/SEO/SeoFriendly";
 // * Graphic Design Services
-import PrintAndGraphicServices from './components/Graphic Design Services/PrintAndGraphicServices';
-import PrintedMediaLogos from './components/Graphic Design Services/PrintedMediaLogos';
-import WebsiteLogoDesign from './components/Graphic Design Services/WebsiteLogoDesign';
-import Contact from './components/Contact';
+import PrintAndGraphicServices from "./components/Graphic Design Services/PrintAndGraphicServices";
+import PrintedMediaLogos from "./components/Graphic Design Services/PrintedMediaLogos";
+import WebsiteLogoDesign from "./components/Graphic Design Services/WebsiteLogoDesign";
+import Contact from "./components/Contact";
 // * Media
-import PrivacyPolicy from './components/privacy';
-import Article from './components/Article';
-import './style/core.css';
+import PrivacyPolicy from "./components/privacy";
+import Article from "./components/Article";
+import "./style/core.css";
 // ! GOOGLE ANALYTICS
-import Help from './components/Help';
-ReactGA.initialize('UA-177470204-1');
+import Help from "./components/Help";
+ReactGA.initialize("UA-177470204-1");
 
 //todo learn E-Commerce (magneto, Shopify)
 function App() {
@@ -50,17 +51,17 @@ function App() {
 
   //! Start of  Zendesk Widget script
   useEffect(() => {
-    document.body.addEventListener('click', loadZendeskWidget);
+    document.body.addEventListener("click", loadZendeskWidget);
     function loadZendeskWidget() {
-      console.log('click');
-      var script = document.createElement('script');
-      script.type = 'text/javascript';
-      script.id = 'ze-snippet';
+      console.log("click");
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.id = "ze-snippet";
       script.async = true;
       script.src =
-        'https://static.zdassets.com/ekr/snippet.js?key=9943bbf5-43b7-407f-8af4-f245012b262f';
-      document.getElementsByTagName('head')[0].appendChild(script);
-      document.body.removeEventListener('click', loadZendeskWidget);
+        "https://static.zdassets.com/ekr/snippet.js?key=9943bbf5-43b7-407f-8af4-f245012b262f";
+      document.getElementsByTagName("head")[0].appendChild(script);
+      document.body.removeEventListener("click", loadZendeskWidget);
     }
   }, []);
   //! End of  Zendesk Widget script
@@ -72,7 +73,7 @@ function App() {
             src={circleX}
             alt="close 'x'"
             onClick={() =>
-              (document.querySelector('.covid-banner').style.display = 'none')
+              (document.querySelector(".covid-banner").style.display = "none")
             }
           />
           Due to the COVID-19 pandemic, we are offering lower prices to help
@@ -87,7 +88,7 @@ function App() {
           </div>
           <CTA />
         </header>
-        <h1 style={{ position: 'absolute', visibility: 'hidden' }}>
+        <h1 style={{ position: "absolute", visibility: "hidden" }}>
           Blue Smoke Digital and Printed Media
         </h1>
         <DropMenu />
