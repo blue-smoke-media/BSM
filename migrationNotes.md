@@ -93,3 +93,7 @@ fileName Capitalcase or CamelCase or ...
 DRY CSS (letter coloring)
 
 CHECK ALL LINKS
+
+Check all todo's
+
+remove all extra comments and unneeded code

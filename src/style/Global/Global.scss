@@ -3,9 +3,7 @@
 
 html {
   background: black;
-}
 
-.App {
   position: relative;
   text-align: center;
   background: $white;
@@ -89,8 +87,8 @@ html {
     color: $orange;
     line-height: 0.8em;
   }
-  .react-icon {
-    vertical-align: bottom;
-    padding-bottom: 1px;
-  }
+  // .react-icon {
+  //   vertical-align: bottom;
+  //   padding-bottom: 1px;
+  // }
 }
