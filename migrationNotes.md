@@ -105,3 +105,6 @@ website logo design hero img
 
 uniform file names
 help page styling
+
+This is how to do php in Apache server
+![](../../../../Downloads/Screen%20Shot%202022-05-17%20at%209.14.13%20AM.png)

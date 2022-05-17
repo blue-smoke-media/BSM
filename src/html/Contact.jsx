@@ -1,62 +1,20 @@
-import React, { useState } from "react";
-import * as emailjs from "emailjs-com";
-import { Helmet } from "react-helmet";
-
-export default function Contact() {
-  const [data, setData] = useState({
-    business: "",
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-    antiSpam: null,
-  });
-
-  const onChangeHandler = (evt) => {
-    setData({
-      ...data,
-      [evt.target.name]: evt.target.value,
-    });
-  };
-
-  const onSubmitHandler = (evt) => {
-    evt.preventDefault();
-
-    const templateParams = {
-      business: data.business,
-      reply_to: data.email,
-      subject: data.subject,
-      from_name: data.name,
-      message_subject: data.subject,
-      message_html: data.message,
-    };
-    if (data.antiSpam === null) {
-      emailjs.send(
-        "service_kys3ouv",
-        "template_fd7rhre",
-        templateParams,
-        "user_AKrWjfONfbrIagrKBIYq0"
-      );
-    }
-
-    document.querySelector(".contact span").classList.add("message-sent");
-    setTimeout(() => {
-      document.querySelector(".contact span").classList.remove("message-sent");
-    }, 5000);
-
-    setData({
-      business: "",
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-      antiSpam: null,
-    });
-  };
-
-  return (
-    <>
-      <section className="contact clicker">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+        <meta
+          name="Keywords"
+          content="Knoxville,TN web design, web development, website studio, logo design, Knoxville, TN graphic design, internet visibility, web presence, search engine optimization, website maintenance, advertising agency, marketing tools, photography, website Toronto design, creative services, web presence, website development in Ogden, UT, website development in Salt Lake City,UT, website development in Spokane, WA, website development in Austin,TX, website development in Kingsport,TN, San Francisco,CA, Tampa,FL"
+        />
+        <meta
+          name="Description"
+          content="We are a Digital and Printed Media company with the following services and locations: Knoxville TN website design and development, Ogden UT graphic design, Salt Lake City UT logo and identity creation, Spokane WA search engine optimization, San Francisco CA internet marketing, Austin TX printed media photography and creative services."
+        />
+</head>
+<body class="contact clicker">
         <h1>Contact Us</h1>
         <p>
           Effective Internet marketing and Website Design requires a staff of
@@ -140,18 +98,18 @@ export default function Contact() {
             <input type="submit" value="Send Message" id="submit-btn" />
           </div>
         </form>
-      </section>
-      <Helmet>
-        <title>Contact Us</title>
-        <meta
-          name="Keywords"
-          content="Knoxville,TN web design, web development, website studio, logo design, Knoxville, TN graphic design, internet visibility, web presence, search engine optimization, website maintenance, advertising agency, marketing tools, photography, website Toronto design, creative services, web presence, website development in Ogden, UT, website development in Salt Lake City,UT, website development in Spokane, WA, website development in Austin,TX, website development in Kingsport,TN, San Francisco,CA, Tampa,FL "
-        />
-        <meta
-          name="Description"
-          content="We are a Digital and Printed Media company with the following services and locations: Knoxville TN website design and development, Ogden UT graphic design, Salt Lake City UT logo and identity creation, Spokane WA search engine optimization, San Francisco CA internet marketing, Austin TX printed media photography and creative services."
-        />
-      </Helmet>
-    </>
-  );
+</body>
+</html>
+import React, { useState } from "react";
+
+export default function Contact() {
+  const [data, setData] = useState({
+    business: "",
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+    antiSpam: null,
+  });
+
 }

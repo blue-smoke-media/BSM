@@ -1,4 +1,3 @@
-<!-- validate phone number and email -->
 
 <?php
 if(isset($_POST['email'])) {
@@ -70,3 +69,5 @@ $headers = 'From: '.$email_from."\r\n".
 }
 die();
 ?>
+
+<!-- //todo validate phone number and email -->
