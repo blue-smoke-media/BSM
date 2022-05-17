@@ -9,9 +9,9 @@
   text-transform: uppercase;
   color: #ee3e0e;
   text-shadow: 2px 2px black;
-  padding-top: 1.5em;
-  margin-bottom: 2em;
+  margin: 1em auto 2em;
   font-size: 2.5em;
+  text-align: center;
 }
 
 .help h1 span {
@@ -70,6 +70,13 @@
   margin-bottom: 3em;
   padding-bottom: 1em;
   border-radius: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media (max-width: 360px) {
@@ -128,6 +135,7 @@
   text-shadow: 1px 1px #020723;
   letter-spacing: 0.125em;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .help .help-card-container .help-card p {

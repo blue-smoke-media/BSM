@@ -97,3 +97,11 @@ CHECK ALL LINKS
 Check all todo's
 
 remove all extra comments and unneeded code
+
+All pages have same text color -- uniform
+All pages have the same color background
+
+website logo design hero img
+
+uniform file names
+help page styling
