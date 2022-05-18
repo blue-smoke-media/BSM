@@ -1,8 +1,11 @@
+<!-- redirect back to contact page or successful message (inject success or error message on contact page)
+-->
+
+<!--//! check local server xampp /Applications/XAMPP/xamppfiles/htdocs for testing-->
 <?php
 
 if(isset($_POST['submit'])) {
-  $email_to = "admin@bluesmokemedia.net";
-  // your email address for getting email
+  $email_to = "admin@bluesmokemedia.net"; //email address for receiving email
   $business = $_POST['business'];
 
   //! Required Vars
@@ -29,7 +32,7 @@ if(isset($_POST['submit'])) {
     !isset($message) ||
     !isset($anti_spam) || !$anti_spam
     )  {
-    died('We are sorry, but there appears to be a problem with the form you submitted.');
+    died('We are sorry, but there appears to be a problem with the form you submitted. Please check all required fields.');
   }
 
 
@@ -48,14 +51,13 @@ if(isset($_POST['submit'])) {
 
 
 // create email headers
-$headers = 'From: '.$email_from."\r\n".
-'Reply-To: '.$email_from."\r\n" .
+$headers = 'From: '.$email_from.
+'Reply-To: '.$email_from .
 'X-Mailer: PHP/' . phpversion();
-@mail($email_to, $subject, $message, $headers);
+//! @mail() suppresses all warnings/errors vs mail()
+mail($email_to, $subject, $message, $headers);
+// echo mail
 ?>
-
-
-
 
 
 <!-- place your own success html below -->
