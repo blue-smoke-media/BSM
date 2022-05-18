@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../style/Contact/Contact.css" />
+
+    <meta
+      name="Keywords"
+      content="Knoxville,TN web design, web development, website studio, logo design, Knoxville, TN graphic design, internet visibility, web presence, search engine optimization, website maintenance, advertising agency, marketing tools, photography, website Toronto design, creative services, web presence, website development in Ogden, UT, website development in Salt Lake City,UT, website development in Spokane, WA, website development in Austin,TX, website development in Kingsport,TN, San Francisco,CA, Tampa,FL"
+    />
+    <meta
+      name="Description"
+      content="We are a Digital and Printed Media company with the following services and locations: Knoxville TN website design and development, Ogden UT graphic design, Salt Lake City UT logo and identity creation, Spokane WA search engine optimization, San Francisco CA internet marketing, Austin TX printed media photography and creative services."
+    />
+  </head>
+  <body class="contact clicker">
+    <h1>Contact Us</h1>
+    <p>
+      Effective Internet marketing and Website Design requires a staff of
+      diverse disciplines. Our full-service approach will save you time and the
+      added expense of discovering the missing pieces and hiring multiple
+      companies to collaborate. For quick answers, accurate quotes and 24/7
+      customer service, please call
+      <a href="tel:865-274-1371"> 865.274.1371</a> or complete the inquiry form
+      below and we will contact you at a time and date that is convenient to
+      you.
+    </p>
+    <span>Message sent successfully</span>
+    <form action="../php/contact.php" method="post">
+      <input
+        type="text"
+        name="business"
+        placeholder="Business"
+        id="business"
+        class="field"
+      />
+      <input
+        type="text"
+        name="name"
+        placeholder="Name"
+        id="name"
+        class="field"
+        required
+      />
+
+      <input
+        type="text"
+        name="email"
+        placeholder="Email Address"
+        id="email"
+        class="field"
+        required
+      />
+      <input
+        type="text"
+        name="subject"
+        placeholder="Subject"
+        id="subject"
+        class="field"
+        required
+      />
+      <textarea
+        name="message"
+        placeholder="Message"
+        id="message"
+        rows="5"
+        class="field text"
+        required
+      >
+      </textarea>
+      <input
+        class="antiSpam"
+        name="antiSpam"
+        type="text"
+        style="display: none"
+      />
+      <div class="actions">
+        <button type="submit" id="submit-btn">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

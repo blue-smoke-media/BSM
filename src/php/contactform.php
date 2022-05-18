@@ -1,10 +1,17 @@
+addon -> alias for redirecting domains
 
 <?php
-if(isset($_POST['email'])) {
+if(isset($_POST['submit'])) {
+  print($argv);
 
-  // CHANGE THE TWO LINES BELOW
   $email_to = "admin@bluesmokemedia.net";
   // your email address for getting email
+
+  $business = $_POST['business'];
+  $name = $_POST['name']; // required
+  $email_from = $_POST['email']; // required
+  $message = $_POST['message']; // required
+  $anti_spam = $_POST['antiSpam']; // required
 
   function died($error) {
     // your error code can go here
@@ -23,11 +30,7 @@ if(isset($_POST['email'])) {
     died('We are sorry, but there appears to be a problem with the form you submitted.');
   }
 
-  $name = $_POST['name']; // required
-  $email_from = $_POST['email']; // required
-  // $service = $_POST['subject']; // required
-  $phone = $_POST['services']; // required
-  $message = $_POST['message']; // required
+ 
 
 
   function clean_string($string) {
@@ -70,4 +73,4 @@ $headers = 'From: '.$email_from."\r\n".
 die();
 ?>
 
-<!-- //todo validate phone number and email -->
+//todo validate phone number and email -->
