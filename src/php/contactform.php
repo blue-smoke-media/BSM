@@ -1,17 +1,18 @@
-addon -> alias for redirecting domains
-
 <?php
-if(isset($_POST['submit'])) {
-  print($argv);
 
+if(isset($_POST['submit'])) {
   $email_to = "admin@bluesmokemedia.net";
   // your email address for getting email
-
   $business = $_POST['business'];
-  $name = $_POST['name']; // required
-  $email_from = $_POST['email']; // required
-  $message = $_POST['message']; // required
-  $anti_spam = $_POST['antiSpam']; // required
+
+  //! Required Vars
+  $name = $_POST['name'];
+  $email_from = $_POST['email'];
+  $subject = $_POST['subject'];
+  $message = $_POST['message'];
+  $anti_spam = $_POST['antiSpam'] == "";
+  //! Required Vars
+
 
   function died($error) {
     // your error code can go here
@@ -22,37 +23,35 @@ if(isset($_POST['submit'])) {
   }
 
   // validation expected data exists
-  if(!isset($_POST['name']) ||
-    !isset($_POST['email']) ||
-    // !isset($_POST['mobile']) ||
-    !isset($_POST['services']) ||
-    !isset($_POST['message'])) {
+  if(!isset($name) ||
+    !isset($email_from) ||
+    !isset($subject) ||
+    !isset($message) ||
+    !isset($anti_spam) || !$anti_spam
+    )  {
     died('We are sorry, but there appears to be a problem with the form you submitted.');
   }
 
- 
 
 
   function clean_string($string) {
     $bad = array("content-type","bcc:","to:","cc:","href");
     return str_replace($bad,"",$string);
   }
-
-  $email_subject .= "website Inquiry".clean_string($subject)."";
-
-
-  $email_message .= "Name: ".clean_string($name)."\n";
-  $email_message .= "Email: ".clean_string($email_from)."\n";
-  // $email_message .= "Contact No.: ".clean_string($phone)."\n";
-  $email_message .= "Message: ".clean_string($message)."\n";
-  $email_message .= "Service: ".clean_string($services)."\n";
+  
+  $business .= "Business: ".clean_string($business)."\n";
+  $name .= "Name: ".clean_string($name)."\n";
+  $email_from .= "Email: ".clean_string($email_from)."\n";
+  $subject .= "website Inquiry".clean_string($subject)."\n";
+  $message .= "Message: ".clean_string($message)."\n";
+  // $message .= "Contact No.: ".clean_string($phone)."\n";
 
 
 // create email headers
 $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
-@mail($email_to, $email_subject, $email_message, $headers);
+@mail($email_to, $subject, $message, $headers);
 ?>
 
 
@@ -63,7 +62,8 @@ $headers = 'From: '.$email_from."\r\n".
 <html>
 <head></head>
 <body>
-<script type="text/javascript">alert("We have received your request, we will get back to you shortly. Thank You.");window.location.href='index.html';
+<script type="text/javascript">alert("We have received your request, we will get back to you shortly. Thank You.");
+// window.location.href='../html/Contact.html';
     </script>
 </body>
 </html>

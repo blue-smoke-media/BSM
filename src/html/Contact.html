@@ -29,7 +29,7 @@
       you.
     </p>
     <span>Message sent successfully</span>
-    <form action="../php/contact.php" method="post">
+    <form action="../php/contactForm.php" method="post">
       <input
         type="text"
         name="business"
@@ -71,14 +71,10 @@
         required
       >
       </textarea>
-      <input
-        class="antiSpam"
-        name="antiSpam"
-        type="text"
-        style="display: none"
-      />
+      <input class="antiSpam" name="antiSpam" type="text" />
+      <!-- style="display: none" -->
       <div class="actions">
-        <button type="submit" id="submit-btn">Submit</button>
+        <button type="submit" id="submit-btn" name="submit">Submit</button>
       </div>
     </form>
   </body>
