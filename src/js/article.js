@@ -15,16 +15,14 @@ const article = articleList.find(e => e.id == id)
 
 if (!article) window.location = "404.html"
 
-function articleCreator() {
-    const entryPoint = document.querySelector(".article");
-    const title = document.createElement("h1");
-    const author = document.createElement("span");
-    author.classList.add("author");
-    const content = document.createElement("p");
+document.title = article.title + "| Blue Smoke Media"
+const entryPoint = document.querySelector(".article");
+const title = document.createElement("h1");
+const author = document.createElement("span");
+author.classList.add("author");
+const content = document.createElement("p");
 
-    title.textContent = article.author;
-    content.innerHTML = article.content;
+title.textContent = article.author;
+content.innerHTML = article.content;
 
-    entryPoint.append(title, author, content)
-}
-articleCreator()
+entryPoint.append(title, author, content)
