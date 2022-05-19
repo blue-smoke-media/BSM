@@ -1,23 +1,33 @@
 .privacy {
   text-align: left;
-  margin: 0 3em 3em;
+  margin: 3em 3em 3em;
 }
 
 .privacy .scroll-top {
   position: -webkit-sticky;
   position: sticky;
   cursor: pointer;
-  bottom: 0;
+  bottom: 0.25em;
   left: 0;
   color: #ee3e0e;
+  text-shadow: 1px 1px #020723;
+  background: #1e92f6;
+  padding: 0.25em 0.5em;
+  border-radius: 20%;
 }
 
 .privacy pre {
   white-space: pre-wrap;
 }
 
+.privacy .toc li {
+  list-style: none;
+  margin-bottom: 0.5em;
+}
+
 .privacy a {
   color: #1e92f6;
+  text-decoration: none;
 }
 
 .privacy h1 {

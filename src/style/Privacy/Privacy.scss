@@ -2,14 +2,18 @@
 
 .privacy {
   text-align: left;
-  margin: 0 3em 3em;
+  margin: 3em 3em 3em;
   .scroll-top {
     position: -webkit-sticky;
     position: sticky;
     cursor: pointer;
-    bottom: 0;
+    bottom: 0.25em;
     left: 0;
     color: $orange;
+    text-shadow: 1px 1px $darkBlue;
+    background: $lightBlue;
+    padding: 0.25em 0.5em;
+    border-radius: 20%;
   }
   // #scroll-top { // FROM App.scss
   //   position: -webkit-sticky;
@@ -27,8 +31,13 @@
   pre {
     white-space: pre-wrap;
   }
+  .toc li {
+    list-style: none;
+    margin-bottom: 0.5em;
+  }
   a {
     color: $lightBlue;
+    text-decoration: none;
   }
   h1 {
     text-align: center;
