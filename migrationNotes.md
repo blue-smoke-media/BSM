@@ -118,3 +118,5 @@ Article Page (css and html article content)
 remove .html from url a2hosting Apache
 
 from 404 page if go back a page from articles -> go back 2 pages (to not just redirect right back to 404 page)
+
+Can I alter title tag to append "| BSM"?
