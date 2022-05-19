@@ -124,3 +124,17 @@ Can I alter title tag to append "| BSM"?
 privacy page styling
 
 - turn section 2 into a list?
+
+index page Pricing
+
+- finish pricing plans included
+- enterprise and business swapped?
+- professional -> personal
+- 99-100
+- add text shadow on hover of getStarted
+
+index - Services
+"The map pack"?
+center aligned text?
+
+CHECK ALL RESPONSIVE PAGES (index top)
