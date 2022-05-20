@@ -2,15 +2,6 @@
 
 TODO EACH COMPONENT
 
-- add css file
-
-- Change file name from .jsx to .html
-- remove React imports
-- move image imports into href tags
-- create document <html> !
-- Move html into <body>
-- move Helmet metadata into <head>
-- <Link> -> <a>
 - remove `{*/ */}`
 - remove export function
 
@@ -129,3 +120,7 @@ remove bloomtech/lambda
 remove 'our features' - index
 
 add more cities to footer for SLC
+
+Are we using inquiry_survey_form?
+
+generate sitemap.xml - html/sitemap.xml
