@@ -1,4 +1,4 @@
-.drop-menu {
+#drop-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,30 +13,30 @@
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
-  .drop-menu {
+  #drop-menu {
     display: none;
   }
 }
 
 @media (min-width: 981px) and (max-width: 1280px) {
-  .drop-menu {
+  #drop-menu {
     display: none;
   }
 }
 
 @media (min-width: 1281px) and (max-width: 1680px) {
-  .drop-menu {
+  #drop-menu {
     display: none;
   }
 }
 
 @media (min-width: 1681px) {
-  .drop-menu {
+  #drop-menu {
     display: none;
   }
 }
 
-.drop-menu .show-drop {
+#drop-menu .show-drop {
   z-index: 1;
   margin-top: 0;
   max-height: -webkit-min-content;
@@ -46,7 +46,7 @@
   margin: auto;
 }
 
-.drop-menu h2 {
+#drop-menu h2 {
   color: #ee3e0e;
   text-shadow: 2px 2px #020723;
   text-transform: uppercase;
@@ -55,11 +55,11 @@
   padding: 0.125em 0 0;
 }
 
-.drop-menu h5 {
+#drop-menu h5 {
   margin: 0 auto;
 }
 
-.drop-menu ul {
+#drop-menu ul {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -67,7 +67,7 @@
   overflow: hidden;
 }
 
-.drop-menu ul li {
+#drop-menu ul li {
   color: #1e92f6;
   text-align: left;
   cursor: pointer;
@@ -76,23 +76,23 @@
   display: flex;
 }
 
-.drop-menu ul li a {
+#drop-menu ul li a {
   display: block;
   width: 100%;
   height: 100%;
   color: #1e92f6;
 }
 
-.drop-menu ul li a:hover {
+#drop-menu ul li a:hover {
   color: #04227a;
 }
 
-.drop-menu ul .category:hover {
+#drop-menu ul .category:hover {
   color: #04227a;
   cursor: pointer;
 }
 
-.drop-menu ul .drop-content {
+#drop-menu ul .drop-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

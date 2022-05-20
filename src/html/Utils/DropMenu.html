@@ -1,8 +1,7 @@
-<!-- // const chevron = <FiChevronDown color="#f52618" />; -->
 <link rel="stylesheet" href="src/style/Navigation/DropMenu.css" />
 
-<nav role="navigation" class="drop-menu">
-  <h2 onClick="menuClicker()">Menu</h2>
+<nav role="navigation" id="drop-menu">
+  <h2 onClick="menuToggle()">Menu</h2>
   <ul id="menu">
     <li>
       <a href="/">Home</a>
@@ -123,7 +122,7 @@
       const aStyle = document.getElementById(active).style;
       aStyle.color === orange ? (aStyle.color = blue) : (aStyle.color = orange);
     }
-    // todo close sub drop menu's on closing of menu
+    // todo close sub drop menu's on closing of menu (sub-menu stays open?)
     // if (active === "services") {
     //   const categoryList = document.getElementsByclass("sub-drop-content");
     //   // console.log(categoryList);
@@ -134,7 +133,7 @@
     //   }
     // }
   }
-  function menuClicker() {
+  function menuToggle() {
     const menu = document.getElementById("menu");
     dropdown("menu");
 

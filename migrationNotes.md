@@ -127,3 +127,5 @@ remove all extra code and images/js
 
 remove bloomtech/lambda
 remove 'our features' - index
+
+add more cities to footer for SLC
