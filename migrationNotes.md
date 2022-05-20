@@ -44,22 +44,6 @@ HEADER
 
 SCRIPT FOR HEADER/FOOTER ON EACH PAGE DRY
 
-<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script>  
-$(function(){ 
-  $("#header").load("header.html");  
-  $("#footer").load("footer.html");  
-}); 
-</script>
-</head> 
-<body> 
-<div id="header"></div> 
-<!--Remaining section--> 
-<div id="footer"></div>
-
-## or do this: Inside the div use iframe as <iframe src="footer.html"></iframe>
-
--
 - Plans Page
   Write script for table to map out
 
@@ -138,3 +122,8 @@ index - Services
 center aligned text?
 
 CHECK ALL RESPONSIVE PAGES (index top)
+
+remove all extra code and images/js
+
+remove bloomtech/lambda
+remove 'our features' - index

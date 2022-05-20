@@ -163,6 +163,8 @@
   color: #ee3e0e;
   text-decoration: underline;
   margin-bottom: 0.25em;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .main-nav .dropdown .dropdown-content .drop-item {
