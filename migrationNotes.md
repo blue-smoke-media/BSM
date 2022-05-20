@@ -1,23 +1,13 @@
-- className -> class
-
 TODO EACH COMPONENT
-
-- remove `{*/ */}`
-- remove export function
 
 - change title tags
   check all <head>
   READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
 
-OTHER CHANGES
-Team Page
+- Index - bloomTech
 
-- remove student or grad of lambda (all?)
-- remove list of languages (github? really?)
-- 'marketing staff' repetitive (designers)
-- last paragraph kinda doesn't make sense (first sentence)
+- Reloading page a few times each render (live server?)
 
-- Reloading page a few times each render.
 - Team desc - all 1-3'st persons
   Shorter CoBe "She, She, She"
 
@@ -116,7 +106,6 @@ CHECK ALL RESPONSIVE PAGES (index top)
 
 remove all extra code and images/js
 
-remove bloomtech/lambda
 remove 'our features' - index
 
 add more cities to footer for SLC
@@ -124,3 +113,15 @@ add more cities to footer for SLC
 Are we using inquiry_survey_form?
 
 generate sitemap.xml - html/sitemap.xml
+
+get php to work for contact form
+
+articles.js needs formatting
+
+read through team's descriptions
+
+change all "../" -> "src/"
+
+global stylesheets?
+
+changing all <a href> tags to new file structure (after Sunday)
