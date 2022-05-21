@@ -91,7 +91,8 @@ src -> primary folders -> lowercase
 Files: Lowercase, use hyphens
 Images: ???
 
-file path: /src/folder/file or ../
+file path: /src/folder/file
+use ../../ (relative file path) when in .scss or using import() in js
 
 <Head>
 Title

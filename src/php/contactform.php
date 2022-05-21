@@ -65,6 +65,7 @@ mail($email_to, $subject, $message, $headers);
 <head></head>
 <body>
 <script type="text/javascript">alert("We have received your request, we will get back to you shortly. Thank You.");
+// todo redirect anywhere?
 // window.location.href='../html/Contact.html';
     </script>
 </body>
