@@ -75,6 +75,8 @@ get php to work for contact form
 
 change all "../" -> "src/"
 
+hero images -> squishy when smashed :P (print and graphic design services page example)
+
 remove documentation folder
 
 CONVENTIONS
@@ -84,12 +86,12 @@ src -> primary folders -> lowercase
 Files: Lowercase, use hyphens
 Images: ???
 
-file path: / or ../
+file path: /src/folder/file or ../
 
 <Head>
 Title
 Link
-  stylesheet
   javascript
+  stylesheet
 Meta
 </Head>
