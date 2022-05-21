@@ -78,6 +78,8 @@ change all "../" -> "src/"
 
 hero images -> squishy when smashed :P (print and graphic design services page example)
 
+navigation css getting overridden on some pages (contact page causing italics, home it shrinks -- because its in each body tag)
+
 Optimization/Dry: load and prepend jquery navigation to body
 
 remove documentation folder
