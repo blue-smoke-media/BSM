@@ -12,8 +12,7 @@ READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
   Blue Smoke Media | page
 
 - ALL PAGES
-  Navigation Script
-  Global Stylesheet (excluding privacy and index)(check css for uniform text color and background)
+  Global Stylesheet (excluding privacy and index)(check css for uniform text color and background (text going into italics w/o it 'help.html'))
   trim whitespace
   Fix all links and hrefs with new file structure
   remove all extra comments and unneeded code
@@ -94,6 +93,9 @@ Images: ???
 file path: /src/folder/file
 use ../../ (relative file path) when in .scss or using import() in js
 
+JQUERY
+google CDN -> local backup (change link to "/src/js/jquery-1.11.3.min.js")
+
 <Head>
 Title
 Link
@@ -101,3 +103,9 @@ Link
   stylesheet
 Meta
 </Head>
+
+article links
+
+Do I need '/src/html/page.html' on apache server stripping out /src/html and .html
+
+check any internal links for dead links (team page on website-logo-design)
