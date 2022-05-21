@@ -1,14 +1,5 @@
-//todo change catch for any article that doesn't exist. Redirect to 404 page
-// id
-// title
-// author
-// date
-// imageUrl
-// imageAlt
-// category
-// tags
-// snippet
-// content
+// id, title, author, date, imageUrl, imageAlt, category, tags, snippet, content
+
 const articleList = await import("../data/articles.js").then(res => res.default);
 const id = new URLSearchParams(window.location.search).get("id");
 const article = articleList.find(e => e.id == id)

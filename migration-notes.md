@@ -1,8 +1,4 @@
-TODO EACH COMPONENT
-
-- change title tags
-  check all <head>
-  READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
+READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
 
 - Index Page - 'bloomTech'
 
@@ -10,81 +6,50 @@ TODO EACH COMPONENT
 
 - Team desc - all 1-3'st persons
   Shorter CoBe "She, She, She"
+  Check all descriptions
 
 - shorter title tags
   Blue Smoke Media | page
 
-HEADER
+- ALL PAGES
+  Navigation Script
+  Global Stylesheet (excluding privacy and index)(check css for uniform text color and background)
+  trim whitespace
+  Fix all links and hrefs with new file structure
+  remove all extra comments and unneeded code
+  Check all images loading properly
+  Check Styling
+  Remove inline styles not needed
 
-- why img's on aws and not local
-- how do header? On each page have header code? DRY
+  - <head>
+    Check canonical Links (some misspelled)
+    check for duplicate meta tags
+    Check title tags " |BSM"
+    re-organize to convention
 
-SCRIPT FOR HEADER/FOOTER ON EACH PAGE DRY
+- Plans Page-write script to populate table
 
-- Plans Page
-  Write script for table to map out
+- HELP page - import Carousel at top of body
 
-Privacy Page
-Scroll to Ref
+- 404 page
 
-<!-- const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
-  const ref1 = useRef(null); -->
+- articles.js -> fix all content, html, and css
 
-HELP page
-import Carousel at top of body
+Todo's
 
-DO WE NEED BOOTSTRAP?
-
-Why do we need canonical links? We don't have duplicate pages...
-https://yoast.com/rel-canonical/
-\*also some links are wrong
-
-404 page
-
-WHAT ABOUT GLOBAL STYLES??
-
-check for duplicate meta tags
-
-remove extra div tag and add class wrapper to body tag
-
-trim whitespace
-
-fileName Capitalcase or CamelCase or ...
-
-DRY CSS (letter coloring)
-
-CHECK ALL LINKS
-
-Check all todo's
-
-remove all extra comments and unneeded code
-
-All pages have same text color -- uniform
-All pages have the same color background
-
-website logo design hero img
-
-uniform file names
-help page styling
+- A2hosting
+<!-- addon -> alias for redirecting domains -->
 
 This is how to do php in Apache server
 ![](../../../../Downloads/Screen%20Shot%202022-05-17%20at%209.14.13%20AM.png)
 
-check inline styles {} => ""
-
-<!-- addon -> alias for redirecting domains --> -- A2hosting
+remove .html from url a2hosting Apache
 
 Article Page (css and html article content)
 
-remove .html from url a2hosting Apache
-
 from 404 page if go back a page from articles -> go back 2 pages (to not just redirect right back to 404 page)
 
-Can I alter title tag to append "| BSM"?
-
-privacy page styling
-
-- turn section 2 into a list?
+- turn privacy section 2 into a list?
 
 index page Pricing
 
@@ -98,29 +63,17 @@ index - Services
 "The map pack"?
 center aligned text?
 
-CHECK ALL RESPONSIVE PAGES (index top)
-
-remove all extra code and images/js
+CHECK ALL RESPONSIVE PAGES (index top is broken)
 
 remove 'our features' - index
 
 add more cities to footer for SLC
 
-Are we using inquiry_survey_form?
-
 generate sitemap.xml - html/sitemap.xml
 
 get php to work for contact form
 
-articles.js needs formatting
-
-read through team's descriptions
-
 change all "../" -> "src/"
-
-global stylesheets?
-
-change all filepaths for new file structure conventional renaming
 
 remove documentation folder
 
@@ -130,3 +83,13 @@ src -> primary folders -> lowercase
 
 Files: Lowercase, use hyphens
 Images: ???
+
+file path: / or ../
+
+<Head>
+Title
+Link
+  stylesheet
+  javascript
+Meta
+</Head>
