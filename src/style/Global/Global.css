@@ -44,6 +44,14 @@ html a:hover {
   color: #ee3e0e;
 }
 
+html .italic {
+  font-style: italic;
+}
+
+html .bold {
+  font-weight: bold;
+}
+
 html .hero-image {
   height: 30em;
   width: 95%;
@@ -112,4 +120,4 @@ html #scroll-top {
   color: #ee3e0e;
   line-height: 0.8em;
 }
-/*# sourceMappingURL=Global.css.map */
+/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,7 @@
+
+# RewriteEngine on
+
+# RewriteOptions inherit
+# RewriteCond %{HTTP_HOST} ^bluesmokemedia\.net$ [OR]
+# RewriteCond %{HTTP_HOST} ^www\.bluesmokemedia\.net$
+# RewriteRule ^(.*)$ "https\:\/\/www\.bluesmokedigitalandprintedmedia\.com\/$1" [R=301,L]

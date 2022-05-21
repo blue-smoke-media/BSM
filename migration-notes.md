@@ -13,7 +13,6 @@ READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
 
 - ALL PAGES
   Global Stylesheet (excluding privacy and index)(check css for uniform text color and background (text going into italics w/o it 'help.html'))
-  trim whitespace
   Fix all links and hrefs with new file structure
   remove all extra comments and unneeded code
   Check all images loading properly
