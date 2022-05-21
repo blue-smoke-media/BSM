@@ -20,6 +20,7 @@ READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
   Check all images loading properly
   Check Styling
   Remove inline styles not needed
+  spell check (useability -> usability)
 
   - <head>
     Check canonical Links (some misspelled)
@@ -76,6 +77,8 @@ get php to work for contact form
 change all "../" -> "src/"
 
 hero images -> squishy when smashed :P (print and graphic design services page example)
+
+Optimization/Dry: load and prepend jquery navigation to body
 
 remove documentation folder
 
