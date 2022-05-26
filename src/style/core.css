@@ -1,0 +1,35 @@
+@import "./App/App.css";
+@import "./Header/Header.css";
+@import "./Navigation/Navigation.css";
+@import "./Footer/Footer.css";
+@import "./Home/Home.css";
+@import "./Team/Team.css";
+
+/* * Web Design Services*/
+@import "./Web Design Services/Ad-CopyWriting/Ad-CopyWriting.css";
+@import "./Web Design Services/CustomWebsiteDesign/CustomWebsiteDesign.css";
+@import "./Web Design Services/E-CommerceWebsiteDesign/E-CommerceWebsiteDesign.css";
+@import "./Web Design Services/InquirySurveyForm/InquirySurveyForm.css";
+@import "./Web Design Services/WebMaintenance/WebMaintenance.css";
+@import "./Web Design Services/WebsiteUsability/WebsiteUsability.css";
+@import "./Web Design Services/WebsiteProgrammingCoding/WebsiteProgrammingCoding.css";
+
+/* * SEO */
+@import "./SEO/Organic/OrganicSeo.css";
+@import "./SEO/Friendly/FriendlySeo.css";
+
+/* * Graphic Design Services */
+@import "./Graphic Design Services/PrintAndGraphicServices/PrintAndGraphicServices.css";
+@import "./Graphic Design Services/PrintedMediaLogos/PrintedMediaLogos.css";
+@import "./Graphic Design Services/WebsiteLogoDesign/WebsiteLogoDesign.css";
+
+@import "./Contact/Contact.css";
+@import "./Carousel/carousel.css";
+@import "./Navigation/HamburgerMenu.css";
+@import "./Social Media/SocialMedia.css";
+@import "./Contact-Btn/contact-btn.css";
+@import "./Pricing/Pricing.css";
+@import "./Article/Article.css";
+@import "./Privacy/Privacy.css";
+@import "./Help/Help.css";
+@import "./Drop Menu/DropMenu.css"

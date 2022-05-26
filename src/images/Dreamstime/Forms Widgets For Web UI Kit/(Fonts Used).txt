@@ -1,0 +1,12 @@
+Fonts Used:
+==========
+
+https://fonts.google.com/specimen/Lato
+https://fonts.google.com/specimen/Open+Sans
+https://fonts.google.com/specimen/Montserrat
+
+
+Icons Font:
+=====
+
+https://fontawesome.com/v4.7.0/icons/
