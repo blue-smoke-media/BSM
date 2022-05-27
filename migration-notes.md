@@ -17,8 +17,7 @@ READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
   remove all extra comments and unneeded code
   Check all images loading properly
   Check Styling
-  Remove inline styles not needed
-  spell check (useability -> usability)
+  spell check
 
   - <head>
     Check canonical Links (some misspelled)
@@ -26,7 +25,7 @@ READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
     Check title tags " |BSM"
     re-organize to convention
 
-- Plans Page-write script to populate table
+- Plans Page-write script to populate table (if using page)
 
 - HELP page - import Carousel at top of body
 
@@ -72,8 +71,6 @@ generate sitemap.xml - html/sitemap.xml
 
 get php to work for contact form
 
-change all "../" -> "src/"
-
 hero images -> squishy when smashed :P (print and graphic design services page example)
 
 navigation css getting overridden on some pages (contact page causing italics, home it shrinks -- because its in each body tag)
@@ -105,6 +102,6 @@ Meta
 
 article links
 
-Do I need '/src/html/page.html' on apache server stripping out /src/html and .html
+Do I need '/src/html/page.html' on links for on apache server stripping out /src/html and .html
 
 check any internal links for dead links (team page on website-logo-design)
