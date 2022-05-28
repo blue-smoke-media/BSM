@@ -1,5 +1,7 @@
 READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
 
+internal server server set server admin email
+
 - Index Page - action="/src/php/contactForm.php"
 - reduce number of email accounts we are using on cpanel...
   change bootstrap.js -> bootstrap.min.js
