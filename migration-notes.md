@@ -1,6 +1,6 @@
 READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
 
-- Index Page - 'bloomTech'
+- Index Page - action="/src/php/contactForm.php"
 
 - Reloading page a few times each render (live server?)
 
