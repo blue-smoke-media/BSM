@@ -1,6 +1,8 @@
 READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
 
 - Index Page - action="/src/php/contactForm.php"
+- php contact form - format email for receiving(admin@bsm)
+- reduce number of emails we are using...
 
 - Team desc - all 1-3'st persons
   Shorter CoBe "She, She, She"

@@ -10,7 +10,7 @@ if(isset($_POST['submit'])) {
 
   //! Required Vars
   $name = $_POST['name'];
-  $email_from = $_POST['email'];
+  $reply_to = $_POST['email'];
   $subject = $_POST['subject'];
   $message = $_POST['message'];
   $anti_spam = $_POST['antiSpam'] == "";
@@ -27,7 +27,7 @@ if(isset($_POST['submit'])) {
 
   // validation expected data exists
   if(!isset($name) ||
-    !isset($email_from) ||
+    !isset($reply_to) ||
     !isset($subject) ||
     !isset($message) ||
     !isset($anti_spam) || !$anti_spam
@@ -41,19 +41,21 @@ if(isset($_POST['submit'])) {
     $bad = array("content-type","bcc:","to:","cc:","href");
     return str_replace($bad,"",$string);
   }
-  
-  $business .= "Business: ".clean_string($business)."\n";
-  $name .= "Name: ".clean_string($name)."\n";
-  $email_from .= "Email: ".clean_string($email_from)."\n";
-  $subject .= "website Inquiry".clean_string($subject)."\n";
-  $message .= "Message: ".clean_string($message)."\n";
+
+  $business = "Business: ".clean_string($business)."\n";
+
+  $reply_to = clean_string($reply_to);
+  $name = clean_string($name);
+  $subject = "Contact - ".clean_string($subject);
+  $message = $business."\n".clean_string($message)."\n\n";
+  $message .= clean_string($name);
   // $message .= "Contact No.: ".clean_string($phone)."\n";
 
 
 // create email headers
-$headers = 'From: '.$email_from.
-'Reply-To: '.$email_from .
-'X-Mailer: PHP/' . phpversion();
+$headers = 'From: '.$reply_to."\n".
+'Reply-To: '.$reply_to;
+// "\n".'X-Mailer: PHP/' . phpversion();
 //! @mail() suppresses all warnings/errors vs mail()
 mail($email_to, $subject, $message, $headers);
 // echo mail
