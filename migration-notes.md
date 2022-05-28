@@ -1,6 +1,7 @@
 READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
 
 - Index Page - action="/src/php/contactForm.php"
+  change "src/" to "/src/" or vice versa
 
 - Reloading page a few times each render (live server?)
 

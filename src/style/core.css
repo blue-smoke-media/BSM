@@ -23,13 +23,13 @@
 @import "./Graphic Design Services/PrintedMediaLogos/PrintedMediaLogos.css";
 @import "./Graphic Design Services/WebsiteLogoDesign/WebsiteLogoDesign.css";
 
-@import "./Contact/Contact.css";
+@import "./Contact/contact.css";
 @import "./Carousel/carousel.css";
 @import "./Navigation/HamburgerMenu.css";
 @import "./Social Media/SocialMedia.css";
 @import "./Contact-Btn/contact-btn.css";
 @import "./Pricing/Pricing.css";
-@import "./Article/Article.css";
+@import "./Article/article.css";
 @import "./Privacy/Privacy.css";
-@import "./Help/Help.css";
+@import "./Help/help.css";
 @import "./Drop Menu/DropMenu.css"
