@@ -11,7 +11,7 @@ html {
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.1em;
+  font-size: 1em;
   color: $darkBlue;
 
   @include breakpoint(xl) {
@@ -26,6 +26,7 @@ html {
     @include breakpoint(m) {
       // margin-bottom: 1em;
     }
+    margin-bottom: 5em;
   }
 
   .page-wrapper {

@@ -7,7 +7,7 @@ html {
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.1em;
+  font-size: 1em;
   color: #020723;
 }
 
@@ -27,6 +27,7 @@ html header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 5em;
 }
 
 html .page-wrapper {
