@@ -1,7 +1,14 @@
 
-# RewriteEngine on
+RewriteEngine on
 
-# RewriteOptions inherit
+RewriteOptions inherit
+# This was used before I added alias to redirect all trafic to bsdm
 # RewriteCond %{HTTP_HOST} ^bluesmokemedia\.net$ [OR]
 # RewriteCond %{HTTP_HOST} ^www\.bluesmokemedia\.net$
 # RewriteRule ^(.*)$ "https\:\/\/www\.bluesmokedigitalandprintedmedia\.com\/$1" [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+# RewriteRule ^(.*)\.html$ /$1 [L,R=302]
+# change to R=301 - Browser caches 301, not 302 for testing

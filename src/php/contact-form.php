@@ -55,7 +55,7 @@ if(isset($_POST['submit'])) {
 // create email headers
 $headers = 'From: '.$reply_to."\n".
 'Reply-To: '.$reply_to;
-// "\n".'X-Mailer: PHP/' . phpversion();
+// "\n".'X-Mailer: PHP/' . phpversion(); //? I don't think this is necessary...
 //! @mail() suppresses all warnings/errors vs mail()
 mail($email_to, $subject, $message, $headers);
 // echo mail

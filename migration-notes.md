@@ -1,8 +1,10 @@
 READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
 
 - Index Page - action="/src/php/contactForm.php"
-- php contact form - format email for receiving(admin@bsm)
-- reduce number of emails we are using...
+- reduce number of email accounts we are using on cpanel...
+  change bootstrap.js -> bootstrap.min.js
+
+- after index update from CoBe, rid of src folder as code is already 'minimized'
 
 - Team desc - all 1-3'st persons
   Shorter CoBe "She, She, She"
@@ -27,7 +29,7 @@ READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
 
 navigation - styling home vs other pages
 
-- HELP page - import Carousel at top of body
+- HELP page - import Carousel at top of body(new carousel)
 
 - 404 page - COBE
 
@@ -36,6 +38,8 @@ navigation - styling home vs other pages
 - articles page and articles.js -> fix all content, html, and css -- COBE
 
 remove .html from url a2hosting Apache
+
+php redirect or success page (CoBe)
 
 from 404 page if go back a page from articles -> go back 2 pages (to not just redirect right back to 404 page)
 
@@ -66,6 +70,7 @@ get php to work for contact form
 hero images -> squishy when smashed :P (print and graphic design services page example)
 
 navigation css getting overridden on some pages (contact page causing italics, home it shrinks -- because its in each body tag)
+(font size maybe?)
 
 Optimization/Dry: load and prepend jquery navigation to body
 
@@ -97,3 +102,8 @@ article links
 Do I need '/src/html/page.html' on links for on apache server stripping out /src/html and .html
 
 check any internal links for dead links (team page on website-logo-design)
+
+![](https://i.stack.imgur.com/oKRnc.png)
+https://stackoverflow.com/questions/5730092/how-to-remove-html-from-url
+
+minimization code: https://stackoverflow.com/questions/1737388/how-to-minify-javascript-code
