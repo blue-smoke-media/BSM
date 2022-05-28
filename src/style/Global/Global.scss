@@ -23,10 +23,10 @@ html {
   header {
     display: flex;
     // height: 100%;
-    @include breakpoint(m) {
-      // margin-bottom: 1em;
-    }
     margin-bottom: 5em;
+    @include breakpoint(xxs, xs, s) {
+      margin-bottom: 3em;
+    }
   }
 
   .page-wrapper {

@@ -1,9 +1,6 @@
 READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
 
 - Index Page - action="/src/php/contactForm.php"
-  change "src/" to "/src/" or vice versa
-
-- Reloading page a few times each render (live server?)
 
 - Team desc - all 1-3'st persons
   Shorter CoBe "She, She, She"
@@ -26,25 +23,17 @@ READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
     Check title tags " |BSM"
     re-organize to convention
 
-- Plans Page-write script to populate table (if using page)
+navigation - styling home vs other pages
 
 - HELP page - import Carousel at top of body
 
-- 404 page
+- 404 page - COBE
 
-- articles.js -> fix all content, html, and css
+- Footer? populate like nav on all pages (append to body?)
 
-Todo's
-
-- A2hosting
-<!-- addon -> alias for redirecting domains -->
-
-This is how to do php in Apache server
-![](../../../../Downloads/Screen%20Shot%202022-05-17%20at%209.14.13%20AM.png)
+- articles page and articles.js -> fix all content, html, and css -- COBE
 
 remove .html from url a2hosting Apache
-
-Article Page (css and html article content)
 
 from 404 page if go back a page from articles -> go back 2 pages (to not just redirect right back to 404 page)
 

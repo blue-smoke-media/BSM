@@ -30,6 +30,24 @@ html header {
   margin-bottom: 5em;
 }
 
+@media (max-width: 360px) {
+  html header {
+    margin-bottom: 3em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  html header {
+    margin-bottom: 3em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  html header {
+    margin-bottom: 3em;
+  }
+}
+
 html .page-wrapper {
   width: 95%;
   margin: auto;
