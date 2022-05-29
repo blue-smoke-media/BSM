@@ -19,15 +19,7 @@ html {
     font-size: 1.2em;
   }
   @include breakpoint(xxl) {
-    font-size: 1.3em;
-  }
-  header {
-    display: flex;
-    // height: 100%;
-    margin-bottom: 5em;
-    @include breakpoint(xxs, xs, s) {
-      margin-bottom: 3em;
-    }
+    font-size: 1.25em;
   }
 
   .page-wrapper {

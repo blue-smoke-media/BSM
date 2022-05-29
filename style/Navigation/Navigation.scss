@@ -1,5 +1,14 @@
 @import "../utils/Mixins.scss";
 
+nav {
+  display: flex;
+  // height: 100%;
+  margin-bottom: 5em;
+  @include breakpoint(xxs, xs, s) {
+    margin-bottom: 3em;
+  }
+}
+
 header-nav {
   position: absolute;
   z-index: 1;

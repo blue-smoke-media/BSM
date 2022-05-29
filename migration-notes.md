@@ -40,6 +40,7 @@ cities for footer for SLC (Provo, Cache Valley, Midvale,Park City)
 add sticky index-nav w/ Navigation off view
 plans e-commerce card
 plans - get started button -> contact page
+inquiry form - email id -> email
 
 modify contact page form for plans/pricing inquiry
 

@@ -1,3 +1,28 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5em;
+}
+
+@media (max-width: 360px) {
+  nav {
+    margin-bottom: 3em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  nav {
+    margin-bottom: 3em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  nav {
+    margin-bottom: 3em;
+  }
+}
+
 header-nav {
   position: absolute;
   z-index: 1;
