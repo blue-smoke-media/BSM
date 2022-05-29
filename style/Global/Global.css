@@ -1,13 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 html {
   background: black;
   position: relative;
   text-align: center;
   background: #d7dae6;
   margin: auto;
-  font-family: "cabin", "poppins", "sans-serif" !important;
+  font-family: "cabin", "poppins", "sans-serif", "serif" !important;
   font-style: normal;
-  font-weight: 400;
-  font-size: 1.1em;
+  font-weight: 600;
+  font-size: 1.2em;
   color: #020723;
 }
 
@@ -138,5 +140,9 @@ html #scroll-top {
   font-weight: 700;
   color: #ee3e0e;
   line-height: 0.8em;
+}
+
+h1 {
+  font-weight: 800;
 }
 /*# sourceMappingURL=Global.css.map */

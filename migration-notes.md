@@ -7,6 +7,8 @@ check all links - (article links as well)(team page on website-logo-design)
 Apache - internal server server set server admin email
 remove /html/ and .html from file path in Apache
 php redirect or success page (CoBe)
+change <header> to <nav>
+build out form... ???
 
 plans page
 
@@ -14,10 +16,6 @@ plans page
 404 page - from 404 page if go back a page from articles -> go back 2 pages (to not just redirect right back to 404 page)
 
 print-and-graphic-design hero image replace (fingers crossed, mobile)
-
-Footer - append to body like nav
-articles page and articles.js -> fix all content, html, and css
-add more cities to footer for SLC (Provo, Cache Valley, Midvale,Park City)
 
 -INDEX-
 PRICING
@@ -36,6 +34,11 @@ tel:+ -> tel:
 team descriptions
 comment out all js files in index (not needed? just nav)
 JQUERY - google CDN -> local backup (change link to "/src/js/jquery-1.11.3.min.js")
+index-nav sticky after navigation is not on the screen
+cities for footer for SLC (Provo, Cache Valley, Midvale,Park City)
+
+Footer - append to body like nav
+articles page and articles.js -> fix all content, html, and css
 
 generate sitemap.xml - html/sitemap.xml
 
