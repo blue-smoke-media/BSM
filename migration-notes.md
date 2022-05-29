@@ -1,11 +1,15 @@
 READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION (WITH RESPONSIVE)
 
-nav - drop-arrow (chevron green)
 change <header> to <nav>
-build out form... ???
+Build out CTA form's for index page (CTA-audit, CTA-other) (not using contact.php vars)
 Apache - internal server server set server admin email
-remove /html/ and .html from file path in Apache
+remove /html/ and .html from file path in Apache (/html/ -> drop html files into root directory)
 php redirect or success page (CoBe)
+update scss mixins color-pallet from CoBe -> go and resave all scss files to update new vars in mixins.scss
+
+php - all forms (CTA-quick inquiry, Footer-contact, CTA-other, CTA-Audit) (4 total)
+
+style drop-nav (index vs not)
 
 plans page
 
@@ -34,6 +38,10 @@ JQUERY - google CDN -> local backup (change link to "/src/js/jquery-1.11.3.min.j
 index-nav sticky after navigation is not on the screen
 cities for footer for SLC (Provo, Cache Valley, Midvale,Park City)
 add sticky index-nav w/ Navigation off view
+plans e-commerce card
+plans - get started button -> contact page
+
+modify contact page form for plans/pricing inquiry
 
 Footer - append to body like nav
 articles page and articles.js -> fix all content, html, and css
