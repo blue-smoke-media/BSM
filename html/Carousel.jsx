@@ -85,7 +85,7 @@ export default function Carousel() {
               <p className="description">
                 We at Blue Smoke Digital and Printed Media believe that the
                 consumer should get everything they pay for. We believe that
-                <span> “SEO should be INCLUDED”</span> in a custom built
+                <span> "SEO should be INCLUDED”</span> in a custom built
                 website! It <span>SHOULD NOT</span> be an extra cost. THAT is
                 what sets us apart from our competitors.
               </p>

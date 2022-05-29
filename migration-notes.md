@@ -8,6 +8,8 @@ Apache - internal server server set server admin email
 remove /html/ and .html from file path in Apache
 php redirect or success page (CoBe)
 
+plans page
+
 -COBE-
 404 page - from 404 page if go back a page from articles -> go back 2 pages (to not just redirect right back to 404 page)
 
