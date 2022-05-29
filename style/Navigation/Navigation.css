@@ -6,6 +6,7 @@ header-nav {
   left: 0;
   right: 0;
   font-weight: 400;
+  font-size: 1em !important;
 }
 
 header-nav #main-nav {
@@ -171,7 +172,7 @@ header-nav #main-nav .dropdown .dropdown-content .nav-section h3 {
   color: #ee3e0e;
   text-decoration: underline;
   margin-bottom: 0.25em;
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-align: center;
 }
 

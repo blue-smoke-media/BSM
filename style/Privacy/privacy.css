@@ -1,6 +1,7 @@
 .privacy {
   text-align: left;
   margin: 3em 3em 3em;
+  font-size: 1.2em;
 }
 
 .privacy .scroll-top {
@@ -16,6 +17,19 @@
   border-radius: 20%;
 }
 
+.privacy h1 {
+  text-align: center;
+  margin-bottom: 0.125em;
+}
+
+.privacy .last-updated {
+  margin-top: 0;
+}
+
+.privacy h3 {
+  text-align: center;
+}
+
 .privacy pre {
   white-space: pre-wrap;
 }
@@ -28,11 +42,6 @@
 .privacy a {
   color: #1e92f6;
   text-decoration: none;
-}
-
-.privacy h1 {
-  text-align: center;
-  margin-bottom: 0.5em;
 }
 
 .privacy .scroll-item {

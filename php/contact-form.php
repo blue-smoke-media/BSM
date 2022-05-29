@@ -5,7 +5,7 @@
 <?php
 
 if(isset($_POST['submit'])) {
-  $email_to = "admin@bluesmokemedia.net"; //email address for receiving email
+  $email_to = "admin@BlueSmokeMedia.net"; //email address for receiving email
   $business = $_POST['business'];
 
   //! Required Vars

@@ -3,8 +3,8 @@ RewriteEngine on
 
 RewriteOptions inherit
 # This was used before I added alias to redirect all trafic to bsdm
-# RewriteCond %{HTTP_HOST} ^bluesmokemedia\.net$ [OR]
-# RewriteCond %{HTTP_HOST} ^www\.bluesmokemedia\.net$
+# RewriteCond %{HTTP_HOST} ^BlueSmokeMedia\.net$ [OR]
+# RewriteCond %{HTTP_HOST} ^www\.BlueSmokeMedia\.net$
 # RewriteRule ^(.*)$ "https\:\/\/www\.bluesmokedigitalandprintedmedia\.com\/$1" [R=301,L]
 
 RewriteRule ^src/(.*)$ /$1 [L,NC,R]

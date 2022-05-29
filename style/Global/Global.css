@@ -4,10 +4,10 @@ html {
   text-align: center;
   background: #d7dae6;
   margin: auto;
-  font-family: "poppins", sans-serif;
+  font-family: "cabin", "poppins", "sans-serif" !important;
   font-style: normal;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.1em;
   color: #020723;
 }
 
