@@ -29,6 +29,12 @@ header-nav {
       display: none;
     }
 
+    .chevron {
+      color: $green;
+      padding-left: 0.125em;
+      padding-top: 0.25em;
+    }
+
     /* Links inside the navbar */
     .nav-item {
       color: $white;

@@ -1,14 +1,11 @@
 READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION (WITH RESPONSIVE)
 
-import fonts - Cabin and Poppins
-ADD HEADER w/ Navigation
 nav - drop-arrow (chevron green)
-check all links - (article links as well)(team page on website-logo-design)
+change <header> to <nav>
+build out form... ???
 Apache - internal server server set server admin email
 remove /html/ and .html from file path in Apache
 php redirect or success page (CoBe)
-change <header> to <nav>
-build out form... ???
 
 plans page
 
@@ -36,11 +33,14 @@ comment out all js files in index (not needed? just nav)
 JQUERY - google CDN -> local backup (change link to "/src/js/jquery-1.11.3.min.js")
 index-nav sticky after navigation is not on the screen
 cities for footer for SLC (Provo, Cache Valley, Midvale,Park City)
+add sticky index-nav w/ Navigation off view
 
 Footer - append to body like nav
 articles page and articles.js -> fix all content, html, and css
 
 generate sitemap.xml - html/sitemap.xml
+
+check all links - (article links as well)(team page on website-logo-design)
 
 - ALL PAGES
   check all links and filepaths

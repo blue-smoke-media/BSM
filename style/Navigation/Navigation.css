@@ -47,6 +47,12 @@ header-nav #main-nav {
   }
 }
 
+header-nav #main-nav .chevron {
+  color: #7fbd3e;
+  padding-left: 0.125em;
+  padding-top: 0.25em;
+}
+
 header-nav #main-nav .nav-item {
   color: #d7dae6;
   font-size: 1em;
