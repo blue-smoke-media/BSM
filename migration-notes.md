@@ -1,20 +1,8 @@
 READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION
 
+remove .html from url a2hosting Apache
+
 internal server server set server admin email
-
-- Index Page - action="/src/php/contactForm.php"
-- reduce number of email accounts we are using on cpanel...
-  change bootstrap.js -> bootstrap.min.js
-  remove 'our features'
-
-- after index update from CoBe, rid of src folder as code is mostly already 'minimized'
-
-- Team desc - all 1-3'st persons
-  Shorter CoBe "She, She, She"
-  Check all descriptions
-
-- shorter title tags
-  Blue Smoke Media | page
 
 - ALL PAGES
   Global Stylesheet (excluding privacy and index)(check css for uniform text color and background (text going into italics w/o it 'help.html'))
@@ -41,8 +29,6 @@ navigation - styling home vs other pages
 
 - articles page and articles.js -> fix all content, html, and css -- COBE
 
-remove .html from url a2hosting Apache
-
 from 404 page if go back a page from articles -> go back 2 pages (to not just redirect right back to 404 page)
 
 - turn privacy section 2 into a list?
@@ -61,25 +47,40 @@ center aligned text?
 
 CHECK ALL RESPONSIVE PAGES (index top is broken)
 
-add more cities to footer for SLC (Provo, Cache Valley, Midvale,Park City, )
-
--
-
-generate sitemap.xml - html/sitemap.xml
-
-get php to work for contact form
-
-hero images -> squishy when smashed :P (print and graphic design services page example)
-
 navigation css getting overridden on some pages (contact page causing italics, home it shrinks -- because its in each body tag)
 (font size maybe?)
 
-Optimization/Dry: load and prepend jquery navigation to body
-
-remove documentation folder
+---
 
 COBE:
 php redirect or success page (CoBe)
+
+- Index Page - action="/src/php/contactForm.php"
+- reduce number of email accounts we are using on cpanel...
+  change bootstrap.js -> bootstrap.min.js
+  remove 'our features'
+
+- after index update from CoBe, rid of src folder as code is mostly already 'minimized'
+
+- href="bluesmokemedia/seo"...kinda
+  tel:+ -> tel:
+
+- Team desc - all 1-3'st persons
+  Shorter CoBe "She, She, She"
+  Check all descriptions
+
+- shorter title tags
+  Blue Smoke Media | page
+
+hero images -> squishy when smashed :P (print and graphic design services page example)
+
+add more cities to footer for SLC (Provo, Cache Valley, Midvale,Park City, )
+
+comment out all js files in index (not needed? just nav)
+
+## generate sitemap.xml - html/sitemap.xml
+
+Go through all images used/not used
 
 CONVENTIONS
 Folders: Title Case, hyphens

@@ -81,8 +81,8 @@ Many shortfalls of websites can easily be attributed to designers who just do no
         date: "",
         imageUrl: "ID_3_ad-copy-writing-image.png",
         imageAlt: "Getting a piece of 'Advertising Copy'to come through for you and getting stellar results by following these 12 points!",
-        category: "Ad-Copywriting",
-        tags: "Ad-copywriting, Search Engine Optimization (SEO), Organic SEO, Strategic Social Media Marketing, Website Content Writing, Reputation Management",
+        category: "content-management",
+        tags: "content-management, Search Engine Optimization (SEO), Organic SEO, Strategic Social Media Marketing, Website Content Writing, Reputation Management",
         snippet: "You are ready to launch that new product or promotion, & you are really counting on a piece of advertising copy to come through for you. You're are looking for stellar results! And, you are determined to do everything in your power to get them. Which means surveys, thorough testing, and ongoing refinement of your ad copy.",
         content: `
 You are ready to launch that new product or promotion and you are really counting on a piece of advertising copy to come through for you. You are expecting stellar results! And, you are determined to do everything in your power to get them. Which means surveys, thorough testing, and ongoing refinement of your ad copy. Hold the phone! When you receive your draft, run it through this 12-point inspection. Check off these basics and you can be sure you'll be off to a running start.
