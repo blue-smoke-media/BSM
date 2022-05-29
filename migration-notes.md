@@ -5,8 +5,9 @@ internal server server set server admin email
 - Index Page - action="/src/php/contactForm.php"
 - reduce number of email accounts we are using on cpanel...
   change bootstrap.js -> bootstrap.min.js
+  remove 'our features'
 
-- after index update from CoBe, rid of src folder as code is already 'minimized'
+- after index update from CoBe, rid of src folder as code is mostly already 'minimized'
 
 - Team desc - all 1-3'st persons
   Shorter CoBe "She, She, She"
@@ -30,6 +31,7 @@ internal server server set server admin email
     re-organize to convention
 
 navigation - styling home vs other pages
+(privacy page overwrites the font)
 
 - HELP page - import Carousel at top of body(new carousel)
 
@@ -41,8 +43,6 @@ navigation - styling home vs other pages
 
 remove .html from url a2hosting Apache
 
-php redirect or success page (CoBe)
-
 from 404 page if go back a page from articles -> go back 2 pages (to not just redirect right back to 404 page)
 
 - turn privacy section 2 into a list?
@@ -52,7 +52,7 @@ index page Pricing
 - finish pricing plans included
 - enterprise and business swapped?
 - professional -> personal
-- 99-100
+- $99-$100
 - add text shadow on hover of getStarted
 
 index - Services
@@ -61,9 +61,9 @@ center aligned text?
 
 CHECK ALL RESPONSIVE PAGES (index top is broken)
 
-remove 'our features' - index
+add more cities to footer for SLC (Provo, Cache Valley, Midvale,Park City, )
 
-add more cities to footer for SLC
+-
 
 generate sitemap.xml - html/sitemap.xml
 
@@ -77,6 +77,9 @@ navigation css getting overridden on some pages (contact page causing italics, h
 Optimization/Dry: load and prepend jquery navigation to body
 
 remove documentation folder
+
+COBE:
+php redirect or success page (CoBe)
 
 CONVENTIONS
 Folders: Title Case, hyphens
