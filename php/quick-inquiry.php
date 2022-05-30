@@ -1,21 +1,18 @@
-<!-- redirect back to contact page or successful message (inject success or error message on contact page)
--->
+<!--// todo handle success and errors -->
 
-<!--//! check local server xampp /Applications/XAMPP/xamppfiles/htdocs for testing-->
 <?php
 
 if(isset($_POST['submit'])) {
-  $email_to = "solutions@BlueSmokeMedia.net"; //email address for receiving email
-  $business = $_POST['business'];
+  $email_to = "admin@BlueSmokeMedia.net"; //email address for receiving email
 
   //! Required Vars
   $name = $_POST['name'];
   $reply_to = $_POST['email'];
-  $subject = $_POST['subject'];
+  $phone = $_POST['contactPhone'];
+  $service = $_POST['services'];
   $message = $_POST['message'];
-  $anti_spam = $_POST['antiSpam'] == "";
+  // $anti_spam = $_POST['antiSpam'] == "";
   //! Required Vars
-
 
   function died($error) {
     // your error code can go here
@@ -27,10 +24,11 @@ if(isset($_POST['submit'])) {
 
   // validation expected data exists
   if(!isset($name) ||
-    !isset($reply_to) ||
-    !isset($subject) ||
-    !isset($message) ||
-    !isset($anti_spam) || !$anti_spam
+  !isset($reply_to) ||
+  !isset($phone) ||
+  !isset($service) ||
+  !isset($message) 
+  // !isset($anti_spam) || !$anti_spam
     )  {
     died('We are sorry, but there appears to be a problem with the form you submitted. Please check all required fields.');
   }
@@ -42,20 +40,22 @@ if(isset($_POST['submit'])) {
     return str_replace($bad,"",$string);
   }
 
-  $business = "Business: ".clean_string($business)."\n";
-
   $reply_to = clean_string($reply_to);
+
+  $subject = "Quick Inquiry";
+  // $subject .= clean_string($service);
+
   $name = clean_string($name);
-  $subject = "Contact - ".clean_string($subject);
-  $message = $business."\n".clean_string($message)."\n\n";
-  $message .= clean_string($name);
-  // $message .= "Contact No.: ".clean_string($phone)."\n";
+
+  $message = clean_string($service)."\n\n".clean_string($message)."\n\n";
+  $message .= clean_string($name)."\n";
+  $message .= clean_string($phone)."\n";
+  // todo format phone number - also turn into link for iphone
 
 
 // create email headers
 $headers = 'From: '.$reply_to."\n".
 'Reply-To: '.$reply_to;
-// "\n".'X-Mailer: PHP/' . phpversion(); //? I don't think this is necessary...
 //! @mail() suppresses all warnings/errors vs mail()
 mail($email_to, $subject, $message, $headers);
 // echo mail

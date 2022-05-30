@@ -1,16 +1,15 @@
 READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION (WITH RESPONSIVE DESIGN CHECKED)
 
 Build out CTA form's for index page (CTA-audit, CTA-other) (not using contact.php vars)
-Apache - internal server server set server admin email
-remove /html/ and .html from file path in Apache (/html/ -> drop html files into root directory)
+remove /html/ and .html from file path in Apache (/html/ -> drop html files into root directory)(learn regex?)
 php redirect or success page (CoBe)
 update scss mixins color-pallet from CoBe -> go and resave all scss files to update new vars in mixins.scss
+audit-cta font -> cabin
 
 php - all forms (CTA-quick inquiry, Footer-contact, CTA-other, CTA-Audit) (4 total)
-
 style drop-nav (index vs not)
-
 plans page
+add a spam field on all forms
 
 -COBE-
 404 page - from 404 page if go back a page from articles -> go back 2 pages (to not just redirect right back to 404 page)
@@ -42,6 +41,8 @@ plans - get started button -> contact page
 inquiry form - email id -> email
 fonts importing properly
 all functionality
+add name='submit' on quick-inquiry form
+change action to /php/quick-inquiry.php
 
 modify contact page form for plans/pricing inquiry
 
