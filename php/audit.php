@@ -4,14 +4,13 @@
 
 if(isset($_POST['submit'])) {
   $email_to = "solutions@BlueSmokeMedia.net"; //email address for receiving email
-  $subject = "Quick Inquiry";
+  $subject = "Audit";
 
   //! Required Vars
   $name = $_POST['name'];
   $reply_to = $_POST['email'];
-  $phone = $_POST['contactPhone'];
-  $service = $_POST['services'];
-  $message = $_POST['message'];
+  $phone = $_POST['phone'];
+  $business = $_POST['business'];
   // $anti_spam = $_POST['antiSpam'] == "";
   //! Required Vars
 
@@ -27,8 +26,7 @@ if(isset($_POST['submit'])) {
   if(!isset($name) ||
   !isset($reply_to) ||
   !isset($phone) ||
-  !isset($service) ||
-  !isset($message)
+  !isset($business)
   // !isset($anti_spam) || !$anti_spam
     )  {
     died('We are sorry, but there appears to be a problem with the form you submitted. Please check all required fields.');
@@ -45,7 +43,7 @@ if(isset($_POST['submit'])) {
 
   $name = clean_string($name);
 
-  $message = clean_string($service)."\n\n".clean_string($message)."\n\n";
+  $message = clean_string($business)."\n\n";
   $message .= clean_string($name)."\n";
   $message .= clean_string($phone)."\n";
   // todo format phone number - also turn into link for iphone
