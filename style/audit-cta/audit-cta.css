@@ -1,0 +1,80 @@
+body {
+  background: url("/images/blue-smoke-flat.jpg") no-repeat;
+  background-size: cover;
+  width: 90%;
+  margin: 2em auto 0;
+  color: white;
+}
+
+body span {
+  color: #ee3e0e;
+}
+
+body .top {
+  margin-bottom: 5em;
+  text-align: center;
+}
+
+body .top p {
+  width: 60%;
+  margin: auto;
+}
+
+body .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .bottom section:first-child {
+  border-right: 2px solid white;
+  margin-right: 1.5em;
+  padding-right: 1.5em;
+  width: 50%;
+  min-width: 10em;
+  max-width: 30em;
+}
+
+body .bottom .form-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .bottom .form-container form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+body .bottom .form-container form label input {
+  height: 2em;
+  margin-left: 1em;
+}
+
+body .bottom .form-container form input[name="submit"] {
+  width: 55%;
+  margin-left: auto;
+  border-radius: 1em;
+  background: goldenrod;
+  border: 1px solid black;
+  padding: 0.25em 0.125em;
+  font-weight: 0700;
+}
+/*# sourceMappingURL=audit-cta.css.map */
