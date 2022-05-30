@@ -2,15 +2,35 @@
 RewriteEngine on
 
 RewriteOptions inherit
-# This was used before I added alias to redirect all trafic to bsdm
+
+# on VPN or Dedicated Server mod_spelling
+# CheckSpelling on
+# CheckCaseOnly on
+#! This was used before I added alias to redirect all trafic to bsdm
 # RewriteCond %{HTTP_HOST} ^BlueSmokeMedia\.net$ [OR]
 # RewriteCond %{HTTP_HOST} ^www\.BlueSmokeMedia\.net$
 # RewriteRule ^(.*)$ "https\:\/\/www\.bluesmokedigitalandprintedmedia\.com\/$1" [R=301,L]
 
-RewriteRule ^src/(.*)$ /$1 [L,NC,R]
-
 # RewriteCond %{REQUEST_FILENAME} !-d
 # RewriteCond %{REQUEST_FILENAME} !-f
-# RewriteRule ^([^\.]+)$ $1.html [NC, L]
+# RewriteRule ^html/(.*)$ /$1 [L,NC,R]
+
+#! This strips the .html but doesn't find page
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME} !-f
 # RewriteRule ^(.*)\.html$ /$1 [L,R=302]
+
+
+
+# RewriteRule ^([^\.]+)$ $1.html [NC, L]
+# RewriteRule ^(.*)\.html$
 # change to R=301 - Browser caches 301, not 302 for testing
+
+# RewriteRule ^html/ - [L]
+
+#! This works as well to strip .html
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]

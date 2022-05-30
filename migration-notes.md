@@ -1,6 +1,5 @@
-READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION (WITH RESPONSIVE)
+READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION (WITH RESPONSIVE DESIGN CHECKED)
 
-change <header> to <nav>
 Build out CTA form's for index page (CTA-audit, CTA-other) (not using contact.php vars)
 Apache - internal server server set server admin email
 remove /html/ and .html from file path in Apache (/html/ -> drop html files into root directory)
@@ -41,6 +40,8 @@ add sticky index-nav w/ Navigation off view
 plans e-commerce card
 plans - get started button -> contact page
 inquiry form - email id -> email
+fonts importing properly
+all functionality
 
 modify contact page form for plans/pricing inquiry
 
