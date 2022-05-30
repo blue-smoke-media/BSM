@@ -2,7 +2,7 @@ READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION (WITH RESPONSIVE DESIGN CHECKED)
 
 Build out CTA form's for index page (CTA-audit, CTA-other) (not using contact.php vars)
 remove /html/ and .html from file path in Apache (/html/ -> drop html files into root directory)(learn regex?)
-php redirect or success page (CoBe)
+php redirect or success page (CoBe) ALL FORMS
 update scss mixins color-pallet from CoBe -> go and resave all scss files to update new vars in mixins.scss
 audit-cta font -> cabin
 
@@ -40,9 +40,12 @@ plans e-commerce card
 plans - get started button -> contact page
 inquiry form - email id -> email
 fonts importing properly
-all functionality
+all functionality (dropdown items w/ Q/A)
 add name='submit' on quick-inquiry form
 change action to /php/quick-inquiry.php
+add submit input to footer form...
+footer form message color is grey currently...
+phone input name mobile->contactPhone
 
 modify contact page form for plans/pricing inquiry
 

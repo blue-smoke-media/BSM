@@ -3,7 +3,8 @@
 <?php
 
 if(isset($_POST['submit'])) {
-  $email_to = "admin@BlueSmokeMedia.net"; //email address for receiving email
+  $email_to = "solutions@BlueSmokeMedia.net"; //email address for receiving email
+  $subject = "Quick Inquiry";
 
   //! Required Vars
   $name = $_POST['name'];
@@ -27,7 +28,7 @@ if(isset($_POST['submit'])) {
   !isset($reply_to) ||
   !isset($phone) ||
   !isset($service) ||
-  !isset($message) 
+  !isset($message)
   // !isset($anti_spam) || !$anti_spam
     )  {
     died('We are sorry, but there appears to be a problem with the form you submitted. Please check all required fields.');
@@ -42,7 +43,6 @@ if(isset($_POST['submit'])) {
 
   $reply_to = clean_string($reply_to);
 
-  $subject = "Quick Inquiry";
   // $subject .= clean_string($service);
 
   $name = clean_string($name);
