@@ -3,7 +3,7 @@
 .carousel {
   margin-bottom: 2em;
   .slider {
-    background: #04227a;
+    background: $royalBlue;
     @include breakpoint(xxs, xs, s) {
       height: 80vh;
     }
@@ -94,7 +94,7 @@
           }
 
           span {
-            color: #ee3e0e;
+            color: $orange;
             font-weight: 600;
           }
         }
@@ -108,14 +108,14 @@
 
         a {
           font-weight: 600;
-          background: #ee3e0e;
+          background: $orange;
           margin-left: 5%;
           border-radius: 0.8em;
           margin-top: 8%;
           box-shadow: 3px 3px 1px black;
           width: 40%;
           padding: 0.8em 0;
-          color: #020723;
+          color: $darkBlue;
           text-align: center;
 
           @include breakpoint(xl, xxl) {
@@ -166,7 +166,7 @@
       }
     }
     .carousel__dot--selected {
-      background: #ee3e0e;
+      background: $orange;
     }
     img {
       width: 35%;

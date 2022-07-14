@@ -72,7 +72,7 @@ body .bottom .form-container form input[name="submit"] {
   width: 55%;
   margin-left: auto;
   border-radius: 1em;
-  background: goldenrod;
+  background: #daa520;
   border: 1px solid black;
   padding: 0.25em 0.125em;
   font-weight: 0700;

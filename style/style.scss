@@ -27,7 +27,7 @@
 /*.stroke {
   outline-color: var(--stroke-color): dark-navy;
   outline-width: var(--stroke-width): 1px;
-  color: #020723;
+  color: $darkBlue;
   text-shadow: var(--stroke-width)  0 0 var(--stroke-color),
     calc(var(--stroke-width) * -1) 0 0 var(--stroke-color),
     0 var(--stroke-width) 0 var(--stroke-color),
@@ -114,7 +114,7 @@ p {
 }
 
 a:hover {
-  color: #ee3e0e;
+  color: $orange;
   text-decoration: none;
   outline: 0;
 }
@@ -143,7 +143,7 @@ h2 {
 h3 {
   font-size: 34px;
   color: #293e84;
-  outline-color: solid 1px #020723;
+  outline-color: solid 1px $darkBlue;
 }
 .header3 {
   color: #293e84;
@@ -176,7 +176,7 @@ h2.section-title.white {
 }
 
 h5.section-title.blue {
-  color: #1e92f6;
+  color: $lightBlue;
 }
 
 p.section-subtitle {
@@ -190,7 +190,7 @@ p.section-subtitle.grey {
 
 .about-our-team-h3 {
   margin-top: -1.355%;
-  outline-color: solid 1px #020723;
+  outline-color: solid 1px $darkBlue;
 }
 
 .p-about-text {
@@ -239,7 +239,7 @@ ul li {
 }
 
 a:hover {
-  color: #ee3e0e;
+  color: $orange;
 }
 
 a:focus,
@@ -254,13 +254,13 @@ iframe {
 }
 
 .red-orange-h3 {
-  color: #ee3e0e;
-  outline-width: 11px solid #020723;
-  text-shadow: 1px 1px 1px #020723;
+  color: $orange;
+  outline-width: 11px solid $darkBlue;
+  text-shadow: 1px 1px 1px $darkBlue;
 }
 
 .green {
-  color: #7fbd3e;
+  color: $green;
 }
 
 .white-text {
@@ -271,13 +271,13 @@ iframe {
 .blue-text {
   color: #1244a4;
   outline-width: 1px solid #293e84;
-  /*text-shadow: 1px 1px 1px #020723;*/
+  /*text-shadow: 1px 1px 1px $darkBlue;*/
 }
 
 .blue {
   color: #548cff;
   outline-width: 1px solid #293e84;
-  text-shadow: 1px 1px 1px #020723;
+  text-shadow: 1px 1px 1px $darkBlue;
 }
 
 .lyla {
@@ -285,7 +285,7 @@ iframe {
 }
 
 .golden-rod {
-  color: #daa520;
+  color: $gold;
 }
 
 .section-white {
@@ -368,13 +368,13 @@ iframe {
 }
 
 .section-lyla {
-  background: #1e92f6;
-  background: linear-gradient(to bottom right, #1e92f6, #020723);
+  background: $lightBlue;
+  background: linear-gradient(to bottom right, $lightBlue, $darkBlue);
   padding: 90px 0 70px 0;
 }
 
 .section-dark {
-  background-color: #020723;
+  background-color: $darkBlue;
   padding: 30px 0;
 }
 
@@ -624,8 +624,8 @@ section#contact i.fa.fa-phone {
 
 .footer {
   z-index: 900;
-  background-color: #020723;
-  border-top: 1px solid #020723;
+  background-color: $darkBlue;
+  border-top: 1px solid $darkBlue;
   padding: 20px 0;
   font-weight: 300;
 }
@@ -674,11 +674,11 @@ ul.footer_social li a i:hover {
 
 .home-section {
   background: url("/images/6.jpg");
-  /*background: #1e92f6*/
-  /*background: -webkit-linear-gradient(left top, #1e92f6, #293e84);*/
-  /*background: -o-linear-gradient(bottom right, #1e92f6, #293e84);*/
-  /*background: -moz-linear-gradient(bottom right, #1e92f6, #293e84);*/
-  /*background: linear-gradient(to bottom right, #1e92f6, #293e84);*/
+  /*background: $lightBlue*/
+  /*background: -webkit-linear-gradient(left top, $lightBlue, #293e84);*/
+  /*background: -o-linear-gradient(bottom right, $lightBlue, #293e84);*/
+  /*background: -moz-linear-gradient(bottom right, $lightBlue, #293e84);*/
+  /*background: linear-gradient(to bottom right, $lightBlue, #293e84);*/
   background-size: cover;
   width: 100%;
   position: relative;
@@ -692,11 +692,11 @@ ul.footer_social li a i:hover {
 }
 
 .green {
-  color: #7fbd3e;
+  color: $green;
 }
 
 .sprano1 {
-  color: #7fbd3e;
+  color: $green;
   text-align: left;
   font-size: 1em;
   margin-top: -25px;
@@ -704,7 +704,7 @@ ul.footer_social li a i:hover {
 }
 
 .green .leader1 {
-  color: #7fbd3e;
+  color: $green;
   text-align: left;
   font-size: 1em;
   margin-top: 15px;
@@ -798,7 +798,7 @@ select.register-input {
 input.register-submit-top,
 input.register-submit {
   color: #cfe6fc;
-  border: 1px solid #020723;
+  border: 1px solid $darkBlue;
   background-color: #293e84;
   cursor: pointer;
   display: inline-block;
@@ -808,7 +808,7 @@ input.register-submit {
   max-width: 535px;
   padding: 16px 0;
   text-transform: uppercase;
-  text-shadow: 4px 4px 7px #020723;
+  text-shadow: 4px 4px 7px $darkBlue;
   border-radius: 3px 3px;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -822,7 +822,7 @@ input.register-submit-top {
 }
 
 input.register-submit:hover {
-  color: #ee3e0e;
+  color: $orange;
   background-color: transparent;
   border: 1px solid #cfe6fc;
   transition: all 0.5s ease-in-out;
@@ -833,36 +833,36 @@ input.register-submit:hover {
 input.white-input::-webkit-input-placeholder,
 select.white-input::-webkit-input-placeholder {
   /* WebKit browsers */
-  color: #020723 !important;
+  color: $darkBlue !important;
 }
 
 input.white-input:-moz-placeholder,
 select.white-input:-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #020723 !important;
+  color: $darkBlue !important;
 }
 
 input.white-input::-moz-placeholder,
 select.white-input::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #020723 !important;
+  color: $darkBlue !important;
 }
 
 input.white-input:-ms-input-placeholder,
 select.white-input:-ms-input-placeholder {
   /* Internet Explorer 10+ */
-  color: #020723 !important;
+  color: $darkBlue !important;
 }
 
 #register-form input.register-input:focus,
 #register-form select.register-input:focus {
-  border-color: #020723 !important;
+  border-color: $darkBlue !important;
   outline: none;
 }
 
 p.register_success_box {
   display: inline-block;
-  color: #020723;
+  color: $darkBlue;
   font-size: 16px;
   font-style: italic;
   margin: 20px 0 30px 0;
@@ -873,8 +873,8 @@ p.register_success_box {
 }
 
 .about-our-team-h3 .red-orange-h3 {
-  color: #ee3e0e;
-  outline-color: solid 6px #020723;
+  color: $orange;
+  outline-color: solid 6px $darkBlue;
 }
 
 .about-our-team {
@@ -904,7 +904,7 @@ p.register_success_box {
 
 .team-item h3 {
   margin: 20px 0 1px 0 !important;
-  color: #020723;
+  color: $darkBlue;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -924,7 +924,7 @@ p.register_success_box {
 }
 
 .team-info::after {
-  background: #ee3e0e;
+  background: $orange;
   display: inline-block;
   vertical-align: middle;
   content: "";
@@ -938,7 +938,7 @@ p.register_success_box {
   padding: 6px 6px;
   background-color: #cfe6fc;
   border-radius: 50%;
-  border-color: 2px #020723;
+  border-color: 2px $darkBlue;
   width: 2px;
 }
 
@@ -1040,11 +1040,11 @@ ul.team-icon li a.dribble {
 .img-local-seo {
   margin-top: 13%;
   border-radius: 8%;
-  outline: solid 1px #020723;
+  outline: solid 1px $darkBlue;
 }
 
 .width-100 .img-local-seo {
-  box-shadow: 0 3px 3px 0 #020723;
+  box-shadow: 0 3px 3px 0 $darkBlue;
 }
 
 .img-seo {
@@ -1056,7 +1056,7 @@ ul.team-icon li a.dribble {
   padding: 30px 30px 30px 30px;
   background-color: #cfe6fc;
   border: solid 1px #293e84;
-  box-shadow: 0 2px 4.755px 0 #020723;
+  box-shadow: 0 2px 4.755px 0 $darkBlue;
   border-radius: 8px;
   text-align: center;
   transition: all 1s;
@@ -1098,7 +1098,7 @@ p.main {
 blockquote {
   font-size: 16px;
   color: #293e84;
-  border-left: 2px solid #020723;
+  border-left: 2px solid $darkBlue;
 }
 
 a.btn-download {
@@ -1166,11 +1166,11 @@ ul.features-responsive li i {
 }
 
 .feature-box.mixblue i {
-  background: linear-gradient(to bottom right, #1e92f6, #020723);
+  background: linear-gradient(to bottom right, $lightBlue, $darkBlue);
 }
 
 .feature-box.light-blue i {
-  background: #1e92f6;
+  background: $lightBlue;
 }
 
 .feature-box.dark-blue i {
@@ -1185,7 +1185,7 @@ ul.features-responsive li i {
   background: #52c7dc;
 }
 
-.feature-box #020723 i {
+.feature-box $darkBlue i {
   background: #fe9c24;
 }
 
@@ -1293,7 +1293,7 @@ ul.features-responsive li i {
 .price-box-blue {
   text-align: center;
   background: #52c7dc;
-  background: linear-gradient(to bottom right, #1e92f6, #020723);
+  background: linear-gradient(to bottom right, $lightBlue, $darkBlue);
   box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
   padding: 50px 0 40px 0;
   color: #cfe6fc;
@@ -1369,7 +1369,7 @@ ul.pricing-list li.price-text {
 ul.pricing-list li.price-tag a {
   color: #cfe6fc;
   background: #008aff;
-  background: linear-gradient(to bottom right, #1e92f6, #020723);
+  background: linear-gradient(to bottom right, $lightBlue, $darkBlue);
   border-radius: 30px 8px;
   padding: 15px 30px;
   display: inline-block;
@@ -1383,7 +1383,7 @@ ul.pricing-list li.price-tag a {
 
 ul.pricing-list li.price-tag a:hover {
   background: #008aff;
-  background: linear-gradient(135deg, #1e92f6 0%, #020723 100%);
+  background: linear-gradient(135deg, $lightBlue 0%, $darkBlue 100%);
 }
 
 .price-box-blue ul.pricing-list li.price-tag a {
@@ -1561,12 +1561,12 @@ input.contact-submit {
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
-  border: 2px solid #020723;
+  border: 2px solid $darkBlue;
 }
 
 input.contact-submit:hover {
   color: #cfe6fc;
-  background: #020723;
+  background: $darkBlue;
   border: 2px solid #52c7dc;
 }
 
@@ -1640,7 +1640,7 @@ p.contact_success_box {
   height: 65px;
   background: #cfe6fc;
   border: none;
-  color: #020723;
+  color: $darkBlue;
   display: inline;
   margin: 0 0 0 -5px;
   border-radius: 0 5px 5px 0;
@@ -1765,7 +1765,7 @@ input#email_newsletter:-ms-input-placeholder {
 .btn-lyla {
   color: #cfe6fc !important;
   background: #52c7dc;
-  background: linear-gradient(to bottom right, #52c7dc, #020723);
+  background: linear-gradient(to bottom right, #52c7dc, $darkBlue);
   transition: all 0.5s ease;
   font-family: "Cabin", sans-serif;
   font-size: 16px;
@@ -2089,7 +2089,7 @@ ul.features-list-hero li i.red {
 }
 
 ul.features-list-hero li i.lyla {
-  color: #020723;
+  color: $darkBlue;
 }
 
 @media (max-width: 991px) {

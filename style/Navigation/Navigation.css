@@ -79,7 +79,7 @@ header-nav #main-nav .chevron {
 }
 
 header-nav #main-nav .nav-item {
-  color: #d7dae6;
+  color: #cfe6fc;
   font-size: 1em;
   text-align: center;
   padding: 0.5em 0.65em;
@@ -209,7 +209,7 @@ header-nav #main-nav .dropdown .dropdown-content .nav-section h3 {
 
 header-nav #main-nav .dropdown .dropdown-content .drop-item {
   float: none;
-  color: #d7dae6;
+  color: #cfe6fc;
   padding: 0.5em 1em;
   margin: 0.2em;
   text-decoration: none;
