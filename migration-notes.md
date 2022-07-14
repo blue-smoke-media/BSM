@@ -1,6 +1,6 @@
 READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION (WITH RESPONSIVE DESIGN CHECKED)
 
-Build out CTA form's for index page (other CTA)
+Build out CTA form's for index page (other CTA) -- GAVE TO COBE TO PUT IN INDEX PAGE
 remove /html/ and .html from file path in Apache (/html/ -> drop html files into root directory)(learn regex?)
 php redirect or success page (CoBe) ALL FORMS
 update scss mixins color-pallet from CoBe -> go and resave all scss files to update new vars in mixins.scss
@@ -36,7 +36,7 @@ team descriptions
 comment out all js files in index (not needed? just nav)
 JQUERY - google CDN -> local backup (change link to "/src/js/jquery-1.11.3.min.js")
 index-nav sticky after navigation is not on the screen
-cities for footer for SLC (Provo, Cache Valley, Midvale,Park City)
+cities for footer for SLC (Provo, Cache Valley, Midvale, Park City)
 add sticky index-nav w/ Navigation off view
 plans e-commerce card
 plans - get started button -> contact page
