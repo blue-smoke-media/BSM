@@ -26,7 +26,10 @@ RewriteOptions inherit
 # RewriteRule ^(.*)\.html$
 # change to R=301 - Browser caches 301, not 302 for testing
 
-# RewriteRule ^html/ - [L]
+# RewriteCond %{THE_REQUEST} ^GET\ /html/
+# RewriteRule ^html/(.*)$ html/$1 [R,L]
+# RewriteRule ^html/(.*)$ html/$1
+
 
 #! This works as well to strip .html
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]

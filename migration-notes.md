@@ -1,15 +1,17 @@
 READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION (WITH RESPONSIVE DESIGN CHECKED)
 
-Build out CTA form's for index page (CTA-audit, CTA-other) (not using contact.php vars)
+Build out CTA form's for index page (other CTA)
 remove /html/ and .html from file path in Apache (/html/ -> drop html files into root directory)(learn regex?)
 php redirect or success page (CoBe) ALL FORMS
 update scss mixins color-pallet from CoBe -> go and resave all scss files to update new vars in mixins.scss
 audit-cta font -> cabin
 
-php - all forms (CTA-quick inquiry, Footer-contact, CTA-other, CTA-Audit) (4 total)
+php - all forms (CTA-other) (4 total)
 style drop-nav (index vs not)
 plans page
 add a spam field on all forms
+
+database to create email list
 
 -COBE-
 404 page - from 404 page if go back a page from articles -> go back 2 pages (to not just redirect right back to 404 page)
@@ -93,3 +95,6 @@ Meta
 https://stackoverflow.com/questions/5730092/how-to-remove-html-from-url
 
 minimization code: https://stackoverflow.com/questions/1737388/how-to-minify-javascript-code
+
+&copy;2020 All Rights Reserved
+css reset/normalize?
