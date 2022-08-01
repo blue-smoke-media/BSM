@@ -58,6 +58,25 @@ generate sitemap.xml - html/sitemap.xml
 
 check all links - (article links as well)(team page on website-logo-design)
 
+---
+
+COBE'S NOTES FROM INDEX PAGE
+
+BreadCrumbs need to connect to the correct navigated page
+Starting at “What is a custom website design” - media-queries
+Dito for “What is the importance of a custom website design
+FREE Website Audit simply isn’t working at all
+“How Can A Custom Website Design Help My Business?” media-queries
+“Increase Your BRAND AWARENESS with a Custom Website Design” - Just check it out. I’m not sure about the media-queries.
+Personal Social Media Links - I want mine and I’m sure Daniel will also. I know you don’t want any listed, so I removed them.
+I still like your idea of putting blurbs about each of us - like cta slide outs, only they are blurbs. I think this is important!
+I have not been able to fix the footer contact form. The media-queries work fine.
+Put Terms &amp; Conditions | Privacy Policy | Disclaimer in the footer NOT under the home tab!
+
+The 2nd row of Price Cards, when reduced to mobile, they either need a margin top or a padding top.
+
+---
+
 - ALL PAGES
   check all links and filepaths
   remove all extra comments and unneeded code
