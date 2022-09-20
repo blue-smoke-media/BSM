@@ -1,0 +1,98 @@
+.cta-container {
+    margin-top: 5%;
+    margin-bottom: 25%;
+    padding-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.cta-audit-img {
+    background: url("../images/BSM-LOGO/blue-smoke-flat.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    position:relative;
+    margin-top: 15%;
+    background-position: center;
+    height: 618px; 
+    color: #cfe6fc;
+    text-shadow: 2px 1px 0px #002774;
+  }
+  ​
+  span.red-orange-h2 {
+    color: #ee3e0e !important;
+    font-weight: 800;
+    text-shadow: 1px 1px 1px #020723;
+    font-size: 1.554em;
+  }
+  ​
+  .cta-audit-img .top {
+    margin-bottom: 5em;
+    text-align: center;
+  }
+  ​
+  .cta-audit-img .top {
+    width: 60%;
+    margin: auto;
+    color:#cfe6fc;
+    text-shadow: 2px 1px 0px #002774;
+  }
+  ​
+  .cta-audit-img .bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  ​
+  .cta-audit-img .bottom section:first-child {
+    border-right: 2px solid white;
+    margin-right: 1.5em;
+    padding-right: 1.5em;
+    width: 50%;
+    min-width: 10em;
+    max-width: 30em;
+  }
+  ​
+  .cta-audit-img .bottom .form-container form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  ​
+  .cta-audit-img .bottom .form-container form label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    white-space: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 1em;
+  }
+  ​
+  .cta-audit-img .bottom .form-container form label input {
+    height: 2em;
+    margin-left: 1em;
+  }
+  ​
+  .cta-audit-img .bottom .form-container form input[name="submit"] {
+    width: 55%;
+    margin-left: auto;
+    border-radius: 1em;
+    background: goldenrod;
+    border: 1px solid black;
+    padding: 0.25em 0.125em;
+    font-weight: 0700;
+  }
+  /*# sourceMappingURL=audit-cta.css.map */
