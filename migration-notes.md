@@ -7,11 +7,14 @@ update scss mixins color-pallet from CoBe -> go and resave all scss files to upd
 audit-cta font -> cabin
 
 php - all forms (CTA-other) (4 total)
+-footer form
 style drop-nav (index vs not)
 plans page
 add a spam field on all forms
 
 database to create email list
+
+quick-inquiry tab doesn't hit submit button (jumps to next form)
 
 -COBE-
 404 page - from 404 page if go back a page from articles -> go back 2 pages (to not just redirect right back to 404 page)
@@ -20,38 +23,30 @@ print-and-graphic-design hero image replace (fingers crossed, mobile)
 
 -INDEX-
 PRICING
+css consistent
 finish pricing plans included
 enterprise and business swapped?
 professional -> personal
-$99-$100
-add text shadow on hover of getStarted
 action="/src/php/contactForm.php"
-change bootstrap.js -> bootstrap.min.js
 remove our features section
-Services - center -> justified text
-overlapping text (somewhere)
+overlapping text (somewhere) (custom website design)
+breakpoints
 change font-family -> add poppins
-tel:+ -> tel:
-team descriptions
+
+team descriptions (all same size...)
 comment out all js files in index (not needed? just nav)
-JQUERY - google CDN -> local backup (change link to "/src/js/jquery-1.11.3.min.js")
-index-nav sticky after navigation is not on the screen
-cities for footer for SLC (Provo, Cache Valley, Midvale, Park City)
-add sticky index-nav w/ Navigation off view
-plans e-commerce card
+
+index-nav sticky after navigation is not on the screen/add sticky index-nav w/ Navigation off view
+plans card order
+plans - same css
 plans - get started button -> contact page
 inquiry form - email id -> email
-fonts importing properly
-all functionality (dropdown items w/ Q/A)
-add name='submit' on quick-inquiry form
-change action to /php/quick-inquiry.php
-add submit input to footer form...
-footer form message color is grey currently...
-phone input name mobile->contactPhone
+
+our services - read more? (long long card)
 
 modify contact page form for plans/pricing inquiry
 
-Footer - append to body like nav
+Footer - append to body like nav (componentize footer)
 articles page and articles.js -> fix all content, html, and css
 
 generate sitemap.xml - html/sitemap.xml

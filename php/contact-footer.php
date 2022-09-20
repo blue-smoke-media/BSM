@@ -11,7 +11,7 @@ if(isset($_POST['submit'])) {
   $reply_to = $_POST['email'];
   $subject = $_POST['subject'];
   $message = $_POST['message'];
-  $phone = $_POST['mobile'];
+  $phone = $_POST['contactPhone'];
   // $anti_spam = $_POST['antiSpam'] == "";
   //! Required Vars
 

@@ -1,6 +1,5 @@
 <!--// todo handle success and errors -->
 <!--//! check local server xampp /Applications/XAMPP/xamppfiles/htdocs for testing-->
-
 <?php
 
 if(isset($_POST['submit'])) {
