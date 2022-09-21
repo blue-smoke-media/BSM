@@ -1,7 +1,6 @@
 git add .
 git commit -m "message here with what worked on"
 git push
-change
 
 READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION (WITH RESPONSIVE DESIGN CHECKED)
 
