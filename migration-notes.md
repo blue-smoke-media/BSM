@@ -1,3 +1,7 @@
+git add .
+git commit -m 'message here'
+git push
+
 READ ALL CODE IN WEBSITE FOR COMPLETE MIGRATION (WITH RESPONSIVE DESIGN CHECKED)
 
 Build out CTA form's for index page (other CTA) -- GAVE TO COBE TO PUT IN INDEX PAGE
