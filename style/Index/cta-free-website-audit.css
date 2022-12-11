@@ -1,36 +1,37 @@
-.cta-container {
-    margin-top: 5%;
-    margin-bottom: 25%;
-    padding-bottom: 5%;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 
-.cta-audit-img {
-    background: url("../images/BSM-LOGO/blue-smoke-flat.jpg") no-repeat;
-    background-size: cover;
-    width: 100%;
-    position:relative;
-    margin-top: 15%;
-    background-position: center;
-    height: 618px; 
-    color: #cfe6fc;
-    text-shadow: 2px 1px 0px #002774;
+div.cta-audit-img {
+  background: url("/images/blue-smoke-flat.jpg")no-repeat;
+  background-size: cover;
+  width: 100%;
+  /* height: 65em; */
+  margin: -1.5% 0 0 auto;
+  color: white;
+  box-shadow: #020723 0px 10px 38px;
+  }
+  
+  div.audit-top {
+    margin-top: -4%;
   }
   ​
   span.red-orange-h2 {
     color: #ee3e0e !important;
     font-weight: 800;
-    text-shadow: 1px 1px 1px #020723;
+    text-shadow: 2px 2px 3px #020723;
     font-size: 1.554em;
   }
-  ​
-  .cta-audit-img .top {
-    margin-bottom: 5em;
-    text-align: center;
+
+  h4.audit-subtitle {
+    margin-top: -.5% ;
   }
-  ​
+
+div.audit-subtitle {
+  font-size: .75em;
+  letter-spacing: .1em;
+	word-spacing: -.1em;
+}
+
+  /*​
   .cta-audit-img .top {
     width: 60%;
     margin: auto;
@@ -94,5 +95,5 @@
     border: 1px solid black;
     padding: 0.25em 0.125em;
     font-weight: 0700;
-  }
+  } */
   /*# sourceMappingURL=audit-cta.css.map */

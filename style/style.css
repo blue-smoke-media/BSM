@@ -109,7 +109,7 @@ p {
   font-size: 17px;
   line-height: 28px;
   font-weight: 400;
-  color: #cfe6fc;
+  color: #293e84;
   margin-bottom: 15px;
 }
 
@@ -219,7 +219,7 @@ p.section-subtitle.grey {
   background: url("/images/about-us.jpg");
   border-radius: 2.55%;
   -webkit-box-shadow: #293e84 2px 2px 3.755px 0px;
-          box-shadow: #293e84 2px 2px 3.755px 0px;
+  box-shadow: #293e84 2px 2px 3.755px 0px;
 }
 
 p.section-subtitle.white {
@@ -681,11 +681,6 @@ ul.footer_social li a i:hover {
 
 .home-section {
   background: url("/images/6.jpg");
-  /*background: #1e92f6*/
-  /*background: -webkit-linear-gradient(left top, #1e92f6, #293e84);*/
-  /*background: -o-linear-gradient(bottom right, #1e92f6, #293e84);*/
-  /*background: -moz-linear-gradient(bottom right, #1e92f6, #293e84);*/
-  /*background: linear-gradient(to bottom right, #1e92f6, #293e84);*/
   background-size: cover;
   width: 100%;
   position: relative;
@@ -702,8 +697,7 @@ ul.footer_social li a i:hover {
   color: #7fbd3e;
 }
 
-.sprano1 {
-  color: #7fbd3e;
+.green .sprano1 {
   text-align: left;
   font-size: 1em;
   margin-top: -25px;
@@ -711,7 +705,6 @@ ul.footer_social li a i:hover {
 }
 
 .green .leader1 {
-  color: #7fbd3e;
   text-align: left;
   font-size: 1em;
   margin-top: 15px;
@@ -1088,8 +1081,8 @@ ul.team-icon li a.dribble {
   padding-top: 14%;
 }
 
-p.main {
-  color: #293e84;
+.main {
+  color: #020723;
 }
 
 .main-services:hover {
@@ -1110,6 +1103,7 @@ p.main {
 }
 
 .main-services p {
+  color: #020723;
   padding: 0 10px;
 }
 
@@ -1183,6 +1177,12 @@ ul.features-responsive li i {
   background: #52c7dc;
 }
 
+.featured-box {
+  border-radius:  25%;
+  box-shadow: #020723 10px 4px 10px 5px;
+}
+
+
 .feature-box.mixblue i {
   background: -webkit-gradient(linear, left top, right bottom, from(#1e92f6), to(#020723));
   background: linear-gradient(to bottom right, #1e92f6, #020723);
@@ -1217,6 +1217,7 @@ ul.features-responsive li i {
 }
 
 .feature-box-text {
+  color: #020723;
   float: left;
   width: 70%;
   margin-left: 30px;
@@ -2164,11 +2165,15 @@ ul.features-list-hero li i.lyla {
   }
   .feature-box {
     text-align: center;
+    box-shadow: #293e84 2px 2px 3.755px 0px;
   }
+  
   .feature-box i {
     display: inline-block;
     float: none;
     margin-bottom: 25px;
+    border-radius:  5%;
+    box-shadow: #020723 20px 20px 13.755px 10px;
   }
   .feature-box-text {
     width: 100%;

@@ -4,6 +4,11 @@ body {
 	overflow-x: hidden; 
 }
 
+.spacing {
+	letter-spacing: .05em;
+	word-spacing: .08em;
+}
+
 .BSM-hr {
 	border: none;
 	width: 60%;
@@ -198,28 +203,47 @@ h3.medium-title {
 /*    What is the importance of a custom website design       */
 /* ========================================================== */
 
-  
+.section-midnight-blue {
+	background-color:  #020723;
+	margin: 2em auto 0;
+}
+
+  /*image*/
 .cwsd-importance {
-	float: left;
-	margin-bottom: 15%;
-	margin-left: -4.255%;
-	padding-right: 1.25%;
-    vertical-align: middle;
-	width: 560px;
-	height: 421px;
+	background-color:  #020723;;
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+	margin-bottom: 2%;
+	height: 451px; 
+	width: 100%;
 	border: solid 1px #000000;
 	border-radius: 2.55%;
 	box-shadow: #000000 2px 2px 3.755px 0px;
-	
 }
 
-.text-img2 {           
-	float: right;
+div.text-img2 {   
+	box-sizing: border-box;
+	display: flex;
+	justify-content: right;
+	flex-wrap: wrap;
 	text-align: justify;
-	width: 50%;
+	margin-top: 6%;
+	padding-left: 1%;
 	text-shadow: 1px 1px #020723;
+	letter-spacing: .07em;
 }
 
+div.text-img3 {
+	display: flex;
+	justify-content: left;
+	margin-left: 2%;
+	text-align: justify;
+	text-shadow: 1px 1px #020723;
+	letter-spacing: .07em;
+	word-spacing: .05em;
+	width: 98.5%;
+}
 
 .bold-orange-2 {
 	color: #ee3e0e;
@@ -254,53 +278,96 @@ h3.medium-title {
 /*  BEGIN How Can a Custom Website Design Help My Business?   */
 /* ========================================================== */
 
+/* .section-midnight-blue {
+	background-color:  #020723;
+	margin: 2em auto 0;
+} */
 
-.text-margin-top {
-	margin-top: 5.25%;
-}
-
-.cwsd-help-my-business-img {
-	float: right !important;
-	margin-top: 9%;
-	margin-bottom: 9%;
-	width: 600px;
-	height: 450px;
-}
-
-.clearfix::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-h2.cwsd-section-title.white {
+ h2.cwsd-section-title.white {
 	color: #cfe6fc;
-	margin-top: 3.5%;
-	margin-bottom: 15px; 
+	margin-top: 14.5%;
+	margin-bottom: 5%; 
 	text-shadow: 2px 2px 1px #020723;
-}
+} 
 
-.diamond-shape {
+/* .cwsd-help-my-business-img {
+	float: right;
+	position: relative;
+	z-index: -1;
+	margin-top: -1.5% ;
+	margin-right: 2%; 
+	margin-bottom: 9%;
+	border-radius: 5%;
+	box-shadow: 6px 6px 1px 1px #0b144884
+} */
+
+/* .cwsd-help-my-business-img {
+	clear: right;
+} */
+/* @media (min-width: 768px) {
+	.container {
+	  width: 750px;
+	}
+  }
+@media (min-width: 992px) {
+	.container {
+	  width: 970px;
+	}
+  }
+@media (min-width: 1200px) {
+	.container {
+	  width: 1170px;
+	}
+} */
+
+
+ ul.diamond-shape li {
 	background: #7fbd3e !important;
 	transform: rotate(45deg)!important;
-	height: 60px !important;
-	width: 60px !important;
-	margin-bottom: 1em !important;
+	height: 12px !important;
+	width: 12px !important;
 	list-style: none;
-	margin-left: 5% !important;
+	margin-top: -5%;
+	margin-left: 1% !important;
+	box-shadow: 2px 1px 1px 1px #0b144884;
+	-webkit-text-stroke-width: .25px;
+	-webkit-text-stroke-color: #020723;
 } 
-	
+
 .green-bullets-text {
-	margin-top: 3%;
-	margin-left: 10%;
+	display: flex;
+	justify-content: left;
+  	flex-wrap: wrap; 
+	margin-top: -2%;
+  	margin-left: 4%;
+	margin-bottom: 5%;
+	margin-right: 7%; 
 	text-align: justify;
-	width: 35%;
+	width: 50%;
 	font-family: cabin 'Sans Serif';
 	font-weight: 500;
-	font-size: 1.5em;
-	line-height: 1.2em;
+	font-size: 1.35em;
+	line-height: 1.07em;
 	color:#cfe6fc;
 	text-shadow: 1px 1px #020723;
+	-webkit-text-stroke-width: .25px;
+	-webkit-text-stroke-color: #020723;
+} 
+
+@media (min-width: 768px) {
+	.container {
+	  width: 750px;
+	}
+  }
+@media (min-width: 992px) {
+	.container {
+	  float:none;
+	}
+  }
+@media (min-width: 1200px) {
+	.container {
+	  width: 1170px;
+	}
 } 
 
 
@@ -323,29 +390,102 @@ h2.cwsd-section-title.white {
 /*  BEGIN        How to Increase Your Brand Awareness...      */
 /* ========================================================== */
 
-
-
-
-.increase-brand-awareness-img {
-	margin-top: 3%;
-	margin-left: 5%;
-	margin-bottom: 9%;
+.section-midnight-blue {
+	background-color:  #020723;
+	margin: 2em auto 0;
 }
 
-.brand-awareness-text {
-	float: right;
-	margin-top: 13%;
-	padding-right: 5%;
-   	text-align: justify;
-  	width: 48%;
+div.increase-brand-awareness-img {
+	display: flex;
+	justify-content: left;
+	margin-top: 5%;
+	margin-bottom: 9%; 
+
+}
+
+p.p-brand-awareness {
+	box-sizing: border-box;
+	text-align: justify;
 	font-family: cabin 'Sans Serif';
-	font-weight: 900;
+	font-weight: 800;
 	font-size: 2em;
-	line-height: 1.35em;
-	text-shadow: 2px 2px #020723;
+	line-height: 1.25em;
+	text-shadow: 2px 2px 1px #020723;
+	letter-spacing: .05em;
+	word-spacing: -.1em;
+	display: flex;
+	justify-content: right;
+	flex-wrap: wrap;
+	padding-left: 1%;
+	margin-top: 35.85%;	
 }
 
 
+/* @media only screen and (mid-width: 320px) and (max-width: 480px) {
+	.p-brand-awareness {
+	  font-size: .75em;
+	}
+  }
+
+  @media only screen and (mid-width: 360px) and (max-width: 640px) {
+	.p-brand-awareness {
+	  font-size: .75em;
+	}
+  }
+
+  @media only screen and (mid-width: 375px) and (max-width: 667px) {
+	.p-brand-awareness {
+	  font-size: .75em;
+	}
+  }
+
+  @media only screen and (mid-width: 360px) and (max-width: 720px) {
+	.p-brand-awareness {
+	  font-size: .75em;
+	}
+  }
+
+  @media only screen and (mid-width: 375px) and (max-width: 812px) {
+	.p-brand-awareness {
+	  font-size: .75em;
+	}
+  }
+
+  @media only screen and (mid-width: 411px) and (max-width: 731px) {
+	.p-brand-awareness {
+	  font-size: .75em;
+	}
+  }
+
+  @media only screen and (mid-width: 1366px) and (max-width: 768px) {
+	.p-brand-awareness {
+	  font-size: .75em;
+	}
+  }
+
+  @media only screen and (mid-width: 1920px) and (max-width: 1080px) {
+	.p-brand-awareness {
+	  font-size: .75em;
+	}
+  } */
+/* ========================================================== */
+
+
+ /* BREAKPOINTS
+
+Mobile: 320 x 480 
+Mobile: 360 x 640.
+Mobile: 375 x 667.
+Mobile: 360 x 720.
+iPhone X: 375 x 812.
+Pixel 2: 411 x 731.
+Tablet: 768 x 1024.
+Laptop: 1366 x 768.
+High-res laptop or desktop: 1920 x 1080.  */
+
+
+/*
+========================================================== */
 
 /* ========================================================== */
 /* END   How to Increase Your Brand Awareness...              */
@@ -356,11 +496,20 @@ h2.cwsd-section-title.white {
 /* BEGIN     CTA How to Increase Your Brand Awareness...      */
 /* ========================================================== */
 
+.green-exclaimation {
+	font-size: 1.75em;
+	font-weight: 900;
+}
 
+.aform {
+	font-size: 3em;
+	margin-top: 10%;
+	padding-bottom: 17%;	
+}
 
-
-
-
+/* .bottom-audit-margin {
+	margin-bottom: -55%;
+} */
 /* ========================================================== */
 /* END   CTA How to Increase Your Brand Awareness...          */
 /* ========================================================== */
@@ -372,7 +521,6 @@ h2.cwsd-section-title.white {
 
 .portfolio-top {
 	margin-top: -12em;
-
 }
 
 
@@ -565,4 +713,95 @@ h6-f {
 	margin-left: auto;
 	background-color:#1244a4 !important;
 }
+
+
+
+
+
+
+
+
+/* ========================================================== */
+/*   <!--BEGIN widths --->						      */
+/* ========================================================== */
+
+.width-10 {
+	width: 10%;
+}
+
+.width-15 {
+	width: 15%;
+}
+
+.width-20 {
+	width: 20%;
+}
+
+.width-25 {
+	width: 25%;
+}
+
+.width-30 {
+	width: 30%;
+}
+
+.width-40 {
+	width: 40%;
+}
+
+.width-50 {
+	width: 50%;
+}
+
+.width-55 {
+	width: 55%;
+}
+
+.width-60 {
+	width: 60%;
+}
+
+.width-70 {
+	width: 70%;
+}
+
+.width-75 {
+	width: 75%;
+}
+
+.width-80 {
+	width: 80%;
+}
+
+
+.width-90 {
+	width: 90%;
+}
+
+.width-105 {
+	width: 105%;
+}
+
+.width-110 {
+	width: 110%;
+}
+
+.width-115 {
+	width: 115%;
+}
+
+.width-125 {
+	width: 125%;
+}
+
+
+.width-150{
+	width: 150%;
+}
+
+
+
+
+
+
 

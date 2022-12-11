@@ -1,0 +1,82 @@
+ *, *::before, *::after {
+    box-sizing: border-box;
+  } 
+
+  .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ h2.cwsd-section-title  {
+	color: #cfe6fc;
+	margin-top:  8%;
+  padding-bottom: 8%; 
+	text-shadow: 2px 2px 1px #020723;
+  letter-spacing: .03em;
+}
+
+.cwsd-help-my-business-img {
+  display: flex;
+  display: -webkit-box;
+  margin-left: auto;
+  margin-top:  5%;
+   width:  44%;
+   border-radius:  5%;
+   z-index:  -1;
+   box-shadow: 6px 6px 1px 1px #03092984
+}
+
+/*  ========================================================== */
+/*  BEGIN  BULLETED TEXT  
+How Can a Custom Website Design Help My Business?                      */
+/* ========================================================== */
+
+.icon-text-wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: row;
+  flex: nowrap;
+}
+
+span.diamond-shape  {
+  list-style-type: square;
+	background: #7fbd3e !important;
+	height: 12px !important;
+	width: 12px !important;
+  transform: rotate(45deg)!important;
+	margin-top: 5%;
+	margin-left: 1% !important;
+  /* z-index: 1; */
+	box-shadow: 2px 1px 1px 1px       #0b144884;
+	-webkit-text-stroke-width: .25px;
+	-webkit-text-stroke-color: #020723;
+} 
+
+span.green-text-wrapper {
+  /* display: flex;
+  justify-content:  flex-start;
+  align-items:  flex-start;
+  flex: wrap; */
+  width:  100%;
+  height: auto;
+}
+
+
+.green-bullets-text  {
+	display: flex;
+	justify-content: left;
+  flex-wrap: wrap; 
+	/* z-index: 1; */
+	text-align: justify;
+	width: 43%;
+	font-family: cabin 'Sans Serif';
+	font-weight: 600;
+	font-size: 1.35em;
+	line-height: 1.07em;
+	color:#cfe6fc;
+	text-shadow: 1px 1px #020723;
+	-webkit-text-stroke-width: .25px;
+	-webkit-text-stroke-color: #020723;
+}
