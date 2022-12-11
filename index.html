@@ -41,7 +41,9 @@
   <link href="/style/Index/priceCards.css" rel="stylesheet">
   <link href="/style/Index/shortcodes.css" rel="stylesheet">
  <link href="style/cwsd-help-my-business.css" rel="stylesheet">
- <link href="/style/shortcodes.css" rel="stylesheet" type="html/css"> 
+ <link href="/style/shortcodes.css" rel="stylesheet" type="html/css">
+    <link rel="stylesheet" href="/style/audit-cta/audit-cta.css">
+
 
 
 
@@ -311,7 +313,7 @@
                 </div>
 
             <div class="btn-container1">
-              <button id="toggle">Read On</button>
+              <button id="read-on-btn">Read On</button>
             </div>
     </div>
 </section>
@@ -339,19 +341,60 @@
           </div>
 
         <div class="ctr">
-          <p class="aform">
-            CTA FREE Audit FORM Begins Here!
+         <section id="audit-form">
+      <!-- <div class="top">
+        <h2>
+          How to increase Your <span>Brand Awareness</span> With a
+          <span>Custom Website Design</span>
+        </h2>
+        <p>Help me achieve MY MARKETING GOALS with a FREE Website Audit!</p>
+      </div> -->
+      <div class="bottom">
+        <section>
+          <p>
+            Every business of every size should have a professional presence on
+            the internet. YOUR website should reflect the look and feel of your
+            business, achieve your marketing objectives and enhance your
+            business image.
           </p>
+          <p>
+            <span>STOP Bleeding Money</span> from your business because of a
+            poorly designed site. Let us help!!
+          </p>
+        </section>
+        <section class="form-container">
+          <form action="/php/audit.php" method="post">
+            <label>Your Name:<input type="text" name="name" required /></label>
+            <label
+              >Your Email:<input type="text" name="email" required
+            /></label>
+
+            <label
+              >Your Phone Number:<input type="text" name="phone" required
+            /></label>
+            <label
+              >Your Business URL: <input type="text" name="business" required
+            /></label>
+
+            <input
+              type="submit"
+              name="submit"
+              value="Get My FREE Website Audit!"
+            />
+          </form>
+        </section>
+      </div>
+    </section>
         </div>
-      
+
           <div>
                 <p class="ctr spacing">
                   <span class="green green-exclaimation">STOP BLEEDING MONEY</span>
- 
-                  <br> from your business because of a poorly designed and coded website. Request an audit of your website, today! 
+
+                  <br> from your business because of a poorly designed and coded website. Request an audit of your website, today!
                     </p>
           </div>
-          
+
 
     </div>
   </div>
@@ -359,62 +402,62 @@
 
 
           <!---    ----------------------------------    ---->
-          
+
 <!--BEGIN How Can A  Custom Website Design Help My Business?--->
-   
+
 
 <section class="section-blue padding-bottom">
     <div class="container">
-     
+
 
           <div>
             <h2 class="cwsd-section-title white ctr">How Can A <span class="red-orange-h2 ctr">Custom Website Design</span> Help My Business?
             </h2>
         </div>
 
-                  <div>
+                  <div class="web-design-img-txt-wrapper">
                     <img src="/images/website-design-chalk-collage.jpg"
                       class="width-60 cwsd-help-my-business-img picture-padding-bottom"  alt="Chalk text collage of the steps of the website design process." />
-                  </div>
-                        
-                  <div class="icon-text-wrap">
-                    <span class="diamond-shape"></span>
-                  </div>
+
+                      <div class="icon-text-wrap">
+                        <span class="diamond-shape"></span>
+                      </div>
 
                       <span class="green-text-wrapper">
-                                  <p class="green-bullets-text">Your website is the equivalent of the image your Business portrays. You want it to look professional and represent your company well.
-                                    </p>
-                        </span>
-                  
-                        <div class="icon-text-wrap">
-                          <span class="diamond-shape"></span>
-                        </div>
-                    
-                          <span class="green-text-wrapper">
-                            <p class="green-bullets-text">Your custom website will be designed to load quickly and built for easy future updates.
-                              </p>
-                          </span>
+                        <p class="green-bullets-text">Your website is the equivalent of the image your Business portrays. You want it to look professional and represent your company well.
+                        </p>
+                      </span>
+
+                      <div class="icon-text-wrap">
+                        <span class="diamond-shape"></span>
+                      </div>
+
+                      <span class="green-text-wrapper">
+                        <p class="green-bullets-text">Your custom website will be designed to load quickly and built for easy future updates.
+                        </p>
+                      </span>
 
                             <div class="icon-text-wrap">
                               <span class="diamond-shape"></span>
                             </div>
-                              
-                            <span class="green-text-wrapper">
-                                <p class="green-bullets-text">A customized website enables people find what they are searching for and contains the information Your users need to make a decision.
-                                  </p>
-                              </span>
 
-                              <div class="icon-text-wrap">
-                                <span class="diamond-shape"></span>
-                              </div>
-                                        
-                                <span class="green-text-wrapper">
-                                  <p class="green-bullets-text">our website can have customized forms, shopping carts, payment portals, and databases, where needed.
-                                    </p>
-                                  </span>
-                                                
-    </div>   
-</section>
+                            <span class="green-text-wrapper">
+                              <p class="green-bullets-text">A customized website enables people find what they are searching for and contains the information Your users need to make a decision.
+                              </p>
+                            </span>
+
+                            <div class="icon-text-wrap">
+                              <span class="diamond-shape"></span>
+                            </div>
+
+                            <span class="green-text-wrapper">
+                              <p class="green-bullets-text">our website can have customized forms, shopping carts, payment portals, and databases, where needed.
+                              </p>
+                            </span>
+
+                          </div>
+                          </div>
+                        </section>
 
 
 
@@ -449,8 +492,8 @@
                 alt="How to gain Brand Awareness through a Custom Website Design." />
             </div>
  <!--end col-sm-6-->
- 
- 
+
+
   <!--begin col-md-6-->
             <div class="col-md-6 padding-top-10 p-brand-awareness">
               <p class="p-brand-awareness">
@@ -459,7 +502,7 @@
                   business, achieve your Branding and Marketing Objectives, and enhance your business image.
                 </p>
             </div>
-      </div>        
+      </div>
     </div>
   </section>
 
@@ -561,7 +604,7 @@
       <h2 class="section-title  white  ctr">
         Our  <span  class="red-orange-h3">Standard Features</span>
       </h2>
-    </div> 
+    </div>
     <div>
       <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
         <div class="featured-item style-3">
@@ -590,8 +633,8 @@
 <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
       <div class="featured-item style-3">
           <div class="featured-box mixblue"></div>
-          
-        
+
+
             <div>
               <img src="/images/onBoarding.png"
               class="onBoarding"
@@ -633,7 +676,7 @@
     </div>
   </section>
 
-   
+
  <!--BEGIN   SECOND  ROW-->
  <!--BEGIN 4-->
 
@@ -978,7 +1021,7 @@
 
             <h3 class="header3">Web Content Development and Management</h3>
 
-            
+
             <!-- <p class="main">
               Content Management is a totally different ballgame! In most cases, the person responsible for the
               management of content, must first develop the content writing calendars for each website, so that they
@@ -1501,12 +1544,12 @@
               </label>
             </label>
           </div>
-        </div> 
+        </div>
       </div><!--END col-md-12 -->
- 
+
           <!--END TOGGLE BUTTON-->
 
-  
+
 
         <!-- BEGIN WHITE Price Box --->        <!--begin col-md-4-->
         <div class="col-md-4-1 col-sm-4">
@@ -1903,14 +1946,14 @@
           <div class="col-md-10 col-md-offset-1 text-center margin-bottom-40">
              <h2 class="section-title grey h2-f">Get In <span class="blue">Touch</span></h2>
 
-                <p class="section-subtitle grey">You can give us a call, drop us an email or book a one-on-one appointment, we are here to help you <span class="bold-orange"> GROW YOUR BUSINESS</span>.  We look forward to hearing from you!
+                <p class="section-subtitle grey">You can give us a call, drop us an email or book a one-on-one appointment, we are here to help you <span class="bold-orange">GROW YOUR BUSINESS</span>.  We look forward to hearing from you!
                 </p>
           </div>
         <!--end col-md-10 -->
       </div>
      <!--end row-->
       <!--begin row-->
-      <div class="row margin-bottom-30">
+      <div class="row reg-form-wrapper">
         <!--col 6 begin-->
         <div class="col-md-5 footer-columns">
           <h5 class="blue">Reach Us:</h5>
@@ -2027,14 +2070,14 @@
 
   <!--BEGIN copyright and disclaimers -->
 
-  <section>
-    <div class="row">
+  <!-- <section> -->
+    <!-- <div class="row"> -->
       <div class="section-white-footer">
         <p>&nbsp;© Blue Smoke Digital and Printed Media ~ 2022 All Rights Reserved.</p>
         <p>Terms &amp; Conditions | Privacy Policy | Disclaimer</p>
       </div>
-    </div>
-  </section>
+    <!-- </div> -->
+  <!-- </section> -->
 
   <!--END copyright and disclaimers -->
 
@@ -2053,6 +2096,11 @@
   <script src="js/cobe.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+  </script>
+  <script>
+    //close first accordian 
+    const query =document.querySelector("[href='#collapseOne']");
+    if (query) query.click();
   </script>
 </body>
 

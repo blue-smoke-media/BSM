@@ -182,7 +182,8 @@ body {
 
 p.section-subtitle.white{
 	color:#cfe6fc;
-	text-decoration-color: 1px solid #293e84;
+	-webkit-text-decoration-color: 1px solid #293e84;
+	        text-decoration-color: 1px solid #293e84;
 	text-shadow: 2px 2px 1px #020723;
 }
 
@@ -202,11 +203,6 @@ h3.medium-title {
 /* ========================================================== */
 /*    What is the importance of a custom website design       */
 /* ========================================================== */
-
-.section-midnight-blue {
-	background-color:  #020723;
-	margin: 2em auto 0;
-}
 
   /*image*/
 .cwsd-importance {
@@ -277,11 +273,6 @@ div.text-img3 {
 /* ========================================================== */
 /*  BEGIN How Can a Custom Website Design Help My Business?   */
 /* ========================================================== */
-
-/* .section-midnight-blue {
-	background-color:  #020723;
-	margin: 2em auto 0;
-} */
 
  h2.cwsd-section-title.white {
 	color: #cfe6fc;
@@ -392,7 +383,6 @@ div.text-img3 {
 
 .section-midnight-blue {
 	background-color:  #020723;
-	margin: 2em auto 0;
 }
 
 div.increase-brand-awareness-img {
@@ -587,10 +577,6 @@ High-res laptop or desktop: 1920 x 1080.  */
 	margin-top:40px;
 	padding:20px 20px;
 	border-radius: 18px 18px;
-	-webkit-transition: all 0.25s ease-in-out;
-	-moz-transition: all 0.25s ease-in-out;
-	-ms-transition: all 0.25s ease-in-out;
-	-o-transition: all 0.25s ease-in-out;
 	transition: all 0.25s ease-in-out;
 	background: #f7f8fa;
 	box-shadow: rgb(30, 146, 246)0 4px 0px 5px;
@@ -639,8 +625,6 @@ High-res laptop or desktop: 1920 x 1080.  */
     background-color: #EE3E0E;
 	outline: 1px solid #002774;
 	box-shadow: #002774 2px 2px 3.755px 0px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
 	border-radius: 50%;
 }
 
@@ -650,8 +634,6 @@ High-res laptop or desktop: 1920 x 1080.  */
     background-color: #548cff;
 	outline: 1px solid #002774;
 	box-shadow: #002774 2px 2px 3.755px 0px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
 	border-radius: 50%;
 }
 
@@ -683,7 +665,7 @@ h6-f {
 }
 .section-white-footer {
 	color: #cfe6fc;
-	margin: 0% 5% 0 5%;
+	margin: 2em auto 1em;
 	text-align: center;
 }
 
@@ -798,10 +780,3 @@ h6-f {
 .width-150{
 	width: 150%;
 }
-
-
-
-
-
-
-

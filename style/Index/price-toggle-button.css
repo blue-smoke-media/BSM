@@ -4,16 +4,16 @@ body {
 
 /*switch styles*/
 
-div.btn-container {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-  }
+/* div.btn-container { */
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    /* text-align: center; */
+  /* } */
 
-div.btn-container i {
+/* div.btn-container i {
     display: inline-block;
     position: relative;
-}
+} */
 
 
 label {
@@ -22,7 +22,7 @@ label {
     font-weight: 800;
 }
 
-label :hover {
+label:hover {
     color:goldenrod;
     font-weight: 800;
     font-size: 15px;
@@ -112,4 +112,3 @@ label :hover {
 .btn-color-mode-switch input[type="checkbox"]:checked ~ .alert {
     display: block;
 }
-

@@ -3,15 +3,15 @@ Read On - Read Less Buttons
 ------------------------- */
 
 $(document).ready(function() {
-  $("#toggle").click(function() {
-    var elem = $("#toggle").text();
+  $("#read-on-btn").click(function() {
+    var elem = $("#read-on-btn").text();
     if (elem == "Read On") {
       //Stuff to do when btn is in the read on state
-      $("#toggle").text("Read Less");
+      $("#read-on-btn").text("Read Less");
       $("#text").show();
     } else {
       //Stuff to do when btn is in the read less state
-      $("#toggle").text("Read On");
+      $("#read-on-btn").text("Read On");
       $("#text").hide();
     }
   });
@@ -37,6 +37,3 @@ $(document).ready(function() {
                 $('body').removeClass('dark-preview');
             }
         }
-
-
-

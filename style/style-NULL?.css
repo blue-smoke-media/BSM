@@ -218,7 +218,6 @@ p.section-subtitle.grey {
   border: solid 1px #293e84;
   background: url("/images/about-us.jpg");
   border-radius: 2.55%;
-  -webkit-box-shadow: #293e84 2px 2px 3.755px 0px;
   box-shadow: #293e84 2px 2px 3.755px 0px;
 }
 
@@ -293,7 +292,7 @@ iframe {
 
 .section-white {
   background: #cfe6fc;
-  padding: 110px 0;
+  /* padding: 110px 0; */
 }
 
 .section-grey {
@@ -346,8 +345,7 @@ iframe {
   left: -250px;
   position: absolute;
   top: 0;
-  -webkit-transform: rotate(-186deg);
-          transform: rotate(-186deg);
+  transform: rotate(-186deg);
   width: 2050px;
 }
 
@@ -366,15 +364,13 @@ iframe {
   left: -400px;
   position: absolute;
   top: -370px;
-  -webkit-transform: rotate(-170deg);
-          transform: rotate(-170deg);
+  transform: rotate(-170deg);
   width: 2250px;
   z-index: -100;
 }
 
 .section-lyla {
   background: #1e92f6;
-  background: -webkit-gradient(linear, left top, right bottom, from(#1e92f6), to(#020723));
   background: linear-gradient(to bottom right, #1e92f6, #020723);
   padding: 90px 0 70px 0;
 }
@@ -669,7 +665,6 @@ ul.footer_social li a i {
   font-size: 26px !important;
   line-height: 26px !important;
   color: #8d8d8d;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
@@ -768,8 +763,7 @@ span.arrow {
 .register-form-wrapper {
   margin-top: 10.5%;
   background-color: #cfe6fc;
-  -webkit-box-shadow: 4px 4px 1px 0px #1244a4;
-          box-shadow: 4px 4px 1px 0px #1244a4;
+  box-shadow: 4px 4px 1px 0px #1244a4;
   border-radius: 8px 8px;
   padding: 35px 35px 35px 35px;
   text-align: center;
@@ -893,15 +887,12 @@ p.register_success_box {
   margin-top: 40px;
   padding: 20px 20px;
   border-radius: 18px 18px;
-  -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   background: #f7f8fa;
-  -webkit-box-shadow: #52c7dc 0 4px 0px 5px;
-          box-shadow: #52c7dc 0 4px 0px 5px;
+  box-shadow: #52c7dc 0 4px 0px 5px;
 }
 
 .team-item:hover {
-  -webkit-transition: all 0.8s;
   transition: all 0.8s;
   margin-top: 25px;
 }
@@ -953,7 +944,6 @@ ul.team-icon {
 ul.team-icon li {
   display: inline-block;
   margin: 0 3px;
-  -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
 
@@ -988,7 +978,6 @@ ul.team-icon li a.dribble {
 
 .team-icon li a:hover {
   color: #dedede;
-  -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
 
@@ -996,8 +985,7 @@ ul.team-icon li a.dribble {
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 5px 5px 5px 5px;
-  -webkit-box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
-          box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
+  box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
 }
 
 .portfolio-box,
@@ -1051,8 +1039,7 @@ ul.team-icon li a.dribble {
 }
 
 .width-100 .img-local-seo {
-  -webkit-box-shadow: 0 3px 3px 0 #020723;
-          box-shadow: 0 3px 3px 0 #020723;
+  box-shadow: 0 3px 3px 0 #020723;
 }
 
 .img-seo {
@@ -1064,11 +1051,9 @@ ul.team-icon li a.dribble {
   padding: 30px 30px 30px 30px;
   background-color: #cfe6fc;
   border: solid 1px #293e84;
-  -webkit-box-shadow: 0 2px 4.755px 0 #020723;
-          box-shadow: 0 2px 4.755px 0 #020723;
+  box-shadow: 0 2px 4.755px 0 #020723;
   border-radius: 8px;
   text-align: center;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 
@@ -1087,7 +1072,6 @@ ul.team-icon li a.dribble {
 
 .main-services:hover {
   margin-top: 30px;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 
@@ -1184,7 +1168,6 @@ ul.features-responsive li i {
 
 
 .feature-box.mixblue i {
-  background: -webkit-gradient(linear, left top, right bottom, from(#1e92f6), to(#020723));
   background: linear-gradient(to bottom right, #1e92f6, #020723);
 }
 
@@ -1281,8 +1264,7 @@ ul.features-responsive li i {
 .price-box-white {
   text-align: center;
   background-color: #cfe6fc;
-  -webkit-box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
-          box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
+  box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
   padding: 50px 0;
   width: 90%;
   margin-top: 40;
@@ -1298,8 +1280,7 @@ ul.features-responsive li i {
 .price-box-grey {
   text-align: center;
   background: #f4f5f6;
-  -webkit-box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
-          box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
+  box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
   padding: 50px 0;
   width: 90%;
   margin-top: 30;
@@ -1315,10 +1296,8 @@ ul.features-responsive li i {
 .price-box-blue {
   text-align: center;
   background: #52c7dc;
-  background: -webkit-gradient(linear, left top, right bottom, from(#1e92f6), to(#020723));
   background: linear-gradient(to bottom right, #1e92f6, #020723);
-  -webkit-box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
-          box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
+  box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
   padding: 50px 0 40px 0;
   color: #cfe6fc;
   width: 90%;
@@ -1393,7 +1372,6 @@ ul.pricing-list li.price-text {
 ul.pricing-list li.price-tag a {
   color: #cfe6fc;
   background: #008aff;
-  background: -webkit-gradient(linear, left top, right bottom, from(#1e92f6), to(#020723));
   background: linear-gradient(to bottom right, #1e92f6, #020723);
   border-radius: 30px 8px;
   padding: 15px 30px;
@@ -1434,8 +1412,7 @@ ul.pricing-list li.price-tag a:hover {
   margin-top: 40px;
   background-color: #cfe6fc;
   border-radius: 5px 5px 5px 5px;
-  -webkit-box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
-          box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
+  box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
@@ -1716,7 +1693,6 @@ input#email_newsletter:-ms-input-placeholder {
 .btn-blue {
   color: #cfe6fc !important;
   background: #3498db;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-family: "Cabin", sans-serif;
   font-size: 16px;
@@ -1792,9 +1768,7 @@ input#email_newsletter:-ms-input-placeholder {
 .btn-lyla {
   color: #cfe6fc !important;
   background: #52c7dc;
-  background: -webkit-gradient(linear, left top, right bottom, from(#52c7dc), to(#020723));
   background: linear-gradient(to bottom right, #52c7dc, #020723);
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-family: "Cabin", sans-serif;
   font-size: 16px;
@@ -1813,7 +1787,6 @@ input#email_newsletter:-ms-input-placeholder {
 .btn-blue-lyla {
   color: #cfe6fc !important;
   background: #52c7dc;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-family: "Cabin", sans-serif;
   font-size: 16px;
@@ -1903,13 +1876,11 @@ input#email_newsletter:-ms-input-placeholder {
 
 .popup-gallery img,
 .popup-gallery a span {
-  -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
 
 .gallery-show {
-  -webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
   border: 8px solid rgba(255, 255, 255, 0.8);
   margin: 20px 10px 40px 10px;
 }
@@ -2031,7 +2002,6 @@ input#email_newsletter:-ms-input-placeholder {
   opacity: 0.4;
   margin: 10px 25px;
   max-height: 28px;
-  -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
 
@@ -2198,8 +2168,7 @@ ul.features-list-hero li i.lyla {
   z-index: 999;
   display: none;
   cursor: pointer;
-  -webkit-transform: rotate(270deg);
-          transform: rotate(270deg);
+  transform: rotate(270deg);
   position: fixed;
   bottom: 50px;
   right: 0;
@@ -2214,4 +2183,3 @@ ul.features-list-hero li i.lyla {
   background-color: #ddf;
   color: #000;
 }
-/*# sourceMappingURL=style.css.map */

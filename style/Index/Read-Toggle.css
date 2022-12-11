@@ -12,7 +12,7 @@
   margin-top: -7.255%;
   }
 
-
+/* 
   
 .btn-container1 {
 	margin-bottom: 2%;
@@ -23,9 +23,9 @@
 	color: #daa520;
 	text-shadow: 1px 1px 2px #020723;
 	font-weight: 800;
-}
+} */
 
-button {
+#read-on-btn {
   border-radius: 50%;
   background-color: #63b8ee;
   user-select:none;

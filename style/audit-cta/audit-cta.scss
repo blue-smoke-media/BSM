@@ -1,10 +1,10 @@
 @import "../Utils/mixins.scss";
 
-body {
-  background: url("/images/blue-smoke-flat.jpg") no-repeat;
-  background-size: cover;
-  width: 90%;
-  margin: 2em auto 0;
+#audit-form {
+  // background: url("/images/blue-smoke-flat.jpg") no-repeat;
+  // background-size: cover;
+  width: 98%;
+  margin: 5em auto 3em;
   color: white;
 
   span {

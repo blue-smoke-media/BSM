@@ -5,8 +5,8 @@
   .container {
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-right: auto;
+  margin-left: auto; */
 }
 
  h2.cwsd-section-title  {
@@ -18,13 +18,14 @@
 }
 
 .cwsd-help-my-business-img {
-  display: flex;
-  display: -webkit-box;
-  margin-left: auto;
+  /* display: flex; */
+  /* display: -webkit-box;
+  margin-left: auto; */
+  float:right;
   margin-top:  5%;
    width:  44%;
    border-radius:  5%;
-   z-index:  -1;
+   /* z-index:  -1; */
    box-shadow: 6px 6px 1px 1px #03092984
 }
 
@@ -32,7 +33,10 @@
 /*  BEGIN  BULLETED TEXT  
 How Can a Custom Website Design Help My Business?                      */
 /* ========================================================== */
-
+.web-design-img-txt-wrapper{
+  /* background-color: #020723; */
+  /* display: flex; */
+}
 .icon-text-wrap {
   display: flex;
   align-items: flex-start;

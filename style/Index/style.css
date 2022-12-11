@@ -25,7 +25,10 @@
 /* ========================================================== */
 /* 			               01. GENERAL LAYOUT                 */
 /* ========================================================== */
-
+html{
+	width: 100vw;
+	/* overflow: hidden; */
+}
 
 ul, ol {
 	list-style: none;
@@ -230,9 +233,8 @@ iframe {
 
 .section-white {
 	background-color: #cfe6fc;
-	padding: 90px 0 100px 0;
+	/* padding: 90px 0 100px 0; */
 	width: 100%;
-	
 }
 
 .section-blue {
@@ -961,7 +963,7 @@ span.arrow {
 	background-color: #cfe6fc;
 	box-shadow: 4px 4px 1px 0px #1244a4;
     border-radius: 8px 8px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -1053,6 +1055,12 @@ p.register_success_box{
     border-radius: 5px 5px 5px 5px;
 }
 
+.reg-form-wrapper{
+	/* border: 2px solid red; */
+	display:flex;
+	justify-content: space-between;
+}
+
 /* ========================================================== */
 /* 			               06. About Our TEAM                 */
 /* ========================================================== */
@@ -1064,7 +1072,7 @@ p.register_success_box{
 
 .about-our-team {
 	text-align: center;
-	margin-top: -7.75%;
+	/* margin-top: -7.75%; */
 	padding-bottom: 3.65%;
 }
 

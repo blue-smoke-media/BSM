@@ -5,8 +5,16 @@
   
   .cont_principal {
     position: absolute;
-    width: 50%;
-    height: 50%;
+    position:-webkit-sticky;
+    position:sticky;
+    top: 1em;
+    left: 2em;
+    z-index: 3;
+    width:-webkit-min-content;
+    width:-moz-min-content;
+    width:min-content;
+    /* width: 50%; */
+    /* height: 50%; */
   } 
   
   .cont_breadcrumbs {

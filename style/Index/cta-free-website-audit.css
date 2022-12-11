@@ -5,15 +5,17 @@ div.cta-audit-img {
   background-size: cover;
   width: 100%;
   /* height: 65em; */
-  margin: -1.5% 0 0 auto;
+  /* margin: -1.5% 0 0 auto; */
+  margin-top: 0;
+  /* padding-top:0%a; */
   color: white;
-  box-shadow: #020723 0px 10px 38px;
+  box-shadow: #0f2080 0px 10px 38px;
   }
   
   div.audit-top {
     margin-top: -4%;
   }
-  ​
+
   span.red-orange-h2 {
     color: #ee3e0e !important;
     font-weight: 800;
@@ -96,4 +98,3 @@ div.audit-subtitle {
     padding: 0.25em 0.125em;
     font-weight: 0700;
   } */
-  /*# sourceMappingURL=audit-cta.css.map */

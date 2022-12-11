@@ -1,26 +1,24 @@
-body {
-  background: url("/images/blue-smoke-flat.jpg") no-repeat;
-  background-size: cover;
-  width: 90%;
-  margin: 2em auto 0;
+#audit-form {
+  width: 98%;
+  margin: 5em auto 3em;
   color: white;
 }
 
-body span {
+#audit-form span {
   color: #ee3e0e;
 }
 
-body .top {
+#audit-form .top {
   margin-bottom: 5em;
   text-align: center;
 }
 
-body .top p {
+#audit-form .top p {
   width: 60%;
   margin: auto;
 }
 
-body .bottom {
+#audit-form .bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,7 +28,7 @@ body .bottom {
           justify-content: center;
 }
 
-body .bottom section:first-child {
+#audit-form .bottom section:first-child {
   border-right: 2px solid white;
   margin-right: 1.5em;
   padding-right: 1.5em;
@@ -39,7 +37,7 @@ body .bottom section:first-child {
   max-width: 30em;
 }
 
-body .bottom .form-container form {
+#audit-form .bottom .form-container form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,7 +47,7 @@ body .bottom .form-container form {
           flex-direction: column;
 }
 
-body .bottom .form-container form label {
+#audit-form .bottom .form-container form label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,12 +61,12 @@ body .bottom .form-container form label {
   margin-bottom: 1em;
 }
 
-body .bottom .form-container form label input {
+#audit-form .bottom .form-container form label input {
   height: 2em;
   margin-left: 1em;
 }
 
-body .bottom .form-container form input[name="submit"] {
+#audit-form .bottom .form-container form input[name="submit"] {
   width: 55%;
   margin-left: auto;
   border-radius: 1em;

@@ -100,9 +100,6 @@ ul.pricing-list li.price-title {
 
 ul.pricing-list-blue li.price-tag-blue a:hover{
 	background: #ee3e0e;
-    background: -webkit-linear-gradient(135deg, #ee3e0e 0%, #020723 100%);
-    background: -o-linear-gradient(bottom right, #ee3e0e, #020723);
-    background: -moz-linear-gradient(bottom right, #ee3e0e, #020723);
     background: linear-gradient(135deg,  #ee3e0e 0%, #020723 100%);
 }
 
@@ -124,9 +121,6 @@ ul.pricing-list li.price-text-blue {
 .price-box-green{
 	text-align: center;
 	background: #7fbd3e;
-    background: -webkit-linear-gradient(left top, #7fbd3e, #203d01);
-    background: -o-linear-gradient(bottom right, #7fbd3e, #203d01);
-    background: -moz-linear-gradient(bottom right, #7fbd3e, #203d01);
     background: linear-gradient(to bottom right, #7fbd3e, #203d01);
     box-shadow: #293e84 0 4px 14px 2px;
 	padding: 50px 0 40px 0;
@@ -155,9 +149,6 @@ ul.pricing-list li.price-text-blue {
 .pricing-list-green .price-tag-green a {
     color: #cfe6fc;
     /* background: #008aff; */
-    background: -webkit-linear-gradient(135deg, #1e92f6, #020723);
-    background: -o-linear-gradient(bottom right, #1e92f6, #020723);
-    background: -moz-linear-gradient(bottom right, #1e92f6, #020723);
     background: linear-gradient(to bottom right, #1e92f6, #020723);
     border-radius: 30px 8px;
     border: 2px solid #002774;
@@ -172,18 +163,12 @@ ul.pricing-list li.price-text-blue {
 
 ul.pricing-list-green li.price-tag-green a:hover {
 	background: #ee3e0e;
-	background: -webkit-linear-gradient(135deg, #ee3e0e 0%, #020723 100%);
-	background: -o-linear-gradient(bottom right, #ee3e0e, #020723);
-	background: -moz-linear-gradient(bottom right, #ee3e0e, #020723);
 	background: linear-gradient(135deg,  #ee3e0e 0%, #020723 100%);
 }
 
 
 ul.pricing-list-blue li.price-tag-blue a:hover {
 	background: #ee3e0e;
-    background: -webkit-linear-gradient(135deg, #ee3e0e 0%, #020723 100%);
-    background: -o-linear-gradient(bottom right, #ee3e0e, #020723);
-    background: -moz-linear-gradient(bottom right, #ee3e0e, #020723);
     background: linear-gradient(135deg,  #ee3e0e 0%, #020723 100%);
 }
 
@@ -193,12 +178,12 @@ ul.pricing-list-blue li.price-tag-blue a:hover {
 
 
 .col-md-4-1 {
-	margin-top: 20% !important;
+	/* margin-top: 20% !important; */
 	position: relative;
 	min-height: 1px;
 	padding-right: 15px;
 	padding-left: 15px;
-    margin-bottom: -10%;
+    margin-bottom: 10%;
 	width: 90%;
 }
 
@@ -214,9 +199,6 @@ ul.pricing-list-blue li.price-tag-blue a:hover {
 	text-align: center;
     color:#002774;
 	background: #ee3e0e;
-    background: -webkit-linear-gradient(left top, #fcba14, #966c01);
-    background: -o-linear-gradient(bottom right, #fcba14, #966c01);
-    background: -moz-linear-gradient(bottom right, #fcba14, #966c01);
     background: linear-gradient(to bottom right, #fcba14, #684b01);
     box-shadow: #293e84 0 4px 14px 2px;
 	padding: 50px 0 40px 0;
@@ -252,9 +234,6 @@ ul.pricing-list-blue li.price-tag-blue a:hover {
 .pricing-list-yellow .price-tag-green a {
     color: #cfe6fc;
     background: #008aff;
-    background: -webkit-linear-gradient(135deg, #1e92f6, #020723);
-    background: -o-linear-gradient(bottom right, #1e92f6, #020723);
-    background: -moz-linear-gradient(bottom right, #1e92f6, #020723);
     background: linear-gradient(to bottom right, #1e92f6, #020723);
     border-radius: 30px 8px;
     border: 2px solid #002774;
@@ -269,9 +248,6 @@ ul.pricing-list-blue li.price-tag-blue a:hover {
 
 ul.pricing-list-green li.price-tag-green a:hover {
 	background: #ee3e0e;
-	background: -webkit-linear-gradient(135deg, #ee3e0e 0%, #020723 100%);
-	background: -o-linear-gradient(bottom right, #ee3e0e, #020723);
-	background: -moz-linear-gradient(bottom right, #ee3e0e, #020723);
 	background: linear-gradient(135deg,  #ee3e0e 0%, #020723 100%);
 }
 
@@ -290,9 +266,6 @@ ul.pricing-list li.price-text-yellow {
 .price-box-red{
 	text-align: center;
     color:#002774;
-    background: -webkit-linear-gradient(left top, #fe0101, #860202(0, 99%, 30%));
-    background: -o-linear-gradient(bottom right, #fe0101, #3b0101);
-    background: -moz-linear-gradient(bottom right, #fe0101, #3b0101);
     background: linear-gradient(to bottom right, #fe0101, #3b0101);
     box-shadow: #293e84 0 4px 14px 2px;
 	padding: 50px 0 40px 0;
