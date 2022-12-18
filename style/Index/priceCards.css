@@ -122,14 +122,15 @@ ul.pricing-list li.price-text-blue {
 	text-align: center;
 	background: #7fbd3e;
     background: linear-gradient(to bottom right, #7fbd3e, #203d01);
-    box-shadow: #293e84 0 4px 14px 2px;
-	padding: 50px 0 40px 0;
+	box-shadow: rgb(41 62 132) 0px 4px 14px 2px;
+	padding: 50px 0px 40px;
 	color:#cfe6fc;
 	width: 90%;
 	margin-top:30;
 	margin-bottom: 20px;
 	margin-left: 20px;
-	border-radius: 8px 8px;
+	border-radius: 8px;
+	backface-visibility: hidden;
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 	-webkit-backface-visibility: hidden;

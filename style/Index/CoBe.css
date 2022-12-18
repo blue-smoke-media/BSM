@@ -13,9 +13,9 @@ body {
 	border: none;
 	width: 60%;
 	height: 2px;
-	margin-top: 1%;
+	margin-top: 2%;
 	margin-right: auto;
-	margin-bottom: 5%;
+	margin-bottom: 4%;
 	margin-left: auto;
 	background-color:#1e92f6;
 }
@@ -50,6 +50,7 @@ body {
 .white-text{ 
 	color: #cfe6fc;
 	outline-width: 1px solid #293e84;
+	text-shadow: 2px 2px 1px #020723 !important;
 }
 
 .golden-rod {
@@ -68,6 +69,11 @@ body {
 .red-orange-h2 {
 	color: #EE3E0E !important;
 	text-shadow: 1px 1px 1px #020723;
+	font-size: 40px;
+	font-family: 'Cabin', sans-serif;
+	line-height: 1.2;
+	margin-top: 5%;
+	margin-bottom: 20px;
 }
 
 .red-orange-h3 {
@@ -280,21 +286,6 @@ div.text-img3 {
 	margin-bottom: 5%; 
 	text-shadow: 2px 2px 1px #020723;
 } 
-
-/* .cwsd-help-my-business-img {
-	float: right;
-	position: relative;
-	z-index: -1;
-	margin-top: -1.5% ;
-	margin-right: 2%; 
-	margin-bottom: 9%;
-	border-radius: 5%;
-	box-shadow: 6px 6px 1px 1px #0b144884
-} */
-
-/* .cwsd-help-my-business-img {
-	clear: right;
-} */
 /* @media (min-width: 768px) {
 	.container {
 	  width: 750px;

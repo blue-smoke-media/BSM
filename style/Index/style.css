@@ -113,7 +113,7 @@ h6 {
 }
 
 .section-title-h2 {
-	margin-top: -2%;
+	margin-top: 5%;
 	margin-bottom: 15px;
 }
 
@@ -129,8 +129,8 @@ h2.section-title.grey {
 
 h2.section-title.white {
 	color: #cfe6fc;
-	margin-top: 3.5%;
-	margin-bottom: 15px; 
+	margin-top: 5%;
+	margin-bottom: 5%; 
 	text-shadow: 2px 2px 1px #020723;
 }
 
@@ -144,7 +144,7 @@ h2.section-title.orange {
 
 h4.section-title.white {
 	color: #cfe6fc;
-	text-shadow: 2px 2px 1px #020723;
+	text-shadow: 2px 2px 1px #020723 !important;
 	word-spacing: 2px;
 }
 
@@ -1231,9 +1231,14 @@ color: #293e84;
 }
 
 p.main :hover {
-	color: #cfe6fc;
+	color: #7fbd3e;
+	font-weight: 900;
 }
 
+p.main :visited {
+	color: #7fbd3e;
+	font-weight: 900;
+}
 
 .main-services:hover {
 	margin-top: 30px;
@@ -1434,8 +1439,8 @@ background: linear-gradient(to bottom right, #1e92f6, #020723);
 	text-align: center;
 	background-color: #cfe6fc;
 	box-shadow: #293e84 0 4px 24px 2px;
-	padding: 50px 0;
-	width: 90%;
+	padding: 50px 0px 40px;
+    width: 90%;
 	margin-top:40;
 	margin-bottom: 20px;
 	margin-left: 20px;
@@ -1450,8 +1455,8 @@ background: linear-gradient(to bottom right, #1e92f6, #020723);
 	text-align: center;
 	background: #f4f5f6;
 	box-shadow: rgba(33,33,33,.06) 0 4px 24px 5px;
-	padding: 50px 0;
-	width: 90%;
+	padding: 50px 0px 40px;
+    width: 90%;
 	margin-top:30;
 	margin-bottom: 20px;
 	margin-left: 20px;
@@ -1467,9 +1472,8 @@ background: linear-gradient(to bottom right, #1e92f6, #020723);
 	background: #1e92f6;
     background: linear-gradient(to bottom right, #1e92f6, #020723);
 	box-shadow: #293e84 0 4px 14px 2px;
-	padding: 50px 0 40px 0;
-	color:#cfe6fc;
-	width: 90%;
+	padding: 50px 0px 40px;
+    width: 90%;
 	margin-top:30;
 	margin-bottom: 20px;
 	margin-left: 20px;
@@ -2418,4 +2422,4 @@ ul.features-list-hero li i.lyla{
     background-color: #DDF;
     color: #000;
 }
-}
+

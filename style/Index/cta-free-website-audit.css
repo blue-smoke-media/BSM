@@ -4,16 +4,13 @@ div.cta-audit-img {
   background: url("/images/blue-smoke-flat.jpg")no-repeat;
   background-size: cover;
   width: 100%;
-  /* height: 65em; */
-  /* margin: -1.5% 0 0 auto; */
   margin-top: 0;
-  /* padding-top:0%a; */
   color: white;
   box-shadow: #0f2080 0px 10px 38px;
   }
   
   div.audit-top {
-    margin-top: -4%;
+    margin-top: -1%;
   }
 
   span.red-orange-h2 {
@@ -24,7 +21,8 @@ div.cta-audit-img {
   }
 
   h4.audit-subtitle {
-    margin-top: -.5% ;
+    margin-top:  5% ;
+    padding-bottom: 2%;
   }
 
 div.audit-subtitle {
@@ -33,68 +31,4 @@ div.audit-subtitle {
 	word-spacing: -.1em;
 }
 
-  /*​
-  .cta-audit-img .top {
-    width: 60%;
-    margin: auto;
-    color:#cfe6fc;
-    text-shadow: 2px 1px 0px #002774;
-  }
-  ​
-  .cta-audit-img .bottom {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 90%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  ​
-  .cta-audit-img .bottom section:first-child {
-    border-right: 2px solid white;
-    margin-right: 1.5em;
-    padding-right: 1.5em;
-    width: 50%;
-    min-width: 10em;
-    max-width: 30em;
-  }
-  ​
-  .cta-audit-img .bottom .form-container form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  ​
-  .cta-audit-img .bottom .form-container form label {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    white-space: nowrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-bottom: 1em;
-  }
-  ​
-  .cta-audit-img .bottom .form-container form label input {
-    height: 2em;
-    margin-left: 1em;
-  }
-  ​
-  .cta-audit-img .bottom .form-container form input[name="submit"] {
-    width: 55%;
-    margin-left: auto;
-    border-radius: 1em;
-    background: goldenrod;
-    border: 1px solid black;
-    padding: 0.25em 0.125em;
-    font-weight: 0700;
-  } */
+

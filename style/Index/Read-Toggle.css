@@ -35,11 +35,16 @@
   cursor: pointer;
   padding: 3px 16px;
   background: linear-gradient(to bottom, #63b8ee 5%, #293E84 100%);
-  color: #293E84 ;
+  color: #cfe6fc ;
   font-family: cabin;
   font-size: 15px;
   font-weight: 900;
-  text-shadow: 0px 1px 1px #7cacde;
+  text-shadow: 2px 2px 2px #020723;
   text-decoration: none;
   float: right;
+}
+
+
+#read-on-btn:hover {
+color: #EE3E0E;
 }
