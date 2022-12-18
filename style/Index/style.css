@@ -1230,13 +1230,13 @@ ul.team-icon li a.linkedin {
 color: #293e84;
 }
 
-p.main :hover {
+a:hover {
 	color: #7fbd3e;
 	font-weight: 900;
 }
 
-p.main :visited {
-	color: #7fbd3e;
+a :visited {
+	color: #C92228;
 	font-weight: 900;
 }
 
