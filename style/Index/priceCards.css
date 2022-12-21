@@ -4,6 +4,16 @@
 
 /* BEGIN PRICE CARDS */
 
+.col-md-4-1-a {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 11px;
+    margin-bottom: 10%;
+	width: 33.3333%;
+}
+
+
 .value-added {
 	color: #ee3e0e !important;
 	font-weight: 800 !important;
@@ -76,7 +86,7 @@ ul.pricing-list li.price-title {
     text-shadow: 1px 1px 0px #1e92f6;
 }
 
-.price-box-blue .price-subtitle,.price-box-blue .price-text{
+.price-box-blue .price-subtitle,.price-box-blue .price-text {
 	color: #002774 !important;
 	font-family: 'Cabin', sans-serif;
 	font-size: 14px;
@@ -118,15 +128,15 @@ ul.pricing-list li.price-text-blue {
 
 /* BEGIN Green top PRICE CARD */
 
-.price-box-green{
+.price-box-green {
 	text-align: center;
 	background: #7fbd3e;
     background: linear-gradient(to bottom right, #7fbd3e, #203d01);
-	box-shadow: rgb(41 62 132) 0px 4px 14px 2px;
-	padding: 50px 0px 40px;
+	box-shadow: #293e84 0 4px 24px 2px;
+	padding: 50px 0 44px 0;
 	color:#cfe6fc;
-	width: 90%;
-	margin-top:30;
+	width: 90.25%;
+	margin-top: 40;
 	margin-bottom: 20px;
 	margin-left: 20px;
 	border-radius: 8px;
@@ -179,13 +189,12 @@ ul.pricing-list-blue li.price-tag-blue a:hover {
 
 
 .col-md-4-1 {
-	/* margin-top: 20% !important; */
 	position: relative;
 	min-height: 1px;
 	padding-right: 15px;
-	padding-left: 15px;
+	padding-left: 25px;
     margin-bottom: 10%;
-	width: 90%;
+	width: 100%;
 }
 
 
@@ -196,15 +205,14 @@ ul.pricing-list-blue li.price-tag-blue a:hover {
 	}	
 }
 
-.price-box-yellow{
+.price-box-yellow {
 	text-align: center;
     color:#002774;
-	background: #ee3e0e;
     background: linear-gradient(to bottom right, #fcba14, #684b01);
-    box-shadow: #293e84 0 4px 14px 2px;
-	padding: 50px 0 40px 0;
+    box-shadow: #293e84 0 4px 24px 2px;
+	padding: 50px 0 121px 0;
 	width: 90%;
-	margin-top:30;
+	margin-top: 40;
 	margin-bottom: 20px;
 	margin-left: 20px;
 	border-radius: 8px 8px;
@@ -254,7 +262,6 @@ ul.pricing-list-green li.price-tag-green a:hover {
 
 ul.pricing-list li.price-text-yellow {
 	color: #002774 !important;
-	/* text-shadow: 1px 1px 0px #002774; */
 	font-family: 'Cabin', sans-serif;
 	font-size: 16px!important;
 	line-height: 28px!important;
@@ -262,13 +269,34 @@ ul.pricing-list li.price-text-yellow {
 	margin-bottom: 5px!important;
 } 
 
+
+.price-box-green-bottom {
+	text-align: center;
+	background: #7fbd3e;
+    background: linear-gradient(to bottom right, #7fbd3e, #203d01);
+	box-shadow: #293e84 0 4px 24px 2px;14px 2px;
+	padding: 50px 0 94px 0;
+	color:#cfe6fc;
+	width: 90%;
+	margin-top: 40;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border-radius: 8px;
+	backface-visibility: hidden;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
 /* PRICE BOX RED */
 
-.price-box-red{
+.price-box-red {
 	text-align: center;
     color:#002774;
     background: linear-gradient(to bottom right, #fe0101, #3b0101);
-    box-shadow: #293e84 0 4px 14px 2px;
+    box-shadow: #293e84 0 4px 24px 2px;
 	padding: 50px 0 40px 0;
 	width: 90%;
 	margin-top:30;

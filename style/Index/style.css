@@ -1439,12 +1439,11 @@ background: linear-gradient(to bottom right, #1e92f6, #020723);
 	text-align: center;
 	background-color: #cfe6fc;
 	box-shadow: #293e84 0 4px 24px 2px;
-	padding: 50px 0px 40px;
+	padding: 50px 0 81px 0;
     width: 90%;
-	margin-top:40;
+	border-radius: 8px 8px;margin-top:40;
 	margin-bottom: 20px;
 	margin-left: 20px;
-	border-radius: 8px 8px;
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 	-webkit-backface-visibility: hidden;
@@ -1455,9 +1454,9 @@ background: linear-gradient(to bottom right, #1e92f6, #020723);
 	text-align: center;
 	background: #f4f5f6;
 	box-shadow: rgba(33,33,33,.06) 0 4px 24px 5px;
-	padding: 50px 0px 40px;
+	padding: 50px 0 40px 0;
     width: 90%;
-	margin-top:30;
+	margin-top: 40;
 	margin-bottom: 20px;
 	margin-left: 20px;
 	border-radius: 8px 8px;
@@ -1471,10 +1470,10 @@ background: linear-gradient(to bottom right, #1e92f6, #020723);
 	text-align: center;
 	background: #1e92f6;
     background: linear-gradient(to bottom right, #1e92f6, #020723);
-	box-shadow: #293e84 0 4px 14px 2px;
-	padding: 50px 0px 40px;
+	box-shadow: #293e84 0 4px 24px 2px;
+	padding: 50px 0 75px 0;
     width: 90%;
-	margin-top:30;
+	margin-top: 40;
 	margin-bottom: 20px;
 	margin-left: 20px;
 	border-radius: 8px 8px;
@@ -1484,7 +1483,7 @@ background: linear-gradient(to bottom right, #1e92f6, #020723);
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.price-box-blue:hover, .price-box-grey:hover, .price-box-white:hover, .price-box-green:hover {
+.price-box-blue:hover, .price-box-grey:hover, .price-box-white:hover, .price-box-green:hover, .price-box-yellow:hover, .price-box-red:hover {
 	transform: scale(1.03,1.03);
 	-ms-transform: scale(1.03,1.03); /* IE 9 */
     -webkit-transform: scale(1.03,1.03); /* Safari */
