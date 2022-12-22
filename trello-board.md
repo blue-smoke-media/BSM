@@ -32,8 +32,10 @@ The green diamonds are in spans. Evidently, that isn't accepted. This is the one
 
 CoBe
 
+Find ORIGINAL Smoke background to replace ALL Smoke images. The current one is pixelated and has RED AURAS in places.
+
 **Write NEW copy for sidebar of FREE Audit CTA.
-** CSS for submit button on AUDIT CTA
+** CSS for submit button on AUDIT CTA-------------"currently working on - waiting to hear back from Braden"
 
 
 Web pages to write and link from the index to the new page.
