@@ -34,9 +34,12 @@ The green diamonds are in spans. Evidently, that isn't accepted. This is the one
 
 CoBe
 
+**Replace Favicon WITHOUT Smoke background!   -------COMPLETED
+
 Page for ADD-ONs.....PriceList
     -Link from each add-on in the pricelist to the ADD-On Page
     -ONE SHORT Paragraph to explain what the add-on is and if needed, link to a page regarding that add-on.
+
 Find ORIGINAL Smoke background to replace ALL Smoke images. The current one is pixelated and has RED AURAS in places.
 
 **Write NEW copy for sidebar of FREE Audit CTA.
