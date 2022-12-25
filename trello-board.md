@@ -4,13 +4,13 @@ BRADEN
 
 **Add the CTA "Contact Us" with the colors, including the hover. [to the absolute right]
 
-**Need to ADD the Flame logo with the Text Logo [to the absolute left].
+**Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.
 
 **Make Nav “Sticky” for when the page is scrolled down using the “poster” of the smoke as the background.
 
 **BreadCrumbs - reduce size and add JS to function correctly
 
-**1st screen of index - indent the text if the second sentences to line up with the beginning of each sentence, on the check-marks
+**1st screen of index - indent the text of the second sentences to line up with the beginning of each sentence, on the check-marks
 
 **How Can A Custom Website Design Help My Business?
 
@@ -22,6 +22,8 @@ The green diamonds are in spans. Evidently, that isn't accepted. This is the one
      The prices are commented out on each pkg. The JS needs to be written so the prices toggle between the monthly and yearly
 
     When the yearly and monthly are toggled, the is a pink rectangular box that appears for a moment and then disappears....got any idea????
+   < img src="./Screen Shot-Pink-Box .png" />
+
 
 **BLOG
     Get it up and properly functioning. 
