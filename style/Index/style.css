@@ -1483,11 +1483,10 @@ background: linear-gradient(to bottom right, #1e92f6, #020723);
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.price-box-blue:hover, .price-box-grey:hover, .price-box-white:hover, .price-box-green:hover, .price-box-yellow:hover, .price-box-red:hover {
+.price-box-blue:hover, .price-box-grey:hover, .price-box-white:hover, .price-box-green:hover, .price-box-yellow:hover, .price-box-green-bottom:hover,.price-box-red:hover {
 	transform: scale(1.03,1.03);
 	-ms-transform: scale(1.03,1.03); /* IE 9 */
     -webkit-transform: scale(1.03,1.03); /* Safari */
-
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
 }
