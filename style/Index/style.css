@@ -1229,16 +1229,17 @@ ul.team-icon li a.linkedin {
 .main {
 color: #293e84;
 }
+.main a:hover {
+		color: #7fbd3e;
+		font-weight: 900;
+	}
 
-a:hover {
-	color: #7fbd3e;
-	font-weight: 900;
-}
+	.main a:visited {
+		color: #C92228;
+		font-weight: 900;
+	}
 
-a :visited {
-	color: #C92228;
-	font-weight: 900;
-}
+
 
 .main-services:hover {
 	margin-top: 30px;
