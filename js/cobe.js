@@ -37,3 +37,20 @@ $(document).ready(function() {
                 $('body').removeClass('dark-preview');
             }
         }
+
+/*---------------------
+BreadCrumbs.js
+------------------------- */
+
+{/* <nav class="breadcrumb-container" role="navigation" aria-label="You are here:">
+	<ol class="cui breadcrumb">
+		<li><a href="{{ URL }}">{{ Page title 1 }}</a></li>
+		<li><a href="{{ URL }}">{{ Page title 2 }}</a></li>
+		<li><a href="{{ URL }}">{{ Page title 3 }}</a></li>
+		<li><a href="{{ URL }}">{{ Page title 4 }}</a></li>
+		<li><a href="{{ URL }}">{{ Page title 5 }}</a></li>
+
+		<li class="active"><a href="{{ URL }}">{{ Current page title }}</a></li>
+	</ol>
+	<span class="bg-overlay" aria-hidden="true"></span>
+</nav> */}
