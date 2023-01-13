@@ -2421,4 +2421,30 @@ ul.features-list-hero li i.lyla{
     background-color: #DDF;
     color: #000;
 }
+ .cwsd-help-my-business-img {
+	width: 45%;
+  /* display: flex; */
+  /* height: 3em;ts */
+   /* display: -webkit-box;
+  margin-left: auto; 
+  float:right;
+  margin-top:  5%;
+   width:  44%;
+   border-radius:  5%;
+    z-index:  -1; 
+   box-shadow: 6px 6px 1px 1px #03092984 */
 
+} 
+.web-design-img-txt-wrapper{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+}
+.web-design-img-txt-wrapper ol{
+	width: 45%;
+	margin-top: 2%;
+}
+.web-design-img-txt-wrapper ol li::before{
+	content: "dia";
+	color:green;
+}

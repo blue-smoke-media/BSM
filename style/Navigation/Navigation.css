@@ -31,14 +31,14 @@ header-nav {
   left: 0;
   right: 0;
   font-weight: 400;
-  font-size: 0.9em !important;
+  background: #020723;
+  height: 7em;
 }
 
 header-nav #main-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #020723;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -49,7 +49,8 @@ header-nav #main-nav {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-  padding: 0 7%;
+  padding: 1% 7%;
+  width: 80%;
   /* Links inside the navbar */
   /* The dropdown container */
 }
@@ -232,5 +233,9 @@ header-nav #main-nav .dropdown .home-drop {
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
+}
+
+header-nav #main-nav .logo-wrapper .logo {
+  height: 5em;
 }
 /*# sourceMappingURL=Navigation.css.map */
