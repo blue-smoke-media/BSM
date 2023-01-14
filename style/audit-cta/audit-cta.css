@@ -67,12 +67,16 @@
 }
 
 #audit-form .bottom .form-container form input[name="submit"] {
-  width: 55%;
-  margin-left: auto;
+  width: 58.888%;
+  margin-left: 44.755%;
+  text-shadow: 1px 1px 1px #020723;
   border-radius: 1em;
-  background: #daa520;
+  background: #7fbd3e;
   border: 1px solid black;
+  box-shadow: #020723 2px 2px 3.755px 0px;
   padding: 0.25em 0.125em;
   font-weight: 0700;
 }
+
+
 /*# sourceMappingURL=audit-cta.css.map */
