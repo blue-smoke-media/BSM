@@ -6,7 +6,7 @@ BRADEN
 
 \*\*Add the Audit CTA "Contact Us" with the colors, including the hover. [to the absolute right]
 
-\*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.
+\*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.\*\*  NOTE NOTE NOTE \*\*  There are 2 flame logos in the images folder/BSM-Logo/flame-logo.  "choose which one of the 2 you think looks best!"
 
 \*\*Make Nav “Sticky” for when the page is scrolled down using the “poster” of the smoke as the background.
 
@@ -38,7 +38,7 @@ CoBe
 
 -------COMPLETED-----------\*\*Replace Favicon WITHOUT Smoke background!
 
-\*\*In the CSS, add :visited color to the links in OUR SERVICES.
+-------COMPLETED-----------\*\*In the CSS, add :visited color to the links in OUR SERVICES.
 
 \*\*Page for ADD-ONs.....PriceList
 -Link from each add-on in the pricelist to the ADD-On Page
@@ -46,10 +46,10 @@ CoBe
 
 \*\*Find ORIGINAL Smoke background to replace ALL Smoke images. The current one is pixelated and has RED AURAS in places.
 
-**Write NEW copy for sidebar of FREE Audit CTA.
-** CSS for submit button on AUDIT CTA-------------"currently working on - waiting to hear back from Braden"
+\*\*Write NEW copy for sidebar of FREE Audit CTA.
+\*\*CSS for submit button on AUDIT CTA-------------"currently working on - waiting to hear back from Braden"
 
-Web pages to write and link from the index to the new page.
+\*\*Web pages to write and link from the index to the new page.
 --Local Search
 --What is a Heat Map
 --The Map Pack
