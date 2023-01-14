@@ -2,6 +2,9 @@ BRADEN
 
 **\***FIRSTLY!!! Please make a list of "ADD-ON Features" that we can use as additional sells and what you think we should charge for them.
 
+\*\*PLEASE put a hover on the  AUDIT CTA-----use this color for the hover, please. #ee3e0e
+
+
 \*\*ADD VIDEO BACKGROUND [PLEASE humor me for right now].
 
 \*\*Add the Audit CTA "Contact Us" with the colors, including the hover. [to the absolute right]
