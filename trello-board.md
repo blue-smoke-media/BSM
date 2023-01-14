@@ -2,14 +2,15 @@ BRADEN
 
 **\***FIRSTLY!!! Please make a list of "ADD-ON Features" that we can use as additional sells and what you think we should charge for them.
 
-\*\*PLEASE put a hover on the  AUDIT CTA-----use this color for the hover, please. #ee3e0e
+NEW   \*\*PLEASE put a hover on the  AUDIT CTA-----use this color for the hover, please. #ee3e0e
 
 
-\*\*ADD VIDEO BACKGROUND [PLEASE humor me for right now].
+NEW   \*\*ADD SMOKE BACKGROUND to the Nav bar as opposed to the dark Blue. It is NOT a video, PLEASE. 
+ The file is at:  images/SDM-LOGO/blue-smoke-background.jpg
 
 \*\*Add the Audit CTA "Contact Us" with the colors, including the hover. [to the absolute right]
 
-\*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.\*\*  NOTE NOTE NOTE \*\*  There are 2 flame logos in the images folder/BSM-Logo/flame-logo.  "choose which one of the 2 you think looks best!"
+NEW   \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.\*\*  NOTE NOTE NOTE \*\*  There are 2 flame logos in the images folder/BSM-Logo/flame-logo.  "choose which one of the 2 you think looks best!"
 
 \*\*Make Nav “Sticky” for when the page is scrolled down using the “poster” of the smoke as the background.
 
