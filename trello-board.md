@@ -2,15 +2,14 @@ BRADEN
 
 **\***FIRSTLY!!! Please make a list of "ADD-ON Features" that we can use as additional sells and what you think we should charge for them.
 
-NEW   \*\*PLEASE put a hover on the  AUDIT CTA-----use this color for the hover, please. #ee3e0e
+NEW     \*\*PLEASE put a hover on the  AUDIT CTA-----use this color for the hover, please.  ----> #ee3e0e
 
 
-NEW   \*\*ADD SMOKE BACKGROUND to the Nav bar as opposed to the dark Blue. It is NOT a video, PLEASE. 
- The file is at:  images/SDM-LOGO/blue-smoke-background.jpg
+NEW      \*\*ADD SMOKE BACKGROUND to the Nav bar as opposed to the dark Blue. It is NOT a video, PLEASE. 
+ ----> The file is at:  images/SDM-LOGO/blue-smoke-background.jpg
 
-\*\*Add the Audit CTA "Contact Us" with the colors, including the hover. [to the absolute right]
 
-NEW   \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.\*\*  NOTE NOTE NOTE \*\*  There are 2 flame logos in the images folder/BSM-Logo/flame-logo.  "choose which one of the 2 you think looks best!"
+NEW    \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.\*\*  NOTE NOTE NOTE \*\*  There are 2 flame logos in the images folder  ----> /BSM-Logo/flame-logo.          "choose which one of the 2 you think looks best!"
 
 \*\*Make Nav “Sticky” for when the page is scrolled down using the “poster” of the smoke as the background.
 
@@ -18,9 +17,9 @@ NEW   \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] o
 
 \*\*1st screen of index - indent the text of the second sentences to line up with the beginning of each sentence, on the check-marks. ----- I added spaces until you can do this simply because it was driving me insane.
 
-\*\*How Can A Custom Website Design Help My Business?
-
-The green diamonds are in spans. Evidently, that isn't accepted. This is the one part that for some reason or another has kicked my ass! I am assuming you will use a list with an <i></i> for the diamond. When reduced to mobile, the image HAS TO BE ON TOP of the bullet points, please.
+NEW  \*\*How Can A Custom Website Design Help My Business?
+        The Green Diamond is here  ---->  /images/icon/green-diamond.png  
+        When reduced to mobile, the image HAS TO BE ON TOP of the bullet points, please.
 
 \*\*On "Our Standard Features" and "Our Services", I know there is a way to make the boxes all even regardless of the amount of text in them. I'm pretty sure it's in flexBox, but I'm unable to make it work properly. Would you please try?
 
@@ -31,10 +30,10 @@ The prices are commented out on each pkg. The JS needs to be written so the pric
 Get it up and properly functioning.
 Get the "mini" cards at the bottom of the page on the index below the newest blog articles.
 
-remove nav home dropdowns
+
 safari(?) breaking about our team photo
 
-copyright year auto
+auto
 blog link?
 quick inquiry phone number field has arrows
 
@@ -48,7 +47,7 @@ CoBe
 -Link from each add-on in the pricelist to the ADD-On Page
 -ONE SHORT Paragraph to explain what the add-on is and if needed, link to a page regarding that add-on.
 
-\*\*Find ORIGINAL Smoke background to replace ALL Smoke images. The current one is pixelated and has RED AURAS in places.
+-------COMPLETED-----------[Created image and put in images folder]\*\*Find ORIGINAL Smoke background to replace ALL Smoke images. The current one is pixelated and has RED AURAS in places. 
 
 \*\*Write NEW copy for sidebar of FREE Audit CTA.
 \*\*CSS for submit button on AUDIT CTA-------------"currently working on - waiting to hear back from Braden"

@@ -41,7 +41,7 @@ How Can a Custom Website Design Help My Business?                      */
   flex: nowrap;
 }
 
-span.diamond-shape  {
+/* span.diamond-shape  {
   list-style-type: square;
 	background: #7fbd3e !important;
 	height: 12px !important;
@@ -49,11 +49,10 @@ span.diamond-shape  {
   transform: rotate(45deg)!important;
 	margin-top: 5%;
 	margin-left: 1% !important;
-  /* z-index: 1; */
 	box-shadow: 2px 1px 1px 1px       #0b144884;
 	-webkit-text-stroke-width: .25px;
 	-webkit-text-stroke-color: #020723;
-} 
+}  */
 
 /* span.green-text-wrapper {
   /* display: flex;
@@ -69,7 +68,6 @@ span.diamond-shape  {
 	display: flex;
 	justify-content: left;
   flex-wrap: wrap; 
-	/* z-index: 1; */
 	text-align: justify;
 	width: 43%;
 	font-family: cabin 'Sans Serif';
