@@ -1,12 +1,14 @@
 BRADEN
 
-**\** NEW - line 447-48  <br> not working.
+\*\* NEW \*\*- line 447-48  <br> not working.
+
+\*\* NEW \*\*--On my 32" monitor, the 2nd row of price cards do not line up properly. 1st row is fine.
 
 **\***FIRSTLY!!! Please make a list of "ADD-ON Features" that we can use as additional sells and what you think we should charge for them.
 
 NEW     \*\*PLEASE put a hover on the  AUDIT CTA-----use this color for the hover, please.  ----> #ee3e0e
 
-
+`
 NEW      \*\*ADD SMOKE BACKGROUND to the Nav bar as opposed to the dark Blue. It is NOT a video, PLEASE. 
  ----> The file is at:  images/SDM-LOGO/blue-smoke-background.jpg
 
