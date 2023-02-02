@@ -9,6 +9,19 @@ body {
 	word-spacing: .08em;
 }
 
+.tab { 
+	
+	text-indent: -26px;
+	padding-left: 7%; 
+
+}
+
+.q {
+	color :#cfe6fc;
+	font-size: 46px;
+	line-height: 47px;
+}
+
 .BSM-hr {
 	border: none;
 	width: 60%;
@@ -90,7 +103,8 @@ body {
 	text-align: left;
 	font-weight: 400;
 	font-size: .80em!important;
-	margin-top: -28px;
+	font-style:  italic;
+	margin-top: -5px;
 	margin-right: -13px;
 }
 
@@ -99,10 +113,16 @@ body {
 	text-align: left;
 	font-weight: 400;
 	font-size: .80em!important;
-	margin-top: -25px;
+	font-style:  italic;
+	margin-top: -5px;
 	margin-right: -14px;
 }
 
+.q-leader  {
+	color :#cfe6fc;
+	font-size: 25px;
+	line-height: 30px;
+}
 
 
 /* ========================================================== */
