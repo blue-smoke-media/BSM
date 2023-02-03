@@ -10,9 +10,8 @@ b {
 	text-shadow: 1px 1px 1px #020723;
 }
 
-.li {
-	padding-bottom: 2.255%;
-
+.line-h {
+	padding-bottom: -1.755%;
 }
 
 .b-a {
@@ -25,6 +24,13 @@ b {
 	color: #7fbd3e;
 	font-weight: 900;
 	text-shadow: 1px 1px 1px #020723;
+}
+
+.b-c {
+	color: #cfe6fc ;
+	font-weight: 900;
+	text-shadow: 2px 1px 1px #020723;	
+	outline-width: 2px solid #020723;
 }
 
 .spacing {
@@ -162,7 +168,7 @@ b {
 	align-items: center;
 	display: flex;
 	justify-content: center;
-	margin-bottom: 6em;
+	margin-bottom: 10em;
 	border: solid 1px #020723;
     border-radius: 12%;
     box-shadow: #020723 2px 2px 3.755px 0px;
@@ -175,10 +181,20 @@ b {
     /* padding: 40px 0 40px 0; */
 }
 
+.text-img-a {
+	text-align: left;
+	color: #EE3E0E;
+	font-size: 2.55em;
+	width: auto;
+	margin-bottom: 2%;
+	text-shadow: 1px 1px #020723;
+}
+
+
 .text-img0 {
 	text-align: justify;
 	width: auto;
-	padding-bottom: 3%;
+	padding-bottom: 2%;
 	text-shadow: 1px 1px #020723;
 }
 
@@ -187,7 +203,6 @@ b {
 	text-align: justify;
 	width: auto;
 	margin-top: 5%;
-	margin-bottom: 5%;
 	text-shadow: 1px 1px #020723;
 }
 
@@ -195,19 +210,19 @@ b {
 .text-img3 {
 	text-align: justify;
 	width: auto;
-	margin-top: -3%;
-	margin-bottom: 5%;
+	padding-top:  -1%;
+	margin-bottom: 3%;
 	text-shadow: 1px 1px #020723;
 }
 
 
 
 .bsmoke {
-	color: #1e92f6;
+	color: rgb(84, 140, 255);
 	text-shadow: 1px 1px 1px #020723;
 	outline-color: #002774 1px solid;
 	font-weight: 900;
-	font-size: 1.55em ;
+	font-size: 1.25em ;
 	letter-spacing: 1px;
 }
 
@@ -257,9 +272,9 @@ h3.medium-title {
 	display: flex;
 	justify-content: left;
 	flex-wrap: wrap;
-	margin-bottom: 2%;
-	height: 451px; 
+	height: 454px; 
 	width: 100%;
+	padding-bottom: -1%;
 	border: solid 1px #000000;
 	border-radius: 2.55%;
 	box-shadow: #000000 2px 2px 3.755px 0px;
@@ -283,6 +298,7 @@ div.text-img3 {
 	margin-left: 2%;
 	text-align: justify;
 	text-shadow: 1px 1px #020723;
+	line-height: 1.755;
 	letter-spacing: .07em;
 	word-spacing: .05em;
 	width: 98.5%;
