@@ -4,16 +4,37 @@ body {
 	overflow-x: hidden; 
 }
 
+b {
+	font-weight: 900;
+	color: #EE3E0E;
+	text-shadow: 1px 1px 1px #020723;
+}
+
+.li {
+	padding-bottom: 2.255%;
+
+}
+
+.b-a {
+	color: rgb(84, 140, 255);
+	font-weight: 900;
+	text-shadow: 1px 1px 1px #020723;	
+}
+
+.b-b {
+	color: #7fbd3e;
+	font-weight: 900;
+	text-shadow: 1px 1px 1px #020723;
+}
+
 .spacing {
 	letter-spacing: .05em;
 	word-spacing: .08em;
 }
 
 .tab { 
-	
 	text-indent: -26px;
 	padding-left: 7%; 
-
 }
 
 .q {
