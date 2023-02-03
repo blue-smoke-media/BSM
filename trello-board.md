@@ -18,8 +18,9 @@ NEW    \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] 
 \*\*Make Nav “Sticky” for when the page is scrolled down using the “poster” of the smoke as the background.
 
 \*\*BreadCrumbs - add JS to function correctly
+******Here is the link for Google's requirements on breadcrumbs: https://developers.google.com/search/docs/appearance/structured-data/breadcrumb#guidelines
 
-\*\*1st screen of index - indent the text of the second sentences to line up with the beginning of each sentence, on the check-marks. ----- I added spaces until you can do this simply because it was driving me insane.
+-------COMPLETED-----------\*\*1st screen of index - indent the text of the second sentences to line up with the beginning of each sentence, on the check-marks. ----- I added spaces until you can do this simply because it was driving me insane.
 
 NEW  \*\*How Can A Custom Website Design Help My Business?
         The Green Diamond is here  ---->  /images/icon/green-diamond.png  
@@ -53,13 +54,13 @@ CoBe
 
 -------COMPLETED-----------[Created image and put in images folder]\*\*Find ORIGINAL Smoke background to replace ALL Smoke images. The current one is pixelated and has RED AURAS in places. 
 
-\*\*Write NEW copy for sidebar of FREE Audit CTA.
+-------COMPLETED-----------\*\*Write NEW copy for sidebar of FREE Audit CTA.
 \*\*CSS for submit button on AUDIT CTA-------------"currently working on - waiting to hear back from Braden"
 
 \*\*Web pages to write and link from the index to the new page.
 --Local Search
 --What is a Heat Map
---The Map Pack
+-------COMPLETED-------------The Map Pack
 --What Is Social Proof?
 
 \*\*Gather images for the portfolio
