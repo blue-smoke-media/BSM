@@ -80,7 +80,7 @@ h6 {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 46px;
 }
 
 h2 {
@@ -882,7 +882,7 @@ ul.footer_social li a i:hover {
 	width: 100%;
 	position: relative;
   	padding-top: 180px;
-  	padding-bottom: 115px;
+  	padding-bottom: 25px;
   	background-position: center;
 }
 

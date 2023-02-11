@@ -61,7 +61,15 @@ b {
 }
 
 .padding-top-one {
-padding-top: -1%;
+padding-top: 5%;
+}
+
+.padding-top-two{
+	padding-top: 10%;
+}
+
+.padding-top-three {
+	padding-top: -25%;
 }
 
 .BSM-hr {
