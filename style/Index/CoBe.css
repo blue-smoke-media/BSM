@@ -36,6 +36,8 @@ b {
 .spacing {
 	letter-spacing: .05em;
 	word-spacing: .08em;
+	line-height: 1.55em;
+
 }
 
 .tab { 
@@ -47,6 +49,19 @@ b {
 	color :#cfe6fc;
 	font-size: 46px;
 	line-height: 47px;
+}
+
+.form-vertical-align {
+	padding-top: 9%;
+	padding-left: 2%;
+}
+
+.padding-right {
+	padding-right: 3%;
+}
+
+.padding-top-one {
+padding-top: -1%;
 }
 
 .BSM-hr {
@@ -109,7 +124,7 @@ b {
 .red-orange-h2 {
 	color: #EE3E0E !important;
 	text-shadow: 1px 1px 1px #020723;
-	font-size: 40px;
+	font-size: 30px;
 	font-family: 'Cabin', sans-serif;
 	line-height: 1.2;
 	margin-top: 5%;
@@ -339,7 +354,7 @@ div.text-img3 {
 
  h2.cwsd-section-title.white {
 	color: #cfe6fc;
-	margin-top: 14.5%;
+	margin-top: 9.5%;
 	margin-bottom: 5%; 
 	text-shadow: 2px 2px 1px #020723;
 } 
@@ -359,6 +374,10 @@ div.text-img3 {
 	}
 } */
 
+
+/* .green-diamond ol li::before {
+	list-style-image:  url ( images/icon/green-diamond.png );
+} */
 
  ul.diamond-shape li {
 	background: #7fbd3e !important;
@@ -380,7 +399,7 @@ div.text-img3 {
 	margin-top: -2%;
   	margin-left: 4%;
 	margin-bottom: 5%;
-	margin-right: 7%; 
+	margin-right: 5%; 
 	text-align: justify;
 	width: 50%;
 	font-family: cabin 'Sans Serif';
@@ -433,29 +452,32 @@ div.text-img3 {
 	background-color:  #020723;
 }
 
-div.increase-brand-awareness-img {
+.increase-brand-awareness-img {
 	display: flex;
 	justify-content: left;
-	margin-top: 5%;
-	margin-bottom: 9%; 
+	max-width: 90%;
+	max-height: 90%;
+	margin-top: 2%;
+	margin-bottom: 5%; 
+	padding-left: 15%;
 
 }
 
 p.p-brand-awareness {
 	box-sizing: border-box;
-	text-align: justify;
-	font-family: cabin 'Sans Serif';
-	font-weight: 800;
-	font-size: 2em;
-	line-height: 1.25em;
-	text-shadow: 2px 2px 1px #020723;
-	letter-spacing: .05em;
-	word-spacing: -.1em;
 	display: flex;
 	justify-content: right;
 	flex-wrap: wrap;
-	padding-left: 1%;
-	margin-top: 35.85%;	
+	text-align: justify;
+	font-family: cabin 'Sans Serif';
+	font-weight: 800;
+	font-size: 1.577em;
+	line-height: 1.05em;
+	text-shadow: 2px 2px 1px #020723;
+	letter-spacing: .05em;
+	word-spacing: -.1em;
+	padding-left: .55%;
+	margin-top: 15.85%;	
 }
 
 
