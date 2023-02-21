@@ -1,26 +1,24 @@
 BRADEN
 
-\*\* NEW \*\*- line 447-48  <br> not working.
+\*\* NEW \*\*- line 274 throughout document....@ 1/2" more room on the left hand side.  
+
+\*\*1st screen of index - indent the text of the second sentences to line up with the beginning of each sentence, on the check-marks. ----- i added "tab" just to even it up to show you what I want it to look like.
 
 \*\* NEW \*\*--On my 32" monitor, the 2nd row of price cards do not line up properly. 1st row is fine.
 
-**\***FIRSTLY!!! Please make a list of "ADD-ON Features" that we can use as additional sells and what you think we should charge for them.
-
 NEW     \*\*PLEASE put a hover on the  AUDIT CTA-----use this color for the hover, please.  ----> #ee3e0e
 
-`
 NEW      \*\*ADD SMOKE BACKGROUND to the Nav bar as opposed to the dark Blue. It is NOT a video, PLEASE. 
  ----> The file is at:  images/BSM-LOGO/blue-smoke-background.jpg
 
-
-NEW    \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.\*\*  NOTE NOTE NOTE \*\*  There are 2 flame logos in the images folder  ----> /BSM-Logo/flame-logo.          "choose which one of the 2 you think looks best!"
+NEW    \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.\*\*  NOTE NOTE NOTE \*\*  There are 2 flame logos in the images folder  ----> /BSM-Logo/flame-logo.          "choose which one of the 2 you think looks best!"      [Will get Blue Smoke type and Css to you soon]
 
 \*\*Make Nav “Sticky” for when the page is scrolled down using the “poster” of the smoke as the background.
 
 \*\*BreadCrumbs - add JS to function correctly
 ******Here is the link for Google's requirements on breadcrumbs: https://developers.google.com/search/docs/appearance/structured-data/breadcrumb#guidelines
 
--------COMPLETED-----------\*\*1st screen of index - indent the text of the second sentences to line up with the beginning of each sentence, on the check-marks. ----- I added spaces until you can do this simply because it was driving me insane.
+
 
 NEW  \*\*How Can A Custom Website Design Help My Business?
         The Green Diamond is here  ---->  /images/icon/green-diamond.png  
@@ -37,6 +35,8 @@ The prices are commented out on each pkg. The JS needs to be written so the pric
 Get it up and properly functioning.
 Get the "mini" cards at the bottom of the page on the index below the newest blog articles.
 
+
+**\***FIRSTLY!!! Please make a list of "ADD-ON Features" that we can use as additional sells and what you think we should charge for them.
 
 safari(?) breaking about our team photo
 
