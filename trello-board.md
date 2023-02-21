@@ -10,7 +10,7 @@ NEW     \*\*PLEASE put a hover on the  AUDIT CTA-----use this color for the hove
 
 `
 NEW      \*\*ADD SMOKE BACKGROUND to the Nav bar as opposed to the dark Blue. It is NOT a video, PLEASE. 
- ----> The file is at:  images/SDM-LOGO/blue-smoke-background.jpg
+ ----> The file is at:  images/BSM-LOGO/blue-smoke-background.jpg
 
 
 NEW    \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.\*\*  NOTE NOTE NOTE \*\*  There are 2 flame logos in the images folder  ----> /BSM-Logo/flame-logo.          "choose which one of the 2 you think looks best!"
@@ -25,6 +25,8 @@ NEW    \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] 
 NEW  \*\*How Can A Custom Website Design Help My Business?
         The Green Diamond is here  ---->  /images/icon/green-diamond.png  
         When reduced to mobile, the image HAS TO BE ON TOP of the bullet points, please.
+
+        I have the image of the diamond where it should go, but it is NOT allowing me to resize, etc.
 
 \*\*On "Our Standard Features" and "Our Services", I know there is a way to make the boxes all even regardless of the amount of text in them. I'm pretty sure it's in flexBox, but I'm unable to make it work properly. Would you please try?
 

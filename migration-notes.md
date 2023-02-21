@@ -32,7 +32,7 @@ finish pricing plans included
 enterprise and business swapped?
 professional -> personal
 action="/src/php/contactForm.php"
-remove our features section
+
 overlapping text (somewhere) (custom website design)
 breakpoints
 change font-family -> add poppins

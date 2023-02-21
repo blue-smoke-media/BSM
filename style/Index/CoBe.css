@@ -366,59 +366,8 @@ div.text-img3 {
 	margin-bottom: 5%; 
 	text-shadow: 2px 2px 1px #020723;
 } 
-/* @media (min-width: 768px) {
-	.container {
-	  width: 750px;
-	}
-  }
-@media (min-width: 992px) {
-	.container {
-	  width: 970px;
-	}
-  }
-@media (min-width: 1200px) {
-	.container {
-	  width: 1170px;
-	}
-} */
 
 
-/* .green-diamond ol li::before {
-	list-style-image:  url ( images/icon/green-diamond.png );
-} */
-
- ul.diamond-shape li {
-	background: #7fbd3e !important;
-	transform: rotate(45deg)!important;
-	height: 12px !important;
-	width: 12px !important;
-	list-style: none;
-	margin-top: -5%;
-	margin-left: 1% !important;
-	box-shadow: 2px 1px 1px 1px #0b144884;
-	-webkit-text-stroke-width: .25px;
-	-webkit-text-stroke-color: #020723;
-} 
-
-.green-bullets-text {
-	display: flex;
-	justify-content: left;
-  	flex-wrap: wrap; 
-	margin-top: -2%;
-  	margin-left: 4%;
-	margin-bottom: 5%;
-	margin-right: 5%; 
-	text-align: justify;
-	width: 50%;
-	font-family: cabin 'Sans Serif';
-	font-weight: 500;
-	font-size: 1.35em;
-	line-height: 1.07em;
-	color:#cfe6fc;
-	text-shadow: 1px 1px #020723;
-	-webkit-text-stroke-width: .25px;
-	-webkit-text-stroke-color: #020723;
-} 
 
 @media (min-width: 768px) {
 	.container {
@@ -435,6 +384,7 @@ div.text-img3 {
 	  width: 1170px;
 	}
 } 
+
 
 
 #BSM-hr-1 {
@@ -485,7 +435,7 @@ p.p-brand-awareness {
 	letter-spacing: .05em;
 	word-spacing: -.1em;
 	padding-left: .55%;
-	margin-top: 15.85%;	
+	margin-top: 30%;	
 }
 
 
