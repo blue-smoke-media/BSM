@@ -62,6 +62,7 @@ CoBe
 \*\*Web pages to write and link from the index to the new page.
 --Local Search
 --What is a Heat Map
+--Lead Generation
 -------COMPLETED-------------The Map Pack
 --What Is Social Proof?
 
