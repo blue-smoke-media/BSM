@@ -69,6 +69,7 @@ CoBe
 
 \*\*Add more info to the FAQ's
 
+
 \*\*Personal Social Links??
 
 \*\*Center Blog Titles
@@ -76,6 +77,6 @@ CoBe
 \*\*Remove Link to blog LG. images.
 
 \*\*BLOG Articles to write.
---Optimizing for the Google Core Web Vitals Updates
+--Optimizing for the Google Core Web Vitals Updates     
 --How to optimize your website for your Users Experience {UX}.
 --Page Experience Ranking Signals
