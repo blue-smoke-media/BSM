@@ -57,8 +57,8 @@ ol li {
 
 p {
 	font-size: 1.5em;
-	line-height: 25.55px;
-	font-weight: 400;
+	line-height: 23px;
+	font-weight: 500;
 	color: #cfe6fc;
 	margin-bottom: 15px;
 }
@@ -155,7 +155,9 @@ h5.section-title.blue{
 	color:#1e92f6;
 }
 
-
+.backgrnd-white {
+	background-color: #cfe6fc;
+}
 
 p.section-subtitle{
 	font-size: 18px;
@@ -166,18 +168,16 @@ p.section-subtitle.grey{
 	color:#293e84;
 }
 
-
 .about-our-team-h3 {
 	text-align: center;
 	margin-top: -1.355%;
 	outline-color: solid 1px #020723;
 }
 
-
-
 .p-about-text  {
-	font-weight: 300;
-	color: #293e84;
+	font-weight: 500;
+	color: #1244a4;
+	outline-color: solid 1px #020723;
 	margin-right: -1%; 
 	margin-left: -2.8888%;
 	text-align: justify;
@@ -193,9 +193,7 @@ p.section-subtitle.grey{
 	margin-top: -4.277%;
 }
 
-
-
-.width-100.picture-padding-bottom.team-gathered {
+.width-100.picture-padding-bottom.team-gathered  {
 	border: solid 1px #293e84;
 	background: url("../images/about-us.jpg");
 	border-radius: 2.55%;
@@ -229,8 +227,7 @@ iframe {
 }
 
 .section-white {
-	background-color: #cfe6fc;
-	/* padding: 90px 0 100px 0; */
+	background-color: #f5f9fd;
 	width: 100%;
 }
 
@@ -243,15 +240,15 @@ iframe {
 	padding:0;
 }
 
-.section-white.small-paddings, .section-blue.small-paddings {
+.section-white.small-paddings, .section-blue, .small-paddings {
 	padding: 30px 0;
 }
 
-.section-white.small-padding-top, .section-blue.small-padding-top {
+.section-white.small-padding-top, .section-blue, .small-padding-top {
 	padding: 30px 0 90px 0;
 }
 
-.section-white.small-padding-bottom, .section-blue.small-padding-bottom {
+.section-white.small-padding-bottom, .section-blue, .small-padding-bottom {
 	padding: 90px 0 70px 0;
 }
 
@@ -692,11 +689,11 @@ a:hover {
 	align-items: center;
 	}
 
-	.dropdown:hover .dropdown-content {
+	.dropdown:hover.dropdown-content {
 	display: flex;
 	}
 
-	.dropdown .dropdown-content {
+	.dropdown.dropdown-content {
 	position: absolute;
 	display: none;
 	z-index: 5;
@@ -1061,7 +1058,7 @@ p.register_success_box{
 /* 			               06. About Our TEAM                 */
 /* ========================================================== */
 
-.about-our-team-h3 .red-orange-h3 .ctr{
+.about-our-team-h3.red-orange-h3 .ctr{
 	color: #EE3E0E;
 	outline-color: solid 6px #020723;
 }

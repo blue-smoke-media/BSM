@@ -30,14 +30,13 @@ b {
 	color: #cfe6fc ;
 	font-weight: 900;
 	text-shadow: 2px 1px 1px #020723;	
-	outline-width: 2px solid #020723;
+	outline-width: 1px solid #020723;
 }
 
 .spacing {
 	letter-spacing: .05em;
 	word-spacing: .08em;
 	line-height: 1.55em;
-
 }
 
 .tab { 
@@ -101,13 +100,13 @@ padding-top: 5%;
 
 .blue {
     color: rgb(84, 140, 255) !important;
-	outline-width: 2px solid #293e84 !important;
+	outline-width: 1px solid #293e84 !important;
 	text-shadow: 2px 2px 1px #020723 !important;
 }
 
 .blue-text {
 	color:#1244a4;
-    text-shadow: .25px .25px .25px #020723;
+    /* text-shadow: .25px .25px .25px #020723; */
 }
 
 .white-text{ 
@@ -439,53 +438,7 @@ p.p-brand-awareness {
 }
 
 
-/* @media only screen and (mid-width: 320px) and (max-width: 480px) {
-	.p-brand-awareness {
-	  font-size: .75em;
-	}
-  }
 
-  @media only screen and (mid-width: 360px) and (max-width: 640px) {
-	.p-brand-awareness {
-	  font-size: .75em;
-	}
-  }
-
-  @media only screen and (mid-width: 375px) and (max-width: 667px) {
-	.p-brand-awareness {
-	  font-size: .75em;
-	}
-  }
-
-  @media only screen and (mid-width: 360px) and (max-width: 720px) {
-	.p-brand-awareness {
-	  font-size: .75em;
-	}
-  }
-
-  @media only screen and (mid-width: 375px) and (max-width: 812px) {
-	.p-brand-awareness {
-	  font-size: .75em;
-	}
-  }
-
-  @media only screen and (mid-width: 411px) and (max-width: 731px) {
-	.p-brand-awareness {
-	  font-size: .75em;
-	}
-  }
-
-  @media only screen and (mid-width: 1366px) and (max-width: 768px) {
-	.p-brand-awareness {
-	  font-size: .75em;
-	}
-  }
-
-  @media only screen and (mid-width: 1920px) and (max-width: 1080px) {
-	.p-brand-awareness {
-	  font-size: .75em;
-	}
-  } */
 /* ========================================================== */
 
 
@@ -525,9 +478,7 @@ High-res laptop or desktop: 1920 x 1080.  */
 	padding-bottom: 17%;	
 }
 
-/* .bottom-audit-margin {
-	margin-bottom: -55%;
-} */
+
 /* ========================================================== */
 /* END   CTA How to Increase Your Brand Awareness...          */
 /* ========================================================== */
