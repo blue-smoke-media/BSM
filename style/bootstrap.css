@@ -1583,7 +1583,7 @@ pre code {
 }
 .container {
   padding-right: 15px;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -1611,8 +1611,8 @@ pre code {
 }
 .row {
   margin: 5% auto;
-  margin-right: -15px;
-  margin-left: -15px;
+ padding-right: 15px;
+ /* padding-left:15px; */
 }
 
 
