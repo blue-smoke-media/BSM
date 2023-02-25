@@ -15,9 +15,9 @@ b {
 }
 
 .b-a {
-	color: rgb(84, 140, 255);
+	color: rgb(84, 140, 255) !important;
 	font-weight: 900;
-	text-shadow: 1px 1px 1px #020723;	
+	text-shadow: .5px .5px .5px #020723;	
 }
 
 .b-b {
@@ -31,6 +31,18 @@ b {
 	font-weight: 900;
 	text-shadow: 2px 1px 1px #020723;	
 	outline-width: 1px solid #020723;
+}
+
+.b-d {
+	color: #293e84;
+	font-weight: 300;
+	font-size: 1em;
+}
+
+.b-e {
+	color: #EE3E0E !important;
+	font-weight: 900;
+	font-size: 1em !important;
 }
 
 .spacing {
@@ -100,8 +112,28 @@ padding-top: 5%;
 
 .blue {
     color: rgb(84, 140, 255) !important;
-	outline-width: 1px solid #293e84 !important;
+	/* outline-width: 1px solid #293e84 !important; */
 	text-shadow: 2px 2px 1px #020723 !important;
+}
+
+.blue-h3 {
+	font-size: 2em;
+    color: 	rgb(30, 146, 246) !important;
+	/* outline-width: 1px solid #293e84 !important; */
+	text-shadow: 1px 1px 1px #020723 !important;
+}
+
+.blue-h3-a {
+	font-size: 1em;
+	font-weight: 300;
+    color: 	rgb(30, 146, 246) !important;
+}
+
+.blue-text-a {
+    color: #293e84 !important;
+	font-size: 1em;
+	/* outline-width: 1px solid #293e84 !important; */
+	/* text-shadow: 2px 2px 1px #020723 !important; */
 }
 
 .blue-text {
@@ -386,7 +418,7 @@ div.text-img3 {
 
 #BSM-hr-1 {
 	border: none;
-	background-color:#239e84;
+	background-color:rgb(84, 140, 255);
 	width: 60% !important;
 	margin-top: 1%;
 	margin-right: 20% !important;

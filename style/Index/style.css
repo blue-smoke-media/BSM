@@ -63,12 +63,18 @@ p {
 	margin-bottom: 15px;
 }
 
-
 a:hover {
     color:#ee3e0e;
 	text-decoration: none;
 	outline: 0;
 }
+
+a:visited {
+    color:#7fbd3e;
+	text-decoration: none;
+	outline: 0;
+}
+
 
 h1,
 h2,
@@ -93,7 +99,7 @@ h2 {
 
 h3 {
 	font-size: 34px;
-    color: #293e84;
+    /* color: #293e84; */
 	outline-color: solid 1px #020723;
 }
 
@@ -1132,18 +1138,20 @@ ul.team-icon li a.linkedin {
 /* 						   06. PORTFOLIO                      */
 /* ========================================================== */
 
-.portfolio-item-wrapper{
+.portfolio-item-wrapper {
 	margin-top: 20px;
 	margin-bottom:20px;
    border-radius: 5px 5px 5px 5px;
+   border: 2px solid #293e84;
     box-shadow: rgba(33,33,33,.06) 0 4px 24px 5px;
 }
 
 .portfolio-box,
 .portfolio-box-grey{
 	text-align:center;
+	border: 2px solid #293e84;
 	background-color: #EE3E0E ;
-    border-bottom: 3px solid #020723;
+    border-bottom: 3px solid #293e84;
 	padding:1px 20px 12px 20px;
     border-radius: 0 0 5px 5px;
 }
@@ -1200,14 +1208,14 @@ ul.team-icon li a.linkedin {
 	padding: 0px 30px 30px 30px;
 	background-color: #cfe6fc;
     border: solid 1px #293e84;
-	box-shadow: 0 2px 4.755px 0 #020723;
+	box-shadow: #020723 0 4px 24px 2px;
     border-radius: 8px;
 	text-align: center;
 	transition: all 1s;
 }
 
-
 .header-3 .svcs-header-3 {
+	font-size: 1.5em;
 	color: #293e84;
 	padding-top: -22% !important;
 }
@@ -1221,19 +1229,20 @@ ul.team-icon li a.linkedin {
 .main {
 color: #293e84;
 }
-.main a:hover {
-		color: #7fbd3e;
+
+	.main a:hover {
+		color: #ee3e0e;
 		font-weight: 900;
 	}
 
-	.main a:visited {
-		color: #C92228;
+		.main a:visited {
+		color: #7fbd3e;;
 		font-weight: 900;
-	}
+		}
 
 
 
-.main-services:hover {
+.main-services:hover,.main-services:visited {
 	margin-top: 30px;
 	transition: all 1s;
 }
@@ -1243,24 +1252,22 @@ color: #293e84;
 	margin-bottom: 25px;
 }
 
-.main-services h3 {
-	font-size: 22px;
+.main-services p {
+	font-weight: 300;
+	padding: 0 10px;
+	font-size: 1.5em;
 	color: #293e84;
 	margin-bottom: 15px;
 }
 
-.main-services p {
-	padding: 0 10px;
-}
-
-blockquote {
-	font-size: 16px;
+.blockquote {
+	font-size: 1.3em;
 	color: #293e84;
 	border-left: 2px solid #020723;
 }
 
 a.btn-download {
-	color: #cfe6fc;
+	color: #cfe6fca7;
 	font-family: 'Cabin', sans-serif;
 	font-size: 16px;
 	background: #4285f4;
@@ -1579,7 +1586,7 @@ ul.pricing-list li.price-tag a:hover{
 .blog-item{
 	margin-top: 40px;
 	background-color: #cfe6fc;
- border-radius: 5px 5px 5px 5px;
+ 	border-radius: 5px 5px 5px 5px;
 	box-shadow: #020723 0px 2px 12px 2px;
     transition: all .50s ease-in-out;
     -moz-transition: all .50s ease-in-out;
