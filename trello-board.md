@@ -15,7 +15,7 @@ NEW     \*\*PLEASE put a hover on the  AUDIT CTA-----use this color for the hove
 NEW      \*\*ADD SMOKE BACKGROUND to the Nav bar as opposed to the dark Blue. It is NOT a video, PLEASE. 
  ----> The file is at:  images/BSM-LOGO/blue-smoke-background.jpg
 
-NEW    \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.\*\*  NOTE NOTE NOTE \*\*  There are 2 flame logos in the images folder  ----> /BSM-Logo/flame-logo.          "choose which one of the 2 you think looks best!"      [Will get Blue Smoke type and Css to you soon] I prefer the lighter one.
+NEW    \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.
 
 \*\*Make Nav “Sticky” for when the page is scrolled down using the “poster” of the smoke as the background.
 
@@ -39,7 +39,7 @@ Get it up and properly functioning.
 Get the "mini" cards at the bottom of the page on the index below the newest blog articles.
 
 
-**\***FIRSTLY!!! Please make a list of "ADD-ON Features" that we can use as additional sells and what you think we should charge for them.
+**\*** Please make a list of "ADD-ON Features" that we can use as additional sells and what you think we should charge for them.
 
 safari(?) breaking about our team photo
 
@@ -47,8 +47,10 @@ auto
 blog link?
 quick inquiry phone number field has arrows
 
+
 CoBe
 
+Check index for  <!---insertLink--> for any pages that need to be written or linked to.
 
 \*\*Page for ADD-ONs.....PriceList
 -Link from each add-on in the pricelist to the ADD-On Page
@@ -57,7 +59,6 @@ CoBe
 *\*Gather images for the portfolio
 
 \*\*Add more info to the FAQ's
-
 
 \*\*Personal Social Links??
 
