@@ -24,7 +24,7 @@
   color: #293e84;
 }
 
-.featured-desc p :hover{
+.featured-desc p :hover {
 /* .featured-desc p :active.{ */
 	color: #cfe6fc;
 }
@@ -77,12 +77,9 @@
   background: #0b0f34;
 }
 
-
-
 .featured-item.style-3:hover .featured-desc {
   color: #cfe6fc;
 }
-
 
 .featured-item.style-3:hover .featured-title h4,
 .featured-item.style-3:hover  {
