@@ -248,7 +248,7 @@ iframe {
 	padding: 30px 0 90px 0;
 }
 
-.section-white.small-padding-bottom, .section-blue, .small-padding-bottom {
+.section-white.small-padding-bottom, .small-padding-bottom {
 	padding: 90px 0 70px 0;
 }
 
@@ -2158,7 +2158,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 
  /* f) Partners */
 
-.section-white.sponsors-padding, .section-blue.sponsors-padding {
+.section-white.sponsors-padding, .sponsors-padding {
     padding: 30px 0 30px 0;
 }
 
