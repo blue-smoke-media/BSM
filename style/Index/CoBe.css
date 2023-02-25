@@ -407,6 +407,10 @@ div.text-img3 {
 	background-color:  #020723;
 }
 
+.background-lt-blue {
+	background-color: rgb(84, 140, 255);
+}
+
 .increase-brand-awareness-img {
 	display: flex;
 	justify-content: left;
@@ -486,15 +490,10 @@ High-res laptop or desktop: 1920 x 1080.  */
 /* ========================================================== */
 
 
+
 .portfolio-top {
-	margin-top: -12em;
+	margin-top: -17em;
 }
-
-
-
-
-
-
 
 /* ========================================================== */
 /*   BEGIN	               SERVICES                           */
@@ -653,7 +652,7 @@ h6-f {
 } */
 
 /* ========================================================== */
-/*   <!--BEGIN OUR FEATURES --->						                                     */
+/*   <!--BEGIN  OUR FEATURES --->						                                     */
 /* ========================================================== */
 
 

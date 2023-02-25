@@ -1135,19 +1135,18 @@ ul.team-icon li a.linkedin {
 .portfolio-item-wrapper{
 	margin-top: 20px;
 	margin-bottom:20px;
- border-radius: 5px 5px 5px 5px;
+   border-radius: 5px 5px 5px 5px;
     box-shadow: rgba(33,33,33,.06) 0 4px 24px 5px;
 }
 
 .portfolio-box,
 .portfolio-box-grey{
 	text-align:center;
-	background-color: #cfe6fc;
-    border-bottom: 3px solid #e0e0e0;
+	background-color: #EE3E0E ;
+    border-bottom: 3px solid #020723;
 	padding:1px 20px 12px 20px;
- border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
 }
-
 
 .portfolio-box-grey{
 	margin-bottom:30px;
@@ -1161,7 +1160,7 @@ ul.team-icon li a.linkedin {
 }
 
 .portfolio-box h3 a, .portfolio-box-grey h3 a{
-	color:#454545;
+	color: #cfe6fc;
 	font-size:18px;
 	transition: all .25s ease-in-out;
 	-moz-transition: all .25s ease-in-out;
