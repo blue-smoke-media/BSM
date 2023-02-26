@@ -7,7 +7,7 @@ body {
 b {
 	font-weight: 900;
 	color: #EE3E0E;
-	text-shadow: 1px 1px 1px #020723;
+	/* text-shadow: 1px 1px 1px #020723; */
 }
 
 .line-h {
@@ -17,7 +17,7 @@ b {
 .b-a {
 	color: rgb(84, 140, 255) !important;
 	font-weight: 900;
-	text-shadow: .5px .5px .5px #020723;	
+	/* text-shadow: .5px .5px .5px #020723;	 */
 }
 
 .b-b {
@@ -41,8 +41,9 @@ b {
 
 .b-e {
 	color: #EE3E0E !important;
-	font-weight: 900;
+	font-weight: 300;
 	font-size: 1em !important;
+	text-shadow: none !important;
 }
 
 .spacing {
@@ -101,8 +102,12 @@ padding-top: 5%;
 	text-shadow: 1px 1px 1px #293e84;
 }
 
-.italics-midnightBlue{
-	font-style: italic;
+h3.italics-midnightBlue {
+	/* font-style: italic; */
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-top: -10em;
+
 }
 
 
@@ -118,14 +123,20 @@ padding-top: 5%;
 
 .blue-h3 {
 	font-size: 2em;
-    color: 	rgb(30, 146, 246) !important;
+    color: 	rgb(30, 146, 246) ;
 	/* outline-width: 1px solid #293e84 !important; */
-	text-shadow: 1px 1px 1px #020723 !important;
+	text-shadow: 1px 1px 1px #020723 ;
 }
 
 .blue-h3-a {
 	font-size: 1em;
-	font-weight: 300;
+	font-weight: 700;
+    color: 	rgb(30, 146, 246) !important;
+}
+
+.blue-h3-b {
+	font-size: 1em;
+	font-weight: 700;
     color: 	rgb(30, 146, 246) !important;
 }
 
