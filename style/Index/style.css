@@ -77,7 +77,7 @@ a:visited {
 
 
 h1,
-h2,
+red-orange-h2,
 h3,
 h4,
 h5,
@@ -2123,7 +2123,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 .panel-title {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 700;
     color: #020723;
     font-family: 'Cabin', sans-serif;

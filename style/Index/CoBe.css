@@ -174,11 +174,12 @@ h3.italics-midnightBlue {
 .red-orange-h2 {
 	color: #EE3E0E !important;
 	text-shadow: 1px 1px 1px #020723;
-	font-size: 30px;
+	font-size: 40px;
 	font-family: 'Cabin', sans-serif;
 	line-height: 1.2;
 	margin-top: 5%;
 	margin-bottom: 20px;
+	padding-bottom: 5.577%;
 }
 
 .red-orange-h3 {
