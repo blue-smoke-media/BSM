@@ -50,6 +50,8 @@ quick inquiry phone number field has arrows
 
 CoBe
 
+\*\* get info to Beau!!!! Priority!!!
+
 Check index for  <!---insertLink--> for any pages that need to be written or linked to.
 
 \*\*Page for ADD-ONs.....PriceList
@@ -77,6 +79,25 @@ Check index for  <!---insertLink--> for any pages that need to be written or lin
 --Optimizing for the Google Core Web Vitals Updates     
 --How to optimize your website for your Users Experience {UX}.
 --Page Experience Ranking Signals
+-- How to say Solutions WITHOUT SAYING Solutions.
+        15 Other Ways To Say Solutions
+Answers
+Results
+Help
+The Key
+The Formula
+The Recipe
+The Fix
+Magic
+Oomph
+Cheat Codes
+Pixie Dust
+Secret Sauce
+Elbow Grease
+Blood, Sweat and Years
+
+Call To Action
+Say something different. Be bold, be creative, get noticed.
 
 
 -------COMPLETED-----------\*\*Replace Favicon WITHOUT Smoke background!
