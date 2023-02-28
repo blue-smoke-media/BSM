@@ -800,3 +800,83 @@ h6-f {
 .width-150{
 	width: 150%;
 }
+
+/* back to top */
+
+.back-to-top {
+	position: fixed;
+	cursor: pointer;
+	top: 0;
+	right: 15px;
+	color: #ffffff;
+	background: #293e84;
+	z-index: 4;
+	width: 40px;
+	text-align: center;
+	height: 42px;
+	line-height: 42px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: .9s;
+	transition: .9s;
+}
+
+.back-to-top:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background: #ff561d;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+.back-to-top:hover:before,
+.back-to-top:focus:before {
+	opacity: 1;
+	visibility: visible;
+}
+.back-to-top:hover,
+.back-to-top:focus {
+	color: #ffffff;
+}
+.back-to-top.active {
+	top: 97%;
+	-webkit-transform: translateY(-98%);
+	transform: translateY(-98%);
+	opacity: 1;
+	visibility: visible;
+}
+.back-to-top i:last-child {
+	opacity: 0;
+	visibility: hidden;
+	top: 60%;
+}
+.back-to-top:hover i:first-child,
+.back-to-top:focus i:first-child {
+	opacity: 0;
+	top: 0;
+	visibility: hidden;
+}
+.back-to-top:hover i:last-child,
+.back-to-top:focus i:last-child {
+	opacity: 1;
+	visibility: visible;
+	top: 50%;
+}
+.back-to-top i {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	font-size: 20px;
+}

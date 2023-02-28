@@ -14,5 +14,6 @@
     "editor.fontSize": 16,
     "editor.minimap.showSlider": "always",
     "workbench.commandPalette.history": 550,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "liveServer.settings.port": 5501
 }
