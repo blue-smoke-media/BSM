@@ -1,31 +1,29 @@
 BRADEN
 
-\*\* NEW \*\*-  IMPORTANT!!!!!
-        Add our Google Analytics, Search, and Tag Manager, tags into the head of the new site,p lease.
+\*\* NEW \*\*- IMPORTANT!!!!!
+Add our Google Analytics, Search, and Tag Manager, tags into the head of the new site,p lease. (march create new GA4 property)
 
-\*\* NEW \*\*- line 274 throughout document....@ 1/2" more room on the left hand side.  
+\*\* NEW \*\*- line 274 throughout document....@ 1/2" more room on the left hand side. (check ruler)
 
-\*\*1st screen of index - indent the text of the second sentences to line up with the 
-        beginning of each sentence, on the check-marks. ----- i added "tab" just to even it up to show you what I want it to look like.         
+\*\*1st screen of index - indent the text of the second sentences to line up with the
+beginning of each sentence, on the check-marks. ----- i added "tab" just to even it up to show you what I want it to look like.
+--setup breakpoints to keep indented 'tabs' lined with bullet points
 
-\*\* NEW \*\*--On my 32" monitor, the 2nd row of price cards do not line up properly. 1st row  is fine.
+\*\* NEW \*\*--On my 32" monitor, the 2nd row of price cards do not line up properly. 1st row is fine. (??)
 
-NEW     \*\*PLEASE put a hover on the  AUDIT CTA-----use this color for the hover, please.  ----> #ee3e0e
+change text size of xl and xxl on drop navigation
+breaking fixed size when smaller screen (nav mobile/tablet)
 
-NEW      \*\*ADD SMOKE BACKGROUND to the Nav bar as opposed to the dark Blue. It is NOT a video, PLEASE. 
- ----> The file is at:  images/BSM-LOGO/blue-smoke-background.jpg
+NEW \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.
 
-NEW    \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.
-
-\*\*Make Nav “Sticky” for when the page is scrolled down using the “poster” of the smoke as the background.
+move nav to right of nav
 
 \*\*BreadCrumbs - add JS to function correctly
-******Here is the link for Google's requirements on breadcrumbs: https://developers.google.com/search/docs/appearance/structured-data/breadcrumb#guidelines
+**\*\***Here is the link for Google's requirements on breadcrumbs: https://developers.google.com/search/docs/appearance/structured-data/breadcrumb#guidelines
 
-
-NEW  \*\*How Can A Custom Website Design Help My Business?
-        The Green Diamond is here  ---->  /images/icon/green-diamond.png  
-        When reduced to mobile, the image HAS TO BE ON TOP of the bullet points, please.
+NEW \*\*How Can A Custom Website Design Help My Business?
+The Green Diamond is here ----> /images/icon/green-diamond.png
+When reduced to mobile, the image HAS TO BE ON TOP of the bullet points, please.
 
         I have the image of the diamond where it should go, but it is NOT allowing me to resize, etc.
 
@@ -38,7 +36,6 @@ The prices are commented out on each pkg. The JS needs to be written so the pric
 Get it up and properly functioning.
 Get the "mini" cards at the bottom of the page on the index below the newest blog articles.
 
-
 **\*** Please make a list of "ADD-ON Features" that we can use as additional sells and what you think we should charge for them.
 
 safari(?) breaking about our team photo
@@ -47,18 +44,17 @@ auto
 blog link?
 quick inquiry phone number field has arrows
 
-
 CoBe
 
 \*\* get info to Beau!!!! Priority!!!
 
-Check index for  <!---insertLink--> for any pages that need to be written or linked to.
+Check index for <!---insertLink--> for any pages that need to be written or linked to.
 
 \*\*Page for ADD-ONs.....PriceList
 -Link from each add-on in the pricelist to the ADD-On Page
 -ONE SHORT Paragraph to explain what the add-on is and if needed, link to a page regarding that add-on.
 
-*\*Gather images for the portfolio
+\*\*Gather images for the portfolio
 
 \*\*Add more info to the FAQ's
 
@@ -76,11 +72,11 @@ Check index for  <!---insertLink--> for any pages that need to be written or lin
 --What Is Social Proof?
 
 \*\*BLOG Articles to write.
---Optimizing for the Google Core Web Vitals Updates     
+--Optimizing for the Google Core Web Vitals Updates
 --How to optimize your website for your Users Experience {UX}.
 --Page Experience Ranking Signals
 -- How to say Solutions WITHOUT SAYING Solutions.
-        15 Other Ways To Say Solutions
+15 Other Ways To Say Solutions
 Answers
 Results
 Help
@@ -99,16 +95,11 @@ Blood, Sweat and Years
 Call To Action
 Say something different. Be bold, be creative, get noticed.
 
-
 -------COMPLETED-----------\*\*Replace Favicon WITHOUT Smoke background!
 
 -------COMPLETED-----------\*\*In the CSS, add :visited color to the links in OUR SERVICES.
 
--------COMPLETED-----------[Created image and put in images folder]\*\*Find ORIGINAL Smoke background to replace ALL Smoke images. The current one is pixelated and has RED AURAS in places. 
+-------COMPLETED-----------[Created image and put in images folder]\*\*Find ORIGINAL Smoke background to replace ALL Smoke images. The current one is pixelated and has RED AURAS in places.
 
 -------COMPLETED-----------\*\*Write NEW copy for sidebar of FREE Audit CTA.
 \*\*CSS for submit button on AUDIT CTA-------------"currently working on - waiting to hear back from Braden"
-
-
-
-

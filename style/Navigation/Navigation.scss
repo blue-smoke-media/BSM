@@ -2,15 +2,17 @@
 
 nav {
   display: flex;
-  // height: 100%;
   margin-bottom: 5em;
+  position: -webkit-sticky;
+  position: sticky;
+
   @include breakpoint(xxs, xs, s) {
     margin-bottom: 3em;
   }
 }
 
 header-nav {
-  position: absolute;
+  position: fixed;
   z-index: 1;
   width: 100%;
   top: 0;
@@ -18,24 +20,26 @@ header-nav {
   right: 0;
   font-weight: 400;
   // font-size: 0.9em !important;
-  background: $darkBlue;
+  // background: $darkBlue;images/BSM-LOGO/blue-smoke-background.jpg
+  background: url("/images/BSM-LOGO/Smoke-Backgrounds/blue-smoke-background.jpg");
+  background-size: 100% 150%;
   height: 7em;
+  // border-bottom: 2px solid $darkBlue;
 
   #main-nav {
     display: flex;
     // background-image: url("/videos/3sec-animated-smoke.mp4");
-    justify-content: space-around;
+    justify-content: center;
+    // justify-content: center;
     align-items: center;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
-    padding: 1% 7%;
-    width: 80%;
-    // position: absolute;
-    // top: 0;
-    // left: 0;
+    padding: 1.2% 7% 0%;
+    width: 100%;
+    // padding-left: auto;
 
     @include breakpoint(xxs, xs, s) {
       display: none;
@@ -52,10 +56,10 @@ header-nav {
       color: $white;
       font-size: 1em;
       text-align: center;
-      padding: 0.5em 0.65em;
+      padding: 0.5em 5%;
       text-decoration: none;
       @include breakpoint(xl, xxl) {
-        font-size: 1.3rem;
+        font-size: 1.3em;
       }
 
       &:hover {
@@ -167,7 +171,9 @@ header-nav {
       }
     }
     .logo-wrapper {
-      // position: absolute;
+      position: absolute;
+      left: 1em;
+      top: 1em;
       // left: 2em;
       // height: 40%;
       .logo {

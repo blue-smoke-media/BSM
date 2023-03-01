@@ -3,6 +3,8 @@ nav {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 5em;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 @media (max-width: 360px) {
@@ -24,14 +26,15 @@ nav {
 }
 
 header-nav {
-  position: absolute;
+  position: fixed;
   z-index: 1;
   width: 100%;
   top: 0;
   left: 0;
   right: 0;
   font-weight: 400;
-  background: #020723;
+  background: url("/images/BSM-LOGO/Smoke-Backgrounds/blue-smoke-background.jpg");
+  background-size: 100% 150%;
   height: 7em;
 }
 
@@ -39,8 +42,9 @@ header-nav #main-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -49,8 +53,8 @@ header-nav #main-nav {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-  padding: 1% 7%;
-  width: 80%;
+  padding: 1.2% 7% 0%;
+  width: 100%;
   /* Links inside the navbar */
   /* The dropdown container */
 }
@@ -83,19 +87,19 @@ header-nav #main-nav .nav-item {
   color: #cfe6fc;
   font-size: 1em;
   text-align: center;
-  padding: 0.5em 0.65em;
+  padding: 0.5em 5%;
   text-decoration: none;
 }
 
 @media (min-width: 1281px) and (max-width: 1680px) {
   header-nav #main-nav .nav-item {
-    font-size: 1.3rem;
+    font-size: 1.3em;
   }
 }
 
 @media (min-width: 1681px) {
   header-nav #main-nav .nav-item {
-    font-size: 1.3rem;
+    font-size: 1.3em;
   }
 }
 
@@ -233,6 +237,12 @@ header-nav #main-nav .dropdown .home-drop {
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
+}
+
+header-nav #main-nav .logo-wrapper {
+  position: absolute;
+  left: 1em;
+  top: 1em;
 }
 
 header-nav #main-nav .logo-wrapper .logo {

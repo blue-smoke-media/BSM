@@ -37,6 +37,16 @@
   max-width: 30em;
 }
 
+#audit-form .bottom .form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 2%;
+}
+
 #audit-form .bottom .form-container form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -67,16 +77,17 @@
 }
 
 #audit-form .bottom .form-container form input[name="submit"] {
-  width: 58.888%;
-  margin-left: 44.755%;
-  text-shadow: 1px 1px 1px #020723;
+  width: 65%;
+  margin-left: 42%;
   border-radius: 1em;
   background: #7fbd3e;
+  color: #cfe6fc;
   border: 1px solid black;
-  box-shadow: #020723 2px 2px 3.755px 0px;
   padding: 0.25em 0.125em;
-  font-weight: 0700;
+  font-weight: 700;
 }
 
-
+#audit-form .bottom .form-container form input[name="submit"]:hover {
+  background-color: #ee3e0e;
+}
 /*# sourceMappingURL=audit-cta.css.map */
