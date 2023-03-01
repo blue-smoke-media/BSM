@@ -1,0 +1,311 @@
+/* ========================================================== */
+/*   		BEGIN  PRICING  								  */
+/* ========================================================== */
+
+/* BEGIN PRICE CARDS */
+
+.col-md-4-1-a {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 11px;
+    margin-bottom: 10%;
+	width: 33.3333%;
+}
+
+
+.value-added {
+	color: #ee3e0e !important;
+	font-weight: 800 !important;
+	text-shadow: 1px 1px 1px #293e84;
+}
+
+.add-ons {
+	color: #ee3e0e !important;
+	font-weight: 800 !important;
+	text-shadow: 1px 1px 1px #293e84;
+}
+
+.price-box-blue ul.pricing-list li.price-tag a:hover{
+	color: #4285f4;
+	border: 2px solid #cfe6fc;
+	background: #cfe6fc;
+}
+
+ul.pricing-list li.price-subtitle-1 {
+	color: #002774 !important;
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: -3%;
+	padding: 12px;
+}
+
+
+
+/* BEGIN BLUE PRICE CARD */
+
+p.blue {
+	color: #002774;
+}
+
+
+.price-text-blue {
+	color: #d8d8d8 !important;
+	text-shadow: 1px 1px 0px #002774;
+	font-family: 'Cabin', sans-serif;
+	font-size: 16px!important;
+	line-height: 28px!important;
+	font-weight: 400!important;
+	margin-bottom: 5px!important;
+	padding: 0 5px;
+}
+
+
+.price-title-blue {
+	color: #d8d8d8;
+	font-family: 'Cabin', sans-serif;
+	font-size: 28px;
+	line-height: 28px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	margin-bottom: 5%;
+	text-shadow: 2px 2px 1px #293e84;
+}
+
+
+
+ul.pricing-list li.price-title {
+	font-family: 'Cabin', sans-serif;
+    font-size: 28px;
+    line-height: 24px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+    text-shadow: 1px 1px 0px #1e92f6;
+}
+
+.price-box-blue .price-subtitle,.price-box-blue .price-text {
+	color: #002774 !important;
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	margin: -3%;
+}
+
+.price-box-blue ul.pricing-list-blue li.price-tag-blue a{
+	color: #fff;
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 30px 8px;
+	padding: 15px 30px;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	margin: 40px 0 30px 0;
+}
+
+ul.pricing-list-blue li.price-tag-blue a:hover{
+	background: #ee3e0e;
+    background: linear-gradient(135deg,  #ee3e0e 0%, #020723 100%);
+}
+
+ul.pricing-list li.price-text-blue {
+	color: #d8d8d8 !important;		
+	text-shadow: 1px 1px 0px #002774;
+	font-family: 'Cabin', sans-serif;
+	font-size: 16px!important;
+	line-height: 28px!important;
+	font-weight: 400!important;
+	margin-bottom: 5px!important;
+} 
+
+/* END BLUE top PRICE CARD */
+
+
+/* BEGIN Green top PRICE CARD */
+
+.price-box-green {
+	text-align: center;
+	background: #7fbd3e;
+    background: linear-gradient(to bottom right, #7fbd3e, #203d01);
+	box-shadow: #293e84 0 4px 24px 2px;
+	padding: 50px 0 44px 0;
+	color:#cfe6fc;
+	width: 90.25%;
+	margin-top: 40;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border-radius: 8px;
+	backface-visibility: hidden;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.price-box-green .price-subtitle {
+	color: #002774 !important;
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	margin: -3%;
+}
+
+.pricing-list-green .price-tag-green a {
+    color: #cfe6fc;
+    /* background: #008aff; */
+    background: linear-gradient(to bottom right, #1e92f6, #020723);
+    border-radius: 30px 8px;
+    border: 2px solid #002774;
+    padding: 15px 30px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 40px 0 30px 0;
+}
+
+
+ul.pricing-list-green li.price-tag-green a:hover {
+	background: #ee3e0e;
+	background: linear-gradient(135deg,  #ee3e0e 0%, #020723 100%);
+}
+
+
+ul.pricing-list-blue li.price-tag-blue a:hover {
+	background: #ee3e0e;
+    background: linear-gradient(135deg,  #ee3e0e 0%, #020723 100%);
+}
+
+/* END Green top PRICE CARD */
+
+/* BEGIN 2ND ROW PRICE CARD */
+
+
+.col-md-4-1 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 25px;
+    margin-bottom: 10%;
+	width: 100%;
+}
+
+
+@media (min-width: 992px) {
+	.col-md-4-1 {
+		float: left;
+		width: 33.33333333%;
+	}	
+}
+
+.price-box-yellow {
+	text-align: center;
+    color:#002774;
+    background: linear-gradient(to bottom right, #fcba14, #684b01);
+    box-shadow: #293e84 0 4px 24px 2px;
+	padding: 50px 0 121px 0;
+	width: 90%;
+	margin-top: 40;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border-radius: 8px 8px;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.price-box-yellow .price-subtitle .price-box-blue .price-text{
+	color: #002774 !important;
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	margin-top: -3%;
+}
+
+.price-box-yellow .price-subtitle {
+	color: #002774 !important;
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	margin: -3%;
+}
+
+.pricing-list-yellow .price-tag-green a {
+    color: #cfe6fc;
+    background: #008aff;
+    background: linear-gradient(to bottom right, #1e92f6, #020723);
+    border-radius: 30px 8px;
+    border: 2px solid #002774;
+    padding: 15px 30px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 40px 0 30px 0;
+}
+
+
+ul.pricing-list-green li.price-tag-green a:hover {
+	background: #ee3e0e;
+	background: linear-gradient(135deg,  #ee3e0e 0%, #020723 100%);
+}
+
+ul.pricing-list li.price-text-yellow {
+	color: #002774 !important;
+	font-family: 'Cabin', sans-serif;
+	font-size: 16px!important;
+	line-height: 28px!important;
+	font-weight: 400!important;
+	margin-bottom: 5px!important;
+} 
+
+
+.price-box-green-bottom {
+	text-align: center;
+	background: #7fbd3e;
+    background: linear-gradient(to bottom right, #7fbd3e, #203d01);
+	box-shadow: #293e84 0 4px 24px 2px;
+	padding: 50px 0 94px 0;
+	color:#cfe6fc;
+	width: 90%;
+	margin-top: 40;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border-radius: 8px;
+	backface-visibility: hidden;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+/* PRICE BOX RED */
+
+.price-box-red {
+	text-align: center;
+    color:#002774;
+    background: linear-gradient(to bottom right, #fe0101, #3b0101);
+    box-shadow: #293e84 0 4px 24px 2px;
+	padding: 50px 0 40px 0;
+	width: 90%;
+	margin-top:30;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border-radius: 8px 8px;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
