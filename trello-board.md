@@ -51,6 +51,7 @@ CoBe
 
 \*\* get info to Beau!!!! Priority!!!
 
+
 Check index for <!---insertLink--> for any pages that need to be written or linked to.
 
 \*\*Page for ADD-ONs.....PriceList
@@ -67,6 +68,12 @@ Check index for <!---insertLink--> for any pages that need to be written or link
 
 \*\*Remove Link to blog LG. images.
 
+\*\* Image TOUCH-Ups.
+  ==  http://127.0.0.1:5501/images/icon/local-organic-search-engine-optimization.png
+                looks to have dirty-like smudges. Paint over.
+  == Make logo for header - will go to individual components once 
+
+
 \*\*Web pages to write and link from the index to the new page.
 --Local Search
 --What is a Heat Map
@@ -79,24 +86,25 @@ Check index for <!---insertLink--> for any pages that need to be written or link
 --How to optimize your website for your Users Experience {UX}.
 --Page Experience Ranking Signals
 -- How to say Solutions WITHOUT SAYING Solutions.
-15 Other Ways To Say Solutions
-Answers
-Results
-Help
-The Key
-The Formula
-The Recipe
-The Fix
-Magic
-Oomph
-Cheat Codes
-Pixie Dust
-Secret Sauce
-Elbow Grease
-Blood, Sweat and Years
+        15 Other Ways To Say Solutions
+        Answers
+        Results
+        Help
+        The Key
+        The Formula
+        The Recipe
+        The Fix
+        Magic
+        Oomph
+        Cheat Codes
+        Pixie Dust
+        Secret Sauce
+        Elbow Grease
+        Blood, Sweat and Years
 
-Call To Action
-Say something different. Be bold, be creative, get noticed.
+\*\*Call To Action Page IDEAS
+        --Say something different. Be bold, be creative, get noticed.
+        
 
 -------COMPLETED-----------\*\*Replace Favicon WITHOUT Smoke background!
 
