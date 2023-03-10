@@ -285,8 +285,8 @@ h3.italics-midnightBlue {
 
 .bsmoke {
 	color: rgb(84, 140, 255);
-	text-shadow: 1px 1px 1px #020723;
-	outline-color: #002774 1px solid;
+	text-shadow: 1px 2px 2px #020723;
+	outline-color: #002774 2px solid;
 	font-weight: 900;
 	font-size: 1.25em ;
 	letter-spacing: 1px;
