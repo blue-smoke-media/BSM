@@ -4,6 +4,8 @@
 .featured-item {
   padding: 15px;
   position: relative;
+  border: 5px solid lawngreen;
+height: 40em;
 }
 
 .featured-item .featured-icon {

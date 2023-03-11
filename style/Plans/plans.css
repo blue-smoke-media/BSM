@@ -56,12 +56,8 @@
 
 .price-chart {
   text-transform: uppercase;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   background: #424851;
   color: white;
   width: 70%;
@@ -138,17 +134,10 @@
   margin: 0;
   width: 100%;
   overflow: hidden;
-  -webkit-box-shadow: inset 0.6em 0 1em #2a2d30;
-          box-shadow: inset 0.6em 0 1em #2a2d30;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-shadow: inset 0.6em 0 1em #2a2d30;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .price-chart .col .row img {
@@ -194,38 +183,29 @@
 }
 
 .price-chart .col-1 div {
-  background: -webkit-gradient(linear, left bottom, left top, from(#33373d), color-stop(69%, #424851));
   background: linear-gradient(0deg, #33373d 0%, #424851 69%);
 }
 
 .price-chart .col-2 div {
-  background: -webkit-gradient(linear, left bottom, left top, from(#e83e39), to(#c185b3));
   background: linear-gradient(0deg, #e83e39 0%, #c185b3 100%);
 }
 
 .price-chart .col-3 div {
-  background: -webkit-gradient(linear, left bottom, left top, from(#fcac31), color-stop(95%, #f9d39b));
   background: linear-gradient(0deg, #fcac31 0%, #f9d39b 95%);
 }
 
 .price-chart .col-4 div {
-  background: -webkit-gradient(linear, left bottom, left top, from(#2f9c52), color-stop(95%, #96ca6b));
   background: linear-gradient(0deg, #2f9c52 0%, #96ca6b 95%);
 }
 
 .price-chart .col-5 div {
-  background: -webkit-gradient(linear, left bottom, left top, from(#2c2f48), color-stop(95%, #393f76));
   background: linear-gradient(0deg, #2c2f48 0%, #393f76 95%);
 }
 
 .price-cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin-top: 0;
 }
 
@@ -254,7 +234,6 @@
   overflow: hidden;
   position: relative;
   width: 20em;
-  -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
@@ -323,7 +302,6 @@
 }
 
 .price-cards .card ul li {
-  -webkit-transition: ease-in-out 0.4s;
   transition: ease-in-out 0.4s;
   padding: 0.5em 0;
   background: white;
@@ -346,7 +324,6 @@
   border: 2px solid #ee3e0e;
   border-radius: 1em;
   padding: 0.5em 1.5em;
-  -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
@@ -354,4 +331,7 @@
   color: white;
   background: #ee3e0e;
 }
-/*# sourceMappingURL=plans.css.map */
+
+#plans{
+  border: 5px solid lime !important;
+}

@@ -1,10 +1,9 @@
 test, test test
 
-
 BRADEN
 
 \*\* NEW \*\*- IMPORTANT!!!!!
-Add our Google Analytics, Search, and Tag Manager, tags into the head of the new site,p lease. (march create new GA4 property)
+Add our Google Analytics, Search, and Tag Manager, tags into the head of the new site, please. (march create new GA4 property)
 
 \*\* NEW \*\*- line 274 throughout document....@ 1/2" more room on the left hand side. (check ruler)
 
@@ -21,7 +20,7 @@ NEW \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of 
 
 move nav to right of nav
 
-\*\*BreadCrumbs - add JS to function correctly
+\*\*BreadCrumbs - add JS to function correctly with google
 **\*\***Here is the link for Google's requirements on breadcrumbs: https://developers.google.com/search/docs/appearance/structured-data/breadcrumb#guidelines
 
 NEW \*\*How Can A Custom Website Design Help My Business?
@@ -31,9 +30,6 @@ When reduced to mobile, the image HAS TO BE ON TOP of the bullet points, please.
         I have the image of the diamond where it should go, but it is NOT allowing me to resize, etc.
 
 \*\*On "Our Standard Features" and "Our Services", I know there is a way to make the boxes all even regardless of the amount of text in them. I'm pretty sure it's in flexBox, but I'm unable to make it work properly. Would you please try?
-
-\*\*Pricing Plans & Packages
-The prices are commented out on each pkg. The JS needs to be written so the prices toggle between the monthly and yearly cost.
 
 \*\*BLOG
 Get it up and properly functioning.
@@ -50,7 +46,6 @@ quick inquiry phone number field has arrows
 CoBe
 
 \*\* get info to Beau!!!! Priority!!!
-
 
 Check index for <!---insertLink--> for any pages that need to be written or linked to.
 
@@ -69,10 +64,9 @@ Check index for <!---insertLink--> for any pages that need to be written or link
 \*\*Remove Link to blog LG. images.
 
 \*\* Image TOUCH-Ups.
-  ==  http://127.0.0.1:5501/images/icon/local-organic-search-engine-optimization.png
-                looks to have dirty-like smudges. Paint over.
-  == Make logo for header - will go to individual components once 
-
+== http://127.0.0.1:5501/images/icon/local-organic-search-engine-optimization.png
+looks to have dirty-like smudges. Paint over.
+== Make logo for header - will go to individual components once
 
 \*\*Web pages to write and link from the index to the new page.
 --Local Search
@@ -86,25 +80,24 @@ Check index for <!---insertLink--> for any pages that need to be written or link
 --How to optimize your website for your Users Experience {UX}.
 --Page Experience Ranking Signals
 -- How to say Solutions WITHOUT SAYING Solutions.
-        15 Other Ways To Say Solutions
-        Answers
-        Results
-        Help
-        The Key
-        The Formula
-        The Recipe
-        The Fix
-        Magic
-        Oomph
-        Cheat Codes
-        Pixie Dust
-        Secret Sauce
-        Elbow Grease
-        Blood, Sweat and Years
+15 Other Ways To Say Solutions
+Answers
+Results
+Help
+The Key
+The Formula
+The Recipe
+The Fix
+Magic
+Oomph
+Cheat Codes
+Pixie Dust
+Secret Sauce
+Elbow Grease
+Blood, Sweat and Years
 
 \*\*Call To Action Page IDEAS
-        --Say something different. Be bold, be creative, get noticed.
-        
+--Say something different. Be bold, be creative, get noticed.
 
 -------COMPLETED-----------\*\*Replace Favicon WITHOUT Smoke background!
 

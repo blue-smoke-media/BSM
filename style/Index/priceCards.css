@@ -13,6 +13,15 @@
 	width: 33.3333%;
 }
 
+.price-value{
+	/* color:red !important; */
+}
+.price-yearly{
+}
+.hide{
+	display: none;
+
+}
 
 .value-added {
 	color: #ee3e0e !important;

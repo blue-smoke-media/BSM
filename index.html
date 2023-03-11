@@ -995,10 +995,9 @@
             </h2>
           </div>
           <!--end col-md-12 -->
-
           <!--begin col-md-4 -->
           <div class="col-md-4">
-            <div class="main-services">
+            <div class="main-services main-services-row1">
               <img
                 src="/images/icon/ux.png"
                 class="width-100"
@@ -1048,7 +1047,7 @@
 
           <!--begin col-md-4 -->
           <div class="col-md-4">
-            <div class="main-services">
+            <div class="main-services main-services-row1">
               <img
                 src="/images/icon/local-organic-search-engine-optimization.png"
                 class="width-100"
@@ -1113,7 +1112,7 @@
 
           <!--begin col-md-4 -->
           <div class="col-md-4">
-            <div class="main-services">
+            <div class="main-services main-services-row1">
               <img
                 src="/images/icon/seo.png"
                 class="width-100 img-seo"
@@ -1171,7 +1170,7 @@
         <div class="row">
           <!--begin col-md-4 -->
           <div class="col-md-4">
-            <div class="main-services">
+            <div class="main-services main-services-row2">
               <img
                 src="/images/icon/smm.png"
                 class="width-100"
@@ -1207,7 +1206,7 @@
 
           <!--begin col-md-4 -->
           <div class="col-md-4">
-            <div class="main-services">
+            <div class="main-services main-services-row2">
               <img
                 src="/images/icon/digital-marketing.png"
                 class="width-100"
@@ -1239,7 +1238,7 @@
 
           <!--begin col-md-4 -->
           <div class="col-md-4">
-            <div class="main-services">
+            <div class="main-services main-services-row2">
 
               <img
                 src="/images/icon/content-development-and-management.png"
@@ -1273,7 +1272,7 @@
             </div>
           </div>
           <!--end col-md-4 -->
-        </div>
+          </div>
         <!--end row -->
       </div>
       <!--end container -->
@@ -1952,6 +1951,12 @@
                   name="color_mode"
                   id="color_mode"
                   value="1"
+                  onclick="
+                  const monthly= document.getElementsByClassName('price-monthly');
+                  const yearly=document.getElementsByClassName('price-yearly');
+                    for (let i = 0; i < 6; i++) {
+                       monthly[i].classList.toggle('hide');
+                       yearly[i].classList.toggle('hide');}"
                 />
                 <label
                   for="color_mode"
@@ -1972,13 +1977,16 @@
         <!--begin col-md-4-->
 
         <div class="col-md-4-1 col-sm-4">
-          <div class="price-box-white">
+          <div class="price-box-white row-1">
             <ul class="pricing-list">
               <li class="price-title">Landing Page</li>
-              <li class="price-subtitle-1">($139.00 Set-Up Fee)</li>
+              <li class="price-subtitle-1">($139 Set-Up Fee)</li>
 
-              <!-- monthly price: $29.99
-                    yearly-price: $249.99 -->
+              <!-- monthly price: $29
+                    yearly-price: $249 -->
+              <li class="price-value"><span class="price-monthly">$29</span>
+                <span class="price-yearly hide">$249</span>
+              </li>
 
               <li class="price-tag"><a href="#">GET STARTED</a></li>
               <li class="price-text">100% Custom Website Design</li>
@@ -2012,13 +2020,16 @@
         <!-- BEGIN Blue Price Box --->
         <!--begin col-md-4 -->
         <div class="col-md-4-1 col-sm-4">
-          <div class="price-box-blue">
+          <div class="price-box-blue row-1">
             <ul class="pricing-list-blue">
               <li class="price-title-blue">3-5 Page<br />Starter Website</li>
-              <li class="price-subtitle">($159.00 Set-Up Fee)</li>
+              <li class="price-subtitle">($159 Set-Up Fee)</li>
 
-              <!-- monthly price: $59.99
-                  yearly-price: $549.99 -->
+              <!-- monthly price: $59
+                  yearly-price: $549 -->
+              <li class="price-value"><span class="price-monthly">$59</span>
+                <span class="price-yearly hide">$549</span>
+              </li>
 
               <li class="price-tag-blue"><a href="#">GET STARTED</a></li>
               <li class="price-text-blue">100% Custom Website Design</li>
@@ -2055,16 +2066,19 @@
 
         <!-- BEGIN GREEN Price Box --->
         <!--begin col-md-4 -->
-        <div class="col-md-4-1 col-sm-4">
-          <div class="price-box-green">
+        <div class="col-md-4-1 col-sm-4" >
+          <div class="price-box-green row-1">
             <ul class="pricing-list">
               <li class="price-title-blue">
                 6-10 Page<br />Small Business<br />Website
               </li>
-              <li class="price-subtitle">($349.00 Set-Up Fee)</li>
+              <li class="price-subtitle">($349 Set-Up Fee)</li>
 
-              <!-- monthly price: $99.49
-            yearly-price: $949.99 -->
+              <!-- monthly price: $99
+            yearly-price: $949 -->
+             <li class="price-value"><span class="price-monthly">$99</span>
+                <span$ class="price-yearly hide">$949</span>
+              </li>
 
               <li class="price-tag"><a href="#">GET STARTED</a></li>
               <li class="price-text-blue">100% Custom Website Design</li>
@@ -2102,18 +2116,19 @@
 
         <!-- BEGIN YELLOW Price Box - 11-15 Page Executive Website --->
 
-        <!--begin row -->
-        <div class="row">
           <div class="col-md-4-1 col-sm-4">
-            <div class="price-box-yellow">
+            <div class="price-box-yellow row-2">
               <ul class="pricing-list">
                 <li class="price-title-blue">
                   11-15 Page<br />Executive Website
                 </li>
-                <li class="price-subtitle">($449.00 Set-Up Fee)</li>
+                <li class="price-subtitle">($449 Set-Up Fee)</li>
 
-                <!-- monthly price: $129.00
-            yearly-price: $1359.00 -->
+                <!-- monthly price: $129
+            yearly-price: $1359 -->
+             <li class="price-value"><span class="price-monthly">$129</span>
+                <span class="price-yearly hide">$1359</span>
+              </li>
 
                 <li class="price-tag"><a href="#">GET STARTED</a></li>
                 <li class="price-text-yellow">100% Custom Website Design</li>
@@ -2156,13 +2171,16 @@
           <!-- BEGIN GREEN Price Box - E-commerce --->
           <!--begin col-md-4 -->
           <div class="col-md-4-1 col-sm-4">
-            <div class="price-box-green-bottom">
+            <div class="price-box-green-bottom row-2">
               <ul class="pricing-list">
                 <li class="price-title-blue">E-commerce Website</li>
-                <li class="price-subtitle-1">(Begins at $749.00 Set-Up Fee)</li>
+                <li class="price-subtitle-1">(Begins at $749 Set-Up Fee)</li>
 
-                <!-- monthly price: BEGINS at $129.00
-            yearly-price: BEGINS at $1359.00 -->
+                <!-- monthly price: BEGINS at $129
+            yearly-price: BEGINS at $1359 -->
+            <li class="price-value"><span class="price-monthly">$129</span>
+                <span$ class="price-yearly hide">$1359</span>
+              </li>
 
                 <li class="price-tag"><a href="#">GET STARTED</a></li>
                 <li class="price-text-blue">100% Custom Website Design</li>
@@ -2207,15 +2225,18 @@
           <!-- BEGIN RED Price Box - 15+ Pages Mid-sized Business Website --->
           <!--begin col-md-4 -->
           <div class="col-md-4-1 col-sm-4">
-            <div class="price-box-red">
+            <div class="price-box-red row-2">
               <ul class="pricing-list">
                 <li class="price-title-blue">
                   15+ Pages<br />Mid-sized Business Website
                 </li>
-                <li class="price-subtitle-1">(Begins at $749.00 Set-Up Fee)</li>
+                <li class="price-subtitle-1">(Begins at $749 Set-Up Fee)</li>
 
-                <!-- monthly price: Begins at $189.00
-            yearly-price: Begins at $2559.00 -->
+                <!-- monthly price: Begins at $189
+            yearly-price: Begins at $2559 -->
+               <li class="price-value"><span class="price-monthly">$189</span>
+                <span class="price-yearly hide">$2559</span>
+              </li>
 
                 <li class="price-tag"><a href="#">GET STARTED</a></li>
                 <li class="price-text-blue">100% Custom Website Design</li>
@@ -2257,7 +2278,6 @@
 
           <!--END Green pricing section -->
           <!-- END PRICING section -->
-        </div>
       </div>
       <!--END container from line 1286  -->
     </section>

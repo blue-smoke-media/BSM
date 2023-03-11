@@ -1217,6 +1217,15 @@ ul.team-icon li a.linkedin {
 	transition: all 1s;
 }
 
+.main-services-row1{
+	height: 90em;
+	/* border:5px solid lawngreen; */
+}
+.main-services-row2{
+	height: 65em;
+
+}
+
 .header-3 .svcs-header-3 {
 	font-size: 1.5em;
 	color: #293e84;
@@ -2443,4 +2452,12 @@ justify-content: space-between;
 	content: url("/images/icon/green-diamond.png");
 	list-style-position: inside;
 	
+}
+
+#plans .row-1{
+	height:80em;
+}
+
+#plans .row-2{
+	height:93em;
 }
