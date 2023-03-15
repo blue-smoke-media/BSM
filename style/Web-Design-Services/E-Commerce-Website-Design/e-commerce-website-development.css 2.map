@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,+BAD6B,CAC7B,GAAG,CAAC;EACF,aAAa,EAAE,kBAAkB;CAClC;;AAHH,AAKI,+BAL2B,CAI7B,QAAQ,CACN,EAAE,CAAC;EACD,MAAM,EAAE,cAAc;EACtB,KAAK,EAAE,OAAO;CACf;;AARL,AASI,+BAT2B,CAI7B,QAAQ,CAKN,CAAC,CAAC;EACA,UAAU,EAAE,IAAI;CACjB;;AAXL,AAYI,+BAZ2B,CAI7B,QAAQ,CAQN,IAAI,CAAC;EACH,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "e-commerce-website-development.scss"
+    ],
+    "names": [],
+    "file": "e-commerce-website-development.css"
+}

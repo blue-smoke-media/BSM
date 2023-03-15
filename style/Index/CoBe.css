@@ -876,3 +876,18 @@ h6-f {
 	transition: 0.5s;
 	font-size: 20px;
 }
+
+
+/*GOOGLE Maps Pack Page*/
+
+div h5 {
+	color: #020723;
+	font-weight: 900;
+	/* text-shadow: 1px 2px 2px #ee3e0e; */
+	margin-bottom: -5%;
+	padding-top: 4%;
+}
+
+div h4 {
+	color: 	#020723;
+}

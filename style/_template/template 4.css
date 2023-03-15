@@ -1,0 +1,17 @@
+.template img {
+  width: 100%;
+  height: 60vh;
+}
+
+.template .content {
+  margin: auto 2em;
+}
+
+.template .content h1 {
+  margin: 1em auto 0.8em;
+}
+
+.template .content p {
+  text-align: left;
+}
+/*# sourceMappingURL=template.css.map */
