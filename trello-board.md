@@ -1,6 +1,8 @@
 test, test test
 
 BRADEN
+-----------hosting bill
+-----------make sure "services" email is functioning.
 
 \*\* NEW \*\*- IMPORTANT!!!!!
 MAKE SURE we have a Robots.txt file!
