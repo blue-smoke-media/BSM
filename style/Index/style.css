@@ -85,7 +85,7 @@ h6 {
   font-family: 'Cabin', sans-serif;
   line-height: 1.2;
   margin-top: 5%;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #293e84;
 }
 
@@ -109,6 +109,7 @@ h3.header3 {
 
 h4 {
 	font-size: 26px;
+	color: #020723;
 }
 
 h5 {
@@ -2439,7 +2440,7 @@ ul.features-list-hero li i.lyla{
 	 position:relative ;
 	width: 45%;
 	border-radius:5%; 
-	z-index: 7; 
+	z-index: 999; 
 } 
 .web-design-img-txt-wrapper{
 display: flex;
@@ -2448,12 +2449,12 @@ justify-content: space-between;
 }
 
 .web-design-img-txt-wrapper ol {
-	width: 45%;
+	width: 50%;
 	margin-top: 2%;
 }
 .web-design-img-txt-wrapper ol li::before {
-	margin-right: 3%;
-	list-style-image: url(/images/green-diamond-32x49.png);
+	margin-right: 2%;
+	content: url("/images/green-diamond-16px-x-23px.png");
 	list-style-position:  inside;
 }
 
