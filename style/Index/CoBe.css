@@ -411,6 +411,12 @@ div.text-img3 {
 	text-shadow: 2px 2px 1px #020723;
 } 
 
+ol {
+	list-style-image:  url(/images/green-diamond-32px-x-49px.png);
+	/* width: 8vh;
+	height: 8vw;  */
+}
+
 @media (min-width: 768px) {
 	.container {
 	  width: 750px;
@@ -426,8 +432,6 @@ div.text-img3 {
 	  width: 1170px;
 	}
 } 
-
-
 
 #BSM-hr-1 {
 	border: none;

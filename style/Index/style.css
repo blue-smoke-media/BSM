@@ -2446,16 +2446,15 @@ display: flex;
 flex-direction: row-reverse;
 justify-content: space-between;
 }
+
 .web-design-img-txt-wrapper ol {
 	width: 45%;
 	margin-top: 2%;
 }
 .web-design-img-txt-wrapper ol li::before {
-	content: ' ';
 	margin-right: 3%;
-	content: url("/images/icon/green-diamond.png");
-	list-style-position: inside;
-	
+	list-style-image: url(/images/green-diamond-32x49.png);
+	list-style-position:  inside;
 }
 
 #plans .row-1{
