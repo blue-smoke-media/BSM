@@ -883,6 +883,26 @@ h6-f {
 
 
 /*GOOGLE Maps Pack Page*/
+.h4-Maps {
+font-family: 'Cabin', sans-serif;
+font-size: 26px;
+line-height: 1.2;
+margin-top: 5%;
+margin-bottom: 15px;
+color: #EE3E0E;
+text-shadow: 2px 2px 1px #020723 !important;
+margin-top: 12%;
+margin-bottom: -3%;
+}
+
+.h4-Maps-subtitles {
+		font-family: 'Cabin', sans-serif;
+		font-size: 26px;
+		line-height: 1.2;
+		color: #EE3E0E;
+		text-shadow: 2px 2px 1px #020723 !important;
+		margin-bottom: 3%;
+}
 
 div h5 {
 	color: #020723;
@@ -896,4 +916,9 @@ div h3 {
 	color: 	#020723;
 	font-weight: 900;
 	padding-top: 4%;
+}
+
+.G-everything-img {
+	border-radius: 5%;
+	margin-top: -.5%;
 }

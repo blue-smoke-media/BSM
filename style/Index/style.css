@@ -1085,6 +1085,7 @@ p.register_success_box{
 
 .team-gathered {
 	border: solid 12 #293e84;
+	margin-top: 1.5em;
 }
 
 
@@ -2436,6 +2437,11 @@ ul.features-list-hero li i.lyla{
     background-color: #DDF;
     color: #000;
 }
+
+
+/* BEGIN CWSD Help My Business */
+
+
  .cwsd-help-my-business-img {
 	 position:relative ;
 	width: 45%;
