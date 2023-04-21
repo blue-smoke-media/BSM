@@ -48,6 +48,7 @@ auto
 blog link?
 quick inquiry phone number field has arrows
 
+
 CoBe
 
 \*\* get info to Beau!!!! Priority!!!
@@ -77,7 +78,7 @@ looks to have dirty-like smudges. Paint over.
 --Local Search
 --What is a Heat Map
 --Lead Generation
--------COMPLETED-------------The Map Pack
+-------Needs a few extra paragraphs!-------------The Map Pack
 --What Is Social Proof?
 
 \*\*BLOG Articles to write.
