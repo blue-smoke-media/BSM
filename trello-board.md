@@ -3,7 +3,7 @@ test, test test
 BRADEN
 -----------hosting bill
 -----------make sure "services" email is functioning.
-
+\\NEW\\  -4/21 -   Google Maps Pack - Can't get text to align properly at first image.
 \*\* NEW \*\*- IMPORTANT!!!!!
 MAKE SURE we have a Robots.txt file!
 
