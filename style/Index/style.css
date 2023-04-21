@@ -549,8 +549,6 @@ iframe {
 
 */
 
-
-
 .navbar-brand {
     font-family: 'Cabin', sans-serif;
     font-size: 28px;
@@ -900,7 +898,7 @@ ul.footer_social li a i:hover {
   }
 
 
-.home-section h1{
+.home-section h1 {
     line-height: 54px;
     font-weight: 700;
     color: #cfe6fc;
@@ -909,7 +907,7 @@ ul.footer_social li a i:hover {
 }
 
 
-.home-section p{
+.home-section p {
 	max-width: 600px;
 	font-size: 20px;
 	line-height: 30px;
@@ -957,9 +955,6 @@ span.arrow {
     right: 45px;
     bottom: -15px;
 }
-
-
-
 
 
 /* -----  REGISTER ----- */

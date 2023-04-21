@@ -756,6 +756,14 @@ h6-f {
 	width: 40%;
 }
 
+.width-45 {
+	width: 45%;
+}
+
+.width-48 {
+	width: 48%;
+}
+
 .width-50 {
 	width: 50%;
 }
@@ -883,16 +891,17 @@ h6-f {
 
 
 /*GOOGLE Maps Pack Page*/
+
+
 .h4-Maps {
-font-family: 'Cabin', sans-serif;
-font-size: 26px;
-line-height: 1.2;
-margin-top: 5%;
-margin-bottom: 15px;
-color: #EE3E0E;
-text-shadow: 2px 2px 1px #020723 !important;
-margin-top: 12%;
-margin-bottom: -3%;
+	font-family: 'Cabin', sans-serif;
+	font-size: 26px;
+	line-height: 1.2;
+	margin-top: 1%;
+	color: #EE3E0E;
+	text-shadow: 2px 2px 1px #020723 !important;
+	margin-left: 5%;
+	margin-bottom: -3%;
 }
 
 .h4-Maps-subtitles {
@@ -919,6 +928,22 @@ div h3 {
 }
 
 .G-everything-img {
+	width: 520px;
 	border-radius: 5%;
-	margin-top: -.5%;
+	margin-top: -.8%;
+	margin-left: 8%;
+	
+}
+
+div p.three-pack-text  {
+	margin-right: 5%;
+	/* padding-left: -3%; */
+	box-sizing: border-box;
+	display: flex;
+	justify-content: right;
+	flex-wrap: wrap;
+	text-align: justify;
+	padding-left: 1%;
+	text-shadow: 1px 1px #020723;
+	letter-spacing: .07em;
 }
