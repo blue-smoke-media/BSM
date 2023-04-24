@@ -1,14 +1,50 @@
 @import "../../utils/Mixins.scss";
 
+
+/* CoBe Code */
+
+body {
+	font-family: cabin, "sans serif";
+	background-color: #293e84;
+	overflow-x: hidden; 
+}
+
+p {
+	font-size: 1.5em;
+	line-height: 23px;
+	font-weight: 500;
+	color: #cfe6fc;
+	margin-bottom: 15px;
+}
+
+h1,
+red-orange-h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cabin', sans-serif;
+  line-height: 1.2;
+  margin-top: 5%;
+  margin-bottom: 15px;
+  color: #cfe6fc;
+}
+
+
 .print-and-graphic-design-services {
   img {
-    width: 100.1%;
-    height: 20em !important;
+    height:6em;
+    width: 6em !important;
+    justify-content: center !important;
   }
 
   h1 {
-      font-size: 46px;
-    }
+    font-size: 46px;
+    color: #cfe6fc !important;
+    text-shadow: 2px 1px 1px #020723;	
+    outline-width: 1px solid #020723;
+    text-align:  center;
+  }
 
     @include breakpoint(xxs, xs, s, m) {
       font-size: 1.5em;
@@ -18,8 +54,8 @@
   .bottom-content {
     p {
       margin-bottom: 3em;
-      margin: 2em 2em;
-      
+      margin: 5% 5%;
+
 
       @include breakpoint(xxs, xs, s, m) {
         margin: auto;
@@ -37,9 +73,13 @@
         flex-direction: column;
         margin: 1rem auto;
       }
+
+    
       img {
-        height: 11em;
-        width: 12.5em;
+        display: block;
+        width: 50.1%;
+        height: 10em !important;
+        justify-content: center;
 
         @include breakpoint(xxs, xs, s, m) {
           margin-top: 1.5em;
@@ -49,29 +89,22 @@
 
       #eagle {
         height: 4em;
+        width: 4em;
       }
 
       #coffeeShelf {
         padding-top: 0.5em;
-        height: 4em;
+        height: 7em;
+        width: 6em;
 
         @include breakpoint(l) {
-          height: 16em;
+          height: 7em;
         }
 
         @include breakpoint(xxs, xs, s, m) {
           display: none;
         }
       }
-
-    
-     
-p {
-	font-size: 1.5em;
-	line-height: 23px;
-	font-weight: 500;
-	color: #cfe6fc;
-	margin-bottom: 15px;
 
 
         @include breakpoint(xxs, xs, s, m) {
