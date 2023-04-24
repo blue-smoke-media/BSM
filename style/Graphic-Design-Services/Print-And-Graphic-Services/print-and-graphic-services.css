@@ -1,3 +1,38 @@
+/* CoBe Code */
+
+body {
+	font-family: cabin, "sans serif";
+	background-color: #293e84;
+	overflow-x: hidden; 
+}
+
+p {
+	font-size: 1.5em;
+	line-height: 23px;
+	font-weight: 500;
+	color: #cfe6fc;
+	margin-bottom: 15px;
+}
+
+h1,
+red-orange-h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cabin', sans-serif;
+  line-height: 1.2;
+  margin-top: 5%;
+  margin-bottom: 15px;
+  color: #cfe6fc;
+}
+
+h1 {
+	font-size: 46px;
+}
+
+
+
 .print-and-graphic-design-services img {
   width: 100.1%;
   height: 20em !important;
@@ -5,7 +40,7 @@
 
 .print-and-graphic-design-services h1 {
   margin: 1em auto 0.6em;
-  color: #04227a;
+  color: #cfe6fc;
 }
 
 @media (max-width: 360px) {
@@ -153,17 +188,17 @@
 }
 
 .print-and-graphic-design-services .bottom-content section #eagle {
-  height: 9.75em;
+  height: 4.75em;
 }
 
 .print-and-graphic-design-services .bottom-content section #coffeeShelf {
   padding-top: 0.5em;
-  height: 14em;
+  height: 6em;
 }
 
 @media (min-width: 981px) and (max-width: 1280px) {
   .print-and-graphic-design-services .bottom-content section #coffeeShelf {
-    height: 16em;
+    height: 4em;
   }
 }
 
