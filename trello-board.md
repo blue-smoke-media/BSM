@@ -3,6 +3,13 @@ test, test test
 BRADEN
 -----------hosting bill
 -----------make sure "services" email is functioning.
+\\NEW\\  -4/24   
+        PRINT AND GRAPHIC SERVICES page..... hero image - center- use the following on images **please...box-shadow: #000000 2px 2px 3.755px 0px;
+        **images - two towers, respect, 4em x 4em, and coffee shelf 7em x 6em
+        **put text to the right of the images
+        **please make sure all meta tags are attached.
+
+
 \\NEW\\  -4/21 -   Google Maps Pack - Can't get text to align properly at first image.
 \*\* NEW \*\*- IMPORTANT!!!!!
 MAKE SURE we have a Robots.txt file!
