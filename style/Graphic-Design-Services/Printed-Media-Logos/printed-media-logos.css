@@ -1,9 +1,34 @@
+body {
+  font-family: cabin, "sans serif";
+  background-color: #293e84;
+  overflow-x: hidden; 
+}
+
+p {
+  text-align: justify;
+  font-size: 1.15em;
+  font-weight: 600;
+  color: #cfe6fc;
+  margin-bottom: 15px;
+  text-shadow: 1px 2px #020723;
+	line-height: 1.155;
+	letter-spacing: .05em;
+	word-spacing: .05em;
+}
+
+
 .printed-logos img {
-  border-bottom: 2px solid #020723;
+  /* border-bottom: 2px solid #020723; */
 }
 
 .printed-logos h1 {
-  color: #04227a;
+  font-size: 46px;
+  color: #cfe6fc !important;
+  text-shadow: 2px 1px 1px #020723;	
+	outline-width: 1px solid #020723;
+  text-align:  center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 @media (min-width: 981px) and (max-width: 1280px) {
@@ -22,11 +47,11 @@
 
 .printed-logos p a {
   text-decoration: none;
-  color: #020723;
+  color: #ee3e0e;
   font-weight: 600;
 }
 
 .printed-logos p a:hover {
-  color: #ee3e0e;
+  color: #7fbd3e;
 }
 /*# sourceMappingURL=printed-media-logos.css.map */

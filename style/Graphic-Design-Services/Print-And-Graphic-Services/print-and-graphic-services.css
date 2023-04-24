@@ -29,6 +29,7 @@ h6 {
 
 h1 {
 	font-size: 46px;
+  font-weight: 800;
   color: #cfe6fc !important;
   text-shadow: 2px 1px 1px #020723;	
 	outline-width: 1px solid #020723;

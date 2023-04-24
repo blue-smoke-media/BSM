@@ -45,16 +45,17 @@ html {
     font-weight: bold;
   }
   .hero-image {
-    height: 30em;
-    width: 95%;
+    align-self: center;
+    height: 10em;
+    width: 50%;
     display: block;
     margin: auto;
-    margin: 2em auto 0;
+    margin: 15%;
     @include breakpoint(m) {
-      height: 30em;
+      height: 10em;
     }
     @include breakpoint(xxs, xs, s) {
-      height: 20em;
+      height: 5em;
     }
   }
   .covid-banner {
@@ -94,5 +95,12 @@ html {
 }
 
 h1 {
+	font-size: 46px;
   font-weight: 800;
+  color: #cfe6fc !important;
+  text-shadow: 2px 1px 1px #020723;	
+	outline-width: 1px solid #020723;
+  text-align:  center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }

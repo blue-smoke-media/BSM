@@ -10,7 +10,7 @@
     h1 {
       font-size: 2em;
       margin: 1.2em auto;
-      color: $royalBlue;
+      color: #cfe6fc ;
 
       @include breakpoint(l) {
         margin: 1.1em auto 1em;
@@ -21,6 +21,7 @@
       text-align: left;
       font-size: 1.05em;
       margin-top: 1.5em;
+      color: #cfe6fc ;
 
       span {
         font-weight: 600;

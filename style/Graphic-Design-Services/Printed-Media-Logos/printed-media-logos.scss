@@ -2,19 +2,42 @@
 
 .printed-logos {
   img {
-    border-bottom: 2px solid $darkBlue;
+    width: 50%;
+    height: 40%;
+    align-content: center;
   }
 
   h1 {
-    color: $royalBlue;
+    font-size: 46px;
+    color: #cfe6fc !important;
+    text-shadow: 2px 1px 1px #020723;	
+    outline-width: 1px solid #020723;
+    text-align:  center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
     @include breakpoint(l) {
       margin: 1.1em auto;
     }
   }
 
+  body {
+    font-family: cabin, "sans serif";
+    background-color: #293e84;
+    overflow-x: hidden; 
+  }
+  
   p {
-    // margin: 1em 2em 3em;
-    text-align: left;
+    text-align: justify;
+    font-size: 1.15em;
+    font-weight: 600;
+    color: #cfe6fc;
+    margin-bottom: 15px;
+    text-shadow: 1px 2px #020723;
+    line-height: 1.155;
+    letter-spacing: .05em;
+    word-spacing: .05em;
+  }
 
     span {
       font-weight: 600;
