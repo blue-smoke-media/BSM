@@ -117,6 +117,7 @@ h3.italics-midnightBlue {
 }
 
 .blue {
+	margin-bottom: 3%;
     color: rgb(84, 140, 255) !important;
 	/* outline-width: 1px solid #293e84 !important; */
 	text-shadow: 2px 2px 1px #020723 !important;
