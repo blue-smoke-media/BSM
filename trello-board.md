@@ -119,4 +119,4 @@ Blood, Sweat and Years
 -------COMPLETED-----------[Created image and put in images folder]\*\*Find ORIGINAL Smoke background to replace ALL Smoke images. The current one is pixelated and has RED AURAS in places.
 
 -------COMPLETED-----------\*\*Write NEW copy for sidebar of FREE Audit CTA.
-\*\*CSS for submit button on AUDIT CTA-------------"currently working on - waiting to hear back from Braden"
+-------COMPLETED-----------\*\*CSS for submit button on AUDIT CTA-------------"currently working on - waiting to hear back from Braden"
