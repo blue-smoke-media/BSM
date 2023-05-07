@@ -32,7 +32,7 @@ header-nav {
   top: 0;
   left: 0;
   right: 0;
-  font-weight: 400;
+  font-weight: 500;
   background: url("/images/BSM-LOGO/Smoke-Backgrounds/blue-smoke-background.jpg");
   background-size: 100% 150%;
   height: 7em;
@@ -89,18 +89,7 @@ header-nav #main-nav .nav-item {
   text-align: center;
   padding: 0.5em 5%;
   text-decoration: none;
-}
-
-@media (min-width: 1281px) and (max-width: 1680px) {
-  header-nav #main-nav .nav-item {
-    font-size: 1.3em;
-  }
-}
-
-@media (min-width: 1681px) {
-  header-nav #main-nav .nav-item {
-    font-size: 1.3em;
-  }
+  font-size: 1.5em;
 }
 
 header-nav #main-nav .nav-item:hover {
@@ -115,6 +104,7 @@ header-nav #main-nav .dropdown {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0.5em 5%;
 }
 
 header-nav #main-nav .dropdown .drop-btn {

@@ -18,8 +18,7 @@ header-nav {
   top: 0;
   left: 0;
   right: 0;
-  font-weight: 400;
-  // font-size: 0.9em !important;
+  font-weight: 500;
   // background: $darkBlue;images/BSM-LOGO/blue-smoke-background.jpg
   background: url("/images/BSM-LOGO/Smoke-Backgrounds/blue-smoke-background.jpg");
   background-size: 100% 150%;
@@ -58,9 +57,10 @@ header-nav {
       text-align: center;
       padding: 0.5em 5%;
       text-decoration: none;
-      @include breakpoint(xl, xxl) {
-        font-size: 1.3em;
-      }
+      font-size: 1.5em;
+      // @include breakpoint(xl, xxl) {
+      //   font-size: 1.3em;
+      // }
 
       &:hover {
         color: $orange;
@@ -74,6 +74,7 @@ header-nav {
       // float: left;
       // position: relative;
       display: flex;
+      padding: 0.5em 5%;
 
       .drop-btn {
         border: none;
@@ -81,10 +82,11 @@ header-nav {
         cursor: pointer;
         display: flex;
         align-items: center;
+        // padding: 0.5em 5%;
 
         @include breakpoint(mobile) {
           /* margin important for vertical align on mobile phones */
-          margin: 0;
+          // margin: 0;
         }
       }
 

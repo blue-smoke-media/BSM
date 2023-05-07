@@ -1,15 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
-
-
-
 html {
-  font-family: 'Cabin', "sans-serif", serif ;
- background-color: #293e84;
+  background: black;
   position: relative;
   text-align: center;
-  color:#cfe6fc;
+  background: #cfe6fc;
   margin: auto;
   font-family: "Cabin", "Poppins", "sans-serif", "serif" !important;
   font-style: normal;
@@ -37,12 +32,12 @@ html .page-wrapper {
 
 html a {
   text-decoration: none;
-  color: #ee3e0e;
+  color: #1e92f6;
   cursor: pointer;
 }
 
 html a:hover {
-  color: #7fbd3e;
+  color: #ee3e0e;
 }
 
 html .italic {
@@ -54,16 +49,15 @@ html .bold {
 }
 
 html .hero-image {
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   height: 10em;
   width: 50%;
   display: block;
   margin: auto;
-  margin: 15% auto 3%;
-  border-radius: 2%;
-  box-shadow: #020723 2px 2px 15.755px 0px;
-  }
-
+  margin: 15%;
+}
 
 @media (min-width: 737px) and (max-width: 980px) {
   html .hero-image {
@@ -130,9 +124,9 @@ h1 {
   font-size: 46px;
   font-weight: 800;
   color: #cfe6fc !important;
-  text-shadow: 2px 1px 1px #020723;	
-	outline-width: 1px solid #020723;
-  text-align:  center;
+  text-shadow: 2px 1px 1px #020723;
+  outline-width: 1px solid #020723;
+  text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
 }

@@ -1,7 +1,7 @@
 .website-logo-design .content h1 {
   font-size: 2em;
   margin: 1.2em auto;
-  color: #04227a;
+  color: #cfe6fc;
 }
 
 @media (min-width: 981px) and (max-width: 1280px) {
@@ -14,7 +14,7 @@
   text-align: left;
   font-size: 1.05em;
   margin-top: 1.5em;
-  color: #cfe6fc ;
+  color: #cfe6fc;
 }
 
 .website-logo-design .content p span {
