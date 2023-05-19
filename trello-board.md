@@ -3,6 +3,10 @@ test, test test
 BRADEN
 -----------hosting bill
 -----------make sure "services" email is functioning.
+
+\\NEW\\  - 5/15
+                Poppins font is OVER RIDDING the Cabin Font.  PLEASE do a quick fix.
+
 \\NEW\\  -4/24   
         PRINT AND GRAPHIC SERVICES page..... hero image - center- use the following on images **please...box-shadow: #000000 2px 2px 3.755px 0px;
         **images - two towers, respect, 4em x 4em, and coffee shelf 7em x 6em
