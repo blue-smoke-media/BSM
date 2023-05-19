@@ -1,11 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAEA,AACE,SADO,CACP,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACb;;AAJH,AAME,SANO,CAMP,QAAQ,CAAC;EACP,MAAM,EAAE,QAAQ;CASjB;;AAhBH,AASI,SATK,CAMP,QAAQ,CAGN,EAAE,CAAC;EACD,MAAM,EAAE,cAAc;CACvB;;AAXL,AAaI,SAbK,CAMP,QAAQ,CAON,CAAC,CAAC;EACA,UAAU,EAAE,IAAI;CACjB",
-    "sources": [
-        "template.scss",
-        "../utils/Mixins.scss",
-        "../utils/breakpoints.scss"
-    ],
-    "names": [],
-    "file": "template.css"
-}
+{"version":3,"sources":["template.scss","template.css"],"names":[],"mappings":"AAGE;EACE,WAAA;EACA,YAAA;ACFJ;ADKE;EACE,gBAAA;ACHJ;ADKI;EACE,sBAAA;ACHN;ADMI;EACE,gBAAA;ACJN","file":"template.css"}

@@ -3,31 +3,22 @@
   margin: 5em auto 3em;
   color: white;
 }
-
 #audit-form span {
   color: #ee3e0e;
 }
-
 #audit-form .top {
   margin-bottom: 5em;
   text-align: center;
 }
-
 #audit-form .top p {
   width: 60%;
   margin: auto;
 }
-
 #audit-form .bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 90%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 #audit-form .bottom section:first-child {
   border-right: 2px solid white;
   margin-right: 1.5em;
@@ -36,47 +27,27 @@
   min-width: 10em;
   max-width: 30em;
 }
-
 #audit-form .bottom .form-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding-left: 2%;
 }
-
 #audit-form .bottom .form-container form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 #audit-form .bottom .form-container form label {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   white-space: nowrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-bottom: 1em;
 }
-
 #audit-form .bottom .form-container form label input {
   height: 2em;
   margin-left: 1em;
 }
-
-#audit-form .bottom .form-container form input[name="submit"] {
+#audit-form .bottom .form-container form input[name=submit] {
   width: 65%;
   margin-left: 42%;
   border-radius: 1em;
@@ -86,8 +57,6 @@
   padding: 0.25em 0.125em;
   font-weight: 700;
 }
-
-#audit-form .bottom .form-container form input[name="submit"]:hover {
+#audit-form .bottom .form-container form input[name=submit]:hover {
   background-color: #ee3e0e;
-}
-/*# sourceMappingURL=audit-cta.css.map */
+}/*# sourceMappingURL=audit-cta.css.map */
