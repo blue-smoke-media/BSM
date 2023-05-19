@@ -4,50 +4,35 @@ BRADEN
 -----------hosting bill
 -----------make sure "services" email is functioning.
 
-\\NEW\\  - 5/15
-                Poppins font is OVER RIDDING the Cabin Font.  PLEASE do a quick fix.
+"the map pack" page (remove link or show as coming soon)
+second pricing card style fix
+review pricing monthly/yearly
 
-\\NEW\\  -4/24   
-        PRINT AND GRAPHIC SERVICES page..... hero image - center- use the following on images **please...box-shadow: #000000 2px 2px 3.755px 0px;
-        **images - two towers, respect, 4em x 4em, and coffee shelf 7em x 6em
-        **put text to the right of the images
-        **please make sure all meta tags are attached.
+- navigation breaking
+  change text size of xl and xxl on drop navigation
+  breaking fixed size when smaller screen (nav mobile/tablet)
+  breaking on pages not on index
 
+footer margin left/right (.2em)
+footer on all pages
+footer contact form breaking overlapping text
 
-\\NEW\\  -4/21 -   Google Maps Pack - Can't get text to align properly at first image.
-\*\* NEW \*\*- IMPORTANT!!!!!
-MAKE SURE we have a Robots.txt file!
+"How Can A Custom Website Design Help My Business?" photo scrolling over nav
 
 \*\* NEW \*\*- IMPORTANT!!!!!
 Add our Google Analytics, Search, and Tag Manager, tags into the head of the new site, please. (march create new GA4 property)
 
-\*\* NEW \*\*- line 274 throughout document....@ 1/2" more room on the left hand side. (check ruler)
-
 \*\*1st screen of index - indent the text of the second sentences to line up with the
 beginning of each sentence, on the check-marks. ----- i added "tab" just to even it up to show you what I want it to look like.
 --setup breakpoints to keep indented 'tabs' lined with bullet points
-
-\*\* NEW \*\*--On my 32" monitor, the 2nd row of price cards do not line up properly. 1st row is fine. (??)
-
-change text size of xl and xxl on drop navigation
-breaking fixed size when smaller screen (nav mobile/tablet)
-
-NEW \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.
-
-move nav to right of nav
-
-\*\*BreadCrumbs - add JS to function correctly with google
-**\*\***Here is the link for Google's requirements on breadcrumbs: https://developers.google.com/search/docs/appearance/structured-data/breadcrumb#guidelines
+--'custom designed' noticeable when going to mobile size
 
 NEW \*\*How Can A Custom Website Design Help My Business?
 The Green Diamond is here ----> /images/icon/green-diamond.png
 When reduced to mobile, the image HAS TO BE ON TOP of the bullet points, please.
 
-        I have the image of the diamond where it should go, but it is NOT allowing me to resize, etc.
-
-\*\*On "Our Standard Features" and "Our Services", I know there is a way to make the boxes all even regardless of the amount of text in them. I'm pretty sure it's in flexBox, but I'm unable to make it work properly. Would you please try?
-
 \*\*BLOG
+coming soon page
 Get it up and properly functioning.
 Get the "mini" cards at the bottom of the page on the index below the newest blog articles.
 
@@ -55,10 +40,8 @@ Get the "mini" cards at the bottom of the page on the index below the newest blo
 
 safari(?) breaking about our team photo
 
-auto
 blog link?
 quick inquiry phone number field has arrows
-
 
 CoBe
 
@@ -116,11 +99,10 @@ Blood, Sweat and Years
 \*\*Call To Action Page IDEAS
 --Say something different. Be bold, be creative, get noticed.
 
--------COMPLETED-----------\*\*Replace Favicon WITHOUT Smoke background!
+\\NEW\\ -4/21 - Google Maps Pack - Can't get text to align properly at first image.
 
--------COMPLETED-----------\*\*In the CSS, add :visited color to the links in OUR SERVICES.
-
--------COMPLETED-----------[Created image and put in images folder]\*\*Find ORIGINAL Smoke background to replace ALL Smoke images. The current one is pixelated and has RED AURAS in places.
-
--------COMPLETED-----------\*\*Write NEW copy for sidebar of FREE Audit CTA.
--------COMPLETED-----------\*\*CSS for submit button on AUDIT CTA-------------"currently working on - waiting to hear back from Braden"
+\\NEW\\ -4/24
+PRINT AND GRAPHIC SERVICES page..... hero image - center- use the following on images **please...box-shadow: #000000 2px 2px 3.755px 0px;
+**images - two towers, respect, 4em x 4em, and coffee shelf 7em x 6em
+**put text to the right of the images
+**please make sure all meta tags are attached.
