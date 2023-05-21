@@ -3,7 +3,11 @@ BRADEN
 
 "the map pack" page (remove link or show as coming soon)
 
-second pricing card style fix
+?what is original-style.css
+
+second pricing card style fix -- Done
+if want even, then maybe do some math calculations to determine size of ems for each media break
+
 review pricing monthly/yearly
 
 - navigation breaking

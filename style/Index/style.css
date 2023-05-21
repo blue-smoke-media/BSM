@@ -2460,7 +2460,7 @@ justify-content: space-between;
 }
 
 #plans .row-1{
-	height:80em;
+	height:auto;
 }
 
 #plans .row-2{

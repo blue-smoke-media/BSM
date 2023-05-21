@@ -13,9 +13,20 @@
 	width: 33.3333%;
 }
 
-.price-value{
-	/* color:red !important; */
+/* .price-value{
+	/* font-family: 'Cabin', sans-serif;
+		font-size: 70px;
+		line-height: 70px;
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 10px;
 }
+.price-value:nth-child(2){
+	font-size: 90px;
+}
+.price-box{
+	border: 2px solid red;
+} */
 .price-yearly{
 }
 .hide{

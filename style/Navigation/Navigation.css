@@ -59,10 +59,21 @@ header-nav #main-nav {
     display: none;
   }
 }
-header-nav #main-nav .chevron {
-  color: #7fbd3e;
-  padding-left: 0.125em;
-  padding-top: 0.25em;
+header-nav #main-nav .logo-wrapper {
+  position: absolute;
+  left: 1em;
+  top: 1em;
+  height: 5em;
+}
+header-nav #main-nav .logo-wrapper .logo {
+  height: 5em;
+}
+header-nav #main-nav .logo-wrapper .flame {
+  width: 5%;
+}
+header-nav #main-nav .logo-wrapper .bsm {
+  width: 20%;
+  height: 95%;
 }
 header-nav #main-nav .nav-item {
   color: #cfe6fc;
@@ -157,12 +168,4 @@ header-nav #main-nav .dropdown .dropdown-content .drop-item:hover {
 header-nav #main-nav .dropdown .home-drop {
   width: -moz-min-content;
   width: min-content;
-}
-header-nav #main-nav .logo-wrapper {
-  position: absolute;
-  left: 1em;
-  top: 1em;
-}
-header-nav #main-nav .logo-wrapper .logo {
-  height: 5em;
 }/*# sourceMappingURL=Navigation.css.map */
