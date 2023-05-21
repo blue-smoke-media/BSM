@@ -1,10 +1,8 @@
-test, test test
-
 BRADEN
------------hosting bill
 -----------make sure "services" email is functioning.
 
 "the map pack" page (remove link or show as coming soon)
+
 second pricing card style fix
 review pricing monthly/yearly
 
@@ -12,6 +10,7 @@ review pricing monthly/yearly
   change text size of xl and xxl on drop navigation
   breaking fixed size when smaller screen (nav mobile/tablet)
   breaking on pages not on index
+  link to index
 
 footer margin left/right (.2em)
 footer on all pages
@@ -21,6 +20,8 @@ footer contact form breaking overlapping text
 
 \*\* NEW \*\*- IMPORTANT!!!!!
 Add our Google Analytics, Search, and Tag Manager, tags into the head of the new site, please. (march create new GA4 property)
+--what tags? GA4 config tag?
+google analytics via gtm?
 
 \*\*1st screen of index - indent the text of the second sentences to line up with the
 beginning of each sentence, on the check-marks. ----- i added "tab" just to even it up to show you what I want it to look like.
