@@ -15,8 +15,7 @@ BRADEN
 
 
 \\NEW\\  -4/21 -   Google Maps Pack - Can't get text to align properly at first image.
-\*\* NEW \*\*- IMPORTANT!!!!!
-MAKE SURE we have a Robots.txt file!
+
 
 \*\* NEW \*\*- IMPORTANT!!!!!
 Add our Google Analytics, Search, and Tag Manager, tags into the head of the new site, please. (march create new GA4 property)
@@ -27,7 +26,7 @@ Add our Google Analytics, Search, and Tag Manager, tags into the head of the new
 beginning of each sentence, on the check-marks. ----- i added "tab" just to even it up to show you what I want it to look like.
 --setup breakpoints to keep indented 'tabs' lined with bullet points
 
-\*\* NEW \*\*--On my 32" monitor, the 2nd row of price cards do not line up properly. 1st row is fine. (??)
+
 
 change text size of xl and xxl on drop navigation
 breaking fixed size when smaller screen (nav mobile/tablet)
