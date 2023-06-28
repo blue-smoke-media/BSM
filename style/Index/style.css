@@ -596,9 +596,6 @@ a:hover {
 }
 
 
-
-
-
 /* SMOKE Video GOES HERE */
 .navbar-fixed-top {
 	position: absolute!important;
@@ -607,8 +604,6 @@ a:hover {
 	border-bottom: none;
 	transition: background-color 0.25s ease 0s;
 }
-
-
 
 .navbar-fixed-top.opaque {
 	position: fixed!important;
@@ -623,9 +618,6 @@ a:hover {
     color:#cfe6fc;
  transition: all 0.5s ease;
 }
-
-
-
 
 .navbar-fixed-top .navbar-nav > li > a{
 	color:#cfe6fc !important;
