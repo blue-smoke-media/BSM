@@ -65,9 +65,9 @@ b {
 	line-height: 47px;
 }
 
-.form-vertical-align {
-	/* padding-top: 9%; */
-}
+/* .form-vertical-align {
+	padding-top: 9%;
+} */
 
 .padding-right {
 	padding-right: 3%;
@@ -204,7 +204,7 @@ h3.italics-midnightBlue {
 }
 
 .leader1 {
-	color: #7fbd3e!important;
+	color: #7fbd3e !important;
 	text-align: left;
 	font-weight: 400;
 	font-size: .80em!important;
@@ -970,6 +970,3 @@ div p.three-pack-text  {
 	margin-top: -1% ;
 }
 
-.nav-item .contact {
-
-}
