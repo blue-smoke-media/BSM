@@ -69,7 +69,7 @@ FREE Website Audit simply isn’t working at all
 “Increase Your BRAND AWARENESS with a Custom Website Design” - Just check it out. I’m not sure about the media-queries.
 Personal Social Media Links - I want mine and I’m sure Daniel will also. I know you don’t want any listed, so I removed them.
 I still like your idea of putting blurbs about each of us - like cta slide outs, only they are blurbs. I think this is important!
-I have not been able to fix the footer contact form. The media-queries work fine.
+
 Put Terms &amp; Conditions | Privacy Policy | Disclaimer in the footer NOT under the home tab!
 
 The 2nd row of Price Cards, when reduced to mobile, they either need a margin top or a padding top.

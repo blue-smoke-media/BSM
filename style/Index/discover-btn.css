@@ -1,6 +1,6 @@
 
 
-#discover-btn {
+.discover-btn {
 	background: transparent;
 	border: 1px solid #EE3E0E;
 	border-radius: 30px 8px;
@@ -15,7 +15,7 @@
     transition: all 0.5s ease;
 }
 
-#discover-btn:hover {
+.discover-btn:hover {
 	border: 1px solid #7fbd3e !important;
 	color: #7fbd3e  !important;
 	background: transparent;
