@@ -1,5 +1,9 @@
+@import "../utils/Mixins.scss";
+
 footer {
+  background-color: $shadowBlue;
   color: #cfe6fc;
-  margin: 2em 0.25em 1em;
+  margin: 2em 0.25em 0em;
+  padding-top: 0.125em;
   text-align: center;
 }
