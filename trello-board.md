@@ -8,24 +8,20 @@ BRADEN
 second pricing card style fix -- Done
 if want even, then maybe do some math calculations to determine size of ems for each media break
 
-<<<<<<< HEAD
-\\NEW\\  -4/21 -   Google Maps Pack - Can't get text to align properly at first image.
-
-=======
 review pricing monthly/yearly
 
 - navigation breaking
-  change text size of xl and xxl on drop navigation
+  change text size of xl and xxl on drop navigation - done
   breaking fixed size when smaller screen (nav mobile/tablet)
-  breaking on pages not on index
+  breaking on pages not on index -- img and text
   link to index
+  breaking on hover
 
-footer margin left/right (.2em)
-footer on all pages
+footer margin left/right (.2em) -- done
+footer on all pages -- done
 footer contact form breaking overlapping text
 
 "How Can A Custom Website Design Help My Business?" photo scrolling over nav
->>>>>>> 75d96f12a75bf6ff7133447e3fde6ccb26fe59b2
 
 \*\* NEW \*\*- IMPORTANT!!!!!
 Add our Google Analytics, Search, and Tag Manager, tags into the head of the new site, please. (march create new GA4 property)
@@ -35,9 +31,6 @@ google analytics via gtm?
 \*\*1st screen of index - indent the text of the second sentences to line up with the
 beginning of each sentence, on the check-marks. ----- i added "tab" just to even it up to show you what I want it to look like.
 --setup breakpoints to keep indented 'tabs' lined with bullet points
-<<<<<<< HEAD
-
-
 
 change text size of xl and xxl on drop navigation
 breaking fixed size when smaller screen (nav mobile/tablet)
@@ -48,9 +41,7 @@ move nav to right of nav
 
 \*\*BreadCrumbs - add JS to function correctly with google
 **\*\***Here is the link for Google's requirements on breadcrumbs: https://developers.google.com/search/docs/appearance/structured-data/breadcrumb#guidelines
-=======
 --'custom designed' noticeable when going to mobile size
->>>>>>> 75d96f12a75bf6ff7133447e3fde6ccb26fe59b2
 
 NEW \*\*How Can A Custom Website Design Help My Business?
 The Green Diamond is here ----> /images/icon/green-diamond.png

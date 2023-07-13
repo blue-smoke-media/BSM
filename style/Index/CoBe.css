@@ -689,11 +689,9 @@ h6-f {
   margin-bottom:20px;
   color: #293e84;
 }
-.section-white-footer {
-	color: #cfe6fc;
-	margin: 2em auto 1em;
-	text-align: center;
-}
+/* .section-white-footer {
+ */
+/* } */
 
 
 
@@ -969,4 +967,3 @@ div p.three-pack-text  {
 	width: 30%;
 	margin-top: -1% ;
 }
-
