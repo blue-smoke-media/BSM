@@ -13,11 +13,12 @@ review pricing monthly/yearly
 - navigation breaking
   change text size of xl and xxl on drop navigation - done
   breaking fixed size when smaller screen (nav mobile/tablet)
-  breaking on pages not on index -- just the img?
+  breaking on pages not on index -- img and text
   link to index
+  breaking on hover
 
-footer margin left/right (.2em)
-footer on all pages
+footer margin left/right (.2em) -- done
+footer on all pages -- done
 footer contact form breaking overlapping text
 
 "How Can A Custom Website Design Help My Business?" photo scrolling over nav
