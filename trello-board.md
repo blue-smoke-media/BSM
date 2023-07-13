@@ -11,9 +11,9 @@ if want even, then maybe do some math calculations to determine size of ems for 
 review pricing monthly/yearly
 
 - navigation breaking
-  change text size of xl and xxl on drop navigation
+  change text size of xl and xxl on drop navigation - done
   breaking fixed size when smaller screen (nav mobile/tablet)
-  breaking on pages not on index
+  breaking on pages not on index -- just the img?
   link to index
 
 footer margin left/right (.2em)

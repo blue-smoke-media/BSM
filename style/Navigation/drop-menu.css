@@ -1,4 +1,5 @@
 #drop-menu {
+  border: 5px solid lawngreen;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,4 +75,10 @@
   flex-direction: column;
   width: 100%;
   padding-left: 1em;
+}
+#drop-menu #services-content {
+  border: 2px solid lawngreen;
+}
+#drop-menu #services-content li {
+  font-size: 5em;
 }/*# sourceMappingURL=drop-menu.css.map */
