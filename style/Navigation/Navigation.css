@@ -23,32 +23,42 @@ header-nav {
   position: fixed;
   z-index: 1;
   width: 100%;
-  top: 0;
+  top: -1%;
   left: 0;
   right: 0;
   font-weight: 500;
   background: url("/images/BSM-LOGO/Smoke-Backgrounds/blue-smoke-background.jpg");
   background-size: 100% 170%;
-  height: 9em;
+  height: 11em;
+  border-bottom: 52% solid black;
   display: flex;
   justify-content: center;
 }
+
 header-nav .logo-wrapper {
   position: absolute;
-  left: 0em;
+  left: 1em;
   top: 1em;
-  width: 20%;
-  border: 2px solid red;
+  height: 95%;
+  /* border: 2px solid red; */
 }
+
 header-nav .logo-wrapper img {
   height: 100%;
   margin: auto 0em;
+  left: 1em;
+  top: 1em;
+  width: 100%;
+  height: 85%;
 }
+
 header-nav #main-nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin: auto 0;
+  padding-left: 10%;
+  /* margin: auto 0; */
   /* Links inside the navbar */
   /* The dropdown container */
 }
