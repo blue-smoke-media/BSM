@@ -29,23 +29,8 @@ header-nav {
   display: flex;
   justify-content: center;
   // align-itemst: center;
-
-  header-nav .nav-gradient {
-    background:
-      linear-gradient(
-        to bottom, 
-        #244691 30%,
-        #254692 40%,
-        #020723 78%,
-        #020723 10%
-      )
-      left 
-      bottom
-      #034a8d   
-      no-repeat; 
-    background-size:100% 480%;
-  }
-
+}
+ 
 
 
   .logo-wrapper {
