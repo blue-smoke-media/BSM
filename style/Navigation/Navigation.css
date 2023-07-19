@@ -30,7 +30,7 @@ header-nav {
   background: url("/images/BSM-LOGO/Smoke-Backgrounds/blue-smoke-background.jpg");
   background-size: 100% 170%;
   height: 11em;
-  border-bottom: 52% solid black;
+  border-bottom: .15em solid  #020723;
   display: flex;
   justify-content: center;
 }
