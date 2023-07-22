@@ -5,6 +5,18 @@
 
 html {
   padding-top: 3em;
+  // background-color: $royalBlue;
+
+  .page-wrapper {
+    text-align: center;
+    color: $royalBlue;
+    // background-color: $royalBlue;
+
+    img {
+      width: 100%;
+      height: 40em;
+    }
+  }
 }
 // html {
 //   background: black;
