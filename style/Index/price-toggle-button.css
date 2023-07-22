@@ -51,6 +51,7 @@ label:hover {
     font-weight: 500;
     top: 5px;
     right: 20px;
+    /* color:black; */
 }
 
 .btn-color-mode-switch > label.btn-color-mode-switch-inner:after {

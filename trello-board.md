@@ -2,7 +2,9 @@ BRADEN
 price cards-cant see dark option for monthly/yearly (change dark color)
 -----------make sure "services" email is functioning.
 
-"the map pack" page (remove link or show as coming soon)
+PHP forms
+
+"the map pack" page-needs navigation
 
 ?what is original-style.css
 
@@ -15,7 +17,6 @@ review pricing monthly/yearly
   breaking on pages not on index -- img and text
   link to index
   breaking on hover
-
 
 "How Can A Custom Website Design Help My Business?" photo scrolling over nav -- fixed (removed 999 z-index... lol)
 
@@ -117,3 +118,5 @@ PRINT AND GRAPHIC SERVICES page..... hero image - center- use the following on i
 **images - two towers, respect, 4em x 4em, and coffee shelf 7em x 6em
 **put text to the right of the images
 **please make sure all meta tags are attached.
+
+Your website design will be SEO Friendly, u Organically Search Engine Optimized and Mobile Responsive. -- grammar error
