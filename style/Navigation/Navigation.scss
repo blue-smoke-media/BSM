@@ -16,187 +16,193 @@ header-nav {
   z-index: 1;
   width: 100%;
   height: 100%;
-  margin: auto 0em;
-  left: 1em;
-  top: 1em;
+  margin: 0em;
+  left: 0em;
+  top: 0em;
   width: 100%;
   height: 85%;
   font-weight: 500;
   background: url("/images/BSM-LOGO/Smoke-Backgrounds/blue-smoke-background.jpg");
   background-size: 100% 150%;
   height: 9em;
-  border-bottom: .15em solid  #020723;
+  border-bottom: 0.15em solid #020723;
   display: flex;
   justify-content: center;
   // align-itemst: center;
 }
- 
 
+.logo-wrapper {
+  position: absolute;
+  left: 1em;
+  top: 0.25em;
+  width: 20%;
+  height: 95%;
+  // height: 1em;
 
-  .logo-wrapper {
-    position: absolute;
-    left: 1em;
-    top: 1em;
-    width: 20%;
-    height: 95%;
-    // height: 1em;
+  // .logo {
+  //   height: 5em;
+  // }
+  // .flame {
+  //   width: 1%;
+  // }
+  // .bsm {
 
-    // .logo {
-    //   height: 5em;
+  // }
+
+  // border: 2px solid red;
+
+  img {
+    height: 100%;
+    width: 100%;
+    margin: auto 0em;
+  }
+}
+
+#main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+  padding-left: 30%;
+  width: 100%;
+
+  @include breakpoint(xxs, xs, s) {
+    display: none;
+  }
+
+  // .chevron {
+  //   color: $green;
+  //   padding-left: 0.125em;
+  //   padding-top: 0.25em;
+  // }
+
+  /* Links inside the navbar */
+  .nav-item {
+    color: $white;
+    font-size: 1em;
+    text-align: center;
+    padding: 0.5em 5%;
+    text-decoration: none;
+    font-size: 1.5em;
+    // @include breakpoint(xl, xxl) {
+    //   font-size: 1.3em;
     // }
-    // .flame {
-    //   width: 1%;
-    // }
-    // .bsm {
 
-    // }
-  
-    border: 2px solid red;
-
-    img {
-      height: 100%;
-      margin: auto 0em;
+    &:hover {
+      color: $orange;
+      transform: scale(1.1);
+      transition: ease-in-out 150ms;
     }
   }
 
-  #main-nav {
+  /* The dropdown container */
+  .dropdown {
+    // float: left;
+    // position: relative;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: auto 0;
-    padding-left: 10%;
+    padding: 0.5em 5%;
 
-    @include breakpoint(xxs, xs, s) {
-      display: none;
-    }
-
-    // .chevron {
-    //   color: $green;
-    //   padding-left: 0.125em;
-    //   padding-top: 0.25em;
-    // }
-
-    /* Links inside the navbar */
-    .nav-item {
-      color: $white;
-      font-size: 1em;
-      text-align: center;
-      padding: 0.5em 5%;
-      text-decoration: none;
-      font-size: 1.5em;
-      // @include breakpoint(xl, xxl) {
-      //   font-size: 1.3em;
-      // }
-
-      &:hover {
-        color: $orange;
-        transform: scale(1.1);
-        transition: ease-in-out 150ms;
-      }
-    }
-
-    /* The dropdown container */
-    .dropdown {
-      // float: left;
-      // position: relative;
+    .drop-btn {
+      border: none;
+      background-color: inherit;
+      cursor: pointer;
       display: flex;
-      padding: 0.5em 5%;
+      align-items: center;
+      // padding: 0.5em 5%;
 
-      .drop-btn {
-        border: none;
-        background-color: inherit;
-        cursor: pointer;
+      @include breakpoint(mobile) {
+        /* margin important for vertical align on mobile phones */
+        // margin: 0;
+      }
+    }
+
+    &:hover .dropdown-content {
+      display: flex;
+    }
+
+    &:hover .drop-btn {
+      color: $orange;
+    }
+
+    .dropdown-content {
+      position: absolute;
+      display: none;
+      z-index: 5;
+      background: $darkBlue;
+      padding: 0.15em 0.65em 0.5em;
+      opacity: 0.9;
+      width: -webkit-min-content;
+      width: -moz-min-content;
+      width: min-content;
+      width: 60vw;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      justify-content: space-between;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, 0);
+
+      .nav-section {
+        width: auto;
         display: flex;
+        flex-direction: column;
         align-items: center;
-        // padding: 0.5em 5%;
 
-        @include breakpoint(mobile) {
-          /* margin important for vertical align on mobile phones */
-          // margin: 0;
-        }
-      }
+        &:nth-child(2) {
+          width: 50%;
 
-      &:hover .dropdown-content {
-        display: flex;
-      }
+          .split {
+            display: flex;
+            justify-content: center;
 
-      &:hover .drop-btn {
-        color: $orange;
-      }
-
-      .dropdown-content {
-        position: absolute;
-        display: none;
-        z-index: 5;
-        background: $darkBlue;
-        padding: 0.15em 0.65em 0.5em;
-        opacity: 0.9;
-        width: -webkit-min-content;
-        width: -moz-min-content;
-        width: min-content;
-        width: 60vw;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        justify-content: space-between;
-        top: 100%;
-        left: 50%;
-        transform: translate(-50%, 0);
-
-        .nav-section {
-          width: auto;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-
-          &:nth-child(2) {
-            width: 50%;
-
-            .split {
+            div {
+              width: 50%;
               display: flex;
-              justify-content: center;
-
-              div {
-                width: 50%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-              }
+              flex-direction: column;
+              align-items: center;
             }
           }
-
-          h3 {
-            color: $orange;
-            text-decoration: underline;
-            margin-bottom: 0.25em;
-            font-size: 1.5em;
-            text-align: center;
-          }
         }
-        .drop-item {
-          float: none;
-          color: $white;
-          padding: 0.5em 1em;
-          margin: 0.2em;
-          text-decoration: none;
-          display: block;
-          text-align: center;
-          font-size: 1.1em;
-          font-weight: inherit;
-          min-width: -webkit-min-content;
-          min-width: -moz-min-content;
-          min-width: min-content;
 
-          &:hover {
-            color: $orange;
-            transform: scale(1.15);
-            transition: ease-in-out 200ms;
-          }
+        h3 {
+          color: $orange;
+          text-decoration: underline;
+          margin-bottom: 0.25em;
+          font-size: 1.5em;
+          text-align: center;
         }
       }
-      .home-drop {
-        width: -webkit-min-content;
-        width: -moz-min-content;
-        width: min-content;
+      .drop-item {
+        float: none;
+        color: $white;
+        padding: 0.5em 1em;
+        margin: 0.2em;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: 1.1em;
+        font-weight: inherit;
+        min-width: -webkit-min-content;
+        min-width: -moz-min-content;
+        min-width: min-content;
+
+        &:hover {
+          color: $orange;
+          transform: scale(1.15);
+          transition: ease-in-out 200ms;
+        }
       }
     }
+    .home-drop {
+      width: -webkit-min-content;
+      width: -moz-min-content;
+      width: min-content;
+    }
   }
-
+  :last-child {
+    // border: 6px solid red;
+    // justify-self: flex-end;
+    margin-left: auto;
+    margin-right: 1em;
+  }
+  // border: 2px solid lawngreen;
+}
