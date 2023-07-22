@@ -2434,7 +2434,6 @@ ul.features-list-hero li i.lyla{
 	 position: relative ;
 	width: 45%;
 	border-radius:5%; 
-	z-index: 999; 
 } 
 .web-design-img-txt-wrapper{
 display: flex;

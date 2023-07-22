@@ -1,27 +1,23 @@
 BRADEN
+price cards-cant see dark option for monthly/yearly (change dark color)
 -----------make sure "services" email is functioning.
 
 "the map pack" page (remove link or show as coming soon)
 
 ?what is original-style.css
 
-second pricing card style fix -- Done
 if want even, then maybe do some math calculations to determine size of ems for each media break
 
 review pricing monthly/yearly
 
 - navigation breaking
-  change text size of xl and xxl on drop navigation - done
   breaking fixed size when smaller screen (nav mobile/tablet)
   breaking on pages not on index -- img and text
   link to index
   breaking on hover
 
-footer margin left/right (.2em) -- done
-footer on all pages -- done
-footer contact form breaking overlapping text
 
-"How Can A Custom Website Design Help My Business?" photo scrolling over nav
+"How Can A Custom Website Design Help My Business?" photo scrolling over nav -- fixed (removed 999 z-index... lol)
 
 \*\* NEW \*\*- IMPORTANT!!!!!
 Add our Google Analytics, Search, and Tag Manager, tags into the head of the new site, please. (march create new GA4 property)
@@ -54,10 +50,9 @@ Get the "mini" cards at the bottom of the page on the index below the newest blo
 
 **\*** Please make a list of "ADD-ON Features" that we can use as additional sells and what you think we should charge for them.
 
-safari(?) breaking about our team photo
+safari(?) breaking about our team photo -- still?
 
-blog link?
-quick inquiry phone number field has arrows
+quick inquiry phone number field has arrows -- fixed
 
 CoBe
 
