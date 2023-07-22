@@ -12,7 +12,7 @@ html {
   font-family: "Cabin", "Poppins", "sans-serif", "serif" !important;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 1em;
   color: $darkBlue;
 
   @include breakpoint(xl) {
@@ -95,12 +95,12 @@ html {
 }
 
 h1 {
-	font-size: 46px;
+  font-size: 46px;
   font-weight: 800;
   color: #cfe6fc !important;
-  text-shadow: 2px 1px 1px #020723;	
-	outline-width: 1px solid #020723;
-  text-align:  center;
+  text-shadow: 2px 1px 1px #020723;
+  outline-width: 1px solid #020723;
+  text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
 }
