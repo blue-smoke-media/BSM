@@ -6,6 +6,7 @@ html {
 html .page-wrapper {
   text-align: center;
   color: #04227a;
+  font-size: 1.05em;
 }
 html .page-wrapper img {
   width: 100%;
