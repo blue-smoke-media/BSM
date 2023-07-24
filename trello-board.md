@@ -1,7 +1,5 @@
 BRADEN
-price cards-cant see dark option for monthly/yearly (change dark color)
 -----------make sure "services" email is functioning.
-
 PHP forms
 
 "the map pack" page-needs navigation
@@ -14,27 +12,17 @@ review pricing monthly/yearly
 
 - navigation breaking
   breaking fixed size when smaller screen (nav mobile/tablet)
-  breaking on pages not on index -- img and text
-  link to index
-  breaking on hover
+  breaking on hover on some pages
 
-"How Can A Custom Website Design Help My Business?" photo scrolling over nav -- fixed (removed 999 z-index... lol)
 
 \*\* NEW \*\*- IMPORTANT!!!!!
 Add our Google Analytics, Search, and Tag Manager, tags into the head of the new site, please. (march create new GA4 property)
 --what tags? GA4 config tag?
 google analytics via gtm?
 
-\*\*1st screen of index - indent the text of the second sentences to line up with the
-beginning of each sentence, on the check-marks. ----- i added "tab" just to even it up to show you what I want it to look like.
---setup breakpoints to keep indented 'tabs' lined with bullet points
 
-change text size of xl and xxl on drop navigation
 breaking fixed size when smaller screen (nav mobile/tablet)
 
-NEW \*\*Need to ADD the Flame logo with the Text Logo [to the absolute left] of the nav header.
-
-move nav to right of nav
 
 \*\*BreadCrumbs - add JS to function correctly with google
 **\*\***Here is the link for Google's requirements on breadcrumbs: https://developers.google.com/search/docs/appearance/structured-data/breadcrumb#guidelines
@@ -120,3 +108,6 @@ PRINT AND GRAPHIC SERVICES page..... hero image - center- use the following on i
 **please make sure all meta tags are attached.
 
 Your website design will be SEO Friendly, u Organically Search Engine Optimized and Mobile Responsive. -- grammar error
+
+
+our services and other text breaking on index
