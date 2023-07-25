@@ -2007,7 +2007,6 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 
 .popup-gallery img {
 	position:relative;
-	z-index:10;
 	width: 100%;
 	height: auto !important;
 }
