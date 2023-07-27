@@ -1459,7 +1459,7 @@ background: linear-gradient(to bottom right, #1e92f6, #020723);
 .price-box-grey{
 	text-align: center;
 	background: #f4f5f6;
-	box-shadow: rgba(33,33,33,.06) 0 4px 24px 5px;
+	box-shadow: rgba#293e84 0 4px 24px 2px;
 	padding: 50px 0 40px 0;
     width: 90%;
 	margin-top: 40;
