@@ -27,11 +27,10 @@
 .price-box{
 	border: 2px solid red;
 } */
-.price-yearly{
+.price-yearly {
 }
 .hide{
 	display: none;
-
 }
 
 .value-added {
@@ -52,7 +51,7 @@
 	background: #cfe6fc;
 } */
 
-ul.pricing-list li.price-subtitle-1 {
+/* ul.pricing-list li.price-subtitle-1 {
 	color: #002774 !important;
 	font-family: 'Cabin', sans-serif;
 	font-size: 14px;
@@ -61,7 +60,7 @@ ul.pricing-list li.price-subtitle-1 {
 	letter-spacing: 1px;
 	margin: -3%;
 	padding: 12px;
-}
+} */
 
 
 
@@ -97,7 +96,7 @@ p.blue {
 
 
 
-ul.pricing-list li.price-title {
+/* ul.pricing-list li.price-title {
 	font-family: 'Cabin', sans-serif;
     font-size: 28px;
     line-height: 24px;
@@ -105,15 +104,15 @@ ul.pricing-list li.price-title {
     letter-spacing: 1px;
     margin-bottom: 5%;
     text-shadow: 1px 1px 0px #1e92f6;
-}
+} */
 
 .price-box-blue .price-subtitle,.price-box-blue .price-text {
-	color: #002774 !important;
+	/* color: #002774 !important;
 	font-family: 'Cabin', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 600;
-	margin: -3%;
+	margin: -3%; */
 }
 
 .price-box-blue ul.pricing-list-blue li.price-tag-blue a{
@@ -157,7 +156,7 @@ ul.pricing-list li.price-text-blue {
 	padding: 50px 0 44px 0;
 	color:#cfe6fc;
 	width: 90.25%;
-	margin-top: 40;
+	/* margin-top: 40px; */
 	margin-bottom: 20px;
 	margin-left: 20px;
 	border-radius: 8px;
@@ -172,15 +171,14 @@ ul.pricing-list li.price-text-blue {
 .price-box-green .price-subtitle {
 	color: #002774 !important;
 	font-family: 'Cabin', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 18px;
-	font-weight: 400;
-	margin: -3%;
+	font-weight: 600;
+	margin: -2%;
 }
 
 .pricing-list-green .price-tag-green a {
     color: #cfe6fc;
-    /* background: #008aff; */
     background: linear-gradient(to bottom right, #1e92f6, #020723);
     border-radius: 30px 8px;
     border: 2px solid #002774;

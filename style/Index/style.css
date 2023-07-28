@@ -1528,13 +1528,13 @@ ul.pricing-list li.price-value{
 	margin-bottom: 10px;
 }
 
-ul.pricing-list li.price-subtitle{
+/* ul.pricing-list li.price-subtitle{
 	font-family: 'Cabin', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
-	font-weight: 400;
+	font-weight: 600;
 	margin: -3%;
-}
+} */
 
 ul.pricing-list li.price-text{
 	font-family: 'Cabin', sans-serif;
@@ -1544,7 +1544,7 @@ ul.pricing-list li.price-text{
 	margin-bottom: 5px;
 }
 
-ul.pricing-list li.price-tag a{
+ul.pricing-list li.price-tag a {
 	color: #cfe6fc;
 	background: #008aff;
     background: linear-gradient(to bottom right, #1e92f6, #020723);
@@ -1555,7 +1555,7 @@ ul.pricing-list li.price-tag a{
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 600;
-	margin: 40px 0 30px 0;
+	margin: 20px 0 20px 0;
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 }
@@ -1581,7 +1581,7 @@ ul.pricing-list li.price-tag a:hover{
 	-webkit-transition: all 0.3s ease-in-out;
 }
 
-.price-box-blue ul.pricing-list li.price-tag a:hover{
+.price-box-blue ul.pricing-list li.price-tag a:hover {
 	color: #4285f4;
 	border: 2px solid #002774;
 	/* background: #cfe6fc; */
