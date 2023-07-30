@@ -31,8 +31,8 @@ label:hover {
 
 .btn-color-mode-switch > label.btn-color-mode-switch-inner {
     margin: 0px;
-    width: 140px;
-    height: 30px;
+    width: 180px;
+    height: 60px;
     background: #002774;
     border-radius: 26px;
     overflow: hidden;
