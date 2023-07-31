@@ -2,6 +2,8 @@ BRADEN
 -----------make sure "services" email is functioning.
 PHP forms
 
+Please fix CSS on 2nd row Price Cards
+
 "the map pack" page-needs navigation
 
 ?what is original-style.css -> old

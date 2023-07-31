@@ -47,7 +47,7 @@ label:hover {
     color: #002774;
     content: attr(data-on);
     position: absolute;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     top: 5px;
     right: 20px;
@@ -61,7 +61,7 @@ label:hover {
     background: #002774;
     border-radius: 26px;
     position: absolute;
-    left: 2px;
+    left:10px;
     text-align: center;
     transition: all 0.3s ease;
     box-shadow: 0px 0px 6px -2px #111;
