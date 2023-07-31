@@ -138,7 +138,7 @@ h2.section-title {
 }
 
 h2.section-title.grey {
-    color: #ddd;
+    color: #cfe6fc;
 }
 
 h2.section-title.white {
@@ -775,7 +775,7 @@ a:hover {
 
 .dropdown .dropdown-content .drop-item {
     float: none;
-    color: #d7dae6;
+    color: #cfe6fc;
     padding: 0.5em 1em;
     margin: 0.2em;
     text-decoration: none;
@@ -843,7 +843,7 @@ section#contact i.fa.fa-phone {
 
 .footer p {
     font-size: 16px;
-    color: #cecece;
+    color: #cfe6fc;
 }
 
 .footer p a {
@@ -1195,7 +1195,7 @@ ul.team-icon li a.linkedin {
 
 .portfolio-box-grey {
     margin-bottom: 30px;
-    background-color: #f6f7f8;
+    background-color: #cfe6fc;
     border-bottom: 2px solid #e0e0e0;
 }
 
@@ -1349,7 +1349,7 @@ ul.features-responsive li {
     font-size: 15px;
     line-height: 20px;
     font-weight: 400;
-    color: #8f8f8f;
+    color: #cfe6fc;
     display: block;
     margin-bottom: 10px;
 }
@@ -1561,6 +1561,11 @@ ul.features-responsive li i {
 
 /* this goes to the white box */
 
+ul.pricing-list li.price-value {
+    /* webkit-text-stroke: 2px solid#002774!important; */
+    outline: #293e84 solid 2px;
+}
+
 .price-box-white .price-title,
 .price-box-white ul.pricing-list li.price-value,
 .price-box-grey .price-title,
@@ -1605,8 +1610,6 @@ ul.pricing-list li.price-value {
     display: block;
     margin-top: 20px;
     margin-bottom: 10px;
-    text-shadow: .25px .25px .25px #020723;
-    -webkit-text-stroke: 1.5px #002774;
 }
 
 
@@ -1888,7 +1891,7 @@ textarea.white-input::-moz-placeholder {
 input.white-input:-ms-input-placeholder,
 textarea.white-input:-ms-input-placeholder {
     /* Internet Explorer 10+ */
-    color: #cfe6fc;
+    color: #aaa;
 }
 
 #contact-form input.contact-input:focus,
@@ -2543,7 +2546,7 @@ ul.features-list-hero li i.lyla {
     position: fixed;
     bottom: 50px;
     right: 0;
-    background-color: #cfe6fc;
+    background-color: #DDD;
     color: #555;
     text-align: center;
     font-size: 30px;
@@ -2551,7 +2554,7 @@ ul.features-list-hero li i.lyla {
 }
 
 #back2Top:hover {
-    background-color: #cfe6fc;
+    background-color: #DDF;
     color: #000;
 }
 
@@ -2587,4 +2590,8 @@ ul.features-list-hero li i.lyla {
 
 #plans .row-2 {
     height: 93em;
+}
+
+height: 93em;
+
 }
