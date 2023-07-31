@@ -2,7 +2,8 @@ BRADEN
 -----------make sure "services" email is functioning.
 PHP forms
 
-Please fix CSS on 2nd row Price Cards
+****Please fix CSS on 2nd row Price Cards
+****Is there a way to remove the following error; it's what is throwing so many 
 
 "the map pack" page-needs navigation
 
@@ -65,9 +66,6 @@ Check index for <!---insertLink--> for any pages that need to be written or link
 
 \*\*Remove Link to blog LG. images.
 
-\*\* Image TOUCH-Ups.
-== http://127.0.0.1:5501/images/icon/local-organic-search-engine-optimization.png
-looks to have dirty-like smudges. Paint over.
 == Make logo for header - will go to individual components once
 
 \*\*Web pages to write and link from the index to the new page.
