@@ -4,6 +4,12 @@
   .content {
     margin: auto 2em 2em;
     text-align: left;
+    a {
+      color: $gold;
+      &:hover {
+        color: $orange;
+      }
+    }
 
     h1 {
       text-align: center;
