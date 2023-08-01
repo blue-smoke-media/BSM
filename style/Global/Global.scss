@@ -13,13 +13,13 @@ html {
     // background-color: $royalBlue;
     font-size: 1.35em;
     padding: 5em 2em 0;
-    font-family: 'cabin', "Poppins", "sans-serif", "serif";
+    font-family: "cabin", "Poppins", "sans-serif", "serif";
 
-    img {
-      // width: 100%;
-      // height: 40em;
+    .hero-image {
+      margin-top: 1em;
+      // border: 2px solid $darkBlue;
     }
-    h1{
+    h1 {
       font-size: 2.25em;
     }
   }
