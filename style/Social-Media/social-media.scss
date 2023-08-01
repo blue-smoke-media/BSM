@@ -2,12 +2,39 @@
 .social-media {
   margin: 0 auto 8%;
   width: 95%;
-  text-align: justify;
+
+  .hero-img {
+    width: 80%;
+    height: 19em;
+    margin-top: 1em;
+  }
   h1 {
     text-align: center;
     font-size: 1.75em;
     color: $royalBlue;
   }
+  p {
+    text-align: left;
+  }
+
+  div.img-top,
+  div.img-bottom {
+    display: flex;
+    margin-bottom: 2em;
+    img {
+      width: 15em;
+    }
+    p {
+      width: 90%;
+      margin: 1em auto;
+      text-align: justify;
+    }
+  }
+  div.img-bottom {
+    margin-top: 3em;
+    text-align: left;
+  }
+
   ul {
     list-style: none;
     li {
