@@ -1,6 +1,41 @@
 @import "../../utils/Mixins.scss";
 
+.print-and-graphic-design-services {
+  .hero-image {
+    width: 50%;
+    height: 10em;
+  }
+  h1 {
+    margin: 1.5em auto 1em;
+  }
+  .content {
+    text-align: left;
+    width: 67%;
+    margin: auto;
+    .bottom-content {
+      width: 90%;
+      margin: 2em auto;
 
+      a {
+        color: $green;
+        &:hover {
+          color: $orange;
+        }
+      }
+      section {
+        display: flex;
+        margin-bottom: 2em;
+        align-items: center;
+        // border: 6px solid red;
+        img {
+          height: 6.125em;
+          width: 6.125em;
+          margin-right: 1em;
+        }
+      }
+    }
+  }
+}
 
 // /* CoBe Code */
 

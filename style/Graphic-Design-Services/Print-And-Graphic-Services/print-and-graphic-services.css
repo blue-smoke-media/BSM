@@ -1,1 +1,32 @@
-/*# sourceMappingURL=print-and-graphic-services.css.map */
+.print-and-graphic-design-services .hero-image {
+  width: 50%;
+  height: 10em;
+}
+.print-and-graphic-design-services h1 {
+  margin: 1.5em auto 1em;
+}
+.print-and-graphic-design-services .content {
+  text-align: left;
+  width: 67%;
+  margin: auto;
+}
+.print-and-graphic-design-services .content .bottom-content {
+  width: 90%;
+  margin: 2em auto;
+}
+.print-and-graphic-design-services .content .bottom-content a {
+  color: #7fbd3e;
+}
+.print-and-graphic-design-services .content .bottom-content a:hover {
+  color: #ee3e0e;
+}
+.print-and-graphic-design-services .content .bottom-content section {
+  display: flex;
+  margin-bottom: 2em;
+  align-items: center;
+}
+.print-and-graphic-design-services .content .bottom-content section img {
+  height: 6.125em;
+  width: 6.125em;
+  margin-right: 1em;
+}/*# sourceMappingURL=print-and-graphic-services.css.map */
