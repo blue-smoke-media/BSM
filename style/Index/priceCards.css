@@ -2,7 +2,7 @@
         /*   		BEGIN  PRICING  								  */
         /* ========================================================== */
         /* BEGIN PRICE CARDS */
-        
+
         .col-md-4-1-a {
             position: relative;
             min-height: 1px;
@@ -25,17 +25,17 @@
 .price-box{
 	border: 2px solid red;
 } */
-        
+
         .hide {
             display: none;
         }
-        
+
         .value-added {
             color: #ee3e0e !important;
             font-weight: 800 !important;
             text-shadow: 1px 1px 1px #293e84;
         }
-        
+
         .add-ons {
             color: #ee3e0e !important;
             font-weight: 800 !important;
@@ -57,12 +57,12 @@
 	padding: 12px;
 } */
         /* BEGIN BLUE PRICE CARD */
-        
+
         p.blue {
             color: #002774;
         }
         /* this works ok */
-        
+
         .price-text-blue {
             color: #cfe6fc !important;
             text-shadow: 1px 1px 0px #002774;
@@ -74,7 +74,7 @@
             padding: 0 5px;
         }
         /* this works ok */
-        
+
         .price-title-blue {
             color: #cfe6fc;
             font-family: 'Cabin', sans-serif;
@@ -85,7 +85,7 @@
             margin-bottom: 5%;
             text-shadow: 2px 2px 1px #293e84;
         }
-        
+
         .price-box-green {
             text-align: center;
             background: #7fbd3e;
@@ -94,7 +94,7 @@
             padding: 50px 0 44px 0;
             color: #cfe6fc;
             width: 90.25%;
-            /* margin-top: 40px; */
+            margin-top: 40px;
             margin-bottom: 20px;
             margin-left: 20px;
             border-radius: 8px;
@@ -104,7 +104,7 @@
             -webkit-backface-visibility: hidden;
             -moz-osx-font-smoothing: grayscale;
         }
-        
+
         .price-box-blue .price-subtitle,
         .price-box-blue .price-text {
             color: #002774 !important;
@@ -131,15 +131,15 @@
     background: linear-gradient(135deg,  #ee3e0e 0%, #020723 100%);
 } */
         /* ul.pricing-list li.price-text-blue {
-	color: #cfe6fc !important;		
+	color: #cfe6fc !important;
 	text-shadow: 2px 1px 1px #002774;
 	font-family: 'Cabin', sans-serif;
 	font-size: 16px!important;
 	line-height: 28px!important;
 	font-weight: 600!important;
 	margin-bottom: 5px!important;
-} 
-            
+}
+
             .price-box-green {
                 text-align: center;
                 background: #7fbd3e;
@@ -149,16 +149,15 @@
                 color: #cfe6fc;
                 width: 90.25%;
                 /* margin-top: 40px; */
-        
-        margin-bottom: 20px;
+
+        /* margin-bottom: 20px;
         margin-left: 20px;
         border-radius: 8px;
         backface-visibility: hidden;
         transition: all 0.3s ease-in-out;
         -webkit-transition: all 0.3s ease-in-out;
         -webkit-backface-visibility: hidden;
-        -moz-osx-font-smoothing: grayscale;
-    }
+        -moz-osx-font-smoothing: grayscale; */
     /* END BLUE top PRICE CARD */
     /* this works ok */
     /* BEGIN Green top PRICE CARD */
@@ -171,7 +170,7 @@
         color: #cfe6fc;
         width: 90.25%;
         /* margin-top: 40px; */
-        
+
         margin-bottom: 20px;
         margin-left: 20px;
         border-radius: 8px;
@@ -314,7 +313,7 @@
         box-shadow: #293e84 0 4px 24px 2px;
         padding: 50px 0 40px 0;
         width: 90%;
-        margin-top: 30;
+        margin-top: 30px;
         margin-bottom: 20px;
         margin-left: 20px;
         border-radius: 8px 8px;
@@ -323,7 +322,7 @@
         -webkit-backface-visibility: hidden;
         -moz-osx-font-smoothing: grayscale;
     }
-    @media (min-width: 981px) and (max-width: 1280px) {
+    /* @media (min-width: 981px) and (max-width: 1280px) {
         .col-md-4-1 .col-sm-4 {
             display: none;
         }
@@ -342,3 +341,4 @@
             display: none;
         }
     }
+     */
