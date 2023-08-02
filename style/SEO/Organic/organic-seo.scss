@@ -7,11 +7,27 @@
   // letter-spacing: 0.15rem;
   img {
     border-bottom: 2px outset $darkBlue;
+    width: 60%;
+    margin-top: 2em;
   }
 
   h1 {
     text-align: center;
     margin: 1.25em auto;
+  }
+
+  div.right-img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+    p {
+      text-align: justify;
+      padding-right: 1em;
+    }
+    img {
+      margin-top: 0;
+      width: 40%;
+    }
   }
 
   p {

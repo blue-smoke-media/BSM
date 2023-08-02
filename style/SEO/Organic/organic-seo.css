@@ -4,10 +4,25 @@
 }
 .organic-seo img {
   border-bottom: 2px outset #020723;
+  width: 60%;
+  margin-top: 2em;
 }
 .organic-seo h1 {
   text-align: center;
   margin: 1.25em auto;
+}
+.organic-seo div.right-img {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.organic-seo div.right-img p {
+  text-align: justify;
+  padding-right: 1em;
+}
+.organic-seo div.right-img img {
+  margin-top: 0;
+  width: 40%;
 }
 .organic-seo p:last-child {
   margin-bottom: 2em;

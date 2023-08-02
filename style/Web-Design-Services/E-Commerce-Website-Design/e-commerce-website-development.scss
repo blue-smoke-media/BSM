@@ -1,15 +1,33 @@
 @import "../../utils/Mixins.scss";
 .e-commerce-website-development {
-  img {
-    border-bottom: 2px outset $darkBlue;
+  .hero-image {
+    // border-bottom: 2px outset $darkBlue;
+    width: 75%;
+    margin-top: 0.75em;
+  }
+  h1 {
+    margin: 1.5em auto 0.8em;
+    color: $royalBlue;
   }
   .content {
-    h1 {
-      margin: 1em auto 0.8em;
-      color: $royalBlue;
+    text-align: left;
+    h2 {
+      margin: 1em auto;
+      text-align: center;
     }
-    p {
-      text-align: left;
+
+    div.img-bullet {
+      display: flex;
+      align-items: center;
+      // margin-bottom: 1em;
+      img {
+        width: 2em;
+        height: 2em;
+        margin-right: 1em;
+      }
+      p {
+        margin: 0.25em auto;
+      }
     }
     span {
       font-style: italic;

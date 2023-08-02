@@ -1,8 +1,9 @@
-.custom-website-design img {
-  border: 2px solid #020723;
+.custom-website-design .hero-image {
+  margin-top: 3em;
 }
 .custom-website-design .content {
   text-align: left;
+  font-size: 1.5em;
 }
 .custom-website-design .content h1 {
   text-align: center;

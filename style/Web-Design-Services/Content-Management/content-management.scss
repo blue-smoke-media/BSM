@@ -1,6 +1,9 @@
 @import "../../utils/mixins.scss";
 
 .content-management {
+  .hero-image {
+    width: 80%;
+  }
   .content {
     // margin: auto 2em 4em;
 
@@ -18,6 +21,14 @@
 
       .orange {
         color: $orange;
+      }
+    }
+    div.mid-img {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-bottom: 1em;
+      img {
+        margin-left: 0.5em;
       }
     }
   }

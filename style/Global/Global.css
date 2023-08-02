@@ -6,9 +6,13 @@ html {
 html .page-wrapper {
   text-align: center;
   color: #04227a;
-  font-size: 1.05em;
+  font-size: 1.35em;
+  padding: 5em 2em 0;
+  font-family: "cabin", "Poppins", "sans-serif", "serif";
 }
-html .page-wrapper img {
-  width: 100%;
-  height: 40em;
+html .page-wrapper .hero-image {
+  margin-top: 1em;
+}
+html .page-wrapper h1 {
+  font-size: 2.25em;
 }/*# sourceMappingURL=Global.css.map */
