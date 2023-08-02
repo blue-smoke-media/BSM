@@ -1,121 +1,116 @@
 @import "../../utils/Mixins.scss";
 
 
-/* CoBe Code */
 
-body {
-	font-family: cabin, "sans serif";
-	background-color: #293e84;
-	overflow-x: hidden; 
-}
+// /* CoBe Code */
 
-p {
-	font-size: 1.5em;
-	line-height: 23px;
-	font-weight: 500;
-	color: #cfe6fc;
-	margin-bottom: 15px;
-}
+// body {
+//   font-family: cabin, "sans serif";
+//   background-color: #293e84;
+//   overflow-x: hidden;
+// }
 
-h1,
-red-orange-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Cabin', sans-serif;
-  line-height: 1.2;
-  margin-top: 5%;
-  margin-bottom: 15px;
-  color: #cfe6fc;
-}
+// p {
+//   font-size: 1.5em;
+//   line-height: 23px;
+//   font-weight: 500;
+//   color: #cfe6fc;
+//   margin-bottom: 15px;
+// }
 
+// // h1,
+// // red-orange-h2,
+// // h3,
+// // h4,
+// // h5,
+// // h6 {
+// //   font-family: 'Cabin', sans-serif;
+// //   line-height: 1.2;
+// //   margin-top: 5%;
+// //   margin-bottom: 15px;
+// //   color: #cfe6fc;
+// // }
 
-.print-and-graphic-design-services {
-  img {
-    height:6em;
-    width: 6em !important;
-    justify-content: center !important;
-  }
+// .print-and-graphic-design-services {
+//   img {
+//     height: 6em;
+//     width: 6em !important;
+//     justify-content: center !important;
+//   }
 
-  h1 {
-    font-size: 46px;
-    color: #cfe6fc !important;
-    text-shadow: 2px 1px 1px #020723;	
-    outline-width: 1px solid #020723;
-    text-align:  center;
-  }
+//   h1 {
+//     font-size: 46px;
+//     color: #cfe6fc !important;
+//     text-shadow: 2px 1px 1px #020723;
+//     outline-width: 1px solid #020723;
+//     text-align: center;
+//   }
 
-    @include breakpoint(xxs, xs, s, m) {
-      font-size: 1.5em;
-    }
-  }
+//   @include breakpoint(xxs, xs, s, m) {
+//     font-size: 1.5em;
+//   }
+// }
 
-  .bottom-content {
-    p {
-      margin-bottom: 3em;
-      margin: 5% 5%;
+// .bottom-content {
+//   p {
+//     margin-bottom: 3em;
+//     margin: 5% 5%;
 
+//     @include breakpoint(xxs, xs, s, m) {
+//       margin: auto;
+//       text-align: justify;
+//       margin: 1em;
+//     }
+//   }
 
-      @include breakpoint(xxs, xs, s, m) {
-        margin: auto;
-        text-align: justify;
-        margin: 1em;
-      }
-    }
+//   section {
+//     display: flex;
+//     margin: 2rem;
+//     align-items: center;
 
-    section {
-      display: flex;
-      margin: 2rem;
-      align-items: center;
+//     @include breakpoint(xxs, xs, s, m) {
+//       flex-direction: column;
+//       margin: 1rem auto;
+//     }
 
-      @include breakpoint(xxs, xs, s, m) {
-        flex-direction: column;
-        margin: 1rem auto;
-      }
+//     img {
+//       display: block;
+//       width: 50.1%;
+//       height: 10em !important;
+//       justify-content: center;
 
-    
-      img {
-        display: block;
-        width: 50.1%;
-        height: 10em !important;
-        justify-content: center;
+//       @include breakpoint(xxs, xs, s, m) {
+//         margin-top: 1.5em;
+//         width: 15em;
+//       }
+//     }
 
-        @include breakpoint(xxs, xs, s, m) {
-          margin-top: 1.5em;
-          width: 15em;
-        }
-      }
+//     #eagle {
+//       height: 4em;
+//       width: 4em;
+//     }
 
-      #eagle {
-        height: 4em;
-        width: 4em;
-      }
+//     #coffeeShelf {
+//       padding-top: 0.5em;
+//       height: 7em;
+//       width: 6em;
 
-      #coffeeShelf {
-        padding-top: 0.5em;
-        height: 7em;
-        width: 6em;
+//       @include breakpoint(l) {
+//         height: 7em;
+//       }
 
-        @include breakpoint(l) {
-          height: 7em;
-        }
+//       @include breakpoint(xxs, xs, s, m) {
+//         display: none;
+//       }
+//     }
 
-        @include breakpoint(xxs, xs, s, m) {
-          display: none;
-        }
-      }
+//     @include breakpoint(xxs, xs, s, m) {
+//       margin-top: 1.25em;
+//       margin-bottom: 0;
+//     }
 
-
-        @include breakpoint(xxs, xs, s, m) {
-          margin-top: 1.25em;
-          margin-bottom: 0;
-        }
-
-        span {
-          font-weight: 600;
-        }
-      }
-    }
-  }
-}
+//     span {
+//       font-weight: 600;
+//     }
+//   }
+// }
