@@ -3,6 +3,12 @@
   margin: auto 2em 2em;
   text-align: left;
 }
+.website-usability .content a {
+  color: #daa520;
+}
+.website-usability .content a:hover {
+  color: #ee3e0e;
+}
 .website-usability .content h1 {
   text-align: center;
   margin: 1.45em auto;
