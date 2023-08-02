@@ -5,12 +5,16 @@
   margin-top: 5em;
 }
 .contact h1 {
-  margin-top: 1.2em;
-  color: #020723;
+  font-size: 3em;
+  margin-top: 3em;
+  color: #002774;
+  text-align: center;
 }
 .contact p {
   font-style: italic;
   margin: 1em auto 3em;
+  text-align: center;
+  font-size: 1.5em;
 }
 .contact span {
   visibility: hidden;
@@ -26,11 +30,16 @@
   background: lightgreen;
   border: 2px solid green;
 }
+.contact .form-img-wrapper {
+  display: flex;
+  align-items: center;
+}
 .contact form {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  margin: 2em auto 15em;
+  width: 40%;
+  margin-left: auto;
+  background-image: url("../../images/6 2.jpg");
 }
 @media (max-width: 360px) {
   .contact form {
@@ -60,6 +69,10 @@
   font-size: 1em;
   line-height: 1.5em;
   margin-bottom: 1em;
+  opacity: 20%;
+}
+.contact form .field input {
+  color: #7fbd3e;
 }
 @media (max-width: 360px) {
   .contact form .field {
@@ -87,11 +100,11 @@
 }
 .contact form #submit-btn {
   font-family: "Roboto", sans-serif;
-  font-size: 1em;
+  font-size: 1.5em;
   background: #ee3e0e;
   color: white;
   text-shadow: 1px 1px 1px #000;
-  border: 2px outset #020723;
+  border: 2px outset #002774;
   border-radius: 0.25em;
   font-weight: 600;
   padding: 0.25em 0.5em;
@@ -108,7 +121,7 @@
   }
 }
 .contact form #submit-btn:hover {
-  background: #04227a;
+  background: #002774;
   color: #7fbd3e;
 }
 .contact .icons {
