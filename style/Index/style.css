@@ -171,7 +171,7 @@ h5.section-title.blue {
 
 p.section-subtitle {
     font-size: 18px;
-    color: midnightblue;
+    color: #191970;
 }
 
 p.section-subtitle.grey {
@@ -1495,7 +1495,7 @@ ul.features-responsive li i {
     width: 90%;
     border-radius: 8px 8px;
     margin-top: 40;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-left: 20px;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1507,7 +1507,7 @@ ul.features-responsive li i {
     text-align: center;
     background: #f4f5f6;
     box-shadow: #020723 0 4px 24px 2px;
-    padding: 50px 0 40px 0;
+    padding: 50px 0 85px 0;
     width: 90%;
     margin-top: 40;
     margin-bottom: 20px;
@@ -1527,8 +1527,8 @@ ul.features-responsive li i {
     background: #1e92f6;
     background: linear-gradient(to bottom right, #1e92f6, #020723);
     box-shadow: #020723 0 4px 24px 2px;
-    padding: 50px 0 75px 0;
-    width: 90%;
+    padding: 50px 0 30px 0;
+    width: 89%;
     margin-top: 40;
     margin-bottom: 20px;
     margin-left: 20px;
