@@ -43,8 +43,11 @@ if(isset($_POST['submit'])) {
 
   $name = clean_string($name);
 
-  $message = clean_string($business)."\n\n";
+  $message = "Website: ";
+  $message .= clean_string($business)."\n";
+  $message .= "Name: ";
   $message .= clean_string($name)."\n";
+  $message .= "Phone: ";
   $message .= clean_string($phone)."\n";
   // todo format phone number - also turn into link for iphone
 
@@ -66,6 +69,7 @@ mail($email_to, $subject, $message, $headers);
 // todo redirect anywhere?
 // window.location.href='../html/Contact.html';
     </script>
+    <h1>audit sent</h1>
 </body>
 </html>
 
