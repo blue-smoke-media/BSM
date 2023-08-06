@@ -2,10 +2,10 @@ BRADEN
 -----------make sure "services" email is functioning.
 PHP forms
 
-*** Inquiry  form survery
+\*\*\* Inquiry form survery
 
-****Please fix CSS on 2nd row Price Cards
-****Is there a way to remove the following error; it's what is throwing so many 
+
+add to contact form - be able to use tab to move to submit btn
 
 "the map pack" page-needs navigation
 
@@ -19,15 +19,12 @@ review pricing monthly/yearly
   breaking fixed size when smaller screen (nav mobile/tablet)
   breaking on hover on some pages
 
-
 \*\* NEW \*\*- IMPORTANT!!!!!
 Add our Google Analytics, Search, and Tag Manager, tags into the head of the new site, please. (march create new GA4 property)
 --what tags? GA4 config tag?
 google analytics via gtm?
 
-
 breaking fixed size when smaller screen (nav mobile/tablet)
-
 
 \*\*BreadCrumbs - add JS to function correctly with google
 **\*\***Here is the link for Google's requirements on breadcrumbs: https://developers.google.com/search/docs/appearance/structured-data/breadcrumb#guidelines
@@ -110,6 +107,5 @@ PRINT AND GRAPHIC SERVICES page..... hero image - center- use the following on i
 **please make sure all meta tags are attached.
 
 Your website design will be SEO Friendly, u Organically Search Engine Optimized and Mobile Responsive. -- grammar error
-
 
 our services and other text breaking on index

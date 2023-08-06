@@ -68,6 +68,7 @@ mail($email_to, $subject, $message, $headers);
 // todo redirect anywhere?
 // window.location.href='../html/Contact.html';
     </script>
+    <h1>Quick Inquiry</h1>
 </body>
 </html>
 
