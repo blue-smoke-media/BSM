@@ -1030,3 +1030,11 @@ div p.three-pack-text {
     width: 35%;
     margin-top: -1%;
 }
+
+
+/* Plugin looks for elements with class named "balance-text" */
+
+.balance-text {
+    text-wrap: balance;
+    /* Apply (proposed) CSS style */
+}
