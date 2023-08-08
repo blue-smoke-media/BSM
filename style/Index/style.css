@@ -82,6 +82,10 @@ a:visited {
     outline: 0;
 }
 
+.h1-title {
+    color: #cfe6fc;
+}
+
 h1,
 red-orange-h2,
 h3,
@@ -116,6 +120,12 @@ h3.header3 {
 h4 {
     font-size: 26px;
     color: #020723;
+}
+
+h4.h4-Maps-subtitles {
+    color: #7fbd3e;
+    font-weight: 700;
+    text-shadow: 1px 2px 2px #020723;
 }
 
 h5 {
