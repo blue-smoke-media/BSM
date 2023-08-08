@@ -28,8 +28,8 @@ label:hover {
 .btn-color-mode-switch > label.btn-color-mode-switch-inner {
     font-family: 'Cabin', sans-serif;
     margin: 0px;
-    width: 180px;
-    height: 60px;
+    width: 10em;
+    height: 2.25em;
     background: #002774;
     border-radius: 26px;
     overflow: hidden;

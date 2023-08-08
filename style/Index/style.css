@@ -1573,7 +1573,7 @@ ul.features-responsive li i {
 
 ul.pricing-list li.price-value {
     /* webkit-text-stroke: 2px solid#002774!important; */
-    outline: #293e84 solid 2px;
+    /* outline: #293e84 solid 2px; */
 }
 
 .price-box-white .price-title,
