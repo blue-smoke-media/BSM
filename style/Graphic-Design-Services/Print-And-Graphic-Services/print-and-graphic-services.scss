@@ -1,7 +1,18 @@
 @import "../../utils/Mixins.scss";
 
-
-
+.content {
+  //   border: 2px solid red;
+  section {
+    // border: 2px solid blue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 2em auto;
+    img {
+      margin-right: 2em;
+    }
+  }
+}
 // /* CoBe Code */
 
 // body {
