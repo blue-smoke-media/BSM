@@ -2586,12 +2586,13 @@ ul.features-list-hero li i.lyla {
 .web-design-img-txt-wrapper ol {
     width: 50%;
     margin-top: 2%;
+    list-style-type: none;
 }
 
 .web-design-img-txt-wrapper ol li::before {
     margin-right: 2%;
     content: url("/images/green-diamond-16px-x-23px.png");
-    list-style-position: inside;
+    list-style-position: outside;
 }
 
 #plans .row-1 {
