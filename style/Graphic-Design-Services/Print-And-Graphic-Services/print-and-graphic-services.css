@@ -1,1 +1,9 @@
-/*# sourceMappingURL=print-and-graphic-services.css.map */
+.content section {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 2em auto;
+}
+.content section img {
+  margin-right: 2em;
+}/*# sourceMappingURL=print-and-graphic-services.css.map */
