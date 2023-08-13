@@ -16,6 +16,7 @@
     padding-left: 11px;
     margin-bottom: 10%;
     width: 33.3333%;
+    /* padding: 10px 0 40px 0; */
 }
 
 
@@ -112,7 +113,7 @@ p.blue {
     padding: 50px 0 44px 0;
     color: #cfe6fc;
     width: 90.25%;
-    /* margin-top: 40px; */
+    margin-top: -.50%;
     margin-bottom: 20px;
     margin-left: 20px;
     border-radius: 8px;
@@ -125,12 +126,13 @@ p.blue {
 
 .price-box-blue .price-subtitle,
 .price-box-blue .price-text {
-    color: #002774 !important;
+    /* color: #002774 !important; */
     font-family: 'Cabin', sans-serif;
     font-size: 14px;
     line-height: 18px;
     font-weight: 600;
     margin: -3%;
+    padding: 10px 0 6px 0;
 }
 
 
@@ -202,7 +204,7 @@ p.blue {
     padding: 50px 0 44px 0;
     color: #cfe6fc;
     width: 90.25%;
-    margin-top: 40px;
+    margin-top: .25%;
     margin-bottom: 20px;
     margin-left: 20px;
     border-radius: 8px;
