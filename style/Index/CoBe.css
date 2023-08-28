@@ -281,8 +281,8 @@ h3.italics-midnightBlue {
 }
 
 .bsmoke {
-    /* color: #cfe6fc; */
-    text-shadow: 0px 1px 1px #020723;
+    color: #cfe6fc;
+    text-shadow: 1px 2px 2px #020723;
     outline-color: #020723 2px solid;
     font-weight: 900;
     font-size: 1.25em;
@@ -1030,12 +1030,11 @@ div p.three-pack-text {
 }
 
 .logo-header {
-    width: 45%;
+    width: 35%;
     margin-top: -1%;
 }
 
 
-/*Get the Adobe plugin work-around for 'balance-text'
 /* Plugin looks for elements with class named "balance-text" */
 
 .balance-text {

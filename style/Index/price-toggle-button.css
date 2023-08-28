@@ -1,25 +1,16 @@
 /*switch styles*/
 
-
 /* div.btn-container { */
-
-
-/* display: table-cell; */
-
-
-/* vertical-align: middle; */
-
-
-/* text-align: center; */
-
-
-/* } */
-
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    /* text-align: center; */
+  /* } */
 
 /* div.btn-container i {
     display: inline-block;
     position: relative;
 } */
+
 
 label {
     font-size: 15px;
@@ -28,15 +19,15 @@ label {
 }
 
 label:hover {
-    color: goldenrod;
+    color:goldenrod;
     font-weight: 800;
     font-size: 15px;
 }
 
-.btn-color-mode-switch>label.btn-color-mode-switch-inner {
+
+.btn-color-mode-switch > label.btn-color-mode-switch-inner {
     font-family: 'Cabin', sans-serif;
-    margin-top: 42%;
-    margin-bottom: -42%;
+    margin: 0px;
     width: 10em;
     height: 2.25em;
     background: #002774;
@@ -48,37 +39,37 @@ label:hover {
     display: block;
 }
 
-.btn-color-mode-switch>label.btn-color-mode-switch-inner:before {
+.btn-color-mode-switch > label.btn-color-mode-switch-inner:before {
     background: #002774;
     color: #002774;
     content: attr(data-on);
     position: absolute;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     top: 5px;
     right: 20px;
     /* color:black; */
 }
 
-.btn-color-mode-switch>label.btn-color-mode-switch-inner:after {
+.btn-color-mode-switch > label.btn-color-mode-switch-inner:after {
     content: attr(data-off);
     width: 70px;
     height: 16px;
     background: #002774;
     border-radius: 26px;
     position: absolute;
-    left: 10px;
+    left:10px;
     text-align: center;
     transition: all 0.3s ease;
     box-shadow: 0px 0px 6px -2px #111;
     padding: 5px 0px;
 }
 
-.btn-color-mode-switch>.alert {
+.btn-color-mode-switch > .alert {
     display: none;
     background: #002774;
     color: #002774;
-    border: none;
+    border: none; 
 }
 
 .btn-color-mode-switch input[type="checkbox"] {
@@ -92,28 +83,30 @@ label:hover {
     margin: 0px;
 }
 
-.btn-color-mode-switch input[type="checkbox"]:checked+label.btn-color-mode-switch-inner {
+.btn-color-mode-switch input[type="checkbox"]:checked + label.btn-color-mode-switch-inner {
     background: #002774;
     font-weight: 800;
 }
 
-.btn-color-mode-switch input[type="checkbox"]:checked+label.btn-color-mode-switch-inner:after {
+.btn-color-mode-switch input[type="checkbox"]:checked + label.btn-color-mode-switch-inner:after {
     content: attr(data-on);
     left: 68px;
-    background: #002774;
+    background: #002774; 
 }
 
-.btn-color-mode-switch input[type="checkbox"]:checked+label.btn-color-mode-switch-inner:before {
+.btn-color-mode-switch input[type="checkbox"]:checked + label.btn-color-mode-switch-inner:before {
     content: attr(data-off);
     right: auto;
     left: 20px;
 }
 
-.btn-color-mode-switch input[type="checkbox"]:checked+label.btn-color-mode-switch-inner {
+.btn-color-mode-switch input[type="checkbox"]:checked + label.btn-color-mode-switch-inner {
     background: #002774;
     color: #ee3e0e;
+    
 }
 
-.btn-color-mode-switch input[type="checkbox"]:checked~.alert {
+
+.btn-color-mode-switch input[type="checkbox"]:checked ~ .alert {
     display: block;
 }
