@@ -1,0 +1,28 @@
+# www.robotstxt.org/
+
+User-agent: BadBot
+Disallow: /
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /junk/
+
+User-agent: Bing
+Disallow:
+
+User-agent: Yahoo
+Disallow:
+
+User-agent: Google
+Disallow:
+
+User-agent: Linkedin
+Disallow:
+
+User-agent: DuckDuckGo
+Disallow:
+
+\*\* # Allow crawling of all content
+User-agent: *
+Disallow: \*\*
