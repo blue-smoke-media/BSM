@@ -2434,29 +2434,7 @@
             color: #000;
         }
         /* BEGIN CWSD Help My Business */
-        /* .cwsd-help-my-business-img {
-    position: relative;
-    width: 45%;
-    border-radius: 5%;
-}
-
-.web-design-img-txt-wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-}
-
-.web-design-img-txt-wrapper ol {
-    width: 50%;
-    margin-top: 2%;
-    list-style-type: none;
-}
-
-.web-design-img-txt-wrapper ol li::before {
-    margin-right: 2%;
-    content: url("/images/green-diamond-16px-x-23px.png");
-    list-style-position: outside;
-} */
+     
         
         .cwsd-help-my-business-img {
             border-radius: 5%;
@@ -2467,7 +2445,6 @@
             /* Ensure image doesn't exceed its natural size */
             height: auto;
             /* Maintain image proportions */
-            border-radius: 5%;
             margin-right: 5%;
             /* Add margin on the right side of the image */
             margin-bottom: 1rem;
@@ -2497,7 +2474,8 @@
             content: url("/images/green-diamond-16px-x-23px.png");
             list-style-position: outside;
         }
-        /* Adjustments for tablet screens */
+
+        /* tablet screens */
         
         @media (max-width: 991px) {
             .cwsd-help-my-business-img {
@@ -2510,16 +2488,12 @@
                 /* Remove margin on the right side of the image */
                 margin-bottom: 2%;
                 /* Increase margin between image and text */
-                /* padding-left: 10%; */
-                /* Add padding to the left side of the image */
             }
             .web-design-img-txt-wrapper {
                 flex-direction: column;
                 /* Stack on top of each other for tablets */
                 align-items: flex-start;
                 /* Align text to the left */
-                /* margin-right: 1%; */
-                /* Add margin on the right side of the text */
             }
             .web-design-img-txt-wrapper ol {
                 width: 80%;
@@ -2532,7 +2506,8 @@
                 /* Add padding on the right side of list item bullets */
             }
         }
-        /* Adjustments for mobile screens */
+
+        /* mobile screens */
         
         @media (max-width: 767px) {
             .cwsd-help-my-business-img {
@@ -2544,8 +2519,6 @@
                 /* Remove margin on the right side of the image */
                 margin-bottom: 10%;
                 /* Increase margin between image and text */
-                /* padding-left: 10%; */
-                /* Add padding to the left side of the image */
             }
             .web-design-img-txt-wrapper ol {
                 width: 80%;
