@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "BSM copy",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"editor.fontFamily": " Cabin, Menlo, Monaco, 'Courier New', monospace",
+		"editor.fontSize": 16,
+		"editor.minimap.showSlider": "always",
+		"workbench.commandPalette.history": 550,
+		"workbench.startupEditor": "none",
+		"liveServer.settings.port": 5501
+	}
+}
