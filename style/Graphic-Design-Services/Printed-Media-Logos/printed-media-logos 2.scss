@@ -1,0 +1,62 @@
+@import "../../utils/Mixins.scss";
+
+.printed-logos {
+  // margin-bottom: 20em;
+  img {
+    width: 50%;
+    height: 20%;
+    align-content: center;
+    margin-bottom: 2em;
+  }
+
+  h1 {
+    // font-size: 46px;
+    // color: #cfe6fc !important;
+    // text-shadow: 2px 1px 1px #020723;
+    // outline-width: 1px solid #020723;
+    // text-align: center;
+    // margin-top: 5%;
+    // margin-bottom: 5%;
+
+    @include breakpoint(l) {
+      margin: 1.1em auto;
+    }
+  }
+
+  body {
+    // font-family: cabin, "sans serif";
+    // background-color: #293e84;
+    // overflow-x: hidden;
+  }
+
+  p {
+    width: 80%;
+    margin: 1em auto;
+    // text-align: justify;
+    // font-size: 1.15em;
+    // font-weight: 600;
+    // // color: #cfe6fc;
+    // margin-bottom: 15px;
+    // text-shadow: 1px 2px #020723;
+    // line-height: 1.155;
+    // letter-spacing: 0.05em;
+    // word-spacing: 0.05em;
+    &:last-of-type {
+      // margin-bottom: 10em;
+    }
+  }
+
+  span {
+    font-weight: 600;
+  }
+
+  a {
+    text-decoration: none;
+    color: $darkBlue;
+    font-weight: 600;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+}

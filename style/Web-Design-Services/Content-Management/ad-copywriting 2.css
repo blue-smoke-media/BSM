@@ -1,0 +1,13 @@
+.ad-copywriting .content h1 {
+  margin: 1.8em auto 1.2em;
+  color: #002774;
+}
+.ad-copywriting .content p {
+  text-align: left;
+}
+.ad-copywriting .content p span {
+  font-weight: 600;
+}
+.ad-copywriting .content p .orange {
+  color: #ee3e0e;
+}/*# sourceMappingURL=ad-copywriting.css.map */

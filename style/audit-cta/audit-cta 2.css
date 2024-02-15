@@ -1,0 +1,137 @@
+#audit-form {
+  width: 98%;
+  margin: 5em auto 3em;
+  color: white;
+}
+#audit-form span {
+  color: #ee3e0e;
+}
+#audit-form .top {
+  margin-bottom: 5em;
+  text-align: center;
+}
+#audit-form .top p {
+  width: 60%;
+  margin: auto;
+}
+#audit-form .bottom {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+}
+@media (max-width: 360px) {
+  #audit-form .bottom {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media (min-width: 361px) and (max-width: 480px) {
+  #audit-form .bottom {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 736px) {
+  #audit-form .bottom {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+#audit-form .bottom section:first-child {
+  border-right: 2px solid white;
+  margin-right: 1.5em;
+  padding-right: 1.5em;
+  width: 50%;
+  min-width: 10em;
+  max-width: 30em;
+}
+@media (max-width: 360px) {
+  #audit-form .bottom section:first-child {
+    border: none;
+    margin-bottom: 2em;
+    width: 100%;
+  }
+}
+@media (min-width: 361px) and (max-width: 480px) {
+  #audit-form .bottom section:first-child {
+    border: none;
+    margin-bottom: 2em;
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 736px) {
+  #audit-form .bottom section:first-child {
+    border: none;
+    margin-bottom: 2em;
+    width: 100%;
+  }
+}
+#audit-form .bottom .form-container {
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+}
+@media (max-width: 360px) {
+  #audit-form .bottom .form-container {
+    padding-left: 0;
+    width: 60%;
+  }
+}
+@media (min-width: 361px) and (max-width: 480px) {
+  #audit-form .bottom .form-container {
+    padding-left: 0;
+    width: 60%;
+  }
+}
+@media (min-width: 481px) and (max-width: 736px) {
+  #audit-form .bottom .form-container {
+    padding-left: 0;
+    width: 60%;
+  }
+}
+#audit-form .bottom .form-container form {
+  display: flex;
+  flex-direction: column;
+}
+#audit-form .bottom .form-container form label {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+#audit-form .bottom .form-container form label input {
+  height: 2em;
+  margin-left: 1em;
+}
+#audit-form .bottom .form-container form input[name=submit] {
+  width: 65%;
+  margin-left: 42%;
+  border-radius: 1em;
+  background: #7fbd3e;
+  color: #cfe6fc;
+  border: 1px solid black;
+  padding: 0.25em 0.125em;
+  font-weight: 700;
+}
+#audit-form .bottom .form-container form input[name=submit]:hover {
+  background-color: #ee3e0e;
+}
+@media (max-width: 360px) {
+  #audit-form .bottom .form-container form input[name=submit] {
+    margin: 1em auto 0;
+  }
+}
+@media (min-width: 361px) and (max-width: 480px) {
+  #audit-form .bottom .form-container form input[name=submit] {
+    margin: 1em auto 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 736px) {
+  #audit-form .bottom .form-container form input[name=submit] {
+    margin: 1em auto 0;
+  }
+}/*# sourceMappingURL=audit-cta.css.map */

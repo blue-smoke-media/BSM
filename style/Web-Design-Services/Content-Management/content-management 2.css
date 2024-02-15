@@ -1,0 +1,24 @@
+.content-management .hero-image {
+  width: 80%;
+}
+.content-management .content h1 {
+  margin: 1.8em auto 1.2em;
+  color: #002774;
+}
+.content-management .content p {
+  text-align: left;
+}
+.content-management .content p span {
+  font-weight: 600;
+}
+.content-management .content p .orange {
+  color: #ee3e0e;
+}
+.content-management .content div.mid-img {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 1em;
+}
+.content-management .content div.mid-img img {
+  margin-left: 0.5em;
+}/*# sourceMappingURL=content-management.css.map */

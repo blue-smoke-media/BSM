@@ -1,0 +1,28 @@
+.website-logo-design img {
+  width: 70%;
+}
+.website-logo-design .content {
+  margin: 3em 3em 7em;
+}
+.website-logo-design .content h1 {
+  margin-bottom: 1em;
+}
+@media (min-width: 981px) and (max-width: 1280px) {
+  .website-logo-design .content h1 {
+    margin: 1.1em auto 1em;
+  }
+}
+.website-logo-design .content .btm-img {
+  width: 65%;
+  height: 8em;
+  margin-left: 0%;
+  margin-top: 3em;
+}
+.website-logo-design .content p {
+  width: 75%;
+  margin: 1em auto;
+  text-align: left;
+}
+.website-logo-design .content p span {
+  font-weight: 600;
+}/*# sourceMappingURL=website-logo-design.css.map */

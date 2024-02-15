@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+html {
+  padding-top: 3em;
+}
+html .page-wrapper {
+  text-align: center;
+  color: #002774;
+  font-size: 1.35em;
+  padding: 5em 2em 0;
+  font-family: "cabin", "Poppins", "sans-serif", "serif";
+}
+html .page-wrapper .hero-image {
+  margin-top: 1em;
+}
+html .page-wrapper h1 {
+  font-size: 2.25em;
+}/*# sourceMappingURL=Global.css.map */

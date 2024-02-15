@@ -1,0 +1,128 @@
+// @mixin orange($orange);
+@import "../utils/Mixins.scss";
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+html {
+  padding-top: 3em;
+  // background-color: $royalBlue;
+
+  .page-wrapper {
+    text-align: center;
+    color: $royalBlue;
+    // background-color: $royalBlue;
+    font-size: 1.35em;
+    padding: 5em 2em 0;
+    font-family: "cabin", "Poppins", "sans-serif", "serif";
+
+    .hero-image {
+      margin-top: 1em;
+      // width: 85%;
+      // border: 2px solid $darkBlue;
+    }
+    h1 {
+      font-size: 2.25em;
+    }
+  }
+}
+// html {
+//   background: black;
+//   position: relative;
+//   text-align: center;
+//   background: $white;
+//   margin: auto;
+//   font-family: "Cabin", "Poppins", "sans-serif", "serif" !important;
+//   font-style: normal;
+//   font-weight: 600;
+//   font-size: 1em;
+//   color: $darkBlue;
+
+//   @include breakpoint(xl) {
+//     font-size: 1.2em;
+//   }
+//   @include breakpoint(xxl) {
+//     font-size: 1.25em;
+//   }
+
+//   .page-wrapper {
+//     width: 95%;
+//     margin: auto;
+//   }
+
+//   a {
+//     text-decoration: none;
+//     color: $lightBlue;
+//     // &:visited {
+//     //   color: $royalBlue;
+//     // }
+//     cursor: pointer;
+//     &:hover {
+//       color: $orange;
+//     }
+//   }
+//   .italic {
+//     font-style: italic;
+//   }
+//   .bold {
+//     font-weight: bold;
+//   }
+//   .hero-image {
+//     align-self: center;
+//     height: 10em;
+//     width: 50%;
+//     display: block;
+//     margin: auto;
+//     margin: 15%;
+//     @include breakpoint(m) {
+//       height: 10em;
+//     }
+//     @include breakpoint(xxs, xs, s) {
+//       height: 5em;
+//     }
+//   }
+//   .covid-banner {
+//     color: $lightBlue;
+//     background: $royalBlue;
+//     width: 100%;
+//     margin: 0 auto;
+//     padding: 0.25em 0 0.5em;
+//     display: flex;
+//     justify-content: center;
+//     font-size: 0.9em;
+//     // position: absolute;
+
+//     img {
+//       width: 1.2em;
+//       align-self: center;
+//       margin: 0 0.25em 0 0.5em;
+//     }
+//   }
+//   #scroll-top {
+//     position: -webkit-sticky;
+//     position: sticky;
+//     bottom: 1em;
+//     left: 0.75em;
+//     text-align: center;
+//     width: -webkit-min-content;
+//     width: -moz-min-content;
+//     width: min-content;
+//     font-weight: 700;
+//     color: $orange;
+//     line-height: 0.8em;
+//   }
+//   // .react-icon {
+//   //   vertical-align: bottom;
+//   //   padding-bottom: 1px;
+//   // }
+// }
+
+// h1 {
+//   font-size: 46px;
+//   font-weight: 800;
+//   color: #cfe6fc !important;
+//   text-shadow: 2px 1px 1px #020723;
+//   outline-width: 1px solid #020723;
+//   text-align: center;
+//   margin-top: 5%;
+//   margin-bottom: 5%;
+// }

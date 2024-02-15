@@ -1,0 +1,34 @@
+@import "../../utils/Mixins.scss";
+
+.web-maintenance {
+  text-align: left;
+
+  .hero-image {
+    border-bottom: 2px outset $darkBlue;
+    width: 50%;
+    margin-bottom: 1.8em;
+  }
+  h1 {
+    text-align: center;
+    color: $royalBlue;
+    margin: 1em auto;
+  }
+  .content {
+    // margin: 2em;
+    text-align: justify;
+    margin: auto 6em 4.5em;
+
+    h3 {
+      margin: 1em 1em auto;
+      color: $orange;
+    }
+
+    p {
+      margin: 0;
+
+      span {
+        font-size: 1.1em;
+      }
+    }
+  }
+}

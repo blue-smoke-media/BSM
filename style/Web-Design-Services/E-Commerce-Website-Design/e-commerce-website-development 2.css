@@ -1,0 +1,30 @@
+.e-commerce-website-development .hero-image {
+  width: 75%;
+  margin-top: 0.75em;
+}
+.e-commerce-website-development h1 {
+  margin: 1.5em auto 0.8em;
+  color: #002774;
+}
+.e-commerce-website-development .content {
+  text-align: left;
+}
+.e-commerce-website-development .content h2 {
+  margin: 1em auto;
+  text-align: center;
+}
+.e-commerce-website-development .content div.img-bullet {
+  display: flex;
+  align-items: center;
+}
+.e-commerce-website-development .content div.img-bullet img {
+  width: 2em;
+  height: 2em;
+  margin-right: 1em;
+}
+.e-commerce-website-development .content div.img-bullet p {
+  margin: 0.25em auto;
+}
+.e-commerce-website-development .content span {
+  font-style: italic;
+}/*# sourceMappingURL=e-commerce-website-development.css.map */

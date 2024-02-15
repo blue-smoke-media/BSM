@@ -1,0 +1,239 @@
+<!-- import React, { useState } from "react";
+import * as emailjs from "emailjs-com";
+import { Helmet } from "react-helmet";
+
+export default function Contact() {
+  const [data, setData] = useState({
+    company: "",
+    name: "",
+    email: "",
+    phone: "",
+    website: "",
+    time: "",
+    customWebDesign: false,
+    reDesignUpdate: false,
+    eCommerce: false,
+    adCopy: false,
+    webMaintenance: false,
+    seo: false,
+    printLogo: false,
+    webLogo: false,
+    blog: false,
+    printedMedia: false,
+    antiSpam: null,
+  });
+
+  const onChangeHandler = (evt) => {
+    if (evt.target.type === "checkbox") {
+      setData({
+        ...data,
+        [evt.target.name]: !data[evt.target.name],
+      });
+    } else {
+      setData({
+        ...data,
+        [evt.target.name]: evt.target.value,
+      });
+    }
+  };
+
+  const onSubmitHandler = (evt) => {
+    evt.preventDefault();
+    const templateParams = {
+      company: data.company,
+      from_name: data.name,
+      reply_to: data.email,
+      phone: data.phone,
+      website_url: data.website,
+      time: data.time,
+      customWebDesign: data.customWebDesign,
+      reDesignUpdate: data.reDesignUpdate,
+      eCommerce: data.eCommerce,
+      adCopy: data.adCopy,
+      webMaintenance: data.webMaintenance,
+      seo: data.seo,
+      printLogo: data.printLogo,
+      webLogo: data.webLogo,
+      blog: data.blog,
+      printedMedia: data.printedMedia,
+    };
+
+    if (data.antiSpam === null) {
+      emailjs.send(
+        "service_kys3ouv",
+        "template_x9c27y2",
+        templateParams,
+        "user_AKrWjfONfbrIagrKBIYq0"
+      );
+    }
+
+    document.querySelector(".inquiryForm span").classList.add("message-sent");
+    setTimeout(() => {
+      document
+        .querySelector(".inquiryForm span")
+        .classList.remove("message-sent");
+    }, 5000);
+
+    resetHandler();
+  };
+
+  const resetHandler = () => {
+    setData({
+      company: "",
+      name: "",
+      email: "",
+      phone: "",
+      website: "",
+      time: "",
+      customWebDesign: false,
+      reDesignUpdate: false,
+      eCommerce: false,
+      adCopy: false,
+      webMaintenance: false,
+      seo: false,
+      printLogo: false,
+      webLogo: false,
+      blog: false,
+      printedMedia: false,
+    });
+  };
+
+  return ( -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content=" Inquiry Form" />
+    <meta
+      name="description"
+      content="We are a Digital & Printed Media company in the following locations: Knoxville TN, Ogden UT, Salt Lake City UT, Spokane WA, Austin TX"
+    />
+    <meta
+      name="keywords"
+      content="Custom Website Design, Search Engine Optimization (SEO), Social Media Marketing (SMM)"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="content-Type" content="text/html" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="3 days" />
+
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/style/Global/global.css" />
+    <link
+      rel="stylesheet"
+      href="/style/Web-Design-Services/Inquiry-Survey-Form/inquiry-survey-form.css"
+    />
+  </head>
+    <body>
+      <nav>
+        <header-nav></header-nav>
+        <header-drop></header-drop>
+      </nav>
+      <div class="inquiryForm">
+        <h1>Inquiry Form</h1>
+        <span>Message sent successfully</span>
+        <p>
+          To receive more information about our company, services,
+          industry-specific recent projects and case studies, please fill out
+          the form below.
+        </p>
+        <form onSubmit="{onSubmitHandler}">
+          <div class="left">
+            <label for="company">
+              Company:
+              <input type="text" name="company" id="company" />
+            </label>
+            <label for="name">
+              Name:
+              <input type="text" name="name" id="name" required />
+            </label>
+            <label for="email">
+              Email:
+              <input type="text" name="email" id="email" required />
+            </label>
+            <label for="phone">
+              Contact Number:
+              <input type="text" name="phone" id="phone" />
+            </label>
+            <label for="website">
+              Website URL:
+              <input type="text" name="website" id="website" />
+            </label>
+            <div class="time">
+              <label for="time">Best Time to be Reached: </label>
+              <div>
+                <label>
+                  <input type="radio" name="time" class="radio" />
+                  Morning
+                </label>
+                <label>
+                  <input type="radio" name="time" class="radio" />
+                  Afternoon
+                </label>
+                <label>
+                  <input type="radio" name="time" class="radio" />
+                  Evening
+                </label>
+              </div>
+            </div>
+          </div>
+          <h3>Interested in:</h3>
+          <div class="right">
+            <label for="customWebDesign">
+              <input name="customWebDesign" type="checkbox" />
+              <span class="check-mark"></span>
+              Custom Website Design
+            </label>
+            <label for="reDesignUpdate">
+              <input name="reDesignUpdate" type="checkbox" />
+              Re-Design And Update
+            </label>
+            <label for="eCommerce">
+              <input name="eCommerce" type="checkbox" />
+              E-Commerce
+            </label>
+            <label for="adCopy">
+              <input name="adCopy" type="checkbox" />
+              Ad-Copy Writing
+            </label>
+            <label for="webMaintenance">
+              <input name="webMaintenance" type="checkbox" />
+              Website Maintenance
+            </label>
+            <label for="seo">
+              <input name="seo" type="checkbox" />
+              SEO
+            </label>
+            <label for="printLogo">
+              <input name="printLogo" type="checkbox" />
+              Print Logo
+            </label>
+            <label for="webLogo">
+              <input name="webLogo" type="checkbox" />
+              Website Logo
+            </label>
+            <label for="blog">
+              <input name="blog" type="checkbox" />
+              Blog
+            </label>
+            <label for="printedMedia">
+              <input name="printedMedia" type="checkbox" />
+              Printed Media
+            </label>
+            <input class="antiSpam" name="antiSpam" type="text" />
+          </div>
+          <div class="actions">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <footer></footer>
+      <script src="/js/jquery.footer.js" type="text/javascript"></script>
+      <script src="/js/jquery.navigation.js" type="text/javascript"></script>
+    </body>
+</html>
