@@ -2,7 +2,7 @@
   margin-bottom: 2em;
 }
 .carousel .slider {
-  background: #04227a;
+  background: #002774;
 }
 @media (max-width: 360px) {
   .carousel .slider {
@@ -165,7 +165,7 @@
   box-shadow: 3px 3px 1px black;
   width: 40%;
   padding: 0.8em 0;
-  color: #020723;
+  color: #293e84;
   text-align: center;
 }
 @media (min-width: 1281px) and (max-width: 1680px) {

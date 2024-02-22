@@ -1,6 +1,6 @@
 .help {
   background: #333;
-  border-top: 2px solid #020723;
+  border-top: 2px solid #293e84;
   padding-bottom: 5%;
   margin-top: 2em;
 }
@@ -90,12 +90,12 @@
 .help .help-card-container .help-card img {
   width: 20%;
   margin: -9% auto 0;
-  border: 2px outset #020723;
+  border: 2px outset #293e84;
   border-radius: 0.5em;
 }
 .help .help-card-container .help-card h3 {
   color: #f52618;
-  text-shadow: 1px 1px #020723;
+  text-shadow: 1px 1px #293e84;
   letter-spacing: 0.125em;
   margin-bottom: 0;
   text-align: center;
@@ -109,5 +109,5 @@
 .help .help-card-container .help-card p span {
   color: #ee3e0e;
   font-weight: 700;
-  text-shadow: 0.5px 0.5px #020723;
+  text-shadow: 0.5px 0.5px #293e84;
 }/*# sourceMappingURL=help.css.map */

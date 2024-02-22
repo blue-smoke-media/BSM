@@ -11,9 +11,10 @@ const entryPoint = document.querySelector(".article");
 const title = document.createElement("h1");
 const author = document.createElement("span");
 author.classList.add("author");
-const content = document.createElement("p");
+const content = document.createElement("pre");
 
-title.textContent = article.author;
+title.textContent = article.title;
+author.textContent = article.author;
 content.innerHTML = article.content;
 
 entryPoint.append(title, author, content)

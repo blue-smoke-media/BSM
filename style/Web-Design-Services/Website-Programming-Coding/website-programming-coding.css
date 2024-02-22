@@ -1,13 +1,13 @@
 @charset "UTF-8";
 .website-programming-coding img {
-  border-bottom: 2px outset #020723;
+  border-bottom: 2px outset #293e84;
 }
 .website-programming-coding .content {
   text-align: justify;
 }
 .website-programming-coding .content h1 {
   text-align: center;
-  color: #04227a;
+  color: #002774;
 }
 .website-programming-coding .content ul {
   list-style: none;
