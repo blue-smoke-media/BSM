@@ -118,3 +118,5 @@ minimization code: https://stackoverflow.com/questions/1737388/how-to-minify-jav
 css reset/normalize?
 
 New Notes 12/12/22
+
+seo branch
