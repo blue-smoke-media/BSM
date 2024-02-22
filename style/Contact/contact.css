@@ -39,7 +39,7 @@
   flex-direction: column;
   width: 40%;
   margin-left: auto;
-  background-image: url("../../images/6 2.jpg");
+  background-image: url("../../images/6.jpg");
 }
 @media (max-width: 360px) {
   .contact form {
