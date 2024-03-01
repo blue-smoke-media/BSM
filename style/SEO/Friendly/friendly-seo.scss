@@ -26,6 +26,14 @@
     }
   }
 
+  .seo-friendly img {
+    border: 2px outset #020723;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
   p {
     a {
       text-decoration: none;
@@ -34,6 +42,15 @@
         font-weight: 600;
       }
     }
+
+    .p-Intro .p2 {
+      margin-left: 13%;
+      margin-top: 2em;
+      width: 76%;
+      text-align: justify;
+    }
+
+
 
     &:last-child {
       margin-bottom: 2.2em;
