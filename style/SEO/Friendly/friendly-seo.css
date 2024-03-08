@@ -10,15 +10,11 @@
   width: 50%;
 }
 
-.organic-seo-secrets {
-  height: 5%;
-  width: 5%;
-}
-
 .seo-friendly h1 {
   text-align: center;
   margin: 4.75em auto 2em;
 }
+
 @media (max-width: 360px) {
   .seo-friendly h1 {
     font-size: 1.7em;
@@ -57,22 +53,21 @@
   margin-bottom: 2.2em;
 }
 
-/*
 .seo-friendly div.left-img {
   display: flex;
 }
 .seo-friendly div.left-img .p1 {
   margin-bottom: 2em;
-}*/
-/*
+}
+
 .seo-friendly div.left-img,
 .seo-friendly div.right-img {
   width: 80%;
   align-items: center;
   text-align: justify;
-}*/
+}
 
-/*.seo-friendly div.left-img img,
+.seo-friendly div.left-img img,
 .seo-friendly div.right-img img {
   height: 10em;
   margin: 0 1em;
@@ -80,7 +75,7 @@
 .seo-friendly div.left-img div p,
 .seo-friendly div.right-img div p {
   margin: auto;
-}*/
+}
 
 
 @media (max-width: 360px) {
