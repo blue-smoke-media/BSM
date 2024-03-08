@@ -1,15 +1,20 @@
 .organic-seo {
   color: rgb(13, 41, 113);
   text-align: justify;
+  font-size: 1.55em;
 }
 .organic-seo img {
-  border-bottom: 2px outset #293e84;
+  /* border-bottom: 2px outset $darkBlue;*/
   width: 60%;
   margin-top: 2em;
 }
 .organic-seo h1 {
   text-align: center;
-  margin: 1.25em auto;
+  margin: 155em auto;
+}
+.organic-seo h3 {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 .organic-seo div.right-img {
   display: flex;
@@ -18,7 +23,7 @@
 }
 .organic-seo div.right-img p {
   text-align: justify;
-  padding-right: 1em;
+  padding-right: 1.5em;
 }
 .organic-seo div.right-img img {
   margin-top: 0;

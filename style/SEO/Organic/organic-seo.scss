@@ -3,17 +3,23 @@
 .organic-seo {
   color: rgb(13, 41, 113);
   text-align: justify;
+  font-size: 1.55em;
 
   // letter-spacing: 0.15rem;
   img {
-    border-bottom: 2px outset $darkBlue;
+    /* border-bottom: 2px outset $darkBlue;*/
     width: 60%;
     margin-top: 2em;
   }
 
   h1 {
     text-align: center;
-    margin: 1.25em auto;
+    margin: 155em auto;
+  }
+
+  h3 {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
   }
 
   div.right-img {
@@ -22,7 +28,7 @@
     margin-bottom: 2em;
     p {
       text-align: justify;
-      padding-right: 1em;
+      padding-right: 1.5em;
     }
     img {
       margin-top: 0;
