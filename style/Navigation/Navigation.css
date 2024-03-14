@@ -44,9 +44,9 @@ header-nav {
   height: 91%;
 }
 .logo-wrapper img {
-  height: 100% !important;
+  height: 75% !important;
   width: 100% !important;
-  margin: auto 0em;
+  margin: 5% 0em;
   min-width: 17em;
 }
 
