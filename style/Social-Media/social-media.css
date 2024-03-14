@@ -23,14 +23,20 @@
   display: flex;
   margin-bottom: 2em;
 }
+
+.social-media div.img-top {
+  margin-top:  1.88em;
+}
+
 .social-media div.img-top img,
 .social-media div.img-bottom img {
-  width: 50%;
-  padding-right: 2%;
+  width: 48.88%;
+  padding-right: 1%;
 }
 
 .social-media div.img-bottom img {
   margin-top: .25%;
+  padding-right: 3%;
 }
 
 .social-media div.img-top p,
