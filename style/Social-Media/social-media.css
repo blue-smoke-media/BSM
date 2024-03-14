@@ -26,20 +26,29 @@
 .social-media div.img-top img,
 .social-media div.img-bottom img {
   width: 50%;
-  padding-top: 8%;
-  padding-bottom: 8%;
-  
+  padding-right: 2%;
 }
+
+.social-media div.img-bottom img {
+  margin-top: .25%;
+}
+
 .social-media div.img-top p,
 .social-media div.img-bottom p {
-  width: 90%;
+  width: 95%;
   margin: 1em 0;
   text-align: justify;
 }
+
+.social-media div.img-bottom p {
+  margin-top: 7%;;
+}
+
 .social-media div.img-bottom {
   margin-top: 3em;
   text-align: left;
 }
+
 .social-media ul {
   list-style: none;
 }
@@ -50,6 +59,6 @@
 .smm-fundamentals-img {
 position: relative;
 margin-bottom: 1rem;
-margin-top: -1.4em;
+margin-top: 4.5em;
 }
 /*# sourceMappingURL=social-media.css.map */
