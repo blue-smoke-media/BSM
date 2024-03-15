@@ -1,6 +1,5 @@
 html .page-wrapper {
   text-align: center;
-  color: #002774;
   font-size: 1.35em;
   padding: 5em 2em 0;
   font-family: "cabin", "Poppins", "sans-serif", "serif";
@@ -21,6 +20,17 @@ html .page-wrapper .hero-image {
   text-align: center;
   margin-bottom: 1.5em;
   color: #002774;
+}
+
+h2 {
+  padding-top: 1em;
+  padding-bottom:  .35em;
+}
+
+h3 {
+  padding-top: 1em;
+  padding-bottom:  .35em;
+  text-align: left;
 }
 
 @media (min-width: 981px) and (max-width: 1280px) {
@@ -58,33 +68,101 @@ html .page-wrapper .hero-image {
     margin: 2em 1em;
   }
 }
-.custom-website-design .content ol {
+.custom-website-design .content ul {
   margin: 2em auto;
   margin-left: 1.75em;
 }
 @media (max-width: 360px) {
-  .custom-website-design .content ol {
+  .custom-website-design .content ul {
     margin-left: 1em;
   }
 }
 @media (min-width: 361px) and (max-width: 480px) {
-  .custom-website-design .content ol {
+  .custom-website-design .content ul {
     margin-left: 1em;
   }
 }
 @media (min-width: 481px) and (max-width: 736px) {
-  .custom-website-design .content ol {
+  .custom-website-design .content ul {
     margin-left: 1em;
   }
 }
 
-.custom-website-design .content ol li {
+.custom-website-design .content ul li {
   color: #ee3e0e;
   line-height: 1.35em;
 }
 
+ .content ul li span {
+  color:#002774;
+  font-weight: 900;
+}
+
 .custom-website-design .content span {
   font-weight: 600;
+}
+
+  /* e) Accordion Tabs */
+        
+  .panel-wrapper {
+    margin-bottom: 25px;
+}
+
+.panel-icon {
+    margin-right: 5px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #020723;
+    font-family: 'Cabin', sans-serif;
+}
+
+.panel-title>a,
+.panel-title>small,
+.panel-title>.small,
+.panel-title>small>a,
+.panel-title>.small>a {
+    color: #293e84;
+}
+
+.panel-group {
+    margin: 10px 0;
+}
+
+.panel-group .panel {
+    margin-bottom: 0;
+    background: transparent;
+}
+
+.panel-body {
+    padding: 20px 10px 10px 10px;
+}
+
+.panel-heading {
+    padding: 8px 10px 16px 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.panel-default {
+    border-color: transparent;
+}
+
+.panel-default>.panel-heading {
+    color: #020723;
+    background-color: transparent;
+    border: none;
+}
+
+.panel-group .panel-heading+.panel-collapse>.panel-body,
+.panel-group .panel-heading+.panel-collapse>.list-group {
+    border-top: 1.5px solid #020723;
 }
 
 
