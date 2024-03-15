@@ -2,6 +2,7 @@
   color: #04227a;
   text-align: justify;
 }
+
 .seo-friendly img {
   border: 2px outset #020723;
   display: block;
@@ -121,6 +122,7 @@
   margin-top: 2em;
   width: 76%;
   text-align: justify;
+  font-size: 1.75em;
 }
 
 .p2 {
@@ -128,7 +130,9 @@
   margin-top: 2em;
   width: 76%;
   text-align: justify;
+  font-size: 1.25em;
 }
+
 .seo-friendly #contact {
   color: #ee3e0e;
 }/*# sourceMappingURL=friendly-seo.css.map */
