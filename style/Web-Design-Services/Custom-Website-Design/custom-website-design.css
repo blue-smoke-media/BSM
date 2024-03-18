@@ -1,28 +1,19 @@
-html .page-wrapper {
-  text-align: center;
-  color: #002774;
-  font-size: 1.35em;
-  padding: 5em 2em 0;
-  font-family: "cabin", "Poppins", "sans-serif", "serif";
+.custom-website-design .hero-image {
+  border: 2px solid #293e84;
+  display: block;
+  width: 50%;
+  margin: 5em auto 1em;
 }
-
-html .page-wrapper .hero-image {
-  margin-top: 9em;
-  text-align: center;
-  padding-bottom: 5%;
-}
-
 .custom-website-design .content {
   text-align: left;
   font-size: 1.5em;
+  padding: 1em 2em;
 }
-
 .custom-website-design .content h1 {
   text-align: center;
   margin-bottom: 1.5em;
   color: #002774;
 }
-
 @media (min-width: 981px) and (max-width: 1280px) {
   .custom-website-design .content h1 {
     margin-bottom: 1.1em;
@@ -77,15 +68,10 @@ html .page-wrapper .hero-image {
     margin-left: 1em;
   }
 }
-
 .custom-website-design .content ol li {
   color: #ee3e0e;
   line-height: 1.35em;
 }
-
 .custom-website-design .content span {
   font-weight: 600;
-}
-
-
-/*# sourceMappingURL=custom-website-design.css.map */
+}/*# sourceMappingURL=custom-website-design.css.map */

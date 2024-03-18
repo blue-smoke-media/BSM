@@ -1,21 +1,18 @@
 .seo-friendly {
   color: #002774;
   text-align: justify;
+  padding: 0 2em;
 }
-
 .seo-friendly img {
-  border: 2px outset #293e84;
+  border-bottom: 2px outset #293e84;
+  margin: 0 auto 2em;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 80%;
 }
-
 .seo-friendly h1 {
   text-align: center;
-  margin: 4.75em auto 2em;
+  margin: 1.25em auto;
 }
-
 @media (max-width: 360px) {
   .seo-friendly h1 {
     font-size: 1.7em;
@@ -44,30 +41,46 @@
     font-size: 1.35em;
   }
 }
+.seo-friendly .seo-friendly img {
+  border: 2px outset #020723;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .seo-friendly p a {
   text-decoration: none;
 }
 .seo-friendly p a span {
   font-weight: 600;
 }
+.seo-friendly p .p-Intro .p2 {
+  margin-left: 13%;
+  margin-top: 2em;
+  width: 76%;
+  text-align: justify;
+}
 .seo-friendly p:last-child {
   margin-bottom: 2.2em;
 }
-
 .seo-friendly div.left-img {
   display: flex;
 }
 .seo-friendly div.left-img .p1 {
   margin-bottom: 2em;
 }
-
+.seo-friendly div.right-img {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: auto;
+  margin-right: 6em;
+}
 .seo-friendly div.left-img,
 .seo-friendly div.right-img {
   width: 80%;
   align-items: center;
   text-align: justify;
 }
-
 .seo-friendly div.left-img img,
 .seo-friendly div.right-img img {
   height: 10em;
@@ -77,8 +90,6 @@
 .seo-friendly div.right-img div p {
   margin: auto;
 }
-
-
 @media (max-width: 360px) {
   .seo-friendly div.left-img,
   .seo-friendly div.right-img {
@@ -103,36 +114,15 @@
     flex-direction: column;
   }
 }
-.seo-friendly h4  {
+.seo-friendly h4 {
   font-size: 1.25em;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  text-align: center;
-/*  margin: 2em auto 1em;*/
+  margin: 2em auto 1em;
 }
-
 @media (min-width: 981px) and (max-width: 1280px) {
   .seo-friendly h4 {
-    margin-bottom: 10px;
+    margin-bottom: 0;
   }
 }
-
-.p-Intro {
-  margin-left: 13%;
-  margin-top: 2em;
-  width: 76%;
-  text-align: justify;
-  font-size: 1.75em;
-}
-
-.p2 {
-  margin-left: 13%;
-  margin-top: 2em;
-  width: 76%;
-  text-align: justify;
-  font-size: 1.25em;
-}
-
 .seo-friendly #contact {
   color: #ee3e0e;
-}
+}/*# sourceMappingURL=friendly-seo.css.map */

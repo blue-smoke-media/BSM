@@ -2,18 +2,17 @@
 
 .custom-website-design {
   .hero-image {
-    margin-top: 3em;
-    // border: 2px solid $darkBlue;
+    border: 2px solid $darkBlue;
+    display: block;
+    width: 50%;
+    margin: 5em auto 1em;
   }
 
   .content {
     // margin: 2em auto 4em;
     text-align: left;
     font-size: 1.5em;
-
-    // @include breakpoint(xxs, xs, s, m) {
-    //   margin: 1.5em 0;
-    // }
+    padding: 1em 2em;
 
     h1 {
       text-align: center;

@@ -3,11 +3,13 @@
 .seo-friendly {
   color: $royalBlue;
   text-align: justify;
+  padding: 0 2em;
 
   img {
     border-bottom: 2px outset $darkBlue;
-    // margin: auto !important;
-    // margin-top: 10em;
+    margin: 0 auto 2em;
+    display: block;
+    width: 80%;
   }
 
   h1 {
@@ -49,8 +51,6 @@
       width: 76%;
       text-align: justify;
     }
-
-
 
     &:last-child {
       margin-bottom: 2.2em;
