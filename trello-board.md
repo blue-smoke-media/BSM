@@ -2,8 +2,9 @@ BRADEN
 -----------make sure "services" email is functioning.
 PHP forms
 
-\*\*\* Inquiry form survery
+mapPack page needs to be redone (also duplicate info)
 
+\*\*\* Inquiry form survery
 
 add to contact form - be able to use tab to move to submit btn
 
